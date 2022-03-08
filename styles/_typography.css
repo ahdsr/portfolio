@@ -1,7 +1,7 @@
 /* Content Stylings */
 .content {
   & > p {
-    @apply mb-10 leading-relaxed last-of-type:mb-0;
+    @apply text-base mb-10 leading-relaxed last-of-type:mb-0;
   }
 
   & > p > a {

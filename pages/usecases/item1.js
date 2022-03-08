@@ -52,7 +52,7 @@ export default function Item1() {
                       <h1 className='font-bold text-2xl md:text-7xl xl:text-7xl mb-4 mx-auto text-center text-cyan-300'>
                         {name}
                       </h1>
-                      <p className='text-2xl font-medium mb-4 mx-auto text-center px-24'>
+                      <p className='text-2xl font-bold mb-4 mx-auto text-center px-8'>
                         {description}
                       </p>
                       {/* Image */}
@@ -61,7 +61,7 @@ export default function Item1() {
                         style={{
                           position: 'relative',
                           width: '100%',
-                          height: '800px',
+                          height: '400px',
                         }}
                       >
                         <Image
@@ -102,7 +102,7 @@ export default function Item1() {
                         style={{
                           position: 'relative',
                           width: '100%',
-                          height: '800px',
+                          height: '400px',
                         }}
                       >
                         <Image
@@ -149,7 +149,7 @@ export default function Item1() {
                         style={{
                           position: 'relative',
                           width: '100%',
-                          height: '800px',
+                          height: '400px',
                         }}
                       >
                         <Image
@@ -209,7 +209,7 @@ export default function Item1() {
                         style={{
                           position: 'relative',
                           width: '100%',
-                          height: '800px',
+                          height: '400px',
                         }}
                       >
                         <Image
