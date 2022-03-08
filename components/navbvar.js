@@ -44,7 +44,7 @@ export default function Navbar() {
   return (
     <Disclosure
       as='nav'
-      className='bg-white shadow-items sticky top-0 z-50'
+      className='bg-white border-b sticky top-0 z-50'
       style={{ ...navbarStyles, top: visible ? '0' : '-56px' }}
     >
       {({ open }) => (

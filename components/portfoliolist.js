@@ -62,23 +62,23 @@ const usecases = [
 
 export default function PortfolioList() {
   return (
-    <ul className='mx-auto z-0 -mt-20 '>
+    <ul className='mx-auto z-0 -mt-20 bg-white rounded-3xl '>
       {usecases.map((usecases) => (
         <li
           key={usecases.id}
           className={
             usecases.id % 2 === 0
-              ? 'md:flex shadow-items mb-12 md:mb-20'
-              : 'md:flex md:flex-row-reverse shadow-items mb-12 md:mb-20'
+              ? 'md:flex shadow-items mb-12 md:mb-20 rounded-3xl'
+              : 'md:flex md:flex-row-reverse shadow-items mb-12 md:mb-20 rounded-3xl'
           }
         >
           <div
             className={[
-              'item md:w-1/2 p-8 md:p-12 xl:p-24',
+              'item md:w-1/2 p-8 md:p-12 xl:p-24 rounded-3xl',
               usecases.color,
             ].join(' ')}
           >
-            <div className='content'>
+            <div className='content '>
               <p className='block w-fit px-3 py-2 my-4 bg-slate-500 bg-opacity-20'>
                 {usecases.tag}
               </p>
@@ -96,7 +96,7 @@ export default function PortfolioList() {
             </div>
           </div>
 
-          <div className='item md:w-1/2 h-auto '>
+          <div className='item md:w-1/2 h-auto rounded-3xl '>
             <Image
               alt='Mountains'
               src={usecases.image}

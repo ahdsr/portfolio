@@ -58,8 +58,8 @@ export default function Home() {
                     />
                   </div>
 
-                  <div className='bg-black mx-0 sm:mx-6 md:mx-24 lg:mx-24 xl:mx-40 h-36 z-10 relative -mt-20 '>
-                    <p className='p-8 text-white'>CLIENT LIST BOX</p>
+                  <div className='bg-slate-900 mx-0 sm:mx-6 md:mx-24 lg:mx-24 xl:mx-40 h-36 z-10 relative -mt-20 grid place-items-center rounded-3xl'>
+                    <p className='block p-8 text-white '>CLIENT LIST BOX</p>
                   </div>
                   <div className='pt-48 pb-36 md:pt-56 md:pb-44 bg-gradient-to-bl from-customblue via-customblue to-customblue text-white -mt-36 z-0  '>
                     <div className='md:flex mx-2 px-4 md:mx-12 lg:mx-24 xl:mx-40  '>

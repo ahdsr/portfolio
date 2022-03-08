@@ -23,8 +23,8 @@
     @apply text-xl md:text-3xl tracking-tight last-of-type:mb-8 first-of-type:mt-8;
   }
 
-  & > ul {
-    @apply mb-10 list-disc;
+  & > ul > li {
+    @apply py-2 border-t border-t-slate-200;
   }
 }
 
@@ -39,21 +39,21 @@
 
   & > h1,
   & > .h1 {
-    @apply text-3xl md:text-2xl lg:text-3xl xl:text-4xl tracking-tighter last-of-type:mb-10;
+    @apply text-3xl md:text-2xl lg:text-3xl xl:text-6xl tracking-tighter last-of-type:mb-10 text-slate-600;
   }
 
   & > h2,
   & > .h2 {
-    @apply text-2xl md:text-xl lg:text-2xl xl:text-3xl tracking-tight last-of-type:mb-8 first-of-type:mt-8;
+    @apply text-2xl md:text-xl lg:text-2xl xl:text-5xl tracking-tight last-of-type:mb-8 first-of-type:mt-8 text-slate-600;
   }
 
   & > h3,
   & > .h3 {
-    @apply text-xl md:text-3xl tracking-tight last-of-type:mb-8 first-of-type:mt-8;
+    @apply text-xl md:text-5xl tracking-tighter last-of-type:mb-8 first-of-type:mt-8;
   }
 
-  & > ul {
-    @apply mb-10 list-disc;
+  & > ul > li {
+    @apply py-2 border-t border-t-slate-200;
   }
 }
 

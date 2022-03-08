@@ -49,7 +49,7 @@ export default function Item1() {
                 <m.main variants={fade} className='pb-20'>
                   <Container>
                     <div className='content-sub mx-auto mt-40 '>
-                      <h1 className='font-bold text-2xl md:text-7xl xl:text-7xl mb-4 mx-auto text-center text-cyan-300'>
+                      <h1 className='font-bold text-2xl md:text-7xl xl:text-7xl mb-4 mx-60 text-center text-slate-600'>
                         {name}
                       </h1>
                       <p className='text-2xl font-bold mb-4 mx-auto text-center px-8'>
@@ -61,7 +61,7 @@ export default function Item1() {
                         style={{
                           position: 'relative',
                           width: '100%',
-                          height: '400px',
+                          height: '600px',
                         }}
                       >
                         <Image
