@@ -48,7 +48,7 @@ export default function Item1() {
               <m.div initial='initial' animate='enter' exit='exit'>
                 <m.main variants={fade} className='pb-20'>
                   <Container>
-                    <div className='content mx-auto mt-40 '>
+                    <div className='content-sub mx-auto mt-40 '>
                       <h1 className='font-bold text-2xl md:text-7xl xl:text-7xl mb-4 mx-auto text-center text-cyan-300'>
                         {name}
                       </h1>
@@ -73,8 +73,8 @@ export default function Item1() {
                       </div>
                       <h3>The design problem</h3>
 
-                      <div class='flex mt-10 mb-20'>
-                        <div class='item w-1/2 h-auto pr-4'>
+                      <div class='sm:flex mt-10 mb-20 '>
+                        <div class='sm:item sm:w-1/2  sm:pr-8  mb-4'>
                           <p>
                             Due to the nature and planning of the project the
                             ordering platform was faced with a disjointed
@@ -86,7 +86,7 @@ export default function Item1() {
                             major functional component of the ordering system.
                           </p>
                         </div>
-                        <div class='item w-1/2 h-auto pl-4  '>
+                        <div class='sm:item sm:w-1/2  sm:pl-8 mb-4'>
                           <p>
                             The queue essentially is a list of all Elements
                             customer orders. The tables list everything from the
@@ -114,8 +114,8 @@ export default function Item1() {
                       </div>
 
                       <h3 className='mt-20'>Preparations and research</h3>
-                      <div class='flex mt-10 mb-20'>
-                        <div class='item w-1/2 h-auto pr-4'>
+                      <div class='sm:flex mt-10 mb-20 '>
+                        <div class='sm:item sm:w-1/2  sm:pr-8 mb-4'>
                           <p>
                             Understanding the feature set and how to improve it
                             was done by sitting down with the main users as well
@@ -129,7 +129,7 @@ export default function Item1() {
                             base for comparison to make sure nothing was missed.
                           </p>
                         </div>
-                        <div class='item w-1/2 h-auto pl-4  '>
+                        <div class='sm:item sm:w-1/2  sm:pl-8 mb-4'>
                           <p>
                             Keeping track and laying out all the features based
                             on which were working, and which needed fixing was
@@ -161,8 +161,8 @@ export default function Item1() {
                       </div>
 
                       <h3 className='mt-20'>Challenges and solutions</h3>
-                      <div class='flex mt-10 mb-20'>
-                        <div class='item w-1/3 h-auto pr-4'>
+                      <div class='sm:flex mt-10 mb-20 '>
+                        <div class='md:item md:flex-grow-0 basis-1/3 md:w-1/3 sm:pr-8 mb-4'>
                           <h3>Data is king</h3>
                           <p>
                             One off the key observations and loudest set of
@@ -173,7 +173,7 @@ export default function Item1() {
                             maintain a good level of legibility.
                           </p>
                         </div>
-                        <div class='item w-1/3 h-auto pl-4  '>
+                        <div class='md:item md:flex-grow-0 basis-1/3 md:w-1/3 sm:pr-8 mb-4'>
                           <h3>
                             Multiple function to perform on a single order
                           </h3>
@@ -189,7 +189,7 @@ export default function Item1() {
                             solution
                           </p>
                         </div>
-                        <div class='item w-1/3 h-auto pl-4  '>
+                        <div class='md:item md:flex-grow-0 basis-1/3 md:w-1/3 sm:pl-8 mb-4'>
                           <h3>Screen size and real estate issues</h3>
                           <p>
                             One off the key observations and loudest set of
