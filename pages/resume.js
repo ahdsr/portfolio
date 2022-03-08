@@ -35,11 +35,8 @@ export default function Resume() {
                 <m.main variants={fade} className='pb-20'>
                   <Container>
                     <div class='md:flex md:flex-wrap overflow-hidden mt-40'>
-                      <div className='content-sub mb-4 md:w-1/2 overflow-hidden md:pr-10'>
-                        <h1 className='font-bold text-2xl md:text-3xl xl:text-4xl mb-4'>
-                          Resume
-                        </h1>
-                        <h2 className='pt-16'>Profile</h2>
+                      <div className='content-sub mb-4 md:w-1/4 overflow-hidden md:pr-10'>
+                        <h1 className=''>Profile</h1>
                         <ul>
                           <li>
                             Bachelor of Design Honours (B.Des.) York University
@@ -109,7 +106,7 @@ export default function Resume() {
                           </li>
                         </ul>
 
-                        <h2 className='mt-16'>Accomplishments</h2>
+                        <h2 className='mt-4'>Accomplishments</h2>
                         <ul>
                           <li>
                             <FancyLink
@@ -121,7 +118,7 @@ export default function Resume() {
                           </li>
                         </ul>
 
-                        <h2 className='mt-16'>Interests</h2>
+                        <h2 className='mt-4'>Interests</h2>
                         <ul>
                           <li>
                             Music and score production, sound editing, aerial
@@ -130,7 +127,7 @@ export default function Resume() {
                         </ul>
                       </div>
 
-                      <div className='content-sub mb-4 md:w-1/2 overflow-hidden md:pl-10'>
+                      <div className='content-sub mb-4 md:w-3/4 overflow-hidden md:pl-10'>
                         <h1 className='font-bold text-2xl md:text-3xl xl:text-4xl mb-4'>
                           Experience
                         </h1>
@@ -299,9 +296,8 @@ export default function Resume() {
                       </div>
                     </div>
                   </Container>
-                  <GetInTouch />
                 </m.main>
-
+                <GetInTouch />
                 <m.div variants={fade}>
                   <Footer />
                 </m.div>
