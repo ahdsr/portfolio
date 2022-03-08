@@ -52,15 +52,15 @@ export default function Home() {
                   <div className='bg-black mx-0 sm:mx-6 md:mx-24 lg:mx-24 xl:mx-40 h-36 z-10 relative -mt-20 '>
                     <p className='text-white'>CLIENT LIST BOX</p>
                   </div>
-                  <div className='pt-56 pb-44 bg-gradient-to-bl from-customblue via-customblue to-customblue text-white -mt-36 z-0  '>
-                    <div className='flex mx-6 px-12 md:mx-24 lg:mx-24 xl:mx-40  '>
-                      <div className='item w-1/2 h-auto content pr-16  '>
+                  <div className='pt-40 pb-36 md:pt-56 md:pb-44 bg-gradient-to-bl from-customblue via-customblue to-customblue text-white -mt-36 z-0  '>
+                    <div className='md:flex mx-2 px-4 md:mx-24 lg:mx-24 xl:mx-40  '>
+                      <div className='md:item md:w-1/2 h-auto content md:pr-16  '>
                         <h2>
                           Design creates culture. Culture shapes values. Values
                           determine the future.
                         </h2>
                       </div>
-                      <div className='item w-1/2 h-auto content'>
+                      <div className='md:item md:w-1/2 h-auto content'>
                         <p>
                           As a designer, Ive been exposed to a great number of
                           employers, teams and projects.
