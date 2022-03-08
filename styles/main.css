@@ -17,3 +17,8 @@
 body {
   @apply font-sans antialiased text-black bg-white;
 }
+
+h7 {
+  -webkit-text-stroke: 2px black;
+  -webkit-text-fill-color: transparent;
+}

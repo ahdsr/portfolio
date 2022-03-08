@@ -13,6 +13,7 @@ import { Scrollbars } from 'rc-scrollbars';
 //import Breadcrumb from '@/componsents/breadcrumb';
 
 import PortfolioList from '@/components/portfoliolist';
+import GetInTouch from '@/components/getintouch';
 
 //Imported Images
 import Image from 'next/image';
@@ -40,7 +41,7 @@ export default function Home() {
           <div data-scroll-section>
             <LazyMotion features={domAnimation}>
               <m.div initial='initial' animate='enter' exit='exit'>
-                <m.main variants={fade} className='pb-20'>
+                <m.main variants={fade} className='pb-4'>
                   <div
                     className=''
                     style={{
@@ -95,26 +96,10 @@ export default function Home() {
                       <div>
                         <PortfolioList />
                       </div>
-
-                      <h2>Some example content</h2>
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat. Duis aute irure dolor in
-                        reprehenderit in voluptate.
-                      </p>
-
-                      <FancyLink
-                        destination='/about'
-                        a11yText='Navigate to the about page'
-                        label='About Page'
-                      />
                     </div>
                   </Container>
                 </m.main>
-
+                <GetInTouch />
                 <m.div variants={fade}>
                   <Footer />
                 </m.div>
