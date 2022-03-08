@@ -34,8 +34,8 @@ export default function Resume() {
               <m.div initial='initial' animate='enter' exit='exit'>
                 <m.main variants={fade} className='pb-20'>
                   <Container>
-                    <div class='flex flex-wrap overflow-hidden mt-40'>
-                      <div className='content-sub max-w-3xl mb-4 w-1/2 overflow-hidden pr-10'>
+                    <div class='md:flex md:flex-wrap overflow-hidden mt-40'>
+                      <div className='content-sub mb-4 md:w-1/2 overflow-hidden md:pr-10'>
                         <h1 className='font-bold text-2xl md:text-3xl xl:text-4xl mb-4'>
                           Resume
                         </h1>
@@ -130,7 +130,7 @@ export default function Resume() {
                         </ul>
                       </div>
 
-                      <div className='content-sub max-w-3xl mb-4 w-1/2 overflow-hidden pl-10'>
+                      <div className='content-sub mb-4 md:w-1/2 overflow-hidden md:pl-10'>
                         <h1 className='font-bold text-2xl md:text-3xl xl:text-4xl mb-4'>
                           Experience
                         </h1>
