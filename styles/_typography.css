@@ -5,17 +5,22 @@
   }
 
   & > p > a {
-    @apply underline hover:text-opacity-25 focus:text-opacity-25;
+    @apply underline;
   }
 
   & > h1,
   & > .h1 {
-    @apply text-3xl md:text-6xl tracking-tighter;
+    @apply text-3xl md:text-5xl lg:text-6xl xl:text-6xl tracking-tighter;
   }
 
   & > h2,
   & > .h2 {
-    @apply text-xl md:text-4xl tracking-tight;
+    @apply text-2xl md:text-5xl lg:text-6xl xl:text-6xl tracking-tight;
+  }
+
+  & > h3,
+  & > .h3 {
+    @apply text-3xl md:text-5xl tracking-tight;
   }
 
   & > ul {

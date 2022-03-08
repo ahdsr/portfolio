@@ -1,6 +1,6 @@
 import { useRef } from 'react';
 import Layout from '@/components/layout';
-import Header from '@/components/header';
+import Navbar from '@/components/navbvar';
 import Footer from '@/components/footer';
 import Container from '@/components/container';
 import FancyLink from '@/components/fancyLink';
@@ -12,8 +12,7 @@ import { Scrollbars } from 'rc-scrollbars';
 
 //import Breadcrumb from '@/componsents/breadcrumb';
 
-//Tailwind Example
-import StackedList from '@/components/stackedlist';
+import PortfolioList from '@/components/portfoliolist';
 
 //Imported Images
 import Image from 'next/image';
@@ -25,7 +24,7 @@ export default function Home() {
   return (
     <Layout>
       <NextSeo title='Home' />
-      <Header />
+      <Navbar />
       <LocomotiveScrollProvider
         options={{
           smooth: true,
@@ -50,15 +49,15 @@ export default function Home() {
                       className=''
                     />
                   </div>
-                  <div className='bg-black  mx-auto max-w-4xl h-36 z-10 relative -mt-20 '>
-                    Placeholder
+                  <div className='bg-black mx-0 sm:mx-6 md:mx-24 lg:mx-24 xl:mx-40 h-36 z-10 relative -mt-20 '>
+                    <p className='text-white'>CLIENT LIST BOX</p>
                   </div>
                   <div className='pt-56 pb-44 bg-gradient-to-bl from-customblue via-customblue to-customblue text-white -mt-36 z-0  '>
-                    <div className='flex mx-auto max-w-2xl md:max-w-5xl lg:max-w-7xl px-12 '>
-                      <div className='item w-1/2 h-auto content pr-12  '>
+                    <div className='flex mx-6 px-12 md:mx-24 lg:mx-24 xl:mx-40  '>
+                      <div className='item w-1/2 h-auto content pr-16  '>
                         <h2>
-                          Let's make sure it's a painless user experience first
-                          - when that's done we make it look and feel great.
+                          Design creates culture. Culture shapes values. Values
+                          determine the future.
                         </h2>
                       </div>
                       <div className='item w-1/2 h-auto content'>
@@ -86,7 +85,7 @@ export default function Home() {
                   <Container>
                     <div className='content '>
                       <div>
-                        <StackedList />
+                        <PortfolioList />
                       </div>
 
                       <h2>Some example content</h2>
