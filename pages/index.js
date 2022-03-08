@@ -16,7 +16,7 @@ import PortfolioList from '@/components/portfoliolist';
 
 //Imported Images
 import Image from 'next/image';
-import image1 from '../assets/global/main.jpg';
+import Image1 from '../assets/global/main.jpg';
 
 export default function Home() {
   const containerRef = useRef(null);
@@ -41,35 +41,43 @@ export default function Home() {
             <LazyMotion features={domAnimation}>
               <m.div initial='initial' animate='enter' exit='exit'>
                 <m.main variants={fade} className='pb-20'>
-                  <div className=''>
+                  <div
+                    className=''
+                    style={{
+                      position: 'relative',
+                      width: '100%',
+                      height: '800px',
+                    }}
+                  >
                     <Image
                       alt='Mountains'
-                      src={image1}
-                      layout='responsive'
-                      className=''
+                      src={Image1}
+                      layout='fill'
+                      objectFit='cover'
                     />
                   </div>
+
                   <div className='bg-black mx-0 sm:mx-6 md:mx-24 lg:mx-24 xl:mx-40 h-36 z-10 relative -mt-20 '>
-                    <p className='text-white'>CLIENT LIST BOX</p>
+                    <p className='p-8 text-white'>CLIENT LIST BOX</p>
                   </div>
-                  <div className='pt-40 pb-36 md:pt-56 md:pb-44 bg-gradient-to-bl from-customblue via-customblue to-customblue text-white -mt-36 z-0  '>
-                    <div className='md:flex mx-2 px-4 md:mx-24 lg:mx-24 xl:mx-40  '>
+                  <div className='pt-48 pb-36 md:pt-56 md:pb-44 bg-gradient-to-bl from-customblue via-customblue to-customblue text-white -mt-36 z-0  '>
+                    <div className='md:flex mx-2 px-4 md:mx-12 lg:mx-24 xl:mx-40  '>
                       <div className='md:item md:w-1/2 h-auto content md:pr-16  '>
-                        <h2>
+                        <h1>
                           Design creates culture. Culture shapes values. Values
                           determine the future.
-                        </h2>
+                        </h1>
                       </div>
                       <div className='md:item md:w-1/2 h-auto content'>
                         <p>
-                          As a designer, Ive been exposed to a great number of
+                          As a designer, I've been exposed to a great number of
                           employers, teams and projects.
                         </p>
                         <p>
                           I approach all my projects, regardless of the project
                           size, with a kick-off discovery session to understand
                           my clients vision, the business objectives and what
-                          the user data is indicating. I’ve trained myself to
+                          the user data is indicating. I've trained myself to
                           make a quick usability test the moment I open a new
                           website or an app, so this comes almost for free
                           during our first meeting.

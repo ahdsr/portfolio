@@ -20,12 +20,12 @@ export default function Navbar() {
 
     setVisible(
       (prevScrollPos > currentScrollPos &&
-        prevScrollPos - currentScrollPos > 200) ||
+        prevScrollPos - currentScrollPos > 100) ||
         currentScrollPos < 10
     );
 
     setPrevScrollPos(currentScrollPos);
-  }, 100);
+  }, 20);
 
   useEffect(() => {
     window.addEventListener('scroll', handleScroll);
@@ -38,15 +38,14 @@ export default function Navbar() {
     height: '80px',
     width: '100%',
     backgroundColor: 'white',
-    textAlign: 'center',
-    transition: 'top 0.3s',
+    transition: 'top  0.3s ease',
   };
 
   return (
     <Disclosure
       as='nav'
       className='bg-white shadow-items sticky top-0 z-50'
-      style={{ ...navbarStyles, top: visible ? '0' : '-60px' }}
+      style={{ ...navbarStyles, top: visible ? '0' : '-56px' }}
     >
       {({ open }) => (
         <>
