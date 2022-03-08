@@ -52,7 +52,7 @@ export default function Resume() {
                             <a
                               href='https://www.sketch.com/'
                               target='_blank'
-                              className='underline bg-yellow-200 p-1'
+                              className='underline bg-yellow-200 p-1 hover:bg-yellow-400'
                             >
                               Sketch
                             </a>
@@ -60,7 +60,7 @@ export default function Resume() {
                             <a
                               href='https://www.figma.com/'
                               target='_blank'
-                              className='underline bg-yellow-200 p-1'
+                              className='underline bg-yellow-200 p-1 hover:bg-yellow-400'
                             >
                               Figma
                             </a>
@@ -68,15 +68,22 @@ export default function Resume() {
                             <a
                               href='https://www.invisionapp.com/studio/learn/welcome-to-invision-studio'
                               target='_blank'
-                              className='underline bg-yellow-200 p-1'
+                              className='underline bg-yellow-200 p-1 hover:bg-yellow-400'
                             >
                               Invision Studio
+                            </a>{' '}
+                            <a
+                              href='https://www.adobe.com/ca/creativecloud.html'
+                              target='_blank'
+                              className='underline bg-yellow-200 p-1 hover:bg-yellow-400'
+                            >
+                              Adobe Cloud
                             </a>{' '}
                             &{' '}
                             <a
                               href='https://www.protopie.io/'
                               target='_blank'
-                              className='underline bg-yellow-200 p-1'
+                              className='underline bg-yellow-200 p-1 hover:bg-yellow-400'
                             >
                               Protopie
                             </a>{' '}
@@ -113,7 +120,7 @@ export default function Resume() {
                               destination='https://www.rgd.ca/studentsgrads/student-awards/2002'
                               a11yText='https://www.figma.com/'
                               label='RGD Ontario Scholarship Award Adobe GoLive Award'
-                              extraClasses='underline bg-yellow-200  p-1'
+                              extraClasses='underline bg-yellow-200 hover:bg-yellow-400  p-1'
                             />
                           </li>
                         </ul>
@@ -121,8 +128,21 @@ export default function Resume() {
                         <h2 className='mt-4'>Interests</h2>
                         <ul>
                           <li>
-                            Music and score production, sound editing, aerial
-                            photography, video editing
+                            <FancyLink
+                              destination='/blog'
+                              a11yText='Music'
+                              label='Music'
+                              extraClasses='underline bg-yellow-200 hover:bg-yellow-400  p-1'
+                            />{' '}
+                            and score production, sound editing, aerial
+                            photography,{' '}
+                            <FancyLink
+                              destination='/about'
+                              a11yText='3D rendering'
+                              label='3D rendering'
+                              extraClasses='underline bg-yellow-200 hover:bg-yellow-400  p-1'
+                            />
+                            , video editing
                           </li>
                         </ul>
                       </div>
