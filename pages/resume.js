@@ -32,7 +32,7 @@ export default function Resume() {
           <div data-scroll-section>
             <LazyMotion features={domAnimation}>
               <m.div initial='initial' animate='enter' exit='exit'>
-                <m.main variants={fade} className='pb-20'>
+                <m.main variants={fade} className='pb-4  '>
                   <Container>
                     <div class='md:flex md:flex-wrap overflow-hidden mt-40'>
                       <div className='content-sub mb-4 md:w-1/4 overflow-hidden md:pr-10'>
@@ -297,8 +297,8 @@ export default function Resume() {
                     </div>
                   </Container>
                 </m.main>
-                <GetInTouch />
                 <m.div variants={fade}>
+                  <GetInTouch />
                   <Footer />
                 </m.div>
               </m.div>

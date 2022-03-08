@@ -38,43 +38,23 @@ const usecases = [
     image: image3,
     color: 'bg-purple-300',
   },
-  {
-    id: 3,
-    tag: 'Responsive Web',
-    name: 'High Priestess Tarot',
-    description:
-      ' When it comes to understanding and processing data, a work horse of a flexible and highly customizable table is needed to get the job done.',
-    link: '/about',
-    image: image3,
-    color: 'bg-purple-300',
-  },
-  {
-    id: 4,
-    tag: 'Responsive Web',
-    name: 'High Priestess Tarot',
-    description:
-      ' When it comes to understanding and processing data, a work horse of a flexible and highly customizable table is needed to get the job done.',
-    link: '/about',
-    image: image3,
-    color: 'bg-purple-300',
-  },
 ];
 
 export default function PortfolioList() {
   return (
-    <ul className='mx-auto z-0 -mt-20 bg-white rounded-3xl '>
+    <ul className='mx-auto z-0 -mt-20 bg-white  max-w-7xl '>
       {usecases.map((usecases) => (
         <li
           key={usecases.id}
           className={
             usecases.id % 2 === 0
-              ? 'md:flex shadow-items mb-12 md:mb-20 rounded-3xl'
-              : 'md:flex md:flex-row-reverse shadow-items mb-12 md:mb-20 rounded-3xl'
+              ? 'md:flex shadow-items mb-12 md:mb-20 '
+              : 'md:flex md:flex-row-reverse shadow-items mb-12 md:mb-20 '
           }
         >
           <div
             className={[
-              'item md:w-1/2 p-8 md:p-12 xl:p-24 rounded-3xl',
+              'item md:w-1/2 p-8 md:p-12 xl:p-24 ',
               usecases.color,
             ].join(' ')}
           >

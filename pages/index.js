@@ -99,8 +99,9 @@ export default function Home() {
                     </div>
                   </Container>
                 </m.main>
-                <GetInTouch />
+
                 <m.div variants={fade}>
+                  <GetInTouch />
                   <Footer />
                 </m.div>
               </m.div>
