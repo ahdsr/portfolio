@@ -36,7 +36,7 @@ export default function About() {
                   <Container>
                     <div className='content max-w-3xl mb-4'>
                       <h1 className='font-bold text-2xl md:text-3xl xl:text-4xl mb-4'>
-                        About
+                        Blog
                       </h1>
                       <h2>Profile</h2>
 

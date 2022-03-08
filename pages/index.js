@@ -1,42 +1,121 @@
-import Layout from '@/components/layout'
-import Header from '@/components/header'
-import Footer from '@/components/footer'
-import Container from '@/components/container'
-import FancyLink from '@/components/fancyLink'
-import { fade } from '@/helpers/transitions'
-import { LazyMotion, domAnimation, m } from 'framer-motion'
-import { NextSeo } from 'next-seo'
+import { useRef } from 'react';
+import Layout from '@/components/layout';
+import Header from '@/components/header';
+import Footer from '@/components/footer';
+import Container from '@/components/container';
+import FancyLink from '@/components/fancyLink';
+import { fade } from '@/helpers/transitions';
+import { LocomotiveScrollProvider } from 'react-locomotive-scroll';
+import { LazyMotion, domAnimation, m } from 'framer-motion';
+import { NextSeo } from 'next-seo';
+import { Scrollbars } from 'rc-scrollbars';
+
+//import Breadcrumb from '@/componsents/breadcrumb';
+
+//Tailwind Example
+import StackedList from '@/components/stackedlist';
+
+//Imported Images
+import Image from 'next/image';
+import image1 from '../assets/global/main.jpg';
 
 export default function Home() {
+  const containerRef = useRef(null);
+
   return (
     <Layout>
-      <NextSeo title="Home" />
-
+      <NextSeo title='Home' />
       <Header />
-      
-      <LazyMotion features={domAnimation}>
-        <m.main
-          initial="initial"
-          animate="enter"
-          exit="exit"
-          className="mb-12 md:mb-16 xl:mb-24"
-        >
-          <Container>
-            <m.article variants={fade}>
-              <h1 className="font-bold text-2xl md:text-3xl xl:text-4xl mb-4">Next x Tailwind x Motion.</h1>
-              <div className="content max-w-3xl mb-4">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.</p>
+      <LocomotiveScrollProvider
+        options={{
+          smooth: true,
+          lerp: 0.08,
 
-                <p>Velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-              </div>
-              
-              <FancyLink destination="/about" a11yText="Navigate to the about page" label="About Page" />
-            </m.article>
-          </Container>
-        </m.main>
-      </LazyMotion>
+          tablet: { smooth: false, breakpoint: 1280 },
+          smartphone: { smooth: false },
+        }}
+        watch={[]}
+        containerRef={containerRef}
+      >
+        <div data-scroll-container ref={containerRef} id='scroll-container'>
+          <div data-scroll-section>
+            <LazyMotion features={domAnimation}>
+              <m.div initial='initial' animate='enter' exit='exit'>
+                <m.main variants={fade} className='pb-20'>
+                  <div className=''>
+                    <Image
+                      alt='Mountains'
+                      src={image1}
+                      layout='responsive'
+                      className=''
+                    />
+                  </div>
+                  <div className='bg-black  mx-auto max-w-4xl h-36 z-10 relative -mt-20 '>
+                    Placeholder
+                  </div>
+                  <div className='pt-56 pb-44 bg-gradient-to-bl from-customblue via-customblue to-customblue text-white -mt-36 z-0  '>
+                    <div className='flex mx-auto max-w-2xl md:max-w-5xl lg:max-w-7xl px-12 '>
+                      <div className='item w-1/2 h-auto content pr-12  '>
+                        <h2>
+                          Let's make sure it's a painless user experience first
+                          - when that's done we make it look and feel great.
+                        </h2>
+                      </div>
+                      <div className='item w-1/2 h-auto content'>
+                        <p>
+                          As a designer, Ive been exposed to a great number of
+                          employers, teams and projects.
+                        </p>
+                        <p>
+                          I approach all my projects, regardless of the project
+                          size, with a kick-off discovery session to understand
+                          my clients vision, the business objectives and what
+                          the user data is indicating. I’ve trained myself to
+                          make a quick usability test the moment I open a new
+                          website or an app, so this comes almost for free
+                          during our first meeting.
+                        </p>
+                        <p>
+                          I help companies to build and launch their products,
+                          improve their UX and product performance or completely
+                          re-brand their identity.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <Container>
+                    <div className='content '>
+                      <div>
+                        <StackedList />
+                      </div>
 
-      <Footer />
+                      <h2>Some example content</h2>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliquip ex ea
+                        commodo consequat. Duis aute irure dolor in
+                        reprehenderit in voluptate.
+                      </p>
+
+                      <FancyLink
+                        destination='/about'
+                        a11yText='Navigate to the about page'
+                        label='About Page'
+                      />
+                    </div>
+                  </Container>
+                </m.main>
+
+                <m.div variants={fade}>
+                  <Footer />
+                </m.div>
+              </m.div>
+            </LazyMotion>
+          </div>
+        </div>
+      </LocomotiveScrollProvider>
     </Layout>
-  )
+  );
 }
