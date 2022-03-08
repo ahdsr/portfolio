@@ -74,20 +74,8 @@ export default function Home() {
                           As a designer, I've been exposed to a great number of
                           employers, teams and projects.
                         </p>
-                        <p>
-                          I approach all my projects, regardless of the project
-                          size, with a kick-off discovery session to understand
-                          my clients vision, the business objectives and what
-                          the user data is indicating. I've trained myself to
-                          make a quick usability test the moment I open a new
-                          website or an app, so this comes almost for free
-                          during our first meeting.
-                        </p>
-                        <p>
-                          I help companies to build and launch their products,
-                          improve their UX and product performance or completely
-                          re-brand their identity.
-                        </p>
+                        <p>Copy</p>
+                        <p>Copy</p>
                       </div>
                     </div>
                   </div>
