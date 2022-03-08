@@ -16,6 +16,7 @@ export default function Resume() {
     <Layout>
       <NextSeo title='Home' />
       <Navbar />
+
       <LocomotiveScrollProvider
         options={{
           smooth: true,
@@ -36,17 +37,6 @@ export default function Resume() {
                   <Container>
                     <div class='md:flex md:flex-wrap overflow-hidden mt-40'>
                       <div className='content-sub mb-4 md:w-1/4 overflow-hidden md:pr-10'>
-                        <div class='fixed bottom-0 w-full'>
-                          <button class='my-8 float-right px-5 py-2 bg-red-500 text-white text-sm font-bold tracking-wide rounded-full focus:outline-none'>
-                            Back
-                          </button>
-                          <button class='my-8 ml-auto px-5 py-2 bg-red-500 text-white text-sm font-bold tracking-wide rounded-full focus:outline-none'>
-                            Next(Quiz)
-                          </button>
-                          <button class='bottom-0 my-8 float-right px-5 py-2 bg-red-500 text-white text-sm font-bold tracking-wide rounded-full focus:outline-none'>
-                            Next
-                          </button>
-                        </div>
                         <h1 className=''>Profile</h1>
                         <ul>
                           <li>

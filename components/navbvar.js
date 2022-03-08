@@ -64,7 +64,7 @@ export default function Navbar() {
               </div>
               <div className='flex-1 flex items-center justify-center sm:items-stretch sm:justify-start'>
                 <div className='invisible sm:visible grow flex items-center'>
-                  <p>LC</p>
+                  <p className='font-bold tracking-tight'>Lucas Czuchraj</p>
                 </div>
                 {/* Desktop Links */}
                 <div className='hidden sm:ml-6 sm:flex sm:space-x-8'>

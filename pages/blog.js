@@ -24,6 +24,19 @@ export default function Resume() {
     <Layout>
       <NextSeo title='Home' />
       <Navbar />
+      <div className='absolute top-30 left-10 bg-white p-4'>
+        {/*  <div className='flex flex-row'>
+          <ul>
+            <li className='flex underline bg-yellow-200  m-1'>Site launch</li>
+            <li className='flex underline bg-yellow-200  m-1'>
+              Cyberpunk 2077 inspired atmospherics
+            </li>
+            <li className='flex underline bg-yellow-200  m-1'>
+              Some other post
+            </li>
+          </ul>
+        </div> */}
+      </div>
       <LocomotiveScrollProvider
         options={{
           smooth: true,
