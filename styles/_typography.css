@@ -10,17 +10,46 @@
 
   & > h1,
   & > .h1 {
-    @apply text-3xl md:text-5xl lg:text-6xl xl:text-6xl tracking-tighter;
+    @apply text-3xl md:text-5xl lg:text-6xl xl:text-6xl tracking-tighter last-of-type:mb-10;
   }
 
   & > h2,
   & > .h2 {
-    @apply text-2xl md:text-5xl lg:text-6xl xl:text-6xl tracking-tight;
+    @apply text-2xl md:text-5xl lg:text-5xl xl:text-5xl tracking-tight last-of-type:mb-8 first-of-type:mt-8;
   }
 
   & > h3,
   & > .h3 {
-    @apply text-3xl md:text-5xl tracking-tight;
+    @apply text-xl md:text-3xl tracking-tight last-of-type:mb-8 first-of-type:mt-8;
+  }
+
+  & > ul {
+    @apply mb-10 list-disc;
+  }
+}
+
+.content-sub {
+  & > p {
+    @apply mb-10 leading-relaxed last-of-type:mb-0;
+  }
+
+  & > p > a {
+    @apply underline;
+  }
+
+  & > h1,
+  & > .h1 {
+    @apply text-3xl md:text-2xl lg:text-3xl xl:text-4xl tracking-tighter last-of-type:mb-10;
+  }
+
+  & > h2,
+  & > .h2 {
+    @apply text-2xl md:text-xl lg:text-2xl xl:text-3xl tracking-tight last-of-type:mb-8 first-of-type:mt-8;
+  }
+
+  & > h3,
+  & > .h3 {
+    @apply text-xl md:text-3xl tracking-tight last-of-type:mb-8 first-of-type:mt-8;
   }
 
   & > ul {

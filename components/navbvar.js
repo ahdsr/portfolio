@@ -1,4 +1,6 @@
+import React, { useState, useEffect } from 'react';
 import FancyLink from '@/components/fancyLink';
+import { debounce } from '../helpers/helpers';
 
 /* This example requires Tailwind CSS v2.0+ */
 import { Fragment } from 'react';
@@ -10,12 +12,46 @@ function classNames(...classes) {
 }
 
 export default function Navbar() {
+  const [prevScrollPos, setPrevScrollPos] = useState(0);
+  const [visible, setVisible] = useState(true);
+
+  const handleScroll = debounce(() => {
+    const currentScrollPos = window.pageYOffset;
+
+    setVisible(
+      (prevScrollPos > currentScrollPos &&
+        prevScrollPos - currentScrollPos > 200) ||
+        currentScrollPos < 10
+    );
+
+    setPrevScrollPos(currentScrollPos);
+  }, 100);
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, [prevScrollPos, visible, handleScroll]);
+
+  const navbarStyles = {
+    position: 'fixed',
+    height: '80px',
+    width: '100%',
+    backgroundColor: 'white',
+    textAlign: 'center',
+    transition: 'top 0.3s',
+  };
+
   return (
-    <Disclosure as='nav' className='bg-white shadow-items sticky top-0 z-50 '>
+    <Disclosure
+      as='nav'
+      className='bg-white shadow-items sticky top-0 z-50'
+      style={{ ...navbarStyles, top: visible ? '0' : '-60px' }}
+    >
       {({ open }) => (
         <>
-          <div className='max-w-7xl mx-auto px-2 sm:px-6 lg:px-8'>
-            <div className='relative flex justify-between h-16'>
+          <div className=' mx-auto px-2 sm:px-6 lg:px-8'>
+            <div className='relative flex justify-between h-20'>
               <div className='absolute inset-y-0 left-0 flex items-center sm:hidden'>
                 {/* Mobile menu button */}
                 <Disclosure.Button className='inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500'>

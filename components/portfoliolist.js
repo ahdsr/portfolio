@@ -14,7 +14,7 @@ const usecases = [
     name: 'Element Data Tables',
     description:
       ' When it comes to understanding and processing data, a work horse of a flexible and highly customizable table is needed to get the job done.',
-    link: '/about',
+    link: '/usecases/item1',
     image: image1,
     color: 'bg-cyan-300',
   },
