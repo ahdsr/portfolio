@@ -172,7 +172,7 @@ export default function Resume() {
                             </p>
                           </div>
 
-                          <div className='content-sub mt-10'>
+                          {/*  <div className='content-sub mt-10'>
                             <h3>flowanastasia & Nymfo - River Flows</h3>
                             <span className='inline-block font-bold bg-black text-white text-left pb-4'>
                               March 11, 2020
@@ -190,7 +190,7 @@ export default function Resume() {
                             <span className='block bg-yellow-400 text-left pb-0 h-2 mb-10'></span>
 
                             <p>Just music, enjoy.</p>
-                          </div>
+                          </div> */}
                         </div>
                       </div>
                     </div>
