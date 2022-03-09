@@ -8,7 +8,7 @@ import FancyLink from './fancyLink';
 export default function NavbarMobile() {
   return (
     <div className='md:hidden sticky bottom-0 z-50 '>
-      <nav className='bg-slate-200 flex overflow-x-auto h-20 pt-3'>
+      <nav className='bg-slate-50 flex overflow-x-auto h-20 pt-3'>
         <div
           className='flex flex-col flex-grow items-center justify-top 
 		overflow-hidden whitespace-no-wrap text-sm transition-colors duration-100
