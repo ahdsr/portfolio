@@ -49,12 +49,12 @@ export default function Item1() {
                 <m.main variants={fade} className='pb-20'>
                   <Container>
                     <div className='content-sub mx-auto mt-40 '>
-                      <h1 className='font-bold text-2xl md:text-7xl xl:text-7xl mb-4 mx-60 text-center text-slate-600'>
+                      <h1 className='font-bold text-2xl md:text-7xl xl:text-7xl mb-8 mx-8 md:mx-60 text-center text-slate-500'>
                         {name}
                       </h1>
-                      <p className='text-2xl font-bold mb-4 mx-auto text-center px-8'>
+                      <div className='text-xl font-medium tracking-tight mb-4 mt-8 mx-auto text-center px-8 text-slate-700'>
                         {description}
-                      </p>
+                      </div>
                       {/* Image */}
                       <div
                         className='mt-20'

@@ -24,19 +24,7 @@ export default function Resume() {
     <Layout>
       <NextSeo title='Home' />
       <Navbar />
-      <div className='absolute top-30 left-10 bg-white p-4'>
-        {/*  <div className='flex flex-row'>
-          <ul>
-            <li className='flex underline bg-yellow-200  m-1'>Site launch</li>
-            <li className='flex underline bg-yellow-200  m-1'>
-              Cyberpunk 2077 inspired atmospherics
-            </li>
-            <li className='flex underline bg-yellow-200  m-1'>
-              Some other post
-            </li>
-          </ul>
-        </div> */}
-      </div>
+
       <LocomotiveScrollProvider
         options={{
           smooth: true,
@@ -76,7 +64,7 @@ export default function Resume() {
                           <div className='content-sub'>
                             <h3>Site launch</h3>
 
-                            <span className='inline-block font-bold bg-black text-white text-left pb-4'>
+                            <span className='inline-block font-bold bg-black text-white text-left p-2 text-xs rounded-bl-2xl'>
                               March 11, 2020
                             </span>
                             <span className='block bg-black  text-left pb-0 rounded-tl-full h-4 '></span>
@@ -118,10 +106,8 @@ export default function Resume() {
                           </div>
 
                           <div className='content-sub mt-10'>
-                            <h3 className='pb-10'>
-                              Cyberpunk 2077 inspired atmospherics
-                            </h3>
-                            <span className='inline-block font-bold bg-black text-white text-left pb-4'>
+                            <h3>Cyberpunk 2077 inspired atmospherics</h3>
+                            <span className='inline-block font-bold bg-black text-white text-left p-2 text-xs rounded-bl-2xl'>
                               March 11, 2020
                             </span>
                             <span className='block bg-black  text-left pb-0 rounded-tl-full h-4 '></span>
@@ -164,7 +150,7 @@ export default function Resume() {
 
                           <div className='content-sub mt-10'>
                             <h3>Some other post</h3>
-                            <span className='inline-block font-bold bg-black text-white text-left pb-4'>
+                            <span className='inline-block font-bold bg-black text-white text-left p-2 text-xs rounded-bl-2xl'>
                               March 11, 2020
                             </span>
                             <span className='block bg-black  text-left pb-0 rounded-tl-full h-4 '></span>

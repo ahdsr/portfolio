@@ -153,9 +153,7 @@ export default function Resume() {
                           Experience
                         </h1>
 
-                        <div></div>
-
-                        <div className='pt-12 content'>
+                        <div className='content-sub pt-12'>
                           <div className='grid grid-rows-2 place-content-between '>
                             <span className='inline-block  font-bold bg-gradient-to-bl from-customblue via-customblue to-customblue text-white text-left'>
                               Jan 2020 - Current
@@ -184,7 +182,7 @@ export default function Resume() {
                           </ul>
                         </div>
 
-                        <div className='pt-12 content'>
+                        <div className='content-sub pt-12'>
                           <div className='grid grid-rows-2 place-content-between '>
                             <span className='inline-block  font-bold bg-gradient-to-bl from-customblue via-customblue to-customblue text-white text-left'>
                               Jan 2018 – Dec 2019
@@ -220,7 +218,7 @@ export default function Resume() {
                           </ul>
                         </div>
 
-                        <div className='pt-12 content'>
+                        <div className='content-sub pt-12'>
                           <div className='grid grid-rows-2 place-content-between '>
                             <span className='inline-block  font-bold bg-gradient-to-bl from-customblue via-customblue to-customblue text-white text-left'>
                               Aug 2017 – Jan 2018
@@ -252,7 +250,7 @@ export default function Resume() {
                           </ul>
                         </div>
 
-                        <div className='pt-12 content'>
+                        <div className='content-sub pt-12'>
                           <div className='grid grid-rows-2 place-content-between '>
                             <span className='inline-block  font-bold bg-gradient-to-bl from-customblue via-customblue to-customblue text-white text-left'>
                               Mar 2017 - Aug 2017
@@ -271,7 +269,7 @@ export default function Resume() {
                           </ul>
                         </div>
 
-                        <div className='pt-12 content'>
+                        <div className='content-sub pt-12'>
                           <div className='grid grid-rows-2 place-content-between '>
                             <span className='inline-block  font-bold bg-gradient-to-bl from-customblue via-customblue to-customblue text-white text-left'>
                               Aug 2016 – Feb 2017

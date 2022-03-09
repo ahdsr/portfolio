@@ -30,7 +30,7 @@
 
 .content-sub {
   & > p {
-    @apply text-base font-light mb-10 leading-relaxed last-of-type:mb-0;
+    @apply text-lg font-light mb-10 leading-relaxed last-of-type:mb-0;
   }
 
   & > p > a {
@@ -53,7 +53,7 @@
   }
 
   & > ul > li {
-    @apply py-2 border-t border-t-slate-200;
+    @apply text-lg font-light py-3 border-t border-t-slate-200;
   }
 }
 
