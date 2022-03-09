@@ -14,7 +14,7 @@ export default function NavbarMobile() {
 		overflow-hidden whitespace-no-wrap text-sm transition-colors duration-100
 		ease-in-out  text-slate-800 '
         >
-          <IoImageOutline className='w-7 h-7 text-slate-600 ' />
+          <IoImageOutline className='w-6 h-6 text-slate-600 ' />
 
           <FancyLink
             destination='/'
@@ -29,7 +29,7 @@ export default function NavbarMobile() {
 		overflow-hidden whitespace-no-wrap text-sm transition-colors duration-100
 		ease-in-out  text-slate-800'
         >
-          <IoFlaskOutline className='w-7 h-7 text-slate-600 ' />
+          <IoFlaskOutline className='w-6 h-6 text-slate-600 ' />
           <FancyLink
             destination='/about'
             a11yText='WIP'
@@ -43,7 +43,7 @@ export default function NavbarMobile() {
 		overflow-hidden whitespace-no-wrap text-sm transition-colors duration-100
 		ease-in-out  text-slate-800'
         >
-          <IoPersonCircleOutline className='w-7 h-7 text-slate-600 ' />
+          <IoPersonCircleOutline className='w-6 h-6 text-slate-600 ' />
           <FancyLink
             destination='/resume'
             a11yText='Resume'
@@ -57,7 +57,7 @@ export default function NavbarMobile() {
 		overflow-hidden whitespace-no-wrap text-sm transition-colors duration-100
 		ease-in-out  text-slate-800'
         >
-          <IoChatboxOutline className='w-7 h-7 text-slate-600 ' />
+          <IoChatboxOutline className='w-6 h-6 text-slate-600 ' />
           <FancyLink
             destination='/blog'
             a11yText='Blog'
