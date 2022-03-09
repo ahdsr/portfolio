@@ -37,10 +37,7 @@ export default function Item1() {
             <Container>
               <div className='content mx-auto max-w-7xl mt-40 '>
                 <h1 className='text-center'>{name}</h1>
-
-                <div className='text-xl font-medium tracking-tight mb-4 mt-8 mx-auto text-center px-8 text-slate-700'>
-                  {description}
-                </div>
+                <h2>{description}</h2>
 
                 {/* Image */}
                 <div
@@ -58,37 +55,36 @@ export default function Item1() {
                     objectFit='cover'
                   />
                 </div>
-                <h3 className='pt-28'>The design problem</h3>
-                <div className='sm:flex mt-10 mb-20 '>
-                  <div className='sm:item sm:w-1/2  sm:pr-8  mb-4'>
-                    <p>
-                      Due to the nature and planning of the project the ordering
-                      platform was faced with a disjointed experience when it
-                      comes to visualizing and working with large data sets. Not
-                      only did the website suffer from inconsistent components,
-                      but with every iteration, unique code was adding to the
-                      inconsistencies. These data tables or queues were a major
-                      functional component of the ordering system.
-                    </p>
-                  </div>
-                  <div className='sm:item sm:w-1/2  sm:pl-8 mb-4'>
-                    <p>
-                      The queue essentially is a list of all Elements customer
-                      orders. The tables list everything from the vehicle that
-                      is being ordered, right down to the driver and insurance
-                      information. When a piece of work is done by one team, the
-                      order moves along until all teams have validated the data.
-                    </p>
-                  </div>
+                <h3 className='content pt-28'>The design problem</h3>
+                <div className='content sm:flex mt-10 mb-20 '>
+                  <p className='sm:item sm:w-1/2  sm:pr-8  mb-4'>
+                    Due to the nature and planning of the project the ordering
+                    platform was faced with a disjointed experience when it
+                    comes to visualizing and working with large data sets. Not
+                    only did the website suffer from inconsistent components,
+                    but with every iteration, unique code was adding to the
+                    inconsistencies. These data tables or queues were a major
+                    functional component of the ordering system.
+                  </p>
+
+                  <p className='content sm:item sm:w-1/2  sm:pl-8 mb-4'>
+                    The queue essentially is a list of all Elements customer
+                    orders. The tables list everything from the vehicle that is
+                    being ordered, right down to the driver and insurance
+                    information. When a piece of work is done by one team, the
+                    order moves along until all teams have validated the data.
+                  </p>
                 </div>
                 {/* Image */}
-                <div
-                  style={{
-                    position: 'relative',
-                    width: '100%',
-                    height: '800px',
-                  }}
-                >
+                <div className='desktopimage'>
+                  <Image
+                    alt='Mountains'
+                    src={Placeholder}
+                    layout='fill'
+                    objectFit='cover'
+                  />
+                </div>
+                <div className='mobileimage'>
                   <Image
                     alt='Mountains'
                     src={Placeholder}
@@ -102,44 +98,53 @@ export default function Item1() {
                   when it's really long.
                 </span>
 
-                <h3 className='mt-36'>Research, planing and prep</h3>
-                <div className='sm:flex mt-10 mb-20 '>
-                  <div className='sm:item sm:w-1/2  sm:pr-8 mb-4'>
-                    <p>
-                      Understanding the feature set and how to improve it was
-                      done by sitting down with the main users as well as their
-                      leads and managers to understand how each data table is
-                      used not only by team members specializing in a specific
-                      area of the business, but also with all users that have
-                      access to the ordering system. We also had the advantage
-                      to review how they use the legacy systems and what actions
-                      they perform between the two frameworks. This gave us a
-                      great base for comparison to make sure nothing was missed.
-                    </p>
-                  </div>
-                  <div className='sm:item sm:w-1/2  sm:pl-8 mb-4'>
-                    <p>
-                      Keeping track and laying out all the features based on
-                      which were working, and which needed fixing was also an
-                      important part of the preparation. The example below is a
-                      method I used to take notes, and keep track of
-                      requirements aside from the officially captured
-                      requirements in Confluence and JIRA. Whimsical, aside from
-                      being a great planning tool, is also a great note
-                      capturing tool especially during quick fire meeting with
-                      business. Most of the notes were gathered in the forms of
-                      mind maps.
-                    </p>
-                  </div>
+                <h3 className='content pt-28'>The design problem</h3>
+                <div className='content sm:flex mt-10 mb-20 '>
+                  <p className='sm:item sm:w-1/2  sm:pr-8  mb-4'>
+                    Due to the nature and planning of the project the ordering
+                    platform was faced with a disjointed experience when it
+                    comes to visualizing and working with large data sets. Not
+                    only did the website suffer from inconsistent components,
+                    but with every iteration, unique code was adding to the
+                    inconsistencies. These data tables or queues were a major
+                    functional component of the ordering system.
+                  </p>
+
+                  <p className='content sm:item sm:w-1/2  sm:pl-8 mb-4'>
+                    The queue essentially is a list of all Elements customer
+                    orders. The tables list everything from the vehicle that is
+                    being ordered, right down to the driver and insurance
+                    information. When a piece of work is done by one team, the
+                    order moves along until all teams have validated the data.
+                  </p>
                 </div>
                 {/* Image */}
-                <div
-                  style={{
-                    position: 'relative',
-                    width: '100%',
-                    height: '800px',
-                  }}
-                >
+                <div className='desktopimage'>
+                  <Image
+                    alt='Mountains'
+                    src={Placeholder}
+                    layout='fill'
+                    objectFit='cover'
+                  />
+                </div>
+                <div className='mobileimage '>
+                  <Image
+                    alt='Mountains'
+                    src={Placeholder}
+                    layout='fill'
+                    objectFit='cover'
+                  />
+                </div>
+                {/* Image */}
+                <div className='desktopimage mt-8 '>
+                  <Image
+                    alt='Mountains'
+                    src={Placeholder}
+                    layout='fill'
+                    objectFit='cover'
+                  />
+                </div>
+                <div className='mobileimage mt-8'>
                   <Image
                     alt='Mountains'
                     src={Placeholder}
@@ -153,10 +158,8 @@ export default function Item1() {
 
                 <h3 className='mt-36'>Challenges and solutions</h3>
                 <div className='sm:flex mt-10 mb-20 '>
-                  <div className='md:item md:flex-grow-0 basis-1/3 md:w-1/3 sm:pr-8 mb-4'>
-                    <h2 className='text-2xl text-slate-800 tracking-tight'>
-                      Data is king
-                    </h2>
+                  <div className='content sm:item sm:w-1/3  mb-4'>
+                    <h3>Data is king</h3>
                     <p>
                       One off the key observations and loudest set of feedback
                       from our users was that they wanted to maximize their
@@ -166,10 +169,8 @@ export default function Item1() {
                       legibility.
                     </p>
                   </div>
-                  <div className='md:item md:flex-grow-0 basis-1/3 md:w-1/3 sm:pr-8 mb-4'>
-                    <h2 className='text-2xl text-slate-800 tracking-tight'>
-                      Multiple function to perform on a single order
-                    </h2>
+                  <div className='content sm:item sm:w-1/3  sm:pl-8 mb-4'>
+                    <h3>Multiple function to perform on a single order</h3>
                     <p>
                       Each unique data table presented itself with a challange.
                       Some functional features are common to all data tables,
@@ -181,10 +182,8 @@ export default function Item1() {
                       scalable solution
                     </p>
                   </div>
-                  <div className='md:item md:flex-grow-0 basis-1/3 md:w-1/3 sm:pl-8 mb-4'>
-                    <h2 className='text-2xl text-slate-800 tracking-tight'>
-                      Screen size and real estate issues
-                    </h2>
+                  <div className='content sm:item sm:w-1/3  sm:pl-8 mb-4'>
+                    <h3>Screen size and real estate issues</h3>
                     <p>
                       One off the key observations and loudest set of feedback
                       from our users was that they wanted to maximize their
@@ -197,22 +196,8 @@ export default function Item1() {
                     </p>
                   </div>
                 </div>
-                {/* Image */}
-                <div
-                  style={{
-                    position: 'relative',
-                    width: '100%',
-                    height: '800px',
-                  }}
-                >
-                  <Image
-                    alt='Mountains'
-                    src={Placeholder}
-                    layout='fill'
-                    objectFit='cover'
-                  />
-                </div>
               </div>
+
               <div className='flex justify-evenly items-end mx-auto max-w-7xl mt-10'>
                 <div className='item w-1/3 h-auto'>
                   <FancyLink

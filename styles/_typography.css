@@ -39,7 +39,7 @@
   }
   & > h1,
   & > .h1 {
-    @apply text-3xl sm:text-4xl md:text-6xl  font-extrabold tracking-tight leading-tight mb-10 text-white;
+    @apply text-5xl  md:text-6xl  font-extrabold tracking-tight leading-tight mb-10 text-white;
   }
 }
 
@@ -55,6 +55,14 @@
 
 .cta {
   @apply inline-block w-auto px-4 py-3 my-4 text-white bg-slate-800 hover:shadow-lg hover:scale-90 transition ease-in-out;
+}
+
+.desktopimage {
+  @apply hidden relative md:block mx-auto text-center w-auto h-[40rem];
+}
+
+.mobileimage {
+  @apply md:hidden relative block mx-auto text-center w-auto h-[20rem];
 }
 
 /* Heading Defaults */

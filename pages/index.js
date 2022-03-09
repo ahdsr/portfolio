@@ -48,7 +48,7 @@ export default function Home() {
               <div className=' pt-32 pb-28 md:pt-44 md:pb-44 lg:pt-60 lg:pb-60 bg-gradient-to-bl from-customblue via-customblue to-customblue text-white z-0 -mt-20  '>
                 <div className='md:flex px-8 md:px-12 lg:px-24 xl:px-20 max-w-7xl mx-auto  '>
                   <div className='homepage md:item md:w-1/2 h-auto content md:pr-16  '>
-                    <h1>↻ Research, design, prototype, test and evaluate ⇤</h1>
+                    <h1>Research, design, prototype, test and evaluate ↻ </h1>
                     <p>
                       As a designer, I've been lucky enough to be exposed to a
                       vast number of employers, teams and projects.
@@ -59,21 +59,18 @@ export default function Home() {
                       As a designer, I've been lucky enough to be exposed to a
                       vast number of employers, teams and projects. Irregardless
                       of where I work, the process is very similar. Research,
-                      design, prototype, test and evaluate. Each of them has
-                      been a unique and rewarding learning experience, but above
-                      design cycle pattern doesn't usually change.
+                      design, prototype, test and evaluate.
                     </p>
                     <p>
-                      Irregardless of where I work, the process is very similar.
-                      Research, design, prototype, test and evaluate.
+                      Each of them has been a unique and rewarding learning
+                      experience, but above design cycle pattern doesn't usually
+                      change. Irregardless of where I work, the process is very
+                      similar. Research, design, prototype, test and evaluate.
                     </p>
                     <p>
-                      As a designer, I've been lucky enough to be exposed to a
-                      vast number of employers, teams and projects. Irregardless
-                      of where I work, the process is very similar. Research,
-                      design, prototype, test and evaluate. Each of them has
-                      been a unique and rewarding learning experience, but above
-                      design cycle pattern doesn't usually change.
+                      Each of them has been a unique and rewarding learning
+                      experience, but above design cycle pattern doesn't usually
+                      change.
                     </p>
                   </div>
                 </div>

@@ -2,14 +2,11 @@ import React from 'react';
 import { useRef } from 'react';
 import Layout from '@/components/layout';
 import Navbar from '@/components/navbar';
-import Footer from '@/components/footer';
 import Container from '@/components/container';
 
 import { fade } from '@/helpers/transitions';
-import { LocomotiveScrollProvider } from 'react-locomotive-scroll';
 import { LazyMotion, domAnimation, m } from 'framer-motion';
 import { NextSeo } from 'next-seo';
-import GetInTouch from '@/components/getintouch';
 
 import ReactPlayer from 'react-player/lazy';
 
@@ -34,14 +31,22 @@ export default function Resume() {
                   <div className='content mb-4 md:w-1/4 overflow-hidden md:pr-10'>
                     <h1>Blog</h1>
                     <ul>
-                      <li className='inline-block underline bg-yellow-200  m-1'>
+                      <li className='block w-fit underline bg-yellow-200 m-1'>
                         Site launch
                       </li>
-                      <li className='inline-block underline bg-yellow-200  m-1'>
+                      <li className='block w-fit underline bg-yellow-200 m-1'>
                         Cyberpunk 2077 inspired atmospherics
                       </li>
-                      <li className='inline-block underline bg-yellow-200  m-1'>
-                        Some other post
+
+                      <li className='block w-fit underline bg-yellow-200 m-1'>
+                        WFH
+                      </li>
+                      <li className='block w-fit underline bg-yellow-200 m-1'>
+                        Playing with the drone again, at a car meet in Brampton
+                      </li>
+                      <li className='block w-fit underline bg-yellow-200 m-1'>
+                        Some more ariel footage for my brother in law's company
+                        Hodge Films
                       </li>
                     </ul>
                   </div>
@@ -207,7 +212,7 @@ export default function Resume() {
                       <div className='content mt-10 mb-20'>
                         <h3>
                           Some more ariel footage for my brother in law's
-                          company Hodgee Films
+                          company Hodge Films
                         </h3>
                         <span className='inline-block font-bold bg-black text-white text-left p-2 text-xs rounded-bl-2xl'>
                           March 11, 2020
