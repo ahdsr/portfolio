@@ -48,6 +48,7 @@ export default function Item1() {
               <m.div initial='initial' animate='enter' exit='exit'>
                 <m.main variants={fade} className='pb-20'>
                   <Container>
+                    sssss
                     <div className='content-sub mx-auto max-w-7xl mt-40 '>
                       <h1 className='font-bold text-2xl md:text-7xl xl:text-7xl mb-8 mx-8 md:mx-60 text-center text-slate-500'>
                         {name}
@@ -56,9 +57,7 @@ export default function Item1() {
                       <div className='text-xl font-medium tracking-tight mb-4 mt-8 mx-auto text-center px-8 text-slate-700'>
                         {description}
                       </div>
-                      <span className='inline-block font-bold bg-black text-white text-left p-2 text-xs rounded-bl-2xl'>
-                        March 11, 2020
-                      </span>
+
                       {/* Image */}
                       <div
                         className='mt-20'
@@ -75,7 +74,7 @@ export default function Item1() {
                           objectFit='cover'
                         />
                       </div>
-                      <h3 className='pt-20'>Preparations and research</h3>
+                      <h3 className='pt-28'>The design problem</h3>
                       <div className='sm:flex mt-10 mb-20 '>
                         <div className='sm:item sm:w-1/2  sm:pr-8  mb-4'>
                           <p>
@@ -115,8 +114,13 @@ export default function Item1() {
                           objectFit='cover'
                         />
                       </div>
+                      <span className='inline-block font-medium bg-yellow-400 text-black  float-right  p-3 text-sm rounded-bl-2xl'>
+                        Image caption goes here, lets see what happens when it's
+                        really long. Image caption goes here, lets see what
+                        happens when it's really long.
+                      </span>
 
-                      <h3 className='mt-20'>Preparations and research</h3>
+                      <h3 className='mt-36'>Research, planing and prep</h3>
                       <div className='sm:flex mt-10 mb-20 '>
                         <div className='sm:item sm:w-1/2  sm:pr-8 mb-4'>
                           <p>
@@ -162,11 +166,16 @@ export default function Item1() {
                           objectFit='cover'
                         />
                       </div>
+                      <span className='inline-block font-medium bg-slate-800 text-yellow-500  float-left  p-3 text-sm rounded-bl-2xl'>
+                        Illustration showing...
+                      </span>
 
-                      <h3 className='mt-20'>Challenges and solutions</h3>
+                      <h3 className='mt-36'>Challenges and solutions</h3>
                       <div className='sm:flex mt-10 mb-20 '>
                         <div className='md:item md:flex-grow-0 basis-1/3 md:w-1/3 sm:pr-8 mb-4'>
-                          <h3>Data is king</h3>
+                          <h2 className='text-2xl text-slate-800 tracking-tight'>
+                            Data is king
+                          </h2>
                           <p>
                             One off the key observations and loudest set of
                             feedback from our users was that they wanted to
@@ -177,9 +186,9 @@ export default function Item1() {
                           </p>
                         </div>
                         <div className='md:item md:flex-grow-0 basis-1/3 md:w-1/3 sm:pr-8 mb-4'>
-                          <h3>
+                          <h2 className='text-2xl text-slate-800 tracking-tight'>
                             Multiple function to perform on a single order
-                          </h3>
+                          </h2>
                           <p>
                             Each unique data table presented itself with a
                             challange. Some functional features are common to
@@ -193,7 +202,9 @@ export default function Item1() {
                           </p>
                         </div>
                         <div className='md:item md:flex-grow-0 basis-1/3 md:w-1/3 sm:pl-8 mb-4'>
-                          <h3>Screen size and real estate issues</h3>
+                          <h2 className='text-2xl text-slate-800 tracking-tight'>
+                            Screen size and real estate issues
+                          </h2>
                           <p>
                             One off the key observations and loudest set of
                             feedback from our users was that they wanted to
@@ -223,7 +234,7 @@ export default function Item1() {
                         />
                       </div>
                     </div>
-                    <div className='flex justify-evenly items-end'>
+                    <div className='flex justify-evenly items-end mx-auto max-w-7xl mt-10'>
                       <div className='item w-1/3 h-auto'>
                         <FancyLink
                           destination='/'
@@ -244,10 +255,6 @@ export default function Item1() {
                     </div>
                   </Container>
                 </m.main>
-
-                <m.div variants={fade}>
-                  <Footer />
-                </m.div>
               </m.div>
             </LazyMotion>
           </div>
