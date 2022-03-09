@@ -9,6 +9,7 @@ import { LocomotiveScrollProvider } from 'react-locomotive-scroll';
 import { LazyMotion, domAnimation, m } from 'framer-motion';
 import { NextSeo } from 'next-seo';
 import { Scrollbars } from 'rc-scrollbars';
+import NavbarMobile from '@/components/navbar_mobile';
 
 //import Breadcrumb from '@/componsents/breadcrumb';
 

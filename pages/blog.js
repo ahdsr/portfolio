@@ -4,7 +4,7 @@ import Layout from '@/components/layout';
 import Navbar from '@/components/navbvar';
 import Footer from '@/components/footer';
 import Container from '@/components/container';
-import FancyLink from '@/components/fancyLink';
+
 import { fade } from '@/helpers/transitions';
 import { LocomotiveScrollProvider } from 'react-locomotive-scroll';
 import { LazyMotion, domAnimation, m } from 'framer-motion';
