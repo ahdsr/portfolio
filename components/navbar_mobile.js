@@ -8,61 +8,61 @@ import FancyLink from './fancyLink';
 export default function NavbarMobile() {
   return (
     <div className='md:hidden sticky bottom-0 z-50 '>
-      <nav class='bg-black flex overflow-x-auto h-20'>
+      <nav class='bg-slate-200 flex overflow-x-auto h-20 pt-3'>
         <div
-          className='flex flex-col flex-grow items-center justify-center
+          className='flex flex-col flex-grow items-center justify-top 
 		overflow-hidden whitespace-no-wrap text-sm transition-colors duration-100
-		ease-in-out hover:bg-black text-orange-500 '
+		ease-in-out  text-slate-800 '
         >
-          <IoImageOutline className='w-7 h-7 text-yellow-600 mb-2' />
+          <IoImageOutline className='w-7 h-7 text-slate-700 ' />
 
           <FancyLink
             destination='/'
             a11yText='Use Cases'
             label='Use Cases'
-            extraClasses='tinytext text-yellow-500 uppercase'
+            extraClasses='tinytext text-slate-800 uppercase'
           />
         </div>
 
         <div
-          className='flex flex-col flex-grow items-center justify-center
+          className='flex flex-col flex-grow items-center justify-top
 		overflow-hidden whitespace-no-wrap text-sm transition-colors duration-100
-		ease-in-out hover:bg-black text-orange-500'
+		ease-in-out  text-slate-800'
         >
-          <IoFlaskOutline className='w-7 h-7 text-yellow-600 mb-2' />
+          <IoFlaskOutline className='w-7 h-7 text-slate-700 ' />
           <FancyLink
             destination='/about'
             a11yText='WIP'
             label='WIP'
-            extraClasses='tinytext text-yellow-500 uppercase'
+            extraClasses='tinytext text-slate-800 uppercase'
           />
         </div>
 
         <div
-          className='flex flex-col flex-grow items-center justify-center
+          className='flex flex-col flex-grow items-center justify-top
 		overflow-hidden whitespace-no-wrap text-sm transition-colors duration-100
-		ease-in-out hover:bg-black text-orange-500'
+		ease-in-out  text-slate-800'
         >
-          <IoPersonCircleOutline className='w-7 h-7 text-yellow-600 mb-2' />
+          <IoPersonCircleOutline className='w-7 h-7 text-slate-700 ' />
           <FancyLink
             destination='/resume'
             a11yText='Resume'
             label='Resume'
-            extraClasses='tinytext text-yellow-500 uppercase'
+            extraClasses='tinytext text-slate-800 uppercase'
           />
         </div>
 
         <div
-          className='flex flex-col flex-grow items-center justify-center
+          className='flex flex-col flex-grow items-center justify-top
 		overflow-hidden whitespace-no-wrap text-sm transition-colors duration-100
-		ease-in-out hover:bg-black text-orange-500'
+		ease-in-out  text-slate-800'
         >
-          <IoChatboxOutline className='w-7 h-7 text-yellow-600 mb-2' />
+          <IoChatboxOutline className='w-7 h-7 text-slate-700 ' />
           <FancyLink
             destination='/blog'
             a11yText='Blog'
             label='Blog'
-            extraClasses='tinytext text-yellow-500 uppercase'
+            extraClasses='tinytext text-slate-800 uppercase'
           />
         </div>
       </nav>

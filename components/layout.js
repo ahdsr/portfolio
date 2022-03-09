@@ -4,9 +4,9 @@ import MobileHeader from '@/components/header_mobile';
 export default function Layout({ children }) {
   return (
     <>
-      <div className='sticky top-0 z-50 md:hidden '>
+      {/*   <div className='sticky top-0 z-50 md:hidden '>
         <MobileHeader />
-      </div>
+      </div> */}
       {children}
       <div className='sticky bottom-0 z-50 md:hidden '>
         <NavbarMobile />
