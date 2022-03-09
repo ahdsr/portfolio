@@ -42,7 +42,7 @@ const usecases = [
 
 export default function PortfolioList() {
   return (
-    <ul className='mx-auto z-0 -mt-20 bg-white  max-w-7xl  '>
+    <ul className='mx-auto z-0 bg-white max-w-7xl -mt-20'>
       {usecases.map((usecases) => (
         <li
           key={usecases.id}
@@ -58,7 +58,7 @@ export default function PortfolioList() {
               usecases.color,
             ].join(' ')}
           >
-            <div className='content-sub'>
+            <div className='content'>
               <p className='block w-fit px-3 py-2 my-4 bg-slate-500 bg-opacity-20'>
                 {usecases.tag}
               </p>
@@ -76,7 +76,7 @@ export default function PortfolioList() {
             </div>
           </div>
 
-          <div className='item md:w-1/2 h-auto rounded-3xl content-sub '>
+          <div className='item md:w-1/2 h-auto rounded-3xl content '>
             <Image alt='Mountains' src={usecases.image} layout='responsive' />
           </div>
         </li>

@@ -31,90 +31,74 @@ export default function About() {
   };
   return (
     <Layout>
-      <NextSeo title='Home' />
+      <NextSeo title='Work in progress' />
       <Navbar />
-      <LocomotiveScrollProvider
-        options={{
-          smooth: true,
-          lerp: 0.09,
-          scrollFromAnywhere: true,
-          reloadOnContextChange: true,
-          tablet: { smooth: false, breakpoint: 1280 },
-          smartphone: { smooth: false },
-        }}
-        watch={[]}
-        containerRef={containerRef}
-      >
-        <div data-scroll-container ref={containerRef} id='scroll-container'>
-          <div data-scroll-section>
-            <LazyMotion features={domAnimation}>
-              <m.div initial='initial' animate='enter' exit='exit'>
-                <m.main variants={fade} className='pb-4'>
-                  <Container>
-                    <div className='content-sub mt-40 '>
-                      <h1>Work in progress</h1>
-                      <div className='mt-20'>
-                        <Masonry
-                          breakpointCols={breakpointColumnsObj}
-                          className='my-masonry-grid'
-                          columnClassName='my-masonry-grid_column'
-                        >
-                          {/* array of JSX items */}
 
-                          <FancyImage
-                            src={image1}
-                            transitionDuration={300}
-                            zoomMargin={40}
-                            overlayBgColorEnd={'rgba(255, 255,255, 0.95)'}
-                          />
+      <LazyMotion features={domAnimation}>
+        <m.div initial='initial' animate='enter' exit='exit'>
+          <m.main variants={fade} className='pb-4'>
+            <Container>
+              <div className='content mt-40 '>
+                <h1>Work in progress</h1>
+                <div className='mt-20'>
+                  <Masonry
+                    breakpointCols={breakpointColumnsObj}
+                    className='my-masonry-grid'
+                    columnClassName='my-masonry-grid_column'
+                  >
+                    {/* array of JSX items */}
 
-                          <FancyImage
-                            src={image2}
-                            transitionDuration={300}
-                            zoomMargin={40}
-                            overlayBgColorEnd={'rgba(255, 255,255, 0.95)'}
-                          />
-                          <FancyImage
-                            src={image3}
-                            transitionDuration={300}
-                            zoomMargin={40}
-                            overlayBgColorEnd={'rgba(255, 255,255, 0.95)'}
-                          />
+                    <FancyImage
+                      src={image1}
+                      transitionDuration={300}
+                      zoomMargin={40}
+                      overlayBgColorEnd={'rgba(255, 255,255, 0.95)'}
+                    />
 
-                          <FancyImage
-                            src={image4}
-                            transitionDuration={300}
-                            zoomMargin={40}
-                            overlayBgColorEnd={'rgba(255, 255,255, 0.95)'}
-                          />
-                          <FancyImage
-                            src={image5}
-                            transitionDuration={300}
-                            zoomMargin={40}
-                            overlayBgColorEnd={'rgba(255, 255,255, 0.95)'}
-                          />
-                          <FancyImage
-                            src={image6}
-                            transitionDuration={300}
-                            zoomMargin={40}
-                            overlayBgColorEnd={'rgba(255, 255,255, 0.95)'}
-                          />
-                          <FancyImage
-                            src={image7}
-                            transitionDuration={300}
-                            zoomMargin={40}
-                            overlayBgColorEnd={'rgba(255, 255,255, 0.95)'}
-                          />
-                        </Masonry>
-                      </div>
-                    </div>
-                  </Container>
-                </m.main>
-              </m.div>
-            </LazyMotion>
-          </div>
-        </div>
-      </LocomotiveScrollProvider>
+                    <FancyImage
+                      src={image2}
+                      transitionDuration={300}
+                      zoomMargin={40}
+                      overlayBgColorEnd={'rgba(255, 255,255, 0.95)'}
+                    />
+                    <FancyImage
+                      src={image3}
+                      transitionDuration={300}
+                      zoomMargin={40}
+                      overlayBgColorEnd={'rgba(255, 255,255, 0.95)'}
+                    />
+
+                    <FancyImage
+                      src={image4}
+                      transitionDuration={300}
+                      zoomMargin={40}
+                      overlayBgColorEnd={'rgba(255, 255,255, 0.95)'}
+                    />
+                    <FancyImage
+                      src={image5}
+                      transitionDuration={300}
+                      zoomMargin={40}
+                      overlayBgColorEnd={'rgba(255, 255,255, 0.95)'}
+                    />
+                    <FancyImage
+                      src={image6}
+                      transitionDuration={300}
+                      zoomMargin={40}
+                      overlayBgColorEnd={'rgba(255, 255,255, 0.95)'}
+                    />
+                    <FancyImage
+                      src={image7}
+                      transitionDuration={300}
+                      zoomMargin={40}
+                      overlayBgColorEnd={'rgba(255, 255,255, 0.95)'}
+                    />
+                  </Masonry>
+                </div>
+              </div>
+            </Container>
+          </m.main>
+        </m.div>
+      </LazyMotion>
     </Layout>
   );
 }

@@ -6,9 +6,6 @@ import GetInTouch from './getintouch';
 export default function Layout({ children }) {
   return (
     <>
-      {/*   <div className='sticky top-0 z-50 md:hidden '>
-        <MobileHeader />
-      </div> */}
       {children}
       <GetInTouch />
       <Footer />
