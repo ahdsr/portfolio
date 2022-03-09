@@ -11,9 +11,9 @@ const usecases = [
   {
     id: 0,
     tag: 'Data Design',
-    name: 'Element Data Tables',
+    name: 'Ordering Data Tables at Element Fleet',
     description:
-      ' When it comes to understanding and processing data, a work horse of a flexible and highly customizable table is needed to get the job done.',
+      'When it comes to understanding and processing data, a work horse of a flexible and highly customizable table is needed to get the job done. Lets take a look at some of the unique challenges working with big data brings.',
     link: '/usecases/item1',
     image: image1,
     color: 'bg-cyan-300',
@@ -23,7 +23,7 @@ const usecases = [
     tag: 'Mobile Native',
     name: 'TD for Me',
     description:
-      ' When it comes to understanding and processing data, a work horse of a flexible and highly customizable table is needed to get the job done.',
+      'TD For Me is a series of responsive page framed into the main TD Mobile Banking App. The usage of this location based tool has been steadily declining. We explore and tackle customer engagement.',
     link: '/about',
     image: image2,
     color: 'bg-green-300',
@@ -33,7 +33,7 @@ const usecases = [
     tag: 'Responsive Web',
     name: 'High Priestess Tarot',
     description:
-      ' When it comes to understanding and processing data, a work horse of a flexible and highly customizable table is needed to get the job done.',
+      'When an up and coming tarot card reader asks you to develop her web presence you jump on board. Lets have a look at this one page simple responsive solution.',
     link: '/about',
     image: image3,
     color: 'bg-purple-300',

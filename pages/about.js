@@ -38,7 +38,7 @@ export default function About() {
         <m.div initial='initial' animate='enter' exit='exit'>
           <m.main variants={fade} className='pb-4'>
             <Container>
-              <div className='content mt-40 '>
+              <div className='content mt-40 mx-auto max-w-7xl '>
                 <h1>Work in progress</h1>
                 <div className='mt-20'>
                   <Masonry

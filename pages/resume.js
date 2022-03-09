@@ -26,7 +26,7 @@ export default function Resume() {
             <Container>
               <div className='content mt-40 '>
                 <div className='mx-auto max-w-7xl md:flex md:flex-wrap overflow-hidden '>
-                  <div className='content mb-4 md:w-1/4 overflow-hidden md:pr-10'>
+                  <div className='content mb-4 md:w-2/5 overflow-hidden md:pr-10'>
                     <h1>Profile</h1>
                     <ul>
                       <li>
@@ -137,7 +137,7 @@ export default function Resume() {
                     </ul>
                   </div>
 
-                  <div className='content mb-4 md:w-3/4 overflow-hidden md:pl-10'>
+                  <div className='content mb-4 md:w-3/5 overflow-hidden md:pl-10'>
                     <h1 className='font-bold text-2xl md:text-3xl xl:text-4xl mb-4'>
                       Experience
                     </h1>

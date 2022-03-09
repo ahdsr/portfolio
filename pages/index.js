@@ -42,30 +42,39 @@ export default function Home() {
               </div>
 
               <div className='relative grid place-items-center -mt-20 h-36 bg-slate-900 sm:mx-6 md:mx-24 lg:mx-24 xl:mx-40 z-10'>
-                <p className='block p-8 text-white '>CLIENT LIST BOX</p>
+                <p className='block p-8 text-white '>⊷ CLIENT LIST BOX ⊷</p>
               </div>
 
-              <div className=' pt-32 pb-28 md:pt-44 md:pb-44 bg-gradient-to-bl from-customblue via-customblue to-customblue text-white z-0 -mt-20  '>
-                <div className='md:flex px-8 md:px-12 lg:px-28 xl:px-10 max-w-7xl mx-auto  '>
+              <div className=' pt-32 pb-28 md:pt-44 md:pb-44 lg:pt-60 lg:pb-60 bg-gradient-to-bl from-customblue via-customblue to-customblue text-white z-0 -mt-20  '>
+                <div className='md:flex px-8 md:px-12 lg:px-24 xl:px-20 max-w-7xl mx-auto  '>
                   <div className='homepage md:item md:w-1/2 h-auto content md:pr-16  '>
-                    <h1>
-                      Plan, discover, design and iterate ... and iterate and
-                      iterate.
-                    </h1>
+                    <h1>↻ Research, design, prototype, test and evaluate ⇤</h1>
+                    <p>
+                      As a designer, I've been lucky enough to be exposed to a
+                      vast number of employers, teams and projects.
+                    </p>
                   </div>
                   <div className='homepage md:item md:w-1/2 h-auto content'>
                     <p>
                       As a designer, I've been lucky enough to be exposed to a
-                      number of employers, teams and projects. Each has been a a
-                      unique and rewarding experience, but some things always
-                      remain common.
+                      vast number of employers, teams and projects. Irregardless
+                      of where I work, the process is very similar. Research,
+                      design, prototype, test and evaluate. Each of them has
+                      been a unique and rewarding learning experience, but above
+                      design cycle pattern doesn't usually change.
                     </p>
                     <p>
                       Irregardless of where I work, the process is very similar.
-                      Plan, discover, design and iterate.
+                      Research, design, prototype, test and evaluate.
                     </p>
-                    <p>Copy</p>
-                    <p>Copy</p>
+                    <p>
+                      As a designer, I've been lucky enough to be exposed to a
+                      vast number of employers, teams and projects. Irregardless
+                      of where I work, the process is very similar. Research,
+                      design, prototype, test and evaluate. Each of them has
+                      been a unique and rewarding learning experience, but above
+                      design cycle pattern doesn't usually change.
+                    </p>
                   </div>
                 </div>
               </div>

@@ -35,21 +35,21 @@
 
 .homepage {
   & > p {
-    @apply text-base font-light leading-relaxed mb-6  text-white;
+    @apply text-lg font-light leading-relaxed mb-6  text-white;
   }
   & > h1,
   & > .h1 {
-    @apply text-3xl sm:text-4xl md:text-5xl font-bold tracking-tighter leading-tight mb-12 text-white;
+    @apply text-3xl sm:text-4xl md:text-6xl  font-extrabold tracking-tight leading-tight mb-10 text-white;
   }
 }
 
 .usecases {
   & > p {
-    @apply text-base font-light leading-relaxed mb-6  text-slate-900;
+    @apply text-lg font-normal leading-relaxed mb-6  text-slate-800;
   }
   & > h2,
   & > .h2 {
-    @apply text-3xl sm:text-3xl md:text-3xl font-bold tracking-tighter leading-tight mb-12 text-slate-800;
+    @apply text-3xl sm:text-3xl md:text-3xl font-bold tracking-tighter leading-tight mb-12 text-black;
   }
 }
 
