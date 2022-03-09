@@ -48,36 +48,34 @@ export default function PortfolioList() {
           key={usecases.id}
           className={
             usecases.id % 2 === 0
-              ? 'md:flex shadow-items mb-12 md:mb-20 '
-              : 'md:flex md:flex-row-reverse shadow-items mb-12 md:mb-20 '
+              ? 'md:flex shadow-items mb-8 md:mb-12'
+              : 'md:flex md:flex-row-reverse shadow-items mb-8 md:mb-12'
           }
         >
+          <div className='item md:w-1/2 h-auto rounded-3xl content '>
+            <Image alt='Mountains' src={usecases.image} layout='responsive' />
+          </div>
+
           <div
             className={[
-              'item md:w-1/2 p-8 md:p-12 xl:p-24 ',
+              'item md:w-1/2 p-8 md:p-10 xl:p-24 ',
               usecases.color,
             ].join(' ')}
           >
-            <div className='content'>
-              <p className='block w-fit px-3 py-2 my-4 bg-slate-500 bg-opacity-20'>
+            <div className='usecases'>
+              <p className='block w-fit px-3 py-2 my-4 bg-slate-500 bg-opacity-10'>
                 {usecases.tag}
               </p>
-              <h1 className='text-3xl font-extrabold tracking-tight'>
-                {usecases.name}
-              </h1>
+              <h2 className='usecases'>{usecases.name}</h2>
               <p className='font-medium'>{usecases.description}</p>
 
               <FancyLink
                 destination={usecases.link}
                 a11yText='See portfolio item'
                 label='Learn more'
-                extraClasses='block w-fit px-3 py-2 my-4 text-white bg-slate-800 hover:shadow-lg hover:scale-90 transition ease-in-out'
+                extraClasses='cta'
               />
             </div>
-          </div>
-
-          <div className='item md:w-1/2 h-auto rounded-3xl content '>
-            <Image alt='Mountains' src={usecases.image} layout='responsive' />
           </div>
         </li>
       ))}

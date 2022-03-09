@@ -46,14 +46,14 @@ export default function Home() {
               </div>
 
               <div className='pt-48 pb-36 md:pt-56 md:pb-44 bg-gradient-to-bl from-customblue via-customblue to-customblue text-white z-0 -mt-20  '>
-                <div className='md:flex mx-2 px-4 md:mx-12 lg:mx-24 xl:mx-80  '>
-                  <div className='md:item md:w-1/2 h-auto content md:pr-16  '>
+                <div className='md:flex mx-2 px-4 md:mx-12 lg:mx-24 xl:mx-40  '>
+                  <div className='homepage md:item md:w-1/2 h-auto content md:pr-16  '>
                     <h1>
                       Plan, discover, design and iterate ... and iterate and
                       iterate.
                     </h1>
                   </div>
-                  <div className='md:item md:w-1/2 h-auto content'>
+                  <div className='homepage md:item md:w-1/2 h-auto content'>
                     <p>
                       As a designer, I've been lucky enough to be exposed to a
                       number of employers, teams and projects. Each has been a a
