@@ -45,8 +45,8 @@ export default function Home() {
                 <p className='block p-8 text-white '>CLIENT LIST BOX</p>
               </div>
 
-              <div className='pt-48 pb-36 md:pt-56 md:pb-44 bg-gradient-to-bl from-customblue via-customblue to-customblue text-white z-0 -mt-20  '>
-                <div className='md:flex mx-2 px-4 md:mx-12 lg:mx-24 xl:mx-40  '>
+              <div className=' pt-32 pb-28 md:pt-44 md:pb-44 bg-gradient-to-bl from-customblue via-customblue to-customblue text-white z-0 -mt-20  '>
+                <div className='md:flex px-8 md:px-12 lg:px-28 xl:px-10 max-w-7xl mx-auto  '>
                   <div className='homepage md:item md:w-1/2 h-auto content md:pr-16  '>
                     <h1>
                       Plan, discover, design and iterate ... and iterate and

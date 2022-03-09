@@ -4,7 +4,7 @@ import { IoChatboxOutline } from 'react-icons/io5';
 export default function GetInTouch() {
   return (
     <Container>
-      <div className='text-center text-5xl border-t-4 border-t-blue-700 py-10 md:py-20'>
+      <div className='mx-auto max-w-7xl text-center text-5xl border-t-4 border-t-blue-700  md:py-20 mt-20'>
         <p className='block font-extrabold text-xl md:text-4xl tracking-tighter pb-2 text-slate-800'>
           Like what you see?
         </p>
