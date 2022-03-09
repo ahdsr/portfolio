@@ -26,7 +26,7 @@ module.exports = {
           DEFAULT: '#d18d67',
           dark: '#ce8860',
         },
-        customblue: '#000AFF',
+        customblue: '#0D14B8',
       },
       boxShadow: {
         items: 'rgba(0, 0, 0, 0.2) 0px 11.3115px 40px 0px',

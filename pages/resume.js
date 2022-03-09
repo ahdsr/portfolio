@@ -1,14 +1,13 @@
 import { useRef } from 'react';
 import Layout from '@/components/layout';
 import Navbar from '@/components/navbar';
-import Footer from '@/components/footer';
+
 import Container from '@/components/container';
 import FancyLink from '@/components/fancyLink';
 import { fade } from '@/helpers/transitions';
 import { LocomotiveScrollProvider } from 'react-locomotive-scroll';
 import { LazyMotion, domAnimation, m } from 'framer-motion';
 import { NextSeo } from 'next-seo';
-import GetInTouch from '@/components/getintouch';
 
 export default function Resume() {
   const containerRef = useRef(null);
@@ -35,9 +34,9 @@ export default function Resume() {
               <m.div initial='initial' animate='enter' exit='exit'>
                 <m.main variants={fade} className='pb-4  '>
                   <Container>
-                    <div class='md:flex md:flex-wrap overflow-hidden mt-40'>
+                    <div className='md:flex md:flex-wrap overflow-hidden mt-32'>
                       <div className='content-sub mb-4 md:w-1/4 overflow-hidden md:pr-10'>
-                        <h1 className=''>Profile</h1>
+                        <h1>Profile</h1>
                         <ul>
                           <li>
                             Bachelor of Design Honours (B.Des.) York University
@@ -316,10 +315,6 @@ export default function Resume() {
                     </div>
                   </Container>
                 </m.main>
-                <m.div variants={fade}>
-                  <GetInTouch />
-                  <Footer />
-                </m.div>
               </m.div>
             </LazyMotion>
           </div>

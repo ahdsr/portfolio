@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer className='mb-4'>
       <Container>
-        <div className='border-t border-black py-4'>
+        <div className='border-t border-black py-4 bg-yellow-500 text-black px-4'>
           <div className='flex flex-wrap text-xs'>
             <div className='flex space-x-1 mb-1 md:mb-0'>
               <FancyLink

@@ -7,7 +7,7 @@ export default function GetInTouch() {
         <p className='block text-2xl md:text-4xl tracking-tight pb-4'>
           like what you see?
         </p>
-        <h7 className=''>get in touch</h7>
+        <h7>Get in touch</h7>
       </div>
     </Container>
   );

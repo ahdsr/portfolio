@@ -43,9 +43,9 @@ export default function Resume() {
               <m.div initial='initial' animate='enter' exit='exit'>
                 <m.main variants={fade} className='pb-20'>
                   <Container>
-                    <div class='md:flex md:flex-wrap overflow-hidden mt-40'>
+                    <div className='md:flex md:flex-wrap overflow-hidden mt-32'>
                       <div className='content-sub mb-4 md:w-1/4 overflow-hidden md:pr-10'>
-                        <h1 className=''>Blog</h1>
+                        <h1>Blog</h1>
                         <ul>
                           <li className='inline-block underline bg-yellow-200  m-1'>
                             Site launch
@@ -60,7 +60,7 @@ export default function Resume() {
                       </div>
 
                       <div className='mb-4 md:w-3/4 overflow-hidden md:pl-10'>
-                        <div className=''>
+                        <div>
                           <div className='content-sub'>
                             <h3>Site launch</h3>
 
@@ -194,12 +194,7 @@ export default function Resume() {
                       </div>
                     </div>
                   </Container>
-                  <GetInTouch />
                 </m.main>
-
-                <m.div variants={fade}>
-                  <Footer />
-                </m.div>
               </m.div>
             </LazyMotion>
           </div>

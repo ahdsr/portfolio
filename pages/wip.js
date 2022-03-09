@@ -37,7 +37,7 @@ export default function Wip() {
           initial='initial'
           animate='enter'
           exit='exit'
-          className='mb-12 md:mb-16 xl:mb-24'
+          className='mb-12 md:mb-16 xl:mb-24 '
         >
           <Container>
             <m.div variants={fade}>
@@ -63,7 +63,7 @@ export default function Wip() {
                         zoomMargin={40}
                         overlayBgColorEnd={'rgba(255, 255,255, 0.95)'}
                       />
-                      <div className=''>
+                      <div>
                         <div className='text-sm font-medium tracking-tight text-slate-700'>
                           March 22, 2022
                         </div>
@@ -85,7 +85,7 @@ export default function Wip() {
                         zoomMargin={40}
                         overlayBgColorEnd={'rgba(255, 255,255, 0.95)'}
                       />
-                      <div className=''>
+                      <div>
                         <div className='text-sm font-medium tracking-tight text-slate-700'>
                           March 22, 2022
                         </div>

@@ -28,7 +28,7 @@ export default function Item1() {
   const containerRef = useRef(null);
   return (
     <Layout>
-      <NextSeo title='Portfolio Item 1' />
+      <NextSeo title={name} />
       <Navbar />
       <LocomotiveScrollProvider
         options={{
@@ -48,20 +48,24 @@ export default function Item1() {
               <m.div initial='initial' animate='enter' exit='exit'>
                 <m.main variants={fade} className='pb-20'>
                   <Container>
-                    <div className='content-sub mx-auto mt-40 '>
+                    <div className='content-sub mx-auto max-w-7xl mt-40 '>
                       <h1 className='font-bold text-2xl md:text-7xl xl:text-7xl mb-8 mx-8 md:mx-60 text-center text-slate-500'>
                         {name}
                       </h1>
+
                       <div className='text-xl font-medium tracking-tight mb-4 mt-8 mx-auto text-center px-8 text-slate-700'>
                         {description}
                       </div>
+                      <span className='inline-block font-bold bg-black text-white text-left p-2 text-xs rounded-bl-2xl'>
+                        March 11, 2020
+                      </span>
                       {/* Image */}
                       <div
                         className='mt-20'
                         style={{
                           position: 'relative',
                           width: '100%',
-                          height: '600px',
+                          height: '1000px',
                         }}
                       >
                         <Image
@@ -71,10 +75,9 @@ export default function Item1() {
                           objectFit='cover'
                         />
                       </div>
-                      <h3>The design problem</h3>
-
-                      <div class='sm:flex mt-10 mb-20 '>
-                        <div class='sm:item sm:w-1/2  sm:pr-8  mb-4'>
+                      <h3 className='pt-20'>Preparations and research</h3>
+                      <div className='sm:flex mt-10 mb-20 '>
+                        <div className='sm:item sm:w-1/2  sm:pr-8  mb-4'>
                           <p>
                             Due to the nature and planning of the project the
                             ordering platform was faced with a disjointed
@@ -86,7 +89,7 @@ export default function Item1() {
                             major functional component of the ordering system.
                           </p>
                         </div>
-                        <div class='sm:item sm:w-1/2  sm:pl-8 mb-4'>
+                        <div className='sm:item sm:w-1/2  sm:pl-8 mb-4'>
                           <p>
                             The queue essentially is a list of all Elements
                             customer orders. The tables list everything from the
@@ -102,7 +105,7 @@ export default function Item1() {
                         style={{
                           position: 'relative',
                           width: '100%',
-                          height: '400px',
+                          height: '800px',
                         }}
                       >
                         <Image
@@ -114,8 +117,8 @@ export default function Item1() {
                       </div>
 
                       <h3 className='mt-20'>Preparations and research</h3>
-                      <div class='sm:flex mt-10 mb-20 '>
-                        <div class='sm:item sm:w-1/2  sm:pr-8 mb-4'>
+                      <div className='sm:flex mt-10 mb-20 '>
+                        <div className='sm:item sm:w-1/2  sm:pr-8 mb-4'>
                           <p>
                             Understanding the feature set and how to improve it
                             was done by sitting down with the main users as well
@@ -129,7 +132,7 @@ export default function Item1() {
                             base for comparison to make sure nothing was missed.
                           </p>
                         </div>
-                        <div class='sm:item sm:w-1/2  sm:pl-8 mb-4'>
+                        <div className='sm:item sm:w-1/2  sm:pl-8 mb-4'>
                           <p>
                             Keeping track and laying out all the features based
                             on which were working, and which needed fixing was
@@ -149,7 +152,7 @@ export default function Item1() {
                         style={{
                           position: 'relative',
                           width: '100%',
-                          height: '400px',
+                          height: '800px',
                         }}
                       >
                         <Image
@@ -161,8 +164,8 @@ export default function Item1() {
                       </div>
 
                       <h3 className='mt-20'>Challenges and solutions</h3>
-                      <div class='sm:flex mt-10 mb-20 '>
-                        <div class='md:item md:flex-grow-0 basis-1/3 md:w-1/3 sm:pr-8 mb-4'>
+                      <div className='sm:flex mt-10 mb-20 '>
+                        <div className='md:item md:flex-grow-0 basis-1/3 md:w-1/3 sm:pr-8 mb-4'>
                           <h3>Data is king</h3>
                           <p>
                             One off the key observations and loudest set of
@@ -173,7 +176,7 @@ export default function Item1() {
                             maintain a good level of legibility.
                           </p>
                         </div>
-                        <div class='md:item md:flex-grow-0 basis-1/3 md:w-1/3 sm:pr-8 mb-4'>
+                        <div className='md:item md:flex-grow-0 basis-1/3 md:w-1/3 sm:pr-8 mb-4'>
                           <h3>
                             Multiple function to perform on a single order
                           </h3>
@@ -189,7 +192,7 @@ export default function Item1() {
                             solution
                           </p>
                         </div>
-                        <div class='md:item md:flex-grow-0 basis-1/3 md:w-1/3 sm:pl-8 mb-4'>
+                        <div className='md:item md:flex-grow-0 basis-1/3 md:w-1/3 sm:pl-8 mb-4'>
                           <h3>Screen size and real estate issues</h3>
                           <p>
                             One off the key observations and loudest set of
@@ -209,7 +212,7 @@ export default function Item1() {
                         style={{
                           position: 'relative',
                           width: '100%',
-                          height: '400px',
+                          height: '800px',
                         }}
                       >
                         <Image
@@ -220,8 +223,8 @@ export default function Item1() {
                         />
                       </div>
                     </div>
-                    <div class='flex justify-evenly items-end'>
-                      <div class='item w-1/3 h-auto'>
+                    <div className='flex justify-evenly items-end'>
+                      <div className='item w-1/3 h-auto'>
                         <FancyLink
                           destination='/'
                           a11yText='Navigate to the home page'
@@ -229,8 +232,8 @@ export default function Item1() {
                           extraClasses='mx-auto block text-left'
                         />
                       </div>
-                      <div class='item w-2/3 h-auto'></div>
-                      <div class='item w-1/3 h-auto'>
+                      <div className='item w-2/3 h-auto'></div>
+                      <div className='item w-1/3 h-auto'>
                         <FancyLink
                           destination='/'
                           a11yText='Navigate to the home page'

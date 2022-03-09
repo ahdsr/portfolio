@@ -8,13 +8,13 @@ import FancyLink from './fancyLink';
 export default function NavbarMobile() {
   return (
     <div className='md:hidden sticky bottom-0 z-50 '>
-      <nav class='bg-slate-200 flex overflow-x-auto h-20 pt-3'>
+      <nav className='bg-slate-200 flex overflow-x-auto h-20 pt-3'>
         <div
           className='flex flex-col flex-grow items-center justify-top 
 		overflow-hidden whitespace-no-wrap text-sm transition-colors duration-100
 		ease-in-out  text-slate-800 '
         >
-          <IoImageOutline className='w-7 h-7 text-slate-700 ' />
+          <IoImageOutline className='w-7 h-7 text-slate-600 ' />
 
           <FancyLink
             destination='/'
@@ -29,7 +29,7 @@ export default function NavbarMobile() {
 		overflow-hidden whitespace-no-wrap text-sm transition-colors duration-100
 		ease-in-out  text-slate-800'
         >
-          <IoFlaskOutline className='w-7 h-7 text-slate-700 ' />
+          <IoFlaskOutline className='w-7 h-7 text-slate-600 ' />
           <FancyLink
             destination='/about'
             a11yText='WIP'
@@ -43,7 +43,7 @@ export default function NavbarMobile() {
 		overflow-hidden whitespace-no-wrap text-sm transition-colors duration-100
 		ease-in-out  text-slate-800'
         >
-          <IoPersonCircleOutline className='w-7 h-7 text-slate-700 ' />
+          <IoPersonCircleOutline className='w-7 h-7 text-slate-600 ' />
           <FancyLink
             destination='/resume'
             a11yText='Resume'
@@ -57,7 +57,7 @@ export default function NavbarMobile() {
 		overflow-hidden whitespace-no-wrap text-sm transition-colors duration-100
 		ease-in-out  text-slate-800'
         >
-          <IoChatboxOutline className='w-7 h-7 text-slate-700 ' />
+          <IoChatboxOutline className='w-7 h-7 text-slate-600 ' />
           <FancyLink
             destination='/blog'
             a11yText='Blog'

@@ -52,7 +52,7 @@ export default function About() {
                 <m.main variants={fade} className='pb-4'>
                   <Container>
                     <div className='content-sub mt-40 '>
-                      <h1 className=''>Work in progress</h1>
+                      <h1>Work in progress</h1>
                       <div className='mt-20'>
                         <Masonry
                           breakpointCols={breakpointColumnsObj}
@@ -110,10 +110,6 @@ export default function About() {
                     </div>
                   </Container>
                 </m.main>
-                <m.div variants={fade}>
-                  <GetInTouch />
-                  <Footer />
-                </m.div>
               </m.div>
             </LazyMotion>
           </div>

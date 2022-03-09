@@ -42,7 +42,7 @@ const usecases = [
 
 export default function PortfolioList() {
   return (
-    <ul className='mx-auto z-0 -mt-20 bg-white  max-w-7xl '>
+    <ul className='mx-auto z-0 -mt-20 bg-white  max-w-7xl  '>
       {usecases.map((usecases) => (
         <li
           key={usecases.id}
@@ -58,13 +58,13 @@ export default function PortfolioList() {
               usecases.color,
             ].join(' ')}
           >
-            <div className='content '>
+            <div className='content-sub'>
               <p className='block w-fit px-3 py-2 my-4 bg-slate-500 bg-opacity-20'>
                 {usecases.tag}
               </p>
-              <h3 className='text-3xl font-extrabold tracking-tight'>
+              <h1 className='text-3xl font-extrabold tracking-tight'>
                 {usecases.name}
-              </h3>
+              </h1>
               <p className='font-medium'>{usecases.description}</p>
 
               <FancyLink
@@ -76,13 +76,8 @@ export default function PortfolioList() {
             </div>
           </div>
 
-          <div className='item md:w-1/2 h-auto rounded-3xl '>
-            <Image
-              alt='Mountains'
-              src={usecases.image}
-              layout='responsive'
-              className=''
-            />
+          <div className='item md:w-1/2 h-auto rounded-3xl content-sub '>
+            <Image alt='Mountains' src={usecases.image} layout='responsive' />
           </div>
         </li>
       ))}
