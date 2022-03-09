@@ -52,3 +52,8 @@ h7 {
   background: white;
   margin-bottom: 40px;
 }
+
+.tinytext {
+  font-size: 9px;
+  letter-spacing: 0.1rem;
+}

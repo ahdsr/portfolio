@@ -1,6 +1,6 @@
 import { useRef } from 'react';
 import Layout from '@/components/layout';
-import Navbar from '@/components/navbvar';
+import Navbar from '@/components/navbar';
 import Footer from '@/components/footer';
 import Container from '@/components/container';
 import FancyLink from '@/components/fancyLink';
@@ -8,8 +8,8 @@ import { fade } from '@/helpers/transitions';
 import { LocomotiveScrollProvider } from 'react-locomotive-scroll';
 import { LazyMotion, domAnimation, m } from 'framer-motion';
 import { NextSeo } from 'next-seo';
+
 import { Scrollbars } from 'rc-scrollbars';
-import NavbarMobile from '@/components/navbar_mobile';
 
 //import Breadcrumb from '@/componsents/breadcrumb';
 
@@ -26,6 +26,7 @@ export default function Home() {
   return (
     <Layout>
       <NextSeo title='Home' />
+
       <Navbar />
       <LocomotiveScrollProvider
         options={{

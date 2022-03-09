@@ -1,7 +1,7 @@
 import React from 'react';
 import { useRef } from 'react';
 import Layout from '@/components/layout';
-import Navbar from '@/components/navbvar';
+import Navbar from '@/components/navbar';
 import Footer from '@/components/footer';
 import Container from '@/components/container';
 
