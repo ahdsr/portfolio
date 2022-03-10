@@ -32,19 +32,26 @@ export default function Home() {
         <LazyMotion features={domAnimation}>
           <m.div initial='initial' animate='enter' exit='exit'>
             <m.main variants={fade} className='pb-4'>
-              <div
-                style={{
-                  position: 'relative',
-                  width: '100%',
-                  height: '800px',
-                }}
-              >
-                <Image
-                  alt='Mountains'
-                  src={Image1}
-                  layout='fill'
-                  objectFit='cover'
-                />
+              <div>
+                <div
+                  style={{
+                    position: 'relative',
+                    width: '100%',
+                    height: '800px',
+                    overflow: 'hidden',
+                  }}
+                >
+                  <h1 className='relative text-white text-4xl sm:text-4xl md:text-5xl z-40 mx-20 lg:mx-60 pt-40 sm:pt-60 md:pt-64 xl:pt-96 text-left font-light tracking-normal'>
+                    Hey! I’m Lucas, a freelance UX UI Designer based in Toronto.
+                  </h1>
+                  <Image
+                    alt='Mountains'
+                    src={Image1}
+                    layout='fill'
+                    objectFit='cover'
+                    style={{}}
+                  />
+                </div>
               </div>
 
               <div className=' relative grid place-items-center sm:mx-6 md:mx-12 lg:mx-24 xl:mx-40 -mt-20 z-10 h-24 md:h-36  bg-black'>
