@@ -67,13 +67,13 @@ export default function Home() {
                       provide them with a product we can be mutually proud of.
                     </p>
                     <p>
-                      Below you'll find a few use case studies that go into
-                      detail about the project and how I tackled it. You can
-                      also view other design project in the{' '}
+                      Below you'll find selected use case studies that review a
+                      detailed design process. You can also view non client work
+                      in the{' '}
                       <FancyLink
                         destination='/portfolio'
                         a11yText='More work'
-                        label='portfolio'
+                        label='work in progress'
                         extraClasses=' underline bg-black bg-opacity-30 p-1 hover:bg-yellow-400'
                       />{' '}
                       section.
