@@ -48,8 +48,8 @@ export default function Home() {
               </div>
 
               <div className=' relative grid place-items-center sm:mx-6 md:mx-12 lg:mx-24 xl:mx-40 -mt-20 z-10 h-24 md:h-36  bg-black'>
-                <div className=' align-middle mx-8 space-x-4'>
-                  <div className='inline-block w-14 h-14 md:w-24 md:h-24'>
+                <div className=' align-middle mx-4 xs:mx-8 space-x-0 sm:space-x-4'>
+                  <div className='inline-block w-12 h-12 md:w-20 md:h-20'>
                     <Image
                       alt='Mountains'
                       src={Logo1}
@@ -57,7 +57,7 @@ export default function Home() {
                       objectFit='cover'
                     />
                   </div>
-                  <div className='inline-block w-14 h-14 md:w-24 md:h-24'>
+                  <div className='inline-block w-12 h-12 md:w-20 md:h-20'>
                     <Image
                       alt='Mountains'
                       src={Logo2}
@@ -65,7 +65,7 @@ export default function Home() {
                       objectFit='cover'
                     />
                   </div>
-                  <div className='inline-block w-14 h-14 md:w-24 md:h-24'>
+                  <div className='inline-block w-12 h-12 md:w-20 md:h-20'>
                     <Image
                       alt='Mountains'
                       src={Logo3}
@@ -73,7 +73,7 @@ export default function Home() {
                       objectFit='cover'
                     />
                   </div>
-                  <div className='inline-block w-14 h-14 md:w-24 md:h-24'>
+                  <div className='inline-block w-12 h-12 md:w-20 md:h-20'>
                     <Image
                       alt='Mountains'
                       src={Logo4}
@@ -81,7 +81,7 @@ export default function Home() {
                       objectFit='cover'
                     />
                   </div>
-                  <div className='inline-block w-14 h-14 md:w-24 md:h-24'>
+                  <div className='inline-block w-12 h-12 md:w-20 md:h-20'>
                     <Image
                       alt='Mountains'
                       src={Logo5}
@@ -89,7 +89,7 @@ export default function Home() {
                       objectFit='cover'
                     />
                   </div>
-                  <div className='inline-block w-14 h-14 md:w-24 md:h-24'>
+                  <div className='inline-block w-12 h-12 md:w-20 md:h-20'>
                     <Image
                       alt='Mountains'
                       src={Logo6}
