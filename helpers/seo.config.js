@@ -1,15 +1,15 @@
 export default {
-  defaultTitle: 'Boilerplate | Next x Tailwind x Motion',
-  description: 'A simple Next.js starter kit with Tailwind and Framer Motion.',
-  titleTemplate: '%s | Next x Tailwind x Motion',
+  defaultTitle: 'Portfolio - Lucas Czuchraj',
+  description: 'A collection of my designs and client experience',
+  titleTemplate: 'Portfolio - Lucas Czuchraj',
   openGraph: {
     type: 'website',
     locale: 'en_GB',
-    url: 'https://sg-next-tailwind-motion.vercel.app/',
-    site_name: 'Next x Tailwind x Motion',
+    url: 'https://portfolio-ahdsr.vercel.app/',
+    site_name: 'Portfolio - Lucas Czuchraj',
   },
   twitter: {
-    handle: '@samuelgoddard',
+    handle: '',
     site: '@site',
     cardType: 'summary_large_image',
   },

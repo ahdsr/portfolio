@@ -4,8 +4,8 @@ import Container from '@/components/container';
 import { fade } from '@/helpers/transitions';
 import { LazyMotion, domAnimation, m } from 'framer-motion';
 import { NextSeo } from 'next-seo';
-import { LocomotiveScrollProvider } from 'react-locomotive-scroll';
 import Navbar from '@/components/navbar';
+import FancyLink from '@/components/fancyLink';
 
 //import Breadcrumb from '@/componsents/breadcrumb';
 
@@ -56,21 +56,27 @@ export default function Home() {
                   </div>
                   <div className='homepage md:item md:w-1/2 h-auto content'>
                     <p>
-                      As a designer, I've been lucky enough to be exposed to a
-                      vast number of employers, teams and projects. Irregardless
-                      of where I work, the process is very similar. Research,
-                      design, prototype, test and evaluate.
+                      Each of them has been a unique and rewarding learning
+                      experience and I approach all my projects, regardless of
+                      the project size with a a discovery session to understand
+                      my client’s needs, the business objectives and what the
+                      user research is indicating.
                     </p>
                     <p>
-                      Each of them has been a unique and rewarding learning
-                      experience, but above design cycle pattern doesn't usually
-                      change. Irregardless of where I work, the process is very
-                      similar. Research, design, prototype, test and evaluate.
+                      I help my clients improve their usability experience and
+                      provide them with a product we can be mutually proud of.
                     </p>
                     <p>
-                      Each of them has been a unique and rewarding learning
-                      experience, but above design cycle pattern doesn't usually
-                      change.
+                      Below you'll find a few use case studies that go into
+                      detail about the project and how I tackled it. You can
+                      also view other design project in the{' '}
+                      <FancyLink
+                        destination='/wip'
+                        a11yText='More work'
+                        label='portfolio'
+                        extraClasses=' underline bg-black bg-opacity-30 p-1 hover:bg-yellow-400'
+                      />{' '}
+                      section.
                     </p>
                   </div>
                 </div>
