@@ -4,7 +4,7 @@ import FancyLink from './fancyLink';
 // Import Images
 
 import image1 from '../assets/usecases/element_datatables_hero.png';
-import image2 from '../assets/usecases/element_datatables_hero.png';
+import image2 from '../assets/usecases/tdforme_hero.png';
 import image3 from '../assets/usecases/highpreistess_hero.png';
 
 const usecases = [

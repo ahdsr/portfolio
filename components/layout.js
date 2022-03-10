@@ -8,10 +8,8 @@ export default function Layout({ children }) {
   return (
     <>
       {children}
-
       <GetInTouch />
       <Footer />
-
       <div className='sticky bottom-0 z-50 md:hidden '>
         <NavbarMobile />
       </div>

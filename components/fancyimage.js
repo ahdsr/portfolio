@@ -32,7 +32,7 @@ export default function FancyImage({
               alt={alt}
               src={src}
               layout={layout}
-              quality={quality}
+              quality={100}
               placeholder={placeholder}
               loading='lazy'
             />
