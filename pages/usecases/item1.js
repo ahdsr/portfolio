@@ -228,26 +228,6 @@ export default function Item1() {
                   </div>
                 </div>
               </div>
-
-              <div className='flex justify-evenly items-end mx-auto max-w-7xl mt-10'>
-                <div className='item w-1/3 h-auto'>
-                  <FancyLink
-                    destination='/'
-                    a11yText='Navigate to the home page'
-                    label='< Back to use cases'
-                    extraClasses='mx-auto block text-left'
-                  />
-                </div>
-                <div className='item w-2/3 h-auto'></div>
-                <div className='item w-1/3 h-auto'>
-                  <FancyLink
-                    destination='/'
-                    a11yText='Navigate to the home page'
-                    label='Next >'
-                    extraClasses='mx-auto block text-right'
-                  />
-                </div>
-              </div>
             </Container>
           </m.main>
         </m.div>
