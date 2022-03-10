@@ -14,6 +14,12 @@ import PortfolioList from '@/components/portfoliolist';
 //Imported Images
 import Image from 'next/image';
 import Image1 from '../assets/global/main.jpg';
+import Logo1 from '../assets/global/logo_td.png';
+import Logo2 from '../assets/global/logo_cibc.png';
+import Logo3 from '../assets/global/logo_om.png';
+import Logo4 from '../assets/global/logo_rsa.png';
+import Logo5 from '../assets/global/logo_element.png';
+import Logo6 from '../assets/global/logo_bmo.png';
 
 export default function Home() {
   const containerRef = useRef(null);
@@ -41,8 +47,57 @@ export default function Home() {
                 />
               </div>
 
-              <div className='relative grid place-items-center -mt-20 h-36 bg-slate-900 sm:mx-6 md:mx-24 lg:mx-24 xl:mx-40 z-10'>
-                <p className='block p-8 text-white '>⊷ CLIENT LIST BOX ⊷</p>
+              <div className=' relative grid place-items-center sm:mx-6 md:mx-12 lg:mx-24 xl:mx-40 -mt-20 z-10  md:h-36  bg-slate-900'>
+                <div className='mt-10 align-middle space-x-4 md:space-x-8 mx-8 '>
+                  <div className='inline-block w-8 h-8 md:w-12 md:h-12 '>
+                    <Image
+                      alt='Mountains'
+                      src={Logo1}
+                      layout='responsive'
+                      objectFit='cover'
+                    />
+                  </div>
+                  <div className='inline-block w-14 h-14 md:w-24 md:h-24'>
+                    <Image
+                      alt='Mountains'
+                      src={Logo2}
+                      layout='responsive'
+                      objectFit='cover'
+                    />
+                  </div>
+                  <div className='inline-block w-14 h-14 md:w-22 md:h-22'>
+                    <Image
+                      alt='Mountains'
+                      src={Logo3}
+                      layout='responsive'
+                      objectFit='cover'
+                    />
+                  </div>
+                  <div className='inline-block w-14 h-14 md:w-24 md:h-24'>
+                    <Image
+                      alt='Mountains'
+                      src={Logo4}
+                      layout='responsive'
+                      objectFit='cover'
+                    />
+                  </div>
+                  <div className='inline-block w-14 h-14 md:w-24 md:h-24'>
+                    <Image
+                      alt='Mountains'
+                      src={Logo5}
+                      layout='responsive'
+                      objectFit='cover'
+                    />
+                  </div>
+                  <div className='inline-block w-14 h-14 md:w-24 md:h-24'>
+                    <Image
+                      alt='Mountains'
+                      src={Logo6}
+                      layout='responsive'
+                      objectFit='cover'
+                    />
+                  </div>
+                </div>
               </div>
 
               <div className=' pt-32 pb-28 md:pt-44 md:pb-44 lg:pt-60 lg:pb-60 bg-gradient-to-bl from-customblue via-customblue to-customblue text-white z-0 -mt-20  '>
