@@ -27,7 +27,7 @@ export default function Navbar() {
     );
 
     setPrevScrollPos(currentScrollPos);
-  }, 20);
+  }, 300);
 
   useEffect(() => {
     window.addEventListener('scroll', handleScroll);
