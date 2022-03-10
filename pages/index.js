@@ -47,9 +47,9 @@ export default function Home() {
                 />
               </div>
 
-              <div className=' relative grid place-items-center sm:mx-6 md:mx-12 lg:mx-24 xl:mx-40 -mt-20 z-10  md:h-36  bg-slate-900'>
-                <div className='mt-10 align-middle space-x-4 md:space-x-8 mx-8 '>
-                  <div className='inline-block w-8 h-8 md:w-12 md:h-12 '>
+              <div className=' relative grid place-items-center sm:mx-6 md:mx-12 lg:mx-24 xl:mx-40 -mt-20 z-10 h-24 md:h-36  bg-black'>
+                <div className=' align-middle mx-8 space-x-4'>
+                  <div className='inline-block w-14 h-14 md:w-24 md:h-24'>
                     <Image
                       alt='Mountains'
                       src={Logo1}
@@ -65,7 +65,7 @@ export default function Home() {
                       objectFit='cover'
                     />
                   </div>
-                  <div className='inline-block w-14 h-14 md:w-22 md:h-22'>
+                  <div className='inline-block w-14 h-14 md:w-24 md:h-24'>
                     <Image
                       alt='Mountains'
                       src={Logo3}
