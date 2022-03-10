@@ -34,6 +34,7 @@ export default function FancyImage({
               layout={layout}
               quality={quality}
               placeholder={placeholder}
+              loading='lazy'
             />
           </div>
         </Zoom>

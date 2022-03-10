@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import FancyLink from '@/components/fancyLink';
 import { debounce } from '../helpers/helpers';
+import Image from 'next/image';
+import Image1 from '../assets/global/profile.png';
 
 /* This example requires Tailwind CSS v2.0+ */
 import { Fragment } from 'react';
@@ -78,7 +80,7 @@ export default function Navbar() {
                   <FancyLink
                     destination='/portfolio'
                     a11yText='Portfolio'
-                    label='Portfolio'
+                    label='Work in Progress'
                     extraClasses='border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium'
                   />
                   <FancyLink
@@ -101,10 +103,12 @@ export default function Navbar() {
                   <div>
                     <Menu.Button className='bg-white rounded-full flex text-sm focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500'>
                       <span className='sr-only'>Open user menu</span>
-                      <img
-                        className='h-8 w-8 rounded-full'
-                        src='https://i1.wp.com/cornellsun.com/wp-content/uploads/2018/02/Andy-Serkis.jpg?w=700&ssl=1'
-                        alt=''
+                      <div className='h-8 w-8 rounded-full'></div>
+                      <Image
+                        alt='Mountains'
+                        src={Image1}
+                        layout='fill'
+                        objectFit='cover'
                       />
                     </Menu.Button>
                   </div>

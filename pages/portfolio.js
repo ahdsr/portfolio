@@ -13,13 +13,12 @@ import FancyImage from '@/components/fancyimage';
 import Masonry from 'react-masonry-css';
 import GetInTouch from '@/components/getintouch';
 
-import image1 from '../assets/global/main.jpg';
-import image2 from '../assets/global/main.jpg';
-import image3 from '../assets/global/main.jpg';
-import image4 from '../assets/global/placeholder.png';
-import image5 from '../assets/global/placeholder.png';
-import image6 from '../assets/global/placeholder.png';
-import image7 from '../assets/global/main.jpg';
+import image1 from '../assets/3drenders/djm1.png';
+import image2 from '../assets/3drenders/interior1.png';
+import image3 from '../assets/3drenders/tech1.png';
+import image4 from '../assets/3drenders/tech2.png';
+import image5 from '../assets/3drenders/tech3.png';
+import image6 from '../assets/3drenders/tech4.png';
 
 export default function About() {
   const containerRef = useRef(null);
@@ -40,6 +39,11 @@ export default function About() {
             <Container>
               <div className='content mt-40 mx-auto max-w-7xl '>
                 <h1>Work in progress</h1>
+                <p>
+                  This page will be dedicated to creative work outside of my
+                  client work
+                </p>
+                <h2>Rendering</h2>
                 <div className='mt-20'>
                   <Masonry
                     breakpointCols={breakpointColumnsObj}
@@ -49,6 +53,7 @@ export default function About() {
                     {/* array of JSX items */}
 
                     <FancyImage
+                      priority
                       src={image1}
                       transitionDuration={300}
                       zoomMargin={40}
@@ -56,6 +61,7 @@ export default function About() {
                     />
 
                     <FancyImage
+                      priority
                       src={image2}
                       transitionDuration={300}
                       zoomMargin={40}
@@ -82,12 +88,6 @@ export default function About() {
                     />
                     <FancyImage
                       src={image6}
-                      transitionDuration={300}
-                      zoomMargin={40}
-                      overlayBgColorEnd={'rgba(255, 255,255, 0.95)'}
-                    />
-                    <FancyImage
-                      src={image7}
                       transitionDuration={300}
                       zoomMargin={40}
                       overlayBgColorEnd={'rgba(255, 255,255, 0.95)'}
