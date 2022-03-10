@@ -20,6 +20,7 @@ import Logo3 from '../assets/global/logo_om.png';
 import Logo4 from '../assets/global/logo_rsa.png';
 import Logo5 from '../assets/global/logo_element.png';
 import Logo6 from '../assets/global/logo_bmo.png';
+import UC from '../assets/global/404.gif';
 
 export default function Home() {
   const containerRef = useRef(null);
@@ -42,14 +43,21 @@ export default function Home() {
                   }}
                 >
                   <div className='homepage relative z-40 mx-20 lg:mx-60 pt-40 sm:pt-60 md:pt-64 xl:pt-96 text-left tracking-normal'>
-                    <h1 className=''>🞴</h1>
-                    <h1>Busy working 😏</h1>
+                    <div className='inline-block w-24 h-24 mb-10'>
+                      <Image
+                        alt='Mountains'
+                        src={UC}
+                        layout='responsive'
+                        objectFit='cover'
+                      />
+                    </div>
+                    <h1>Busy working</h1>
+
                     <p>
-                      If I've shared this link with you, you know I'm working on
-                      putting this site together as we speak... you can expect
-                      some bugs.
+                      *If I've shared this link with you, you know I'm working
+                      on putting this site together as we speak... you can
+                      expect some bugs, content place holders and such.*
                     </p>
-                    <h1 className=''>🞴</h1>
                   </div>
                   <Image
                     alt='Mountains'
