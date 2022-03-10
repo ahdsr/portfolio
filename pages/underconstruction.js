@@ -29,8 +29,14 @@ export default function Resume() {
           <m.main variants={fade} className='pb-4  '>
             <Container>
               <div className='content mt-40 '>
-                <div className='mx-auto max-w-7xl md:flex md:flex-wrap overflow-hidden '>
-                  <div className='mx-auto block w-96 h-96 text-center'>
+                <div className='mx-auto max-w-7xl'>
+                  <div className=' uppercase text-5xl font-black tracking-tight block mx-auto text-center '>
+                    404
+                  </div>
+                  <div className='text-xl font-medium tracking-tight block mx-auto text-center '>
+                    Page not found or under construction
+                  </div>
+                  <div className='block mx-auto w-48 h-48 sm:w-96 sm:h-96 text-center mt-20'>
                     <UnderConstruction />
                   </div>
                 </div>

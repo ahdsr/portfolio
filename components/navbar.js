@@ -131,11 +131,11 @@ export default function Navbar() {
                               'block px-4 py-2 text-sm text-gray-700'
                             )}
                           >
-                            Your Profile
+                            Nothing to see here yet
                           </a>
                         )}
                       </Menu.Item>
-                      <Menu.Item>
+                      {/*  <Menu.Item>
                         {({ active }) => (
                           <a
                             href='#'
@@ -160,7 +160,7 @@ export default function Navbar() {
                             Sign out
                           </a>
                         )}
-                      </Menu.Item>
+                      </Menu.Item> */}
                     </Menu.Items>
                   </Transition>
                 </Menu>
