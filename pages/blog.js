@@ -110,10 +110,10 @@ export default function Resume() {
 
                       <VideoPost
                         id='1'
-                        title='  Playing with the drone again, at a car meet in
+                        title='Playing with the drone again, at a car meet in
                         Brampton'
                         date='March 8, 2020'
-                        url='https://youtu.be/kAwpW7kcjBY'
+                        url='https://youtu.be/zm1nonknpV4'
                         p1='Edited to look like it was shot in wide screen.
                         Unfortunately I had to leave early before all the cars
                         got setup. Actually I didnt mind as flying the drone

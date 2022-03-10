@@ -58,7 +58,7 @@ export default function PortfolioList() {
 
           <div
             className={[
-              'item md:w-1/2 p-8 md:p-10 xl:p-24 ',
+              'item md:w-1/2 p-8 sm:p-10 md:p-12 xl:p-24 ',
               usecases.color,
             ].join(' ')}
           >

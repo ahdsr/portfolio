@@ -29,6 +29,13 @@ export default function About() {
     700: 2,
     500: 1,
   };
+
+  const breakpointColumnsObj2 = {
+    default: 4,
+    1100: 3,
+    700: 2,
+    500: 1,
+  };
   return (
     <Layout>
       <NextSeo title='Work in progress' />
@@ -42,8 +49,97 @@ export default function About() {
                   This page will be dedicated to creative work outside of my
                   client work
                 </p>
-                <h2>Rendering</h2>
-                <div className='mt-20'>
+
+                <div className='content mt-10'>
+                  <h3>3D Rendering</h3>
+                  <Masonry
+                    breakpointCols={breakpointColumnsObj}
+                    className='my-masonry-grid'
+                    columnClassName='my-masonry-grid_column'
+                  >
+                    {/* array of JSX items */}
+
+                    <FancyImage
+                      priority
+                      src={image1}
+                      transitionDuration={300}
+                      zoomMargin={40}
+                      overlayBgColorEnd={'rgba(255, 255,255, 0.95)'}
+                    />
+
+                    <FancyImage
+                      priority
+                      src={image2}
+                      transitionDuration={300}
+                      zoomMargin={40}
+                      overlayBgColorEnd={'rgba(255, 255,255, 0.95)'}
+                    />
+                    <FancyImage
+                      src={image3}
+                      transitionDuration={300}
+                      zoomMargin={40}
+                      overlayBgColorEnd={'rgba(255, 255,255, 0.95)'}
+                    />
+
+                    <FancyImage
+                      src={image4}
+                      transitionDuration={300}
+                      zoomMargin={40}
+                      overlayBgColorEnd={'rgba(255, 255,255, 0.95)'}
+                    />
+                    <FancyImage
+                      src={image5}
+                      transitionDuration={300}
+                      zoomMargin={40}
+                      overlayBgColorEnd={'rgba(255, 255,255, 0.95)'}
+                    />
+                    <FancyImage
+                      src={image6}
+                      transitionDuration={300}
+                      zoomMargin={40}
+                      overlayBgColorEnd={'rgba(255, 255,255, 0.95)'}
+                    />
+                    <FancyImage
+                      src={image7}
+                      transitionDuration={300}
+                      zoomMargin={40}
+                      overlayBgColorEnd={'rgba(255, 255,255, 0.95)'}
+                    />
+                    <FancyImage
+                      src={image8}
+                      transitionDuration={300}
+                      zoomMargin={40}
+                      overlayBgColorEnd={'rgba(255, 255,255, 0.95)'}
+                    />
+                    <FancyImage
+                      src={image9}
+                      transitionDuration={300}
+                      zoomMargin={40}
+                      overlayBgColorEnd={'rgba(255, 255,255, 0.95)'}
+                    />
+                    <FancyImage
+                      src={image10}
+                      transitionDuration={300}
+                      zoomMargin={40}
+                      overlayBgColorEnd={'rgba(255, 255,255, 0.95)'}
+                    />
+                    <FancyImage
+                      src={image11}
+                      transitionDuration={300}
+                      zoomMargin={40}
+                      overlayBgColorEnd={'rgba(255, 255,255, 0.95)'}
+                    />
+                    <FancyImage
+                      src={image12}
+                      transitionDuration={300}
+                      zoomMargin={40}
+                      overlayBgColorEnd={'rgba(255, 255,255, 0.95)'}
+                    />
+                  </Masonry>
+                </div>
+                <div className='content mt-10'>
+                  <h3>Mobile Apps</h3>
+
                   <Masonry
                     breakpointCols={breakpointColumnsObj}
                     className='my-masonry-grid'
