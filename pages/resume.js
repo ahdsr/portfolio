@@ -1,8 +1,6 @@
 import { useRef } from 'react';
 import Layout from '@/components/layout';
-import Navbar from '@/components/navbar';
 import ImagePost from '@/components/blogimagepost';
-
 import Container from '@/components/container';
 import FancyLink from '@/components/fancyLink';
 import { fade } from '@/helpers/transitions';
@@ -21,8 +19,6 @@ export default function Resume() {
   return (
     <Layout>
       <NextSeo title='Resume' />
-      <Navbar />
-
       <LazyMotion features={domAnimation}>
         <m.div initial='initial' animate='enter' exit='exit'>
           <m.main variants={fade} className='pb-4  '>

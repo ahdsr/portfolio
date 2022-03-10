@@ -1,6 +1,5 @@
 import { useRef } from 'react';
 import Layout from '@/components/layout';
-import Navbar from '@/components/navbar';
 import Container from '@/components/container';
 import { fade } from '@/helpers/transitions';
 import { LazyMotion, domAnimation, m } from 'framer-motion';
@@ -33,8 +32,6 @@ export default function About() {
   return (
     <Layout>
       <NextSeo title='Work in progress' />
-      <Navbar />
-
       <LazyMotion features={domAnimation}>
         <m.div initial='initial' animate='enter' exit='exit'>
           <m.main variants={fade} className='pb-4'>

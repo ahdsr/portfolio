@@ -1,17 +1,13 @@
 import React from 'react';
 import { useRef } from 'react';
 import Layout from '@/components/layout';
-import Navbar from '@/components/navbar';
+
 import Container from '@/components/container';
 import VideoPost from '@/components/blogvideopost';
-
 import { fade } from '@/helpers/transitions';
 import { LazyMotion, domAnimation, m } from 'framer-motion';
 import { NextSeo } from 'next-seo';
-
-import ReactPlayer from 'react-player/lazy';
 import ImagePost from '@/components/blogimagepost';
-
 import testImage from '../assets/global/placeholder.png';
 //Blog Images
 import Image from 'next/image';
@@ -23,8 +19,6 @@ export default function Resume() {
   return (
     <Layout>
       <NextSeo title='Blog' />
-      <Navbar />
-
       <LazyMotion features={domAnimation}>
         <m.div initial='initial' animate='enter' exit='exit'>
           <m.main variants={fade} className='pb-20'>
