@@ -159,7 +159,7 @@ export default function Item1() {
                 <h3 className='mt-36'>Challenges and solutions</h3>
                 <div className='sm:flex mt-10 mb-20 '>
                   <div className='content sm:item sm:w-1/3  mb-4'>
-                    <h3>Data is king</h3>
+                    <h4>Data is king</h4>
                     <p>
                       One off the key observations and loudest set of feedback
                       from our users was that they wanted to maximize their
@@ -170,7 +170,7 @@ export default function Item1() {
                     </p>
                   </div>
                   <div className='content sm:item sm:w-1/3  sm:pl-8 mb-4'>
-                    <h3>Multiple function to perform on a single order</h3>
+                    <h4>Multiple function to perform on a single order</h4>
                     <p>
                       Each unique data table presented itself with a challange.
                       Some functional features are common to all data tables,
@@ -183,7 +183,7 @@ export default function Item1() {
                     </p>
                   </div>
                   <div className='content sm:item sm:w-1/3  sm:pl-8 mb-4'>
-                    <h3>Screen size and real estate issues</h3>
+                    <h4>Screen size and real estate issues</h4>
                     <p>
                       One off the key observations and loudest set of feedback
                       from our users was that they wanted to maximize their

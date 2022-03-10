@@ -1,13 +1,16 @@
 import { useRef } from 'react';
 import Layout from '@/components/layout';
 import Navbar from '@/components/navbar';
+import ImagePost from '@/components/blogimagepost';
 
 import Container from '@/components/container';
 import FancyLink from '@/components/fancyLink';
 import { fade } from '@/helpers/transitions';
-import { LocomotiveScrollProvider } from 'react-locomotive-scroll';
 import { LazyMotion, domAnimation, m } from 'framer-motion';
 import { NextSeo } from 'next-seo';
+
+const PostImage1 =
+  'https://images.unsplash.com/photo-1581822261290-991b38693d1b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80';
 
 // Molecules
 
@@ -104,7 +107,7 @@ export default function Resume() {
                       </li>
                     </ul>
 
-                    <h2 className='mt-4'>Accomplishments</h2>
+                    <h3 className='mt-4'>Accomplishments</h3>
                     <ul>
                       <li>
                         <FancyLink
@@ -116,7 +119,7 @@ export default function Resume() {
                       </li>
                     </ul>
 
-                    <h2 className='mt-4'>Interests</h2>
+                    <h3 className='mt-4'>Interests</h3>
                     <ul>
                       <li>
                         <FancyLink
@@ -135,6 +138,8 @@ export default function Resume() {
                         , video editing
                       </li>
                     </ul>
+
+                    <ImagePost title='Site launch' url={PostImage1} />
                   </div>
 
                   <div className='content mb-4 md:w-3/5 overflow-hidden md:pl-10'>
@@ -142,29 +147,31 @@ export default function Resume() {
                       Experience
                     </h1>
 
-                    <div className='content pt-12'>
-                      <h3>Senior UX/UI Designer</h3>
-                      <DateTag date={'March 21, 2020'} />
+                    <div className='content pt-12 bg-slate-100 p-8'>
+                      <DateTag date={'Current from Jan 2020'} />
+                      <h3>User Experience Consultant</h3>
                       <h4>Element Fleet Management</h4>
-
                       <ul>
                         <li>
-                          Lead designer in both the customer facing Ordering app
-                          and an integrated in-house order processing equivalent
+                          Contributing and designing component library for new
+                          Ordering platform
                         </li>
                         <li>
-                          Highly knowledgeable in all facets of design,
-                          including user experience, layout, typography, colour,
-                          user interfaces and information architecture
+                          Helping define future standards and direction of B2B
+                          Ordering platform
                         </li>
-                        <li>Facilitating UX requirements gathering sessions</li>
+                        <li>
+                          Support developers using JIRA and Confluence to
+                          deliver ongoing projects as well as providing guidance
+                          and specifications throughout the project sprints
+                        </li>
                       </ul>
                     </div>
 
-                    <div className='content pt-12'>
+                    <div className='content pt-12 p-8'>
+                      <DateTag date={'Jan 2018 – Dec 2019'} />
                       <h3>Senior UX/UI Designer</h3>
-                      <DateTag date={'March 21, 2020'} />
-                      <h4>Element Fleet Management</h4>
+                      <h4>TD Canada </h4>
                       <ul>
                         <li>
                           Designed and launched the TD Mobile App dashboard, a
@@ -189,39 +196,11 @@ export default function Resume() {
                       </ul>
                     </div>
 
-                    <div className='content pt-12'>
+                    <div className='content pt-12 bg-slate-100 p-8'>
+                      <DateTag date={'Aug 2017 – Jan 2018'} />
                       <h3>Senior UX/UI Designer</h3>
-                      <DateTag date={'March 21, 2020'} />
-                      <h4>Element Fleet Management</h4>
 
-                      <ul>
-                        <li>
-                          Designed and launched the TD Mobile App dashboard, a
-                          pre sign and post sign on experience
-                        </li>
-                        <li>
-                          Redesigning TD for Me experience from ground up using
-                          push and location service technology allowing
-                          customers to always be informed on what TD has to
-                          offer based on their location
-                        </li>
-                        <li>
-                          Wireframed, designed and prototyped a new TD EasyWeb
-                          redesign experience with internal stakeholders and an
-                          outside vendor
-                        </li>
-                        <li>
-                          Support developers using JIRA and Confluence to
-                          deliver ongoing projects as well as providing guidance
-                          and specifications throughout the project sprints
-                        </li>
-                      </ul>
-                    </div>
-
-                    <div className='content pt-12'>
-                      <h3>Senior UX/UI Designer</h3>
-                      <DateTag date={'March 21, 2020'} />
-                      <h4>Element Fleet Management</h4>
+                      <h4>RSA Group </h4>
 
                       <ul>
                         <li>
@@ -233,21 +212,20 @@ export default function Resume() {
                           application tool
                         </li>
                         <li>
-                          Wireframed, designed and prototyped a new TD EasyWeb
-                          redesign experience with internal stakeholders and an
-                          outside vendor
+                          Worked on numerous marketing websites and initiatives
                         </li>
                         <li>
-                          Worked on numerous marketing websites and initiatives
+                          Support developers using JIRA and Confluence to
+                          deliver ongoing projects as well as providing guidance
+                          and specifications throughout the project sprints
                         </li>
                       </ul>
                     </div>
 
-                    <div className='content pt-12'>
+                    <div className='content pt-12 p-8'>
+                      <DateTag date={'Aug 2016 – Feb 2017 '} />
                       <h3>Senior UX/UI Designer</h3>
-                      <DateTag date={'March 21, 2020'} />
-                      <h4>Element Fleet Management</h4>
-
+                      <h4>TD Canada </h4>
                       <ul>
                         <li>
                           Redesigned the Bill Pay experience for US TD customers
@@ -255,11 +233,10 @@ export default function Resume() {
                       </ul>
                     </div>
 
-                    <div className='content pt-12'>
-                      <h3>Senior UX/UI Designer</h3>
-                      <DateTag date={'March 21, 2020'} />
-                      <h4>Element Fleet Management</h4>
-
+                    <div className='content pt-12 bg-slate-100 p-8'>
+                      <DateTag date={'Aug 2016 – Feb 2017 '} />
+                      <h3>Senior Manager UX </h3>
+                      <h4>CIBC Live Labs </h4>
                       <ul>
                         <li>
                           Inspire and lead a team of talented UX/Visual
@@ -271,21 +248,85 @@ export default function Resume() {
                           digital projects
                         </li>
                         <li>
-                          Prototype high and low fidelity experiences of varying
-                          complexities and levels of detail as well as
-                          facilitate guerilla testing and user interviews. Work
-                          with business / marketing in the creation of a vision
-                          for user experience within the overall business
+                          Work with business / marketing in the creation of a
+                          vision for user experience within the overall business
                           strategy
-                        </li>
-                        <li>
-                          Inspire and lead a team of talented UX/Visual
-                          designers in an environment that focuses on innovation
                         </li>
                         <li>
                           Engage with and contribute to a project team made up
                           of Business, Development, Editorial and Analyst
                           specialists, as well as third parties and stakeholders
+                        </li>
+                        <li>
+                          Participated in and lead design thinking and ideation
+                          workshops
+                        </li>
+                      </ul>
+                    </div>
+
+                    <div className='content pt-12 p-8'>
+                      <DateTag date={'July 2015 – July 2016 '} />
+                      <h3>Lead Creative / UX Designer </h3>
+                      <h4>CIBC</h4>
+                      <ul>
+                        <li>
+                          Worked on the redesign of iOS/Android native app
+                          product application forms
+                        </li>
+                        <li>
+                          Involved with improving the customer journey path for
+                          applying for products within the native CIBC Online
+                          Banking app.
+                        </li>
+                        <li>
+                          Designed and executed rapid prototypes to explore and
+                          promote upcoming CIBC native app releases
+                        </li>
+                        <li>
+                          Worked with Marketing/Strategy teams to create
+                          compelling and effective designs on many aggressive
+                          sales Multivariate Testing initiatives across CIBC.com
+                          properties
+                        </li>
+                        <li>
+                          Lead the visual design for a responsive design
+                          solution for two major sales initiatives that included
+                          application forms and mobile targeted offers.
+                        </li>
+                        <li>
+                          Created a new visual system for desktop targeted
+                          offers
+                        </li>
+                      </ul>
+                    </div>
+
+                    <div className='content pt-12 bg-slate-100 p-8'>
+                      <DateTag date={'July 2011 - August 2012'} />
+                      <h3>Senior Interactive Designer </h3>
+                      <h4>Ogilvy & Mather</h4>
+                      <ul>
+                        <li>
+                          Conception and development of interface design,
+                          animation, micro websites and online rich media
+                          campaigns
+                        </li>
+                        <li>
+                          Collaborated with marketing, strategists, content
+                          writers, and IA/IX team members, and developers
+                        </li>
+                        <li>
+                          Worked closely with Senior Art Directors to deliver
+                          rich media banners, including high-profile homepage
+                          takeover ads, Google DoubleClick environment and full
+                          video ads
+                        </li>
+                        <li>
+                          Proactively identified and solved potential issues
+                          within assigned projects including creative that may
+                          impact deliverables or the quality of the work
+                        </li>
+                        <li>
+                          Developed and maintained email marketing campaign
                         </li>
                       </ul>
                     </div>
