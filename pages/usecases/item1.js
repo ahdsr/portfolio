@@ -1,28 +1,26 @@
 import { useRef } from 'react';
 import React, { useState, useEffect } from 'react';
-
 import Layout from '@/components/layout';
 import Navbar from '@/components/navbar';
-import Footer from '@/components/footer';
 import Container from '@/components/container';
 import FancyLink from '@/components/fancyLink';
 import { fade } from '@/helpers/transitions';
-import { LocomotiveScrollProvider } from 'react-locomotive-scroll';
 import { LazyMotion, domAnimation, m } from 'framer-motion';
 import { NextSeo } from 'next-seo';
 
 // Import Images
 import Image from 'next/image';
 
-import Image1 from '../../pages/usecases/item1/hero.jpg';
-import Placeholder from '../../assets/global/placeholder.png';
+import Image1 from '../../assets/global/placeholder.png';
+import Placeholder from '../../assets/usecases/td.jpg';
 
 // Content
 
 const tag = 'Data Design';
-const name = 'Modernizing data tables for the backend user ordering system';
+const name =
+  'Integrating older location based functionality the new mobile dashboard';
 const description =
-  'When it comes to understanding and processing data, a work horse of a flexible and highly customizable table is needed to get the job done.';
+  'The queue essentially is a list of all Elements customer orders. The tables list everything from the vehicle that is being ordered, right down to the driver and insurance information. When a piece of work is done by one team, the order moves along until all teams have validated the data.';
 
 export default function Item1() {
   const containerRef = useRef(null);
@@ -35,22 +33,55 @@ export default function Item1() {
         <m.div initial='initial' animate='enter' exit='exit'>
           <m.main variants={fade} className='pb-20'>
             <Container>
-              <div className='content mx-auto max-w-7xl mt-40 '>
+              <div className='portfolio mx-auto max-w-7xl mt-40 '>
                 <h1 className='text-center'>{name}</h1>
                 <h2>{description}</h2>
-
+                <div className='block w-24 h-24 mx-auto text-center bg-green-300'>
+                  Logo
+                </div>
+                <div className='block w-auto mx-auto text-center mt-10 text-sm font-bold '>
+                  More projects from TD
+                </div>
+                <div class='flex justify-evenly mx-auto max-w-md text-center mt-2'>
+                  <div class='item w-36   '>
+                    <FancyLink
+                      destination='/usecases/item1'
+                      a11yText='TD for Me'
+                      label='TD for Me'
+                      extraClasses='border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium'
+                    />
+                  </div>
+                  <div class='item w-36 '>
+                    {' '}
+                    <FancyLink
+                      destination='/usecases/item1'
+                      a11yText='TD for Me'
+                      label='Mobile Dashboard'
+                      extraClasses='border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium'
+                    />
+                  </div>
+                  <div class='item w-36   '>
+                    {' '}
+                    <FancyLink
+                      destination='/usecases/item1'
+                      a11yText='TD for Me'
+                      label='TD US Bill Pay'
+                      extraClasses='border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium'
+                    />
+                  </div>
+                </div>
                 {/* Image */}
                 <div
                   className='mt-20'
                   style={{
                     position: 'relative',
                     width: '100%',
-                    height: '1000px',
+                    height: '642px',
                   }}
                 >
                   <Image
                     alt='Mountains'
-                    src={Image1}
+                    src={Placeholder}
                     layout='fill'
                     objectFit='cover'
                   />
