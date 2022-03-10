@@ -34,8 +34,9 @@ export default function Footer() {
                 rel=''
                 className='underline hover:text-gray-500 focus:text-gray-500'
               >
+                {' '}
                 Lucas Czuchraj
-              </a>
+              </a>{' '}
               © 2022 ahdsr.com
             </span>
           </div>

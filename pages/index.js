@@ -71,7 +71,7 @@ export default function Home() {
                       detail about the project and how I tackled it. You can
                       also view other design project in the{' '}
                       <FancyLink
-                        destination='/wip'
+                        destination='/portfolio'
                         a11yText='More work'
                         label='portfolio'
                         extraClasses=' underline bg-black bg-opacity-30 p-1 hover:bg-yellow-400'
