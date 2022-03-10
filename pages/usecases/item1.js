@@ -86,7 +86,19 @@ export default function Item1() {
                     objectFit='cover'
                   />
                 </div>
-                <h3 className='content pt-28'>The design problem</h3>
+                <h3 className='portfolio pt-28'>
+                  Testing whimsical iframe embed
+                </h3>
+                <iframe
+                  style={{
+                    position: 'relative',
+                    style: 'border:none',
+                    width: '100%',
+                    height: '600px',
+                  }}
+                  src='https://whimsical.com/embed/8BUJjyjAmuNhwz619e7doa@2Ux7TurymMe9824yCcDs'
+                ></iframe>
+
                 <div className='content sm:flex mt-10 mb-20 '>
                   <p className='sm:item sm:w-1/2  sm:pr-8  mb-4'>
                     Due to the nature and planning of the project the ordering
@@ -129,7 +141,7 @@ export default function Item1() {
                   when it's really long.
                 </span>
 
-                <h3 className='content pt-28'>The design problem</h3>
+                <h3 className='portfolio pt-28'>The design problem</h3>
                 <div className='content sm:flex mt-10 mb-20 '>
                   <p className='sm:item sm:w-1/2  sm:pr-8  mb-4'>
                     Due to the nature and planning of the project the ordering
@@ -200,6 +212,7 @@ export default function Item1() {
                       legibility.
                     </p>
                   </div>
+
                   <div className='content sm:item sm:w-1/3  sm:pl-8 mb-4'>
                     <h4>Multiple function to perform on a single order</h4>
                     <p>

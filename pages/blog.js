@@ -1,7 +1,7 @@
 import React from 'react';
 import { useRef } from 'react';
 import Layout from '@/components/layout';
-
+import FancyLink from '@/components/fancyLink';
 import Container from '@/components/container';
 import VideoPost from '@/components/blogvideopost';
 import { fade } from '@/helpers/transitions';
@@ -62,7 +62,6 @@ export default function Resume() {
                         p3=''
                         p4=''
                       />
-
                       <ImagePost
                         title='Site launch'
                         date='March 11, 2020'
@@ -81,7 +80,6 @@ export default function Resume() {
                           'Values determine the future. As a designer, Ive been exposed to a great number of employers teams and projects.'
                         }
                       />
-
                       <VideoPost
                         id='1'
                         title='Cyberpunk 2077 inspired atmospherics'
@@ -94,7 +92,6 @@ export default function Resume() {
                         p3=''
                         p4=''
                       />
-
                       <VideoPost
                         id='1'
                         title='Working from home is fun aint it?'
@@ -107,7 +104,6 @@ export default function Resume() {
                         p3=''
                         p4=''
                       />
-
                       <VideoPost
                         id='1'
                         title='Playing with the drone again, at a car meet in
@@ -123,7 +119,6 @@ export default function Resume() {
                         p3=''
                         p4=''
                       />
-
                       <VideoPost
                         id='1'
                         title='Some more ariel footage for my brother in laws
@@ -142,6 +137,12 @@ export default function Resume() {
                         p2=''
                         p3=''
                         p4=''
+                      />
+                      <FancyLink
+                        destination='http://www.hodgeefilms.com/'
+                        a11yText='http://www.hodgeefilms.com//'
+                        label='http://www.hodgeefilms.com/'
+                        extraClasses='underline bg-yellow-200 hover:bg-yellow-400  p-1'
                       />
                     </div>
                   </div>
