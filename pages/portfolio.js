@@ -1,29 +1,31 @@
 import { useRef } from 'react';
 import Layout from '@/components/layout';
 import Navbar from '@/components/navbar';
-import Footer from '@/components/footer';
 import Container from '@/components/container';
-import FancyLink from '@/components/fancyLink';
 import { fade } from '@/helpers/transitions';
-import { LocomotiveScrollProvider } from 'react-locomotive-scroll';
 import { LazyMotion, domAnimation, m } from 'framer-motion';
 import { NextSeo } from 'next-seo';
-import { Scrollbars } from 'rc-scrollbars';
+
 import FancyImage from '@/components/fancyimage';
 import Masonry from 'react-masonry-css';
-import GetInTouch from '@/components/getintouch';
 
-import image1 from '../assets/3drenders/djm1.png';
-import image2 from '../assets/3drenders/interior1.png';
-import image3 from '../assets/3drenders/tech1.png';
-import image4 from '../assets/3drenders/tech2.png';
-import image5 from '../assets/3drenders/tech3.png';
-import image6 from '../assets/3drenders/tech4.png';
+import image1 from '../assets/3drenders/city1.jpg';
+import image2 from '../assets/3drenders/city2.jpg';
+import image3 from '../assets/3drenders/djm1.jpg';
+import image4 from '../assets/3drenders/djm2.jpg';
+import image5 from '../assets/3drenders/djm3.jpg';
+import image6 from '../assets/3drenders/house1.jpg';
+import image7 from '../assets/3drenders/interior1.jpg';
+import image8 from '../assets/3drenders/scene1.jpg';
+import image9 from '../assets/3drenders/scene2.jpg';
+import image10 from '../assets/3drenders/tech1.jpg';
+import image11 from '../assets/3drenders/tech2.jpg';
+import image12 from '../assets/3drenders/tech3.jpg';
 
 export default function About() {
   const containerRef = useRef(null);
   const breakpointColumnsObj = {
-    default: 3,
+    default: 4,
     1100: 3,
     700: 2,
     500: 1,
@@ -88,6 +90,42 @@ export default function About() {
                     />
                     <FancyImage
                       src={image6}
+                      transitionDuration={300}
+                      zoomMargin={40}
+                      overlayBgColorEnd={'rgba(255, 255,255, 0.95)'}
+                    />
+                    <FancyImage
+                      src={image7}
+                      transitionDuration={300}
+                      zoomMargin={40}
+                      overlayBgColorEnd={'rgba(255, 255,255, 0.95)'}
+                    />
+                    <FancyImage
+                      src={image8}
+                      transitionDuration={300}
+                      zoomMargin={40}
+                      overlayBgColorEnd={'rgba(255, 255,255, 0.95)'}
+                    />
+                    <FancyImage
+                      src={image9}
+                      transitionDuration={300}
+                      zoomMargin={40}
+                      overlayBgColorEnd={'rgba(255, 255,255, 0.95)'}
+                    />
+                    <FancyImage
+                      src={image10}
+                      transitionDuration={300}
+                      zoomMargin={40}
+                      overlayBgColorEnd={'rgba(255, 255,255, 0.95)'}
+                    />
+                    <FancyImage
+                      src={image11}
+                      transitionDuration={300}
+                      zoomMargin={40}
+                      overlayBgColorEnd={'rgba(255, 255,255, 0.95)'}
+                    />
+                    <FancyImage
+                      src={image12}
                       transitionDuration={300}
                       zoomMargin={40}
                       overlayBgColorEnd={'rgba(255, 255,255, 0.95)'}
