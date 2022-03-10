@@ -41,15 +41,21 @@ export default function Home() {
                     overflow: 'hidden',
                   }}
                 >
-                  <h1 className='relative text-white text-4xl sm:text-4xl md:text-5xl z-40 mx-20 lg:mx-60 pt-40 sm:pt-60 md:pt-64 xl:pt-96 text-left font-light tracking-normal'>
-                    Hey! I’m Lucas, a freelance UX UI Designer based in Toronto.
-                  </h1>
+                  <div className='homepage relative z-40 mx-20 lg:mx-60 pt-40 sm:pt-60 md:pt-64 xl:pt-96 text-left tracking-normal'>
+                    <h1 className=''>🞴</h1>
+                    <h1>Busy working 😏</h1>
+                    <p>
+                      If I've shared this link with you, you know I'm working on
+                      putting this site together as we speak... you can expect
+                      some bugs.
+                    </p>
+                    <h1 className=''>🞴</h1>
+                  </div>
                   <Image
                     alt='Mountains'
                     src={Image1}
                     layout='fill'
                     objectFit='cover'
-                    style={{}}
                   />
                 </div>
               </div>
