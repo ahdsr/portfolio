@@ -3,10 +3,12 @@ import MobileHeader from '@/components/header_mobile';
 import Footer from './footer';
 import GetInTouch from './getintouch';
 import Container from './container';
+import Navbar from '@/components/navbar';
 
 export default function Layout({ children }) {
   return (
     <>
+      <Navbar />
       {children}
       <GetInTouch />
       <Footer />

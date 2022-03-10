@@ -4,7 +4,7 @@ import Container from '@/components/container';
 import { fade } from '@/helpers/transitions';
 import { LazyMotion, domAnimation, m } from 'framer-motion';
 import { NextSeo } from 'next-seo';
-import Navbar from '@/components/navbar';
+
 import FancyLink from '@/components/fancyLink';
 
 //import Breadcrumb from '@/componsents/breadcrumb';
@@ -26,8 +26,6 @@ export default function Home() {
   const containerRef = useRef(null);
   return (
     <>
-      <Navbar />
-
       <Layout>
         <NextSeo title='Home' />
         <LazyMotion features={domAnimation}>
