@@ -24,7 +24,7 @@ export default function GetInTouch() {
             rel=''
             className='block font-bold text-3xl sm:text-3xl md:text-5xl tracking-tighter pb-4 text-customblue hover:underline'
           >
-            <IoChatboxOutline className='inline-block w-10 h-10 self-center text-customblue ' />
+            <IoChatboxOutline className=' inline-flex w-6 h-6 object-center self-center mt-4 sm:mt-0 text-customblue ' />
           </a>
         </div>
       </div>

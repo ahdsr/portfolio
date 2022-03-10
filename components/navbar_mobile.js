@@ -31,8 +31,8 @@ export default function NavbarMobile() {
         >
           <IoFlaskOutline className='w-6 h-6 text-slate-600 ' />
           <FancyLink
-            destination='/about'
-            a11yText='WIP'
+            destination='/portfolio'
+            a11yText='Work in Progress'
             label='WIP'
             extraClasses='tinytext text-slate-800 uppercase'
           />
