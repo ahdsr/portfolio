@@ -10,16 +10,6 @@ import image3 from '../assets/usecases/highpreistess_hero.png';
 const usecases = [
   {
     id: 0,
-    tag: 'Data Design',
-    name: 'Ordering Data Tables at Element Fleet',
-    description:
-      'When it comes to understanding and processing data, a work horse of a flexible and highly customizable table is needed to get the job done. Lets take a look at some of the unique challenges working with big data brings.',
-    link: '/usecases/item1',
-    image: image1,
-    color: 'bg-white',
-  },
-  {
-    id: 1,
     tag: 'Mobile Native',
     name: 'TD for Me',
     description:
@@ -29,7 +19,7 @@ const usecases = [
     color: 'bg-white',
   },
   {
-    id: 2,
+    id: 1,
     tag: 'Responsive Web',
     name: 'High Priestess Tarot',
     description:
@@ -38,11 +28,21 @@ const usecases = [
     image: image3,
     color: 'bg-white',
   },
+  {
+    id: 2,
+    tag: 'Data Design',
+    name: 'Ordering Data Tables at Element Fleet',
+    description:
+      'When it comes to understanding and processing data, a work horse of a flexible and highly customizable table is needed to get the job done. Lets take a look at some of the unique challenges working with big data brings.',
+    link: '/usecases/item1',
+    image: image1,
+    color: 'bg-white',
+  },
 ];
 
 export default function PortfolioList() {
   return (
-    <ul className='mx-auto z-0  max-w-full md:max-w-4xl lg:max-w-6xl xl:max-w-7xl -mt-20'>
+    <ul className='mx-auto z-0  max-w-full md:max-w-4xl lg:max-w-6xl xl:max-w-7xl -mt-20 px-4 '>
       {usecases.map((usecases) => (
         <li
           key={usecases.id}

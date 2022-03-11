@@ -23,8 +23,8 @@ export default function Home() {
           <m.main variants={fade} className='bg-white'>
             {/*  Hero */}
             <div className='mx-auto pb-20 md:pb-30 max-w-screen-2xl '>
-              <div class='flex flex-row max-w-7xl mt-32 md:mt-36 lg:mt-40 mx-2 sm:mx-auto md:mx-auto lg:mx-auto'>
-                <div class='flex-none mx-2'>
+              <div className='flex flex-row max-w-7xl mt-32 md:mt-36 lg:mt-40 mx-2 sm:mx-auto md:mx-auto lg:mx-auto'>
+                <div className='flex-none mx-2'>
                   <div className='block w-3 h-12 mt-60'>
                     <Image
                       alt='Mountains'
@@ -34,7 +34,7 @@ export default function Home() {
                     />
                   </div>
                 </div>
-                <div class='grow mx-auto max-w-7xl pt-8'>
+                <div className='grow mx-auto max-w-7xl pt-8'>
                   <div className='md:flex mx-auto'>
                     <div className='hero item w-fit mx-0 sm:px-8 '>
                       <h1>
@@ -57,7 +57,7 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                <div class='flex-none mx-2'>
+                <div className='flex-none mx-2'>
                   <div className='block w-3 h-12 mt-60 opacity-0'>
                     <Image
                       alt='Mountains'
@@ -72,9 +72,9 @@ export default function Home() {
 
             {/*  Blue Section */}
             <div className='bg-white'>
-              <div class='flex flex-row max-w-full mx-auto pt-20 md:pt-20 bg-gradient-to-bl from-customblue via-customblue to-customblue2 text-white rounded-tr-huge'>
-                <div class='flex-none w-8 lg:w-12 '></div>
-                <div class='grow mx-auto max-w-7xl pt-10 sm:pt-20 px-0 sm:px-4 md:px-4 xl:px-0 '>
+              <div className='flex flex-row max-w-full mx-auto pt-20 md:pt-20 bg-gradient-to-bl from-customblue via-customblue to-customblue2 text-white rounded-tr-huge'>
+                <div className='flex-none w-8 lg:w-12 '></div>
+                <div className='grow mx-auto max-w-7xl pt-10 sm:pt-20 px-0 sm:px-4 md:px-4 xl:px-0 '>
                   <div className='md:pb-24 z-0 rounded-tr-huge'>
                     <div className='md:flex max-w-screen-2xl mx-auto'>
                       <div className='homepage md:item md:w-1/2 h-auto content md:pr-16'>
@@ -123,7 +123,7 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                <div class='flex-n flex-none w-8 lg:w-12'></div>
+                <div className='flex-n flex-none w-8 lg:w-12'></div>
               </div>
             </div>
 
@@ -137,11 +137,11 @@ export default function Home() {
             </Container>
 
             {/*  Bottom */}
-            <div class='flex flex-row max-w-full mx-auto -mt-40 pt-24 bg-gradient-to-bl bg-customyellow rounded-tr-large'>
-              <div class='flex-none px-2'></div>
-              <div class='grow mx-auto max-w-screen-2xl mt-20 md:mt-0 px-0 sm:px-4 md:px-4 xl:px-12'>
+            <div className='flex flex-row max-w-full mx-auto -mt-40 pt-24 bg-gradient-to-bl bg-customyellow rounded-tr-large'>
+              <div className='flex-none px-2'></div>
+              <div className='grow mx-auto max-w-screen-2xl mt-20 md:mt-0 px-0 sm:px-4 md:px-4 xl:px-12'>
                 <div className='hero pb-12  md:pt-44 md:pb-44 lg:pt-40 lg:pb-40 rounded-tr-huge px-2'>
-                  <div class='flex-none w-8 lg:w-12'></div>
+                  <div className='flex-none w-8 lg:w-12'></div>
                   <h1>A few other things</h1>
                   <div className='md:flex max-w-screen-2xl mx-auto '>
                     <div className='hero md:item md:w-1/2 h-auto content md:pr-16'>
@@ -164,9 +164,9 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                <div class='flex-none w-8 lg:w-12'></div>
+                <div className='flex-none w-8 lg:w-12'></div>
               </div>
-              <div class='flex-none px-2'></div>
+              <div className='flex-none px-2'></div>
             </div>
           </m.main>
         </m.div>

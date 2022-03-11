@@ -42,8 +42,8 @@ export default function Item1() {
                 <div className='block w-auto mx-auto text-center mt-10 text-sm font-bold'>
                   More projects from TD
                 </div>
-                <div class='flex justify-evenly mx-auto max-w-md text-center mt-2'>
-                  <div class='item w-36  '>
+                <div className='flex justify-evenly mx-auto max-w-md text-center mt-2'>
+                  <div className='item w-36  '>
                     <FancyLink
                       destination='/usecases/item1'
                       a11yText='TD for Me'
@@ -51,7 +51,7 @@ export default function Item1() {
                       extraClasses='border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium'
                     />
                   </div>
-                  <div class='item w-36'>
+                  <div className='item w-36'>
                     {' '}
                     <FancyLink
                       destination='/usecases/item1'
@@ -60,7 +60,7 @@ export default function Item1() {
                       extraClasses='border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium'
                     />
                   </div>
-                  <div class='item w-36  '>
+                  <div className='item w-36  '>
                     {' '}
                     <FancyLink
                       destination='/usecases/item1'

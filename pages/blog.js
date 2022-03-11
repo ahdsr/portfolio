@@ -49,11 +49,11 @@ export default function Resume() {
                         Brampton'
                         date='March 8, 2020'
                         url='https://youtu.be/zm1nonknpV4'
-                        p1='Edited to look like it was shot in wide screen.
+                        p1="Edited to look like it was shot in wide screen.
                         Unfortunately I had to leave early before all the cars
-                        got setup. Actually I didnt mind as flying the drone
+                        got setup. Actually I didn't mind as flying the drone
                         over top of some of these vehicles were making my
-                        palms sweat.'
+                        palms sweat."
                       />
                       <VideoPost
                         id='1'
