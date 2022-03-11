@@ -11,7 +11,6 @@ export default function GetInTouch() {
         <a
           href='mailto:lucas.czuchraj@gmail.com'
           target='_blank'
-          rel=''
           className='block font-bold text-4xl sm:text-3xl md:text-6xl tracking-tighter pb-4 text-customblue hover:underline'
         >
           get in touch
@@ -21,7 +20,6 @@ export default function GetInTouch() {
           <a
             href='mailto:lucas.czuchraj@gmail.com'
             target='_blank'
-            rel=''
             className='block font-bold text-3xl sm:text-3xl md:text-5xl tracking-tighter pb-4 text-customblue hover:underline'
           >
             <IoChatboxOutline className=' inline-flex w-6 h-6 object-center self-center mt-4 sm:mt-0 text-customblue ' />

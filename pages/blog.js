@@ -7,8 +7,7 @@ import VideoPost from '@/components/blogvideopost';
 import { fade } from '@/helpers/transitions';
 import { LazyMotion, domAnimation, m } from 'framer-motion';
 import { NextSeo } from 'next-seo';
-import ImagePost from '@/components/blogimagepost';
-import testImage from '../assets/global/placeholder.png';
+
 //Blog Images
 import Image from 'next/image';
 const PostImage1 =
@@ -23,7 +22,7 @@ export default function Resume() {
         <m.div initial='initial' animate='enter' exit='exit'>
           <m.main variants={fade} className='pb-20'>
             <Container>
-              <div className='content mt-40 '>
+              <div className='content mt-40'>
                 <div className='mx-auto max-w-7xl md:flex md:flex-wrap overflow-hidden mt-32'>
                   <div className='mb-4 md:w-3/4 overflow-hidden'>
                     <div className='content mb-20'>
@@ -35,9 +34,6 @@ export default function Resume() {
                         p1={
                           "Since I started to develop, I'm discovering a lot of new and useful tools. One of them being Sizzy. This app lets you preview your project on a bunch of different devices all at the same time."
                         }
-                        p2=''
-                        p3=''
-                        p4=''
                       />
 
                       <VideoPost
@@ -45,10 +41,6 @@ export default function Resume() {
                         title={"So I've been working on this tune... "}
                         date='March 9, 2020'
                         url='https://www.youtube.com/watch?v=xqwukUxdssI'
-                        p1={''}
-                        p2=''
-                        p3=''
-                        p4=''
                       />
 
                       <VideoPost
@@ -62,9 +54,6 @@ export default function Resume() {
                         got setup. Actually I didnt mind as flying the drone
                         over top of some of these vehicles were making my
                         palms sweat.'
-                        p2=''
-                        p3=''
-                        p4=''
                       />
                       <VideoPost
                         id='1'
@@ -81,9 +70,6 @@ export default function Resume() {
                         upcoming special Freaks and Geeks: The Documentary.
                         The Nolan fan that I am, could help myself to throw
                         some score by Zimmerman.'
-                        p2=''
-                        p3=''
-                        p4=''
                       />
                       <FancyLink
                         destination='http://www.hodgeefilms.com/'

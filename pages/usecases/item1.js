@@ -33,17 +33,17 @@ export default function Item1() {
         <m.div initial='initial' animate='enter' exit='exit'>
           <m.main variants={fade} className='pb-20'>
             <Container>
-              <div className='portfolio mx-auto max-w-7xl mt-40 '>
+              <div className='portfolio mx-auto max-w-7xl mt-40'>
                 <h1 className='text-center'>{name}</h1>
                 <h2>{description}</h2>
                 <div className='block w-24 h-24 mx-auto text-center bg-green-300'>
                   Logo
                 </div>
-                <div className='block w-auto mx-auto text-center mt-10 text-sm font-bold '>
+                <div className='block w-auto mx-auto text-center mt-10 text-sm font-bold'>
                   More projects from TD
                 </div>
                 <div class='flex justify-evenly mx-auto max-w-md text-center mt-2'>
-                  <div class='item w-36   '>
+                  <div class='item w-36  '>
                     <FancyLink
                       destination='/usecases/item1'
                       a11yText='TD for Me'
@@ -51,7 +51,7 @@ export default function Item1() {
                       extraClasses='border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium'
                     />
                   </div>
-                  <div class='item w-36 '>
+                  <div class='item w-36'>
                     {' '}
                     <FancyLink
                       destination='/usecases/item1'
@@ -60,7 +60,7 @@ export default function Item1() {
                       extraClasses='border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium'
                     />
                   </div>
-                  <div class='item w-36   '>
+                  <div class='item w-36  '>
                     {' '}
                     <FancyLink
                       destination='/usecases/item1'
@@ -99,7 +99,7 @@ export default function Item1() {
                   src='https://whimsical.com/embed/8BUJjyjAmuNhwz619e7doa@2Ux7TurymMe9824yCcDs'
                 ></iframe>
 
-                <div className='content sm:flex mt-10 mb-20 '>
+                <div className='content sm:flex mt-10 mb-20'>
                   <p className='sm:item sm:w-1/2  sm:pr-8  mb-4'>
                     Due to the nature and planning of the project the ordering
                     platform was faced with a disjointed experience when it
@@ -142,7 +142,7 @@ export default function Item1() {
                 </span>
 
                 <h3 className='portfolio pt-28'>The design problem</h3>
-                <div className='content sm:flex mt-10 mb-20 '>
+                <div className='content sm:flex mt-10 mb-20'>
                   <p className='sm:item sm:w-1/2  sm:pr-8  mb-4'>
                     Due to the nature and planning of the project the ordering
                     platform was faced with a disjointed experience when it
@@ -170,7 +170,7 @@ export default function Item1() {
                     objectFit='cover'
                   />
                 </div>
-                <div className='mobileimage '>
+                <div className='mobileimage'>
                   <Image
                     alt='Mountains'
                     src={Placeholder}
@@ -179,7 +179,7 @@ export default function Item1() {
                   />
                 </div>
                 {/* Image */}
-                <div className='desktopimage mt-8 '>
+                <div className='desktopimage mt-8'>
                   <Image
                     alt='Mountains'
                     src={Placeholder}
@@ -200,7 +200,7 @@ export default function Item1() {
                 </span>
 
                 <h3 className='mt-36'>Challenges and solutions</h3>
-                <div className='sm:flex mt-10 mb-20 '>
+                <div className='sm:flex mt-10 mb-20'>
                   <div className='content sm:item sm:w-1/3  mb-4'>
                     <h4>Data is king</h4>
                     <p>

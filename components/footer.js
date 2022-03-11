@@ -4,21 +4,19 @@ import Container from './container';
 export default function Footer() {
   return (
     <Container>
-      <div className='customlink mx-auto max-w-7xl block border-t border-black py-4 text-black px-1 h-24 '>
-        <div className='flex flex-wrap text-xs '>
+      <div className='customlink mx-auto max-w-7xl block border-t border-black py-4 text-black px-1 h-24'>
+        <div className='flex flex-wrap text-xs'>
           <div className=' flex mb-1 md:mb-0'>
             <FancyLink
               destination='/about'
               a11yText='Navigate to the about page'
               label='Portfolio Info'
-              extraClasses=''
             />
           </div>
           <span className='block ml-4'>
             <a
               href='https://www.linkedin.com/in/lucasczuchraj/'
               target='_blank'
-              rel=''
               extraClasses='underline hover:text-gray-500 focus:text-gray-500'
             >
               LinkedIn
@@ -30,7 +28,6 @@ export default function Footer() {
               <a
                 href='mailto:lucas.czuchraj@gmail.com'
                 target='_blank'
-                rel=''
                 extraClasses='underline hover:text-gray-500 focus:text-gray-500'
               ></a>{' '}
               © 2022

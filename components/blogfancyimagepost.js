@@ -1,4 +1,5 @@
 import FancyImage from './fancyimage';
+
 export default function FancyImagePost({ src, title, date, p1, p2, p3, p4 }) {
   return (
     <div className='content mb-20'>
@@ -6,7 +7,7 @@ export default function FancyImagePost({ src, title, date, p1, p2, p3, p4 }) {
       <span className='inline-block font-bold bg-black text-white text-left p-2 text-xs rounded-bl-2xl'>
         {date}
       </span>
-      <span className='block bg-black  text-left pb-0 rounded-tl-full h-4 '></span>
+      <span className='block bg-black  text-left pb-0 rounded-tl-full h-4'></span>
 
       <FancyImage
         src={src}

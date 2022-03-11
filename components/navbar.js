@@ -73,14 +73,14 @@ export default function Navbar() {
                   {/* Current: "border-indigo-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" */}
                   <FancyLink
                     destination='/'
-                    a11yText='Use Cases'
-                    label='Use Cases'
+                    a11yText='About'
+                    label='About'
                     extraClasses='border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium'
                   />
                   <FancyLink
                     destination='/portfolio'
                     a11yText='Portfolio'
-                    label='Work in Progress'
+                    label='Portfolio'
                     extraClasses='border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium'
                   />
                   <FancyLink
@@ -169,18 +169,18 @@ export default function Navbar() {
           </div>
 
           <Disclosure.Panel className='sm:hidden absolute bg-white w-screen shadow-md'>
-            <div className='pt-2 pb-4 space-y-1 z-50'>
+            <div className='pt-2 pb-4 space-y-1 z-40'>
               {/* Current: "bg-indigo-50 border-indigo-500 text-indigo-700", Default: "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700" */}
               <FancyLink
                 destination='/'
-                a11yText='Use Cases'
-                label='Use Cases'
+                a11yText='About'
+                label='About'
                 extraClasses='border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium'
               />
               <FancyLink
                 destination='/portfolio'
-                a11yText='Work in Progress'
-                label='Work in Progress'
+                a11yText='Portfolio'
+                label='Portfolio'
                 extraClasses='border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium'
               />
               <FancyLink

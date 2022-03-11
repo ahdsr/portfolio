@@ -6,8 +6,8 @@ export default function VideoPost({ id, title, date, url, p1, p2, p3, p4 }) {
       <span className='inline-block font-bold bg-black text-white text-left p-2 text-xs rounded-bl-2xl'>
         {date}
       </span>
-      <span className='block bg-black  text-left pb-0 rounded-tl-full h-4 '></span>
-      <div className='player-wrapper '>
+      <span className='block bg-black  text-left pb-0 rounded-tl-full h-4'></span>
+      <div className='player-wrapper'>
         <ReactPlayer
           url={url}
           className='react-player'

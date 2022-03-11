@@ -18,8 +18,8 @@ export default function NavbarMobile() {
 
           <FancyLink
             destination='/'
-            a11yText='Use Cases'
-            label='Use Cases'
+            a11yText='About'
+            label='About'
             extraClasses='tinytext text-customblue uppercase'
           />
         </div>
@@ -32,8 +32,8 @@ export default function NavbarMobile() {
           <IoFlaskOutline className='w-6 h-6 text-customblue ' />
           <FancyLink
             destination='/portfolio'
-            a11yText='Work in Progress'
-            label='WIP'
+            a11yText='Portfolio'
+            label='Portfolio'
             extraClasses='tinytext text-customblue uppercase'
           />
         </div>

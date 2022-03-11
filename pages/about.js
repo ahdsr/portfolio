@@ -19,18 +19,17 @@ export default function Resume() {
       <NextSeo title='Resume' />
       <LazyMotion features={domAnimation}>
         <m.div initial='initial' animate='enter' exit='exit'>
-          <m.main variants={fade} className='pb-4  '>
+          <m.main variants={fade} className='pb-4'>
             <Container>
-              <div className='content mt-40 '>
-                <div className='mx-auto max-w-7xl md:flex md:flex-wrap overflow-hidden '>
+              <div className='content mt-40'>
+                <div className='mx-auto max-w-7xl md:flex md:flex-wrap overflow-hidden'>
                   <div className='content mb-4 md:w-2/5 overflow-hidden md:pr-10'>
                     <h1>Credit</h1>
-                    <ul className='customlink '>
+                    <ul className='customlink'>
                       <li>
                         <a
                           href='https://github.com/samuelgoddard/next-tailwind-motion'
                           target='_blank'
-                          rel=''
                           className='block px-1 text-customblue hover:underline'
                         >
                           nextjs-tailwind-motion
