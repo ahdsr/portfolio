@@ -63,9 +63,7 @@ export default function PortfolioList() {
             ].join(' ')}
           >
             <div className='usecases'>
-              <p className='block w-fit p-2 bg-opacity-80 bg-white'>
-                {usecases.tag}
-              </p>
+              <p className='block w-fit p-2 bg-slate-100'>{usecases.tag}</p>
               <h2 className='usecases'>{usecases.name}</h2>
               <p className='font-medium'>{usecases.description}</p>
 

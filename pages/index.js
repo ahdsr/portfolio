@@ -22,10 +22,10 @@ export default function Home() {
         <m.div initial='initial' animate='enter' exit='exit'>
           <m.main variants={fade} className='bg-white'>
             {/*  Hero */}
-            <div className=' mx-auto pb-20 md:pb-40 max-w-screen-2xl '>
-              <div class='flex flex-row max-w-7xl mt-32 md:mt-36 lg:mt-40 mx-8 sm:mx-auto'>
-                <div class='flex-none md:ml-12 '>
-                  <div className='block w-3 h-12 mt-60 -ml-6 lg:-ml-12 '>
+            <div className='mx-auto pb-20 md:pb-30 max-w-screen-2xl '>
+              <div class='flex flex-row max-w-7xl mt-32 md:mt-36 lg:mt-40 mx-2 sm:mx-auto md:mx-auto lg:mx-auto'>
+                <div class='flex-none mx-2'>
+                  <div className='block w-3 h-12 mt-60'>
                     <Image
                       alt='Mountains'
                       src={LeftLines}
@@ -34,9 +34,9 @@ export default function Home() {
                     />
                   </div>
                 </div>
-                <div class='grow mx-auto max-w-7xl '>
+                <div class='grow mx-auto max-w-7xl pt-8'>
                   <div className='md:flex mx-auto'>
-                    <div className='hero md:item md:w-3/5 lg:w-4/5 xl:w-1/2 pr-2 md:pr-8 max-w-full'>
+                    <div className='hero item w-fit mx-0 sm:px-8 '>
                       <h1>
                         Hi, I’m Lucas a{' '}
                         <span className='text-yellow-500'>UX & UI</span>{' '}
@@ -52,12 +52,21 @@ export default function Home() {
                         <li>Selling a solution</li>
                       </ul>
                     </div>
-                    <div className='item mx-auto mt-10 w-56 md:w-64 lg:w-80 text-center'>
+                    <div className='item mx-auto mt-10 w-56 md:w-96 text-center lg:mr-8'>
                       <Image alt='Lucas' src={Me} layout='responsive' />
                     </div>
                   </div>
                 </div>
-                <div class='flex-none md:ml-12 '></div>
+                <div class='flex-none mx-2'>
+                  <div className='block w-3 h-12 mt-60 opacity-0'>
+                    <Image
+                      alt='Mountains'
+                      src={LeftLines}
+                      layout='responsive'
+                      objectFit='cover'
+                    />
+                  </div>
+                </div>
               </div>
             </div>
 
