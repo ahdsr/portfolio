@@ -1,7 +1,7 @@
 export default function ImagePost({ url, title, date, p1, p2, p3, p4 }) {
   return (
     <div className='content mb-20'>
-      <h1>{title}</h1>
+      <h2>{title}</h2>
       <span className='inline-block font-bold bg-black text-white text-left p-2 text-xs rounded-bl-2xl'>
         {date}
       </span>

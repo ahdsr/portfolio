@@ -23,9 +23,10 @@ export default function Resume() {
           <m.main variants={fade} className='pb-20'>
             <Container>
               <div className='content pt-40 px-4'>
-                <div className='mx-auto max-w-7xl md:flex md:flex-wrap overflow-hidden mt-32'>
+                <div className='mx-auto max-w-7xl md:flex md:flex-wrap overflow-hidden'>
                   <div className='mb-4 md:w-3/4 overflow-hidden'>
                     <div className='content mb-20'>
+                      <h1>Blog</h1>
                       <VideoPost
                         id='1'
                         title='Testing the site with Sizzy'

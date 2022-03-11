@@ -20,12 +20,12 @@ export default function Resume() {
       <NextSeo title='Resume' />
       <LazyMotion features={domAnimation}>
         <m.div initial='initial' animate='enter' exit='exit'>
-          <m.main variants={fade} className='pb-4 '>
+          <m.main variants={fade} className='pb-4'>
             <Container>
               <div className='content pt-40 px-4'>
                 <div className='mx-auto max-w-7xl md:flex md:flex-wrap overflow-hidden'>
                   <div className='content mb-4 md:w-2/5 overflow-hidden md:pr-10'>
-                    <h1>Profile</h1>
+                    <h1>Resume</h1>
                     <ul>
                       <li>
                         Bachelor of Design Honours (B.Des.) York University /
