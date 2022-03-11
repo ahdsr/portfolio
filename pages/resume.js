@@ -134,8 +134,6 @@ export default function Resume() {
                         , video editing
                       </li>
                     </ul>
-
-                    <ImagePost title='Site launch' url={PostImage1} />
                   </div>
 
                   <div className='content mb-4 md:w-3/5 overflow-hidden md:pl-10'>

@@ -2,7 +2,7 @@ import ReactPlayer from 'react-player';
 export default function VideoPost({ id, title, date, url, p1, p2, p3, p4 }) {
   return (
     <div className='content mb-20'>
-      <h3>{title}</h3>
+      <h1>{title}</h1>
       <span className='inline-block font-bold bg-black text-white text-left p-2 text-xs rounded-bl-2xl'>
         {date}
       </span>

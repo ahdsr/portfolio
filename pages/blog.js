@@ -25,85 +25,32 @@ export default function Resume() {
             <Container>
               <div className='content mt-40 '>
                 <div className='mx-auto max-w-7xl md:flex md:flex-wrap overflow-hidden mt-32'>
-                  <div className='content mb-4 md:w-1/4 overflow-hidden md:pr-10'>
-                    <h1>Blog</h1>
-                    <ul>
-                      <li className='block w-fit underline bg-yellow-200 m-1'>
-                        Site launch
-                      </li>
-                      <li className='block w-fit underline bg-yellow-200 m-1'>
-                        Cyberpunk 2077 inspired atmospherics
-                      </li>
-
-                      <li className='block w-fit underline bg-yellow-200 m-1'>
-                        WFH
-                      </li>
-                      <li className='block w-fit underline bg-yellow-200 m-1'>
-                        Playing with the drone again, at a car meet in Brampton
-                      </li>
-                      <li className='block w-fit underline bg-yellow-200 m-1'>
-                        Some more ariel footage for my brother in law's company
-                        Hodge Films
-                      </li>
-                    </ul>
-                  </div>
-
-                  <div className='mb-4 md:w-3/4 overflow-hidden md:pl-10'>
+                  <div className='mb-4 md:w-3/4 overflow-hidden'>
                     <div className='content mb-20'>
                       <VideoPost
                         id='1'
-                        title='Site launch'
+                        title='Testing the site with Sizzy'
                         date=' March 11, 2020'
-                        url='https://youtu.be/M9tD4Z6FebY'
+                        url='https://youtu.be/oCMQEDL_iBU'
                         p1={
-                          "Values determine the future. As a designer, Ive been exposed to a great number of employers teams and projects. I approach all my projects regardless of the project size, with a kick-off discovery session to understand my clients vision, the business objectives and what the user data is indicating. I've trained myself to make a quick usability test the moment I open a new website or an app so this comes almost for free during our first meeting."
+                          "Since I started to develop, I'm discovering a lot of new and useful tools. One of them being Sizzy. This app lets you preview your project on a bunch of different devices all at the same time."
                         }
                         p2=''
                         p3=''
                         p4=''
                       />
-                      <ImagePost
-                        title='Site launch'
-                        date='March 11, 2020'
-                        url={PostImage1}
-                        src={testImage}
-                        p1={
-                          "Values determine the future. As a designer, Ive been exposed to a great number of employers teams and projects. I approach all my projects regardless of the project size, with a kick-off discovery session to understand my clients vision, the business objectives and what the user data is indicating. I've trained myself to make a quick usability test the moment I open a new website or an app so this comes almost for free during our first meeting."
-                        }
-                        p2={
-                          "Values determine the future. As a designer, Ive been exposed to a great number of employers teams and projects. I approach all my projects regardless of the project size, with a kick-off discovery session to understand my clients vision, the business objectives and what the user data is indicating. I've trained myself to make a quick usability test the moment I open a new website or an app so this comes almost for free during our first meeting."
-                        }
-                        p3={
-                          "I've trained myself to make a quick usability test the moment I open a new website or an app so this comes almost for free during our first meeting."
-                        }
-                        p4={
-                          'Values determine the future. As a designer, Ive been exposed to a great number of employers teams and projects.'
-                        }
-                      />
+
                       <VideoPost
                         id='1'
-                        title='Cyberpunk 2077 inspired atmospherics'
+                        title={"So I've been working on this tune... "}
                         date='March 9, 2020'
                         url='https://www.youtube.com/watch?v=xqwukUxdssI'
-                        p1={
-                          "Values determine the future. As a designer, Ive been exposed to a great number of employers teams and projects. I approach all my projects regardless of the project size, with a kick-off discovery session to understand my clients vision, the business objectives and what the user data is indicating. I've trained myself to make a quick usability test the moment I open a new website or an app so this comes almost for free during our first meeting."
-                        }
+                        p1={''}
                         p2=''
                         p3=''
                         p4=''
                       />
-                      <VideoPost
-                        id='1'
-                        title='Working from home is fun aint it?'
-                        date='March 8, 2020'
-                        url='https://youtu.be/oCMQEDL_iBU'
-                        p1='Working from home, is what I be doing. Testing this
-                        blog is what I be doing. Looking for work, is what I
-                        be doing.'
-                        p2=''
-                        p3=''
-                        p4=''
-                      />
+
                       <VideoPost
                         id='1'
                         title='Playing with the drone again, at a car meet in
@@ -145,6 +92,24 @@ export default function Resume() {
                         extraClasses='underline bg-yellow-200 hover:bg-yellow-400  p-1'
                       />
                     </div>
+                  </div>
+                  <div className='content mb-4 md:w-1/4 overflow-hidden md:pl-10'>
+                    <ul>
+                      <li className='block w-fit underline bg-yellow-200 m-1'>
+                        Testing the site with Sizzy
+                      </li>
+                      <li className='block w-fit underline bg-yellow-200 m-1'>
+                        So I've been working on this tune...
+                      </li>
+
+                      <li className='block w-fit underline bg-yellow-200 m-1'>
+                        Playing with the drone again, at a car meet in Brampton
+                      </li>
+                      <li className='block w-fit underline bg-yellow-200 m-1'>
+                        Some more ariel footage for my brother in law's company
+                        Hodge Films
+                      </li>
+                    </ul>
                   </div>
                 </div>
               </div>

@@ -43,6 +43,16 @@
   }
 }
 
+.usecases {
+  & > p {
+    @apply text-lg font-normal leading-relaxed mb-6  text-slate-800;
+  }
+  & > h2,
+  & > .h2 {
+    @apply text-3xl sm:text-3xl md:text-4xl font-bold tracking-tighter leading-tight mb-12 text-black;
+  }
+}
+
 .portfolio {
   & > p {
     @apply text-lg font-light leading-relaxed mb-6 text-slate-700;
@@ -58,16 +68,6 @@
   & > h3,
   & > .h2 {
     @apply max-w-3xl text-lg sm:text-2xl md:text-2xl lg:text-4xl font-medium tracking-tighter leading-tight mb-12 text-slate-500;
-  }
-}
-
-.usecases {
-  & > p {
-    @apply text-lg font-normal leading-relaxed mb-6  text-slate-800;
-  }
-  & > h2,
-  & > .h2 {
-    @apply text-3xl sm:text-3xl md:text-3xl font-bold tracking-tighter leading-tight mb-12 text-black;
   }
 }
 

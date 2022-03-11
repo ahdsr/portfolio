@@ -16,7 +16,7 @@ const usecases = [
       'When it comes to understanding and processing data, a work horse of a flexible and highly customizable table is needed to get the job done. Lets take a look at some of the unique challenges working with big data brings.',
     link: '/usecases/item1',
     image: image1,
-    color: 'bg-cyan-300',
+    color: 'bg-cyan-400',
   },
   {
     id: 1,
@@ -26,7 +26,7 @@ const usecases = [
       'TD For Me is a series of responsive page framed into the main TD Mobile Banking App. The usage of this location based tool has been steadily declining. We explore and tackle customer engagement.',
     link: '/underconstruction',
     image: image2,
-    color: 'bg-green-300',
+    color: 'bg-green-400',
   },
   {
     id: 2,
@@ -36,7 +36,7 @@ const usecases = [
       'When an up and coming tarot card reader asks you to develop her web presence you jump on board. Lets have a look at this one page simple responsive solution.',
     link: '/underconstruction',
     image: image3,
-    color: 'bg-purple-300',
+    color: 'bg-purple-400',
   },
 ];
 
@@ -58,7 +58,7 @@ export default function PortfolioList() {
 
           <div
             className={[
-              'item md:w-1/2 p-8 sm:p-10 md:p-12 xl:p-24 ',
+              'item md:w-1/2 p-8 sm:p-10 md:p-20 xl:p-24 ',
               usecases.color,
             ].join(' ')}
           >

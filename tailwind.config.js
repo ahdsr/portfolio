@@ -27,9 +27,10 @@ module.exports = {
           dark: '#ce8860',
         },
         customblue: '#0D14B8',
+        customblue2: '#0042FD',
       },
       boxShadow: {
-        items: 'rgba(0, 0, 0, 0.2) 0px 11.3115px 40px 0px',
+        items: 'rgba(0, 0, 0, 0.1) 0px 8px 20px 0px',
       },
     },
   },
