@@ -8,6 +8,17 @@ module.exports = {
       sans: ['Inter', 'sans-serif'],
       mono: ['Lucida Console', 'Courier', 'monospace'],
     },
+    borderRadius: {
+      none: '0',
+      sm: '0.125rem',
+      DEFAULT: '0.25rem',
+      DEFAULT: '4px',
+      md: '0.375rem',
+      lg: '0.5rem',
+      full: '9999px',
+      large: '12px',
+      huge: '128px',
+    },
 
     screens: {
       sm: '640px',
@@ -29,6 +40,7 @@ module.exports = {
         customblue: '#0D14B8',
         customblue2: '#0042FD',
       },
+
       boxShadow: {
         items: 'rgba(0, 0, 0, 0.1) 0px 8px 20px 0px',
       },

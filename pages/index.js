@@ -20,7 +20,7 @@ import Logo3 from '../assets/global/logo_om.png';
 import Logo4 from '../assets/global/logo_rsa.png';
 import Logo5 from '../assets/global/logo_element.png';
 import Logo6 from '../assets/global/logo_bmo.png';
-import UC from '../assets/global/404.gif';
+import Me from '../assets/global/me.jpg';
 
 export default function Home() {
   const containerRef = useRef(null);
@@ -39,22 +39,23 @@ export default function Home() {
                   overflow: 'hidden',
                 }}
               >
-                <div className='homepage relative z-40 mx-20 lg:mx-60 pt-40 sm:pt-60 md:pt-64 xl:pt-96 text-left tracking-normal'>
-                  <div className='inline-block w-24 h-24 mb-10'>
-                    <Image
-                      alt='Mountains'
-                      src={UC}
-                      layout='responsive'
-                      objectFit='cover'
-                    />
+                <div className='hero relative max-w-7xl z-40 mx-20 lg:mx-96 pt-20 sm:pt-60 md:pt-52 xl:pt-72 text-left tracking-normal'>
+                  <div className='md:flex max-w-7xl mx-auto  '>
+                    <div className='hero md:item md:w-2/3 h-auto content md:pr-16  '>
+                      <h1>
+                        Hi, I’m Lucas a UX/UI designer, based out of Toronto.
+                      </h1>
+                      <p>You've made it here, so have a look around.</p>
+                    </div>
+                    <div className='hero md:item md:w-1/3 h-auto content'>
+                      <Image
+                        alt='Mountains'
+                        src={Me}
+                        layout='responsive'
+                        objectFit='cover'
+                      />
+                    </div>
                   </div>
-                  <h1>Busy working</h1>
-
-                  <p>
-                    *If I've shared this link with you, you know I'm working on
-                    putting this site together as we speak... you can expect
-                    some bugs, content place holders and such.*
-                  </p>
                 </div>
                 <Image
                   alt='Mountains'
@@ -65,7 +66,46 @@ export default function Home() {
               </div>
             </div>
 
-            <div className='relative grid place-items-center max-w-6xl mx-auto  sm:px-6 md:px-12 md:h-32 lg:px-24 xl:px-32 -mt-20  h-24 z-10  bg-black'>
+            <div className=' pt-24 pb-24 md:pt-44 md:pb-44 lg:pt-40 lg:pb-40 bg-gradient-to-bl from-customblue via-customblue to-customblue2 text-white z-0 rounded-tr-huge   '>
+              <div className='md:flex px-8 md:px-12 lg:px-24 xl:px-20 max-w-7xl mx-auto  '>
+                <div className='homepage md:item md:w-1/2 h-auto content md:pr-16  '>
+                  <h1>Research, design, prototype, test and evaluate ↻ </h1>
+                  <p>
+                    As a designer, I've been lucky enough to be exposed to a
+                    vast number of employers, teams and projects.
+                  </p>
+                </div>
+                <div className='homepage md:item md:w-1/2 h-auto content'>
+                  <p>
+                    Each of them has been a unique and rewarding learning
+                    experience and I approach all my projects, regardless of the
+                    project size with a a discovery session to understand my
+                    client’s needs, the business objectives and what the user
+                    research is indicating.
+                  </p>
+                  <p>
+                    I help my clients improve their usability experience and
+                    provide them with a product we can be mutually proud of.
+                  </p>
+                  <p>
+                    Below you'll find selected use case studies that review a
+                    detailed design process. You can also view non client work
+                    in the{' '}
+                    <FancyLink
+                      destination='/portfolio'
+                      a11yText='More work'
+                      label='work in progress'
+                      extraClasses=' underline bg-black bg-opacity-30 p-1 hover:bg-yellow-400'
+                    />{' '}
+                    section.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className=' grid place-items-center max-w-6xl mx-auto  sm:px-6 md:px-12 md:h-32 lg:px-24 xl:px-32 -mt-32
+              h-24 z-10 '
+            >
               <div className='  mx-4 xs:mx-8 space-x-0 sm:space-x-4'>
                 <div className='inline-block w-14 h-14 md:w-32 md:h-32 '>
                   <Image
@@ -117,44 +157,6 @@ export default function Home() {
                 </div>
               </div>
             </div>
-
-            <div className=' pt-32 pb-28 md:pt-44 md:pb-44 lg:pt-60 lg:pb-60 bg-gradient-to-bl from-customblue via-customblue to-customblue2 text-white z-0 -mt-20  '>
-              <div className='md:flex px-8 md:px-12 lg:px-24 xl:px-20 max-w-7xl mx-auto  '>
-                <div className='homepage md:item md:w-1/2 h-auto content md:pr-16  '>
-                  <h1>Research, design, prototype, test and evaluate ↻ </h1>
-                  <p>
-                    As a designer, I've been lucky enough to be exposed to a
-                    vast number of employers, teams and projects.
-                  </p>
-                </div>
-                <div className='homepage md:item md:w-1/2 h-auto content'>
-                  <p>
-                    Each of them has been a unique and rewarding learning
-                    experience and I approach all my projects, regardless of the
-                    project size with a a discovery session to understand my
-                    client’s needs, the business objectives and what the user
-                    research is indicating.
-                  </p>
-                  <p>
-                    I help my clients improve their usability experience and
-                    provide them with a product we can be mutually proud of.
-                  </p>
-                  <p>
-                    Below you'll find selected use case studies that review a
-                    detailed design process. You can also view non client work
-                    in the{' '}
-                    <FancyLink
-                      destination='/portfolio'
-                      a11yText='More work'
-                      label='work in progress'
-                      extraClasses=' underline bg-black bg-opacity-30 p-1 hover:bg-yellow-400'
-                    />{' '}
-                    section.
-                  </p>
-                </div>
-              </div>
-            </div>
-
             <Container>
               <div className='content '>
                 <div>

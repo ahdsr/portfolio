@@ -33,6 +33,16 @@
   }
 }
 
+.hero {
+  & > p {
+    @apply text-lg font-light leading-relaxed mb-6 text-slate-900;
+  }
+  & > h1,
+  & > .h1 {
+    @apply text-5xl  md:text-6xl  font-extrabold tracking-tight leading-tight mb-10 text-slate-700;
+  }
+}
+
 .homepage {
   & > p {
     @apply text-lg font-light leading-relaxed mb-6 text-white;

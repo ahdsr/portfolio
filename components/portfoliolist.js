@@ -42,7 +42,7 @@ const usecases = [
 
 export default function PortfolioList() {
   return (
-    <ul className='mx-auto z-0 bg-white max-w-7xl -mt-20'>
+    <ul className='mx-auto z-0 bg-white max-w-7xl '>
       {usecases.map((usecases) => (
         <li
           key={usecases.id}
