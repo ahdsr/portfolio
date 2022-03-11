@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import FancyLink from '@/components/fancyLink';
 import { debounce } from '../helpers/helpers';
 import Image from 'next/image';
-import Image1 from '../assets/global/profile.png';
+import Image1 from '../assets/global/logo.png';
 
 /* This example requires Tailwind CSS v2.0+ */
 import { Fragment } from 'react';
@@ -103,7 +103,7 @@ export default function Navbar() {
                   <div>
                     <Menu.Button className='bg-white rounded-full flex text-sm focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500'>
                       <span className='sr-only'>Open user menu</span>
-                      <div className='h-8 w-8 rounded-full'></div>
+                      <div className='h-6 w-6 md:h-8 md:w-8 rounded-full'></div>
                       <Image
                         alt='Mountains'
                         src={Image1}

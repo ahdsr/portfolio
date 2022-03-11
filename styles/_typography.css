@@ -39,7 +39,7 @@
   }
   & > h1,
   & > .h1 {
-    @apply text-3xl  md:text-5xl lg:text-4xl xl:text-6xl font-extrabold tracking-tight leading-tight  text-slate-700;
+    @apply text-4xl md:text-4xl lg:text-5xl xl:text-6xl font-extrabold tracking-tight leading-10  text-slate-700;
   }
   & > ul > li {
     @apply sm:text-base md:text-lg font-light leading-relaxed  text-slate-900;

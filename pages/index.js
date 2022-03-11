@@ -33,9 +33,10 @@ export default function Home() {
       <LazyMotion features={domAnimation}>
         <m.div initial='initial' animate='enter' exit='exit'>
           <m.main variants={fade} className='pb-4'>
+            {/*  Hero */}
             <div class='flex flex-row mx-auto max-w-screen-2xl mt-32  md:mt-36 lg:mt-40'>
-              <div class='flex-none w-12 px-4 '>
-                <div className='block w-4 h-12 mt-64'>
+              <div class='flex-none w-8 lg:w-12'>
+                <div className='block w-4 h-12 mt-64 mx-2'>
                   <Image
                     alt='Mountains'
                     src={LeftLines}
@@ -45,21 +46,21 @@ export default function Home() {
                 </div>
               </div>
               <div class='grow mx-auto max-w-screen-2xl'>
-                <div className='md:flex mx-auto  '>
-                  <div className='hero md:item md:w-2/3 lg:w-2/3 xl:w-1/2  md:pr-32 max-w-full '>
+                <div className='md:flex mx-auto px-0 md:px-4 lg:px-12 '>
+                  <div className='hero md:item md:w-3/5 lg:w-4/5 xl:w-1/2 pr-2 md:pr-8   max-w-full '>
                     <h1>
                       Hi, I’m Lucas a{' '}
-                      <span className='text-yellow-500'>UX & UI</span> designer,
+                      <span className='text-yellow-500'>UX & UI</span> designer
                       based out of Toronto.
                     </h1>
-                    <p>Things I like:</p>
+                    <p className='uppercase'>Things I enjoy:</p>
                     <ul>
                       <li>A tough design problem</li>
-                      <li>Some subtle animation & motion</li>
-                      <li>Open and transparent communication</li>
+                      <li>Subtle animation & motion</li>
+                      <li>Transparent feedback</li>
+                      <li>Complex design systems</li>
                       <li>Science and data</li>
-                      <li>Arguing a good point</li>
-                      <li>Design systems</li>
+                      <li>Selling a solution</li>
                     </ul>
                   </div>
                   <div className='item mx-auto mt-10 w-56 md:w-64 lg:w-80 text-center'>
@@ -67,14 +68,16 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div class='flex-none w-12 px-4'></div>
+              <div class='flex-none w-8 lg:w-12'></div>
             </div>
-            <div class='flex flex-row max-w-full mx-auto mt-20  md:mt-40 bg-gradient-to-bl from-customblue via-customblue to-customblue2 text-white sm: rounded-tr-huge'>
-              <div class='flex-none px-2'></div>
-              <div class='grow mx-auto max-w-screen-2xl px-8 mt-20 md:mt-0'>
-                <div className='md:pt-44 md:pb-44 lg:pt-40 lg:pb-40  z-0 rounded-tr-huge   '>
-                  <div className='md:flex max-w-screen-2xl mx-auto  '>
-                    <div className='homepage md:item md:w-1/2 h-auto content md:pr-16 lg:px-8  '>
+
+            {/*  Blue Section */}
+            <div class='flex flex-row max-w-full mx-auto mt-20 md:mt-40 bg-gradient-to-bl from-customblue via-customblue to-customblue2 text-white rounded-tr-huge'>
+              <div class='flex-none w-8 lg:w-12'></div>
+              <div class='grow mx-auto max-w-screen-2xl mt-20 md:mt-0 px-0 sm:px-4 md:px-4 xl:px-12'>
+                <div className='md:pt-44 md:pb-44 lg:pt-40 lg:pb-40 z-0 rounded-tr-huge'>
+                  <div className='md:flex max-w-screen-2xl mx-auto'>
+                    <div className='homepage md:item md:w-1/2 h-auto content md:pr-16'>
                       <h1>Research, design, prototype, test and evaluate ↻ </h1>
                       <p>
                         As a designer, I've been lucky enough to be exposed to a
@@ -105,13 +108,7 @@ export default function Home() {
                         />{' '}
                         section.
                       </p>
-                      <div className='pt-10 pb-28 '>
-                        <Image
-                          alt='Mountains'
-                          src={Lines}
-                          layout='responsive'
-                          objectFit='cover'
-                        />
+                      <div className='pt-4 pb-28 md:pt-10 md:pb-28 '>
                         <Image
                           alt='Mountains'
                           src={LogoGroup}
@@ -123,8 +120,10 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div class='flex-none px-2'></div>
+              <div class='flex-n flex-none w-8 lg:w-12one w-12'></div>
             </div>
+
+            {/*  Usecases */}
             <Container>
               <div className='content '>
                 <div>
@@ -132,7 +131,37 @@ export default function Home() {
                 </div>
               </div>
             </Container>
-            s
+
+            {/*  Bottom */}
+            <div class='flex flex-row max-w-full mx-auto mt-20  md:mt-40 bg-gradient-to-bl bg-customyellow rounded-tr-large'>
+              <div class='flex-none px-2'></div>
+              <div class='grow mx-auto max-w-screen-2xl px-8 mt-20 md:mt-0'>
+                <div className='hero md:pt-44 md:pb-44 lg:pt-40 lg:pb-40  z-0 rounded-tr-huge   '>
+                  <h1>A few other things</h1>
+                  <div className='md:flex max-w-screen-2xl mx-auto  '>
+                    <div className='hero md:item md:w-1/2 h-auto content md:pr-16 lg:px-8  '>
+                      <h4>Experience</h4>
+                      <p>
+                        I’ve got over 12 years of experience working in web and
+                        native mobile design
+                      </p>
+                    </div>
+                    <div className='hero md:item md:w-1/2 h-auto content md:pr-16 lg:px-8  '>
+                      <h4>The Process</h4>
+                      <p>
+                        I enjoy the design process and understand what it means
+                        to be on a team
+                      </p>
+                    </div>
+                    <div className='hero md:item md:w-1/2 h-auto content md:pr-16 lg:px-8  '>
+                      <h4>Never stop learning</h4>
+                      <p>It’s never to late to learn, discover and change</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class='flex-none px-2'></div>
+            </div>
           </m.main>
         </m.div>
       </LazyMotion>
