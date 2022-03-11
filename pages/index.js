@@ -20,7 +20,7 @@ export default function Home() {
       <NextSeo title='Home' />
       <LazyMotion features={domAnimation}>
         <m.div initial='initial' animate='enter' exit='exit'>
-          <m.main variants={fade} className='pb-4'>
+          <m.main variants={fade}>
             {/*  Hero */}
             <div class='flex flex-row mx-auto max-w-screen-2xl mt-32  md:mt-36 lg:mt-40'>
               <div class='flex-none w-8 lg:w-12'>
@@ -34,14 +34,14 @@ export default function Home() {
                 </div>
               </div>
               <div class='grow mx-auto max-w-screen-2xl'>
-                <div className='md:flex mx-auto px-0 md:px-4 lg:px-12'>
+                <div className='md:flex mx-auto px-0 md:px-2'>
                   <div className='hero md:item md:w-3/5 lg:w-4/5 xl:w-1/2 pr-2 md:pr-8   max-w-full'>
                     <h1>
                       Hi, I’m Lucas a{' '}
                       <span className='text-yellow-500'>UX & UI</span> designer
                       based out of Toronto.
                     </h1>
-                    <p>Things I enjoy:</p>
+                    <h4>Things I enjoy:</h4>
                     <ul>
                       <li>A tough design problem</li>
                       <li>Subtle animation & motion</li>
@@ -108,7 +108,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div class='flex-n flex-none w-8 lg:w-12one w-12'></div>
+              <div class='flex-n flex-none w-8 lg:w-12one'></div>
             </div>
 
             {/*  Usecases */}
@@ -121,32 +121,34 @@ export default function Home() {
             </Container>
 
             {/*  Bottom */}
-            <div class='flex flex-row max-w-full mx-auto -mt-40 md:mt-40 bg-gradient-to-bl bg-customyellow rounded-tr-large'>
+            <div class='flex flex-row max-w-full mx-auto -mt-40 pt-24 bg-gradient-to-bl bg-customyellow rounded-tr-large'>
               <div class='flex-none px-2'></div>
-              <div class='grow mx-auto max-w-screen-2xl px-8 mt-52 md:mt-0'>
-                <div className='hero md:pt-44 md:pb-44 lg:pt-40 lg:pb-40 rounded-tr-huge'>
+              <div class='grow mx-auto max-w-screen-2xl mt-20 md:mt-0 px-0 sm:px-4 md:px-4 xl:px-12'>
+                <div className='hero pb-12  md:pt-44 md:pb-44 lg:pt-40 lg:pb-40 rounded-tr-huge px-2'>
+                  <div class='flex-none w-8 lg:w-12'></div>
                   <h1>A few other things</h1>
                   <div className='md:flex max-w-screen-2xl mx-auto '>
-                    <div className='hero md:item md:w-1/2 h-auto content md:pr-16 lg:px-8'>
+                    <div className='hero md:item md:w-1/2 h-auto content md:pr-16'>
                       <h4>Experience</h4>
                       <p>
                         I’ve got over 12 years of experience working in web and
                         native mobile design
                       </p>
                     </div>
-                    <div className='hero md:item md:w-1/2 h-auto content md:pr-16 lg:px-8'>
+                    <div className='hero md:item md:w-1/2 h-auto content md:pr-16'>
                       <h4>The Process</h4>
                       <p>
                         I enjoy the design process and understand what it means
                         to be on a team
                       </p>
                     </div>
-                    <div className='hero md:item md:w-1/2 h-auto content md:pr-16 lg:px-8'>
+                    <div className='hero md:item md:w-1/2 h-auto content md:pr-16'>
                       <h4>Never stop learning</h4>
                       <p>It’s never to late to learn, discover and change</p>
                     </div>
                   </div>
                 </div>
+                <div class='flex-none w-8 lg:w-12'></div>
               </div>
               <div class='flex-none px-2'></div>
             </div>
