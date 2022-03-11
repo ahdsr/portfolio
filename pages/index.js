@@ -21,6 +21,9 @@ import Logo4 from '../assets/global/logo_rsa.png';
 import Logo5 from '../assets/global/logo_element.png';
 import Logo6 from '../assets/global/logo_bmo.png';
 import Me from '../assets/global/me.jpg';
+import Lines from '../assets/global/lines.png';
+import LeftLines from '../assets/global/leftLines.png';
+import LogoGroup from '../assets/global/logogroup.png';
 
 export default function Home() {
   const containerRef = useRef(null);
@@ -30,132 +33,97 @@ export default function Home() {
       <LazyMotion features={domAnimation}>
         <m.div initial='initial' animate='enter' exit='exit'>
           <m.main variants={fade} className='pb-4'>
-            <div>
-              <div
-                style={{
-                  position: 'relative',
-                  width: '100%',
-                  height: '800px',
-                  overflow: 'hidden',
-                }}
-              >
-                <div className='hero relative max-w-7xl z-40 mx-20 lg:mx-96 pt-20 sm:pt-60 md:pt-52 xl:pt-72 text-left tracking-normal'>
-                  <div className='md:flex max-w-7xl mx-auto  '>
-                    <div className='hero md:item md:w-2/3 h-auto content md:pr-16  '>
-                      <h1>
-                        Hi, I’m Lucas a UX/UI designer, based out of Toronto.
-                      </h1>
-                      <p>You've made it here, so have a look around.</p>
+            <div class='flex flex-row mx-auto max-w-screen-2xl mt-32  md:mt-36 lg:mt-40'>
+              <div class='flex-none w-12 px-4 '>
+                <div className='block w-4 h-12 mt-64'>
+                  <Image
+                    alt='Mountains'
+                    src={LeftLines}
+                    layout='responsive'
+                    objectFit='cover'
+                  />
+                </div>
+              </div>
+              <div class='grow mx-auto max-w-screen-2xl'>
+                <div className='md:flex mx-auto  '>
+                  <div className='hero md:item md:w-2/3 lg:w-2/3 xl:w-1/2  md:pr-32 max-w-full '>
+                    <h1>
+                      Hi, I’m Lucas a{' '}
+                      <span className='text-yellow-500'>UX & UI</span> designer,
+                      based out of Toronto.
+                    </h1>
+                    <p>Things I like:</p>
+                    <ul>
+                      <li>A tough design problem</li>
+                      <li>Some subtle animation & motion</li>
+                      <li>Open and transparent communication</li>
+                      <li>Science and data</li>
+                      <li>Arguing a good point</li>
+                      <li>Design systems</li>
+                    </ul>
+                  </div>
+                  <div className='item mx-auto mt-10 w-56 md:w-64 lg:w-80 text-center'>
+                    <Image alt='Lucas' src={Me} layout='responsive' />
+                  </div>
+                </div>
+              </div>
+              <div class='flex-none w-12 px-4'></div>
+            </div>
+            <div class='flex flex-row max-w-full mx-auto mt-20  md:mt-40 bg-gradient-to-bl from-customblue via-customblue to-customblue2 text-white sm: rounded-tr-huge'>
+              <div class='flex-none px-2'></div>
+              <div class='grow mx-auto max-w-screen-2xl px-8 mt-20 md:mt-0'>
+                <div className='md:pt-44 md:pb-44 lg:pt-40 lg:pb-40  z-0 rounded-tr-huge   '>
+                  <div className='md:flex max-w-screen-2xl mx-auto  '>
+                    <div className='homepage md:item md:w-1/2 h-auto content md:pr-16 lg:px-8  '>
+                      <h1>Research, design, prototype, test and evaluate ↻ </h1>
+                      <p>
+                        As a designer, I've been lucky enough to be exposed to a
+                        vast number of employers, teams and projects.
+                      </p>
                     </div>
-                    <div className='hero md:item md:w-1/3 h-auto content'>
-                      <Image
-                        alt='Mountains'
-                        src={Me}
-                        layout='responsive'
-                        objectFit='cover'
-                      />
+                    <div className='homepage md:item md:w-1/2 h-auto content'>
+                      <p>
+                        Each of them has been a unique and rewarding learning
+                        experience and I approach all my projects, regardless of
+                        the project size with a a discovery session to
+                        understand my client’s needs, the business objectives
+                        and what the user research is indicating.
+                      </p>
+                      <p>
+                        I help my clients improve their usability experience and
+                        provide them with a product we can be mutually proud of.
+                      </p>
+                      <p>
+                        Below you'll find selected use case studies that review
+                        a detailed design process. You can also view non client
+                        work in the{' '}
+                        <FancyLink
+                          destination='/portfolio'
+                          a11yText='More work'
+                          label='work in progress'
+                          extraClasses=' underline bg-black bg-opacity-30 p-1 hover:bg-yellow-400'
+                        />{' '}
+                        section.
+                      </p>
+                      <div className='pt-10 pb-28 '>
+                        <Image
+                          alt='Mountains'
+                          src={Lines}
+                          layout='responsive'
+                          objectFit='cover'
+                        />
+                        <Image
+                          alt='Mountains'
+                          src={LogoGroup}
+                          layout='responsive'
+                          objectFit='cover'
+                        />
+                      </div>
                     </div>
                   </div>
                 </div>
-                <Image
-                  alt='Mountains'
-                  src={Image1}
-                  layout='fill'
-                  objectFit='cover'
-                />
               </div>
-            </div>
-
-            <div className=' pt-24 pb-24 md:pt-44 md:pb-44 lg:pt-40 lg:pb-40 bg-gradient-to-bl from-customblue via-customblue to-customblue2 text-white z-0 rounded-tr-huge   '>
-              <div className='md:flex px-8 md:px-12 lg:px-24 xl:px-20 max-w-7xl mx-auto  '>
-                <div className='homepage md:item md:w-1/2 h-auto content md:pr-16  '>
-                  <h1>Research, design, prototype, test and evaluate ↻ </h1>
-                  <p>
-                    As a designer, I've been lucky enough to be exposed to a
-                    vast number of employers, teams and projects.
-                  </p>
-                </div>
-                <div className='homepage md:item md:w-1/2 h-auto content'>
-                  <p>
-                    Each of them has been a unique and rewarding learning
-                    experience and I approach all my projects, regardless of the
-                    project size with a a discovery session to understand my
-                    client’s needs, the business objectives and what the user
-                    research is indicating.
-                  </p>
-                  <p>
-                    I help my clients improve their usability experience and
-                    provide them with a product we can be mutually proud of.
-                  </p>
-                  <p>
-                    Below you'll find selected use case studies that review a
-                    detailed design process. You can also view non client work
-                    in the{' '}
-                    <FancyLink
-                      destination='/portfolio'
-                      a11yText='More work'
-                      label='work in progress'
-                      extraClasses=' underline bg-black bg-opacity-30 p-1 hover:bg-yellow-400'
-                    />{' '}
-                    section.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div
-              className=' grid place-items-center max-w-6xl mx-auto  sm:px-6 md:px-12 md:h-32 lg:px-24 xl:px-32 -mt-32
-              h-24 z-10 '
-            >
-              <div className='  mx-4 xs:mx-8 space-x-0 sm:space-x-4'>
-                <div className='inline-block w-14 h-14 md:w-32 md:h-32 '>
-                  <Image
-                    alt='Mountains'
-                    src={Logo1}
-                    layout='responsive'
-                    objectFit='cover'
-                  />
-                </div>
-                <div className='inline-block w-14 h-14 md:w-32 md:h-32 '>
-                  <Image
-                    alt='Mountains'
-                    src={Logo2}
-                    layout='responsive'
-                    objectFit='cover'
-                  />
-                </div>
-                <div className='inline-block w-14 h-14 md:w-32 md:h-32'>
-                  <Image
-                    alt='Mountains'
-                    src={Logo3}
-                    layout='responsive'
-                    objectFit='cover'
-                  />
-                </div>
-                <div className='inline-block w-14 h-14 md:w-32 md:h-32'>
-                  <Image
-                    alt='Mountains'
-                    src={Logo4}
-                    layout='responsive'
-                    objectFit='cover'
-                  />
-                </div>
-                <div className='inline-block w-14 h-14 md:w-32 md:h-32'>
-                  <Image
-                    alt='Mountains'
-                    src={Logo5}
-                    layout='responsive'
-                    objectFit='cover'
-                  />
-                </div>
-                <div className='inline-block w-14 h-14 md:w-32 md:h-32'>
-                  <Image
-                    alt='Mountains'
-                    src={Logo6}
-                    layout='responsive'
-                    objectFit='cover'
-                  />
-                </div>
-              </div>
+              <div class='flex-none px-2'></div>
             </div>
             <Container>
               <div className='content '>
@@ -164,6 +132,7 @@ export default function Home() {
                 </div>
               </div>
             </Container>
+            s
           </m.main>
         </m.div>
       </LazyMotion>

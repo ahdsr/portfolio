@@ -35,11 +35,14 @@
 
 .hero {
   & > p {
-    @apply text-lg font-light leading-relaxed mb-6 text-slate-900;
+    @apply sm:text-base md:text-lg font-medium leading-relaxed mb-6 text-slate-900;
   }
   & > h1,
   & > .h1 {
-    @apply text-5xl  md:text-6xl  font-extrabold tracking-tight leading-tight mb-10 text-slate-700;
+    @apply text-3xl  md:text-5xl lg:text-4xl xl:text-6xl font-extrabold tracking-tight leading-tight  text-slate-700;
+  }
+  & > ul > li {
+    @apply sm:text-base md:text-lg font-light leading-relaxed  text-slate-900;
   }
 }
 
@@ -49,17 +52,17 @@
   }
   & > h1,
   & > .h1 {
-    @apply text-5xl  md:text-6xl  font-extrabold tracking-tight leading-tight mb-10 text-white;
+    @apply text-3xl md:text-5xl lg:text-6xl font-extrabold tracking-tight leading-tight mb-10 text-white;
   }
 }
 
 .usecases {
   & > p {
-    @apply text-lg font-normal leading-relaxed mb-6  text-slate-800;
+    @apply text-base md:text-lg font-normal leading-relaxed mb-6  text-slate-800;
   }
   & > h2,
   & > .h2 {
-    @apply text-3xl sm:text-3xl md:text-4xl font-bold tracking-tighter leading-tight mb-12 text-black;
+    @apply text-2xl md:text-3xl lg:text-5xl font-bold tracking-tighter leading-tight mb-6 text-black;
   }
 }
 

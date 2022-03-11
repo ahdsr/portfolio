@@ -5,7 +5,7 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      sans: ['Inter', 'sans-serif'],
+      sans: ['Raleway', 'sans-serif'],
       mono: ['Lucida Console', 'Courier', 'monospace'],
     },
     borderRadius: {
@@ -37,7 +37,7 @@ module.exports = {
           DEFAULT: '#d18d67',
           dark: '#ce8860',
         },
-        customblue: '#0D14B8',
+        customblue: '#000AFF',
         customblue2: '#0042FD',
       },
 
