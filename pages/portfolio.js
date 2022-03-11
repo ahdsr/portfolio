@@ -43,7 +43,7 @@ export default function About() {
         <m.div initial='initial' animate='enter' exit='exit'>
           <m.main variants={fade} className='pb-4'>
             <Container>
-              <div className='content mt-40 mx-auto max-w-7xl'>
+              <div className='content pt-40 mx-auto px-4 max-w-7xl'>
                 <h1>Portfolio</h1>
                 <p>
                   This page will be dedicated to creative work outside of my

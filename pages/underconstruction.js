@@ -18,7 +18,7 @@ export default function Resume() {
         <m.div initial='initial' animate='enter' exit='exit'>
           <m.main variants={fade} className='pb-4 '>
             <Container>
-              <div className='content mt-40'>
+              <div className='content pt-40 px-4'>
                 <div className='mx-auto max-w-7xl'>
                   <div className=' uppercase text-5xl font-black tracking-tight block mx-auto text-center'>
                     404

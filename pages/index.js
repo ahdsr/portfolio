@@ -9,7 +9,7 @@ import PortfolioList from '@/components/portfoliolist';
 
 //Imported Images
 import Image from 'next/image';
-import Me from '../assets/global/me.jpg';
+import Me from '../assets/global/me.png';
 import LeftLines from '../assets/global/leftLines.png';
 import LogoGroup from '../assets/global/logogroup.png';
 
@@ -20,12 +20,12 @@ export default function Home() {
       <NextSeo title='Home' />
       <LazyMotion features={domAnimation}>
         <m.div initial='initial' animate='enter' exit='exit'>
-          <m.main variants={fade}>
+          <m.main variants={fade} className='bg-white'>
             {/*  Hero */}
-            <div className='bg-white pb-20  md:pb-40'>
-              <div class='flex flex-row mx-auto max-w-screen-2xl mt-32  md:mt-36 lg:mt-40 '>
-                <div class='flex-none w-8 lg:w-12'>
-                  <div className='block w-4 h-12 mt-64 mx-2'>
+            <div className=' mx-auto pb-20 md:pb-40 max-w-screen-2xl '>
+              <div class='flex flex-row max-w-7xl mt-32 md:mt-36 lg:mt-40 mx-8 sm:mx-auto'>
+                <div class='flex-none md:ml-12 '>
+                  <div className='block w-3 h-12 mt-60 -ml-6 lg:-ml-12 '>
                     <Image
                       alt='Mountains'
                       src={LeftLines}
@@ -34,8 +34,8 @@ export default function Home() {
                     />
                   </div>
                 </div>
-                <div class='grow mx-auto max-w-screen-2xl'>
-                  <div className='md:flex mx-auto px-0 md:px-2'>
+                <div class='grow mx-auto max-w-7xl '>
+                  <div className='md:flex mx-auto'>
                     <div className='hero md:item md:w-3/5 lg:w-4/5 xl:w-1/2 pr-2 md:pr-8 max-w-full'>
                       <h1>
                         Hi, I’m Lucas a{' '}
@@ -57,28 +57,28 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                <div class='flex-none w-8 lg:w-12'></div>
+                <div class='flex-none md:ml-12 '></div>
               </div>
             </div>
 
             {/*  Blue Section */}
             <div className='bg-white'>
-              <div class='flex flex-row max-w-full mx-auto pt-20 md:pt-40 bg-gradient-to-bl from-customblue via-customblue to-customblue2 text-white rounded-tr-huge'>
+              <div class='flex flex-row max-w-full mx-auto pt-20 md:pt-20 bg-gradient-to-bl from-customblue via-customblue to-customblue2 text-white rounded-tr-huge'>
                 <div class='flex-none w-8 lg:w-12 '></div>
-                <div class='grow mx-auto max-w-screen-2xl pt-20 md:pt-0 px-0 sm:px-4 md:px-4 xl:px-12 '>
-                  <div className='md:pt-44 md:pb-44 lg:pt-40 lg:pb-40 z-0 rounded-tr-huge'>
+                <div class='grow mx-auto max-w-7xl pt-10 sm:pt-20 px-0 sm:px-4 md:px-4 xl:px-0 '>
+                  <div className='md:pb-24 z-0 rounded-tr-huge'>
                     <div className='md:flex max-w-screen-2xl mx-auto'>
                       <div className='homepage md:item md:w-1/2 h-auto content md:pr-16'>
                         <h1>
                           Research, design, prototype, test and evaluate ↻{' '}
                         </h1>
+                      </div>
+                      <div className='homepage md:item md:w-1/2 h-auto content'>
                         <p>
                           As a designer, I've been lucky enough to be exposed to
                           a vast number of employers, teams and projects. Each
                           of them have given me a rewarding learning experience.
                         </p>
-                      </div>
-                      <div className='homepage md:item md:w-1/2 h-auto content'>
                         <p>
                           I approach all my projects, regardless of the project
                           size with a a discovery session to understand my
@@ -114,7 +114,7 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                <div class='flex-n flex-none w-8 lg:w-12one'></div>
+                <div class='flex-n flex-none w-8 lg:w-12'></div>
               </div>
             </div>
 

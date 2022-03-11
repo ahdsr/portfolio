@@ -3,7 +3,7 @@ import { useRef } from 'react';
 import Layout from '@/components/layout';
 import FancyLink from '@/components/fancyLink';
 import Container from '@/components/container';
-import VideoPost from '@/components/blogvideopost';
+import VideoPost from '@/components/molecules/blogvideopost';
 import { fade } from '@/helpers/transitions';
 import { LazyMotion, domAnimation, m } from 'framer-motion';
 import { NextSeo } from 'next-seo';
@@ -22,7 +22,7 @@ export default function Resume() {
         <m.div initial='initial' animate='enter' exit='exit'>
           <m.main variants={fade} className='pb-20'>
             <Container>
-              <div className='content mt-40'>
+              <div className='content pt-40 px-4'>
                 <div className='mx-auto max-w-7xl md:flex md:flex-wrap overflow-hidden mt-32'>
                   <div className='mb-4 md:w-3/4 overflow-hidden'>
                     <div className='content mb-20'>

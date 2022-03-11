@@ -3,9 +3,10 @@ module.exports = {
     './pages/**/*.{js,ts,jsx,tsx}',
     './components/**/*.{js,ts,jsx,tsx}',
   ],
+
   theme: {
     fontFamily: {
-      sans: ['Raleway', 'sans-serif'],
+      sans: ['Inter', 'sans-serif'],
       mono: ['Lucida Console', 'Courier', 'monospace'],
     },
     borderRadius: {
@@ -43,7 +44,7 @@ module.exports = {
       },
 
       boxShadow: {
-        items: 'rgba(0, 0, 0, 0.1) 0px 8px 20px 0px',
+        items: 'rgba(149, 157, 165, 0.2) 0px 8px 24px',
       },
     },
   },
