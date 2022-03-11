@@ -89,7 +89,7 @@
 }
 
 .cta {
-  @apply inline-block w-auto px-4 py-3 my-4 text-white bg-slate-800 hover:shadow-lg hover:scale-90 transition ease-in-out;
+  @apply inline-block w-auto px-4 py-3 my-4 text-white bg-slate-800 hover:shadow-lg hover:scale-90 transition ease-in-out rounded-full;
 }
 
 .desktopimage {

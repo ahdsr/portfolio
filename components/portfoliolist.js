@@ -48,22 +48,22 @@ export default function PortfolioList() {
           key={usecases.id}
           className={
             usecases.id % 2 === 0
-              ? 'md:flex shadow-items mb-8 md:mb-12'
-              : 'md:flex md:flex-row-reverse shadow-items mb-8 md:mb-12'
+              ? 'md:flex shadow-items mb-8 md:mb-12 rounded-b-large overflow-hidden'
+              : 'md:flex md:flex-row-reverse shadow-items mb-8 md:mb-12 rounded-b-large overflow-hidden'
           }
         >
-          <div className='item md:w-1/2'>
+          <div className='block item md:w-1/2 rounded-t-large bg-transparent overflow-hidden'>
             <Image alt='Mountains' src={usecases.image} layout='responsive' />
           </div>
 
           <div
             className={[
-              'item md:w-1/2 px-6 md:p-16 xl:p-20',
+              'item md:w-1/2 px-6 md:p-16 xl:p-20 rounded-b-large overflow-hidden',
               usecases.color,
             ].join(' ')}
           >
             <div className='usecases'>
-              <p className='block w-fit px-3 py-1 my-2 bg-white bg-opacity-80 rounded-2xl'>
+              <p className='block w-fit p-2 bg-opacity-80 bg-white'>
                 {usecases.tag}
               </p>
               <h2 className='usecases'>{usecases.name}</h2>
@@ -73,7 +73,7 @@ export default function PortfolioList() {
                 destination={usecases.link}
                 a11yText='See portfolio item'
                 label='Learn more'
-                extraClasses='cta'
+                extraClasses='cta mb-8'
               />
             </div>
           </div>
