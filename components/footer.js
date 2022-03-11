@@ -3,9 +3,9 @@ import Container from './container';
 
 export default function Footer() {
   return (
-    <Container>
-      <div className='customlink mx-auto max-w-7xl block border-t border-black py-4 text-black px-1 h-24'>
-        <div className='flex flex-wrap text-xs'>
+    <div className='customlink  block border-t border-black py-4 text-black px-6 h-24 bg-customyellow'>
+      <div className='mx-auto max-w-screen-2xl '>
+        <div className='flex flex-wrap text-xs '>
           <div className=' flex mb-1 md:mb-0'>
             <FancyLink
               destination='/about'
@@ -35,6 +35,6 @@ export default function Footer() {
           </div>
         </div>
       </div>
-    </Container>
+    </div>
   );
 }
