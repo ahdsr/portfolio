@@ -7,14 +7,14 @@ import Navbar from '@/components/navbar';
 
 export default function Layout({ children }) {
   return (
-    <>
+    <div className='bg-slate-50'>
       <Navbar />
       {children}
-      <GetInTouch />
-      <Footer />
-      <div className='sticky bottom-0 z-50 md:hidden'>
+      {/*  <GetInTouch />
+      <Footer /> */}
+      {/* <div className='sticky bottom-0 z-50 md:hidden'>
         <NavbarMobile />
-      </div>
-    </>
+      </div> */}
+    </div>
   );
 }
