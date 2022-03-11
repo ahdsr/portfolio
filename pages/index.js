@@ -22,6 +22,7 @@ export default function Home() {
         <m.div initial='initial' animate='enter' exit='exit'>
           <m.main variants={fade} className='bg-white'>
             {/*  Hero */}
+
             <div className='mx-auto pb-20 md:pb-30 max-w-screen-2xl '>
               <div className='flex flex-row max-w-7xl mt-32 md:mt-36 lg:mt-40 mx-2 sm:mx-auto md:mx-auto lg:mx-auto'>
                 <div className='flex-none mx-2'>
