@@ -49,7 +49,7 @@ export default function Home() {
                         <li>Subtle animation & motion</li>
                         <li>Design driven by science and data</li>
                         <li>Complex design systems</li>
-                        <li>Transparent feedback</li>
+                        <li>Transparent, constructive feedback</li>
                         <li>Selling a solution</li>
                       </ul>
                     </div>
@@ -75,14 +75,14 @@ export default function Home() {
             <div className='bg-white'>
               <div className='flex flex-row max-w-full mx-auto pt-20 md:pt-20 bg-gradient-to-bl from-customblue via-customblue to-customblue2 text-white rounded-tr-huge'>
                 <div className='flex-none w-8 lg:w-12 '></div>
-                <div className='grow mx-auto max-w-7xl pt-10 sm:pt-20 px-0 sm:px-4 md:px-4 xl:px-0 '>
+                <div className='grow mx-auto max-w-7xl pt-10 sm:pt-20 sm:pb-24 px-0 sm:px-4 md:px-4 xl:px-0 '>
                   <div className='md:pb-24 z-0 rounded-tr-huge'>
                     <div className='md:flex max-w-screen-2xl mx-auto'>
                       <div className='homepage md:item md:w-1/2 h-auto content md:pr-16 pl-0 lg:pl-4 '>
                         <h1>
                           Research, design, prototype, test and evaluate ↻{' '}
                         </h1>
-                        <div className='pt-4 pb-28 md:pt-10 md:pb-28'>
+                        <div className='pt-4 pb-12 md:pt-10 '>
                           <Image
                             alt='Mountains'
                             src={LogoGroup}
@@ -91,7 +91,7 @@ export default function Home() {
                           />
                         </div>
                       </div>
-                      <div className='homepage md:item md:w-1/2 h-auto content pr-0 lg:pr-4'>
+                      <div className='homepage md:item md:w-1/2 h-auto content pr-0 lg:pr-4 pb-32 md:pb-4 lg:pb-8'>
                         <p>
                           As a designer, I've been lucky enough to be exposed to
                           a vast number of employers, teams and projects. Each
