@@ -7,6 +7,7 @@ import VideoPost from '@/components/molecules/blogvideopost';
 import { fade } from '@/helpers/transitions';
 import { LazyMotion, domAnimation, m } from 'framer-motion';
 import { NextSeo } from 'next-seo';
+import ReactPlayer from 'react-player';
 
 //Blog Images
 import Image from 'next/image';
@@ -27,6 +28,14 @@ export default function Resume() {
                   <div className='mb-4 md:w-3/4 overflow-hidden'>
                     <div className='content mb-20'>
                       <h1>Blog</h1>
+                      <div className='player-wrapper'>
+                        <ReactPlayer
+                          className='react-player'
+                          url='../assets/blog/AnimationTest.mp4'
+                          width='100%'
+                          height='100%'
+                        />
+                      </div>
                       <VideoPost
                         id='1'
                         title='Testing the site with Sizzy'
