@@ -8,7 +8,7 @@ import MyModal from '@/components/molecules/modal';
 
 export default function Layout({ children }) {
   return (
-    <div className='bg-slate-50'>
+    <div className='bg-black'>
       {/*  <div className='z-100'>
         <MyModal />
       </div> */}

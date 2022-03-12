@@ -13,8 +13,13 @@
 @import 'tailwindcss/utilities';
 
 /* Simple defaults */
+
+html {
+  background-color: #000000;
+}
 body {
-  @apply font-sans antialiased text-black bg-white;
+  background-color: #000000;
+  @apply font-sans antialiased text-black bg-black;
 }
 
 .player-wrapper {

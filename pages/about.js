@@ -21,9 +21,9 @@ export default function Resume() {
         <m.div initial='initial' animate='enter' exit='exit'>
           <m.main variants={fade} className='pb-4'>
             <Container>
-              <div className='content pt-40 px-4'>
-                <div className='mx-auto max-w-7xl md:flex md:flex-wrap overflow-hidden'>
-                  <div className='content mb-4 md:w-2/5 overflow-hidden md:pr-10'>
+              <div className='px-4 pt-40 content'>
+                <div className='mx-auto overflow-hidden max-w-7xl md:flex md:flex-wrap'>
+                  <div className='mb-4 overflow-hidden content md:w-2/5 md:pr-10'>
                     <h1>Credit</h1>
                     <ul className='customlink'>
                       <li>
@@ -38,12 +38,12 @@ export default function Resume() {
                     </ul>
                   </div>
 
-                  <div className='content mb-4 md:w-3/5 overflow-hidden md:pl-10'>
-                    <h1 className='font-bold text-2xl md:text-3xl xl:text-4xl mb-4'>
+                  <div className='mb-4 overflow-hidden content md:w-3/5 md:pl-10'>
+                    <h1 className='mb-4 text-2xl font-bold md:text-3xl xl:text-4xl'>
                       My journey into front end development
                     </h1>
 
-                    <div className='content pt-12 bg-slate-100 p-8'>
+                    <div className='p-8 pt-12 content bg-slate-100'>
                       <DateTag date={'Javascript Frameworks'} />
                       <h3>Next JS</h3>
                       <h4>

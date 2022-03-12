@@ -62,11 +62,11 @@
 
 .usecases {
   & > p {
-    @apply text-base md:text-lg font-normal leading-relaxed mb-6  text-slate-800;
+    @apply text-base md:text-lg font-normal leading-relaxed mb-6  text-slate-500;
   }
   & > h2,
   & > .h2 {
-    @apply text-2xl md:text-3xl lg:text-5xl font-bold tracking-tighter leading-tight mb-6 text-slate-700;
+    @apply text-2xl md:text-3xl lg:text-5xl font-bold tracking-tighter leading-tight mb-6 text-slate-400;
   }
 }
 
@@ -129,4 +129,18 @@ h4,
     color: #fff;
     box-shadow: inset 400px 0 0 0 #0d14b8;
   }
+}
+
+.resume .date {
+  @apply text-xs font-medium text-slate-500;
+}
+.resume .jobrole {
+  @apply text-lg font-medium tracking-tight mb-2 text-slate-600;
+}
+.resume .client {
+  @apply text-sm font-light text-yellow-200 opacity-80;
+}
+
+.resume li {
+  @apply text-base py-4 border-b border-b-slate-900;
 }

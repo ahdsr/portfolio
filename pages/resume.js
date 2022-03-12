@@ -118,7 +118,7 @@ export default function Resume() {
                     <ul>
                       <li>
                         <FancyLink
-                          destination='/blog'
+                          destination='/blog2'
                           a11yText='Music'
                           label='Music'
                           extraClasses='underline bg-yellow-200 hover:bg-yellow-400  p-1'

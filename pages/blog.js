@@ -9,7 +9,7 @@ import { LazyMotion, domAnimation, m } from 'framer-motion';
 import { NextSeo } from 'next-seo';
 import ReactPlayer from 'react-player';
 
-//Blog Images
+//blog2 Images
 import Image from 'next/image';
 const PostImage1 =
   'https://images.unsplash.com/photo-1581822261290-991b38693d1b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80';
@@ -22,10 +22,10 @@ export default function Resume() {
       <LazyMotion features={domAnimation}>
         <m.div initial='initial' animate='enter' exit='exit'>
           <m.main variants={fade} className='pb-20'>
-            <div className='content pt-40'>
-              <div className='mx-auto max-w-7xl md:flex md:flex-wrap overflow-hidden'>
-                <div className='mb-4 md:w-3/4 overflow-hidden'>
-                  <div className='content mb-20'>
+            <div className='pt-40 content'>
+              <div className='mx-auto overflow-hidden max-w-7xl md:flex md:flex-wrap'>
+                <div className='mb-4 overflow-hidden md:w-3/4'>
+                  <div className='mb-20 content'>
                     <h1>Blog</h1>
                     <div className='player-wrapper'>
                       <ReactPlayer
@@ -91,19 +91,19 @@ export default function Resume() {
                     />
                   </div>
                 </div>
-                <div className='content mb-4 md:w-1/4 overflow-hidden md:pl-10'>
+                <div className='mb-4 overflow-hidden content md:w-1/4 md:pl-10'>
                   <ul>
-                    <li className='block w-fit underline bg-yellow-200 m-1'>
+                    <li className='block m-1 underline bg-yellow-200 w-fit'>
                       Testing the site with Sizzy
                     </li>
-                    <li className='block w-fit underline bg-yellow-200 m-1'>
+                    <li className='block m-1 underline bg-yellow-200 w-fit'>
                       So I've been working on this tune...
                     </li>
 
-                    <li className='block w-fit underline bg-yellow-200 m-1'>
+                    <li className='block m-1 underline bg-yellow-200 w-fit'>
                       Playing with the drone again, at a car meet in Brampton
                     </li>
-                    <li className='block w-fit underline bg-yellow-200 m-1'>
+                    <li className='block m-1 underline bg-yellow-200 w-fit'>
                       Some more ariel footage for my brother in law's company
                       Hodge Films
                     </li>
