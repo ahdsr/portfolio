@@ -47,9 +47,9 @@ export default function Home() {
                       <ul>
                         <li>A tough design problem</li>
                         <li>Subtle animation & motion</li>
-                        <li>Transparent feedback</li>
+                        <li>Design driven by science and data</li>
                         <li>Complex design systems</li>
-                        <li>Science and data</li>
+                        <li>Transparent feedback</li>
                         <li>Selling a solution</li>
                       </ul>
                     </div>
@@ -78,12 +78,20 @@ export default function Home() {
                 <div className='grow mx-auto max-w-7xl pt-10 sm:pt-20 px-0 sm:px-4 md:px-4 xl:px-0 '>
                   <div className='md:pb-24 z-0 rounded-tr-huge'>
                     <div className='md:flex max-w-screen-2xl mx-auto'>
-                      <div className='homepage md:item md:w-1/2 h-auto content md:pr-16'>
+                      <div className='homepage md:item md:w-1/2 h-auto content md:pr-16 pl-0 lg:pl-4 '>
                         <h1>
                           Research, design, prototype, test and evaluate ↻{' '}
                         </h1>
+                        <div className='pt-4 pb-28 md:pt-10 md:pb-28'>
+                          <Image
+                            alt='Mountains'
+                            src={LogoGroup}
+                            layout='responsive'
+                            objectFit='cover'
+                          />
+                        </div>
                       </div>
-                      <div className='homepage md:item md:w-1/2 h-auto content'>
+                      <div className='homepage md:item md:w-1/2 h-auto content pr-0 lg:pr-4'>
                         <p>
                           As a designer, I've been lucky enough to be exposed to
                           a vast number of employers, teams and projects. Each
@@ -101,8 +109,8 @@ export default function Home() {
                           proud of.
                         </p>
                         <p>
-                          Below you'll find selected use case studies that
-                          review a detailed design process. You can also view
+                          Below you'll find a few selected use case studies that
+                          go into a detailed design process. You can also view
                           other work in the{' '}
                           <FancyLink
                             destination='/portfolio'
@@ -112,14 +120,6 @@ export default function Home() {
                           />{' '}
                           section.
                         </p>
-                        <div className='pt-4 pb-28 md:pt-10 md:pb-28'>
-                          <Image
-                            alt='Mountains'
-                            src={LogoGroup}
-                            layout='responsive'
-                            objectFit='cover'
-                          />
-                        </div>
                       </div>
                     </div>
                   </div>
