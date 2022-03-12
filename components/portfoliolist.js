@@ -14,7 +14,7 @@ const usecases = [
     name: 'TD for Me',
     description:
       'TD For Me is a series of responsive page framed into the main TD Mobile Banking App. The usage of this location based tool has been steadily declining. We explore and tackle customer engagement.',
-    link: '/underconstruction',
+    link: '/usecases/item1',
     image: image2,
     color: 'bg-white',
   },
@@ -24,7 +24,7 @@ const usecases = [
     name: 'High Priestess Tarot',
     description:
       'When an up and coming tarot card reader asks you to develop her web presence you jump on board. Lets have a look at this one page simple responsive solution.',
-    link: '/underconstruction',
+    link: '/usecases/item2',
     image: image3,
     color: 'bg-white',
   },
