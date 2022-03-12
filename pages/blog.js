@@ -33,6 +33,8 @@ export default function Resume() {
                           className='react-player'
                           url='http://lucasczuchraj.com/Videos/AnimationTest.mp4'
                           playing={true}
+                          loop={true}
+                          controls={true}
                           width='100%'
                           height='100%'
                         />
