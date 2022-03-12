@@ -8,15 +8,15 @@ import MyModal from '@/components/molecules/modal';
 
 export default function Layout({ children }) {
   return (
-    <div className='bg-black'>
+    <div className='bg-white'>
       {/*  <div className='z-100'>
         <MyModal />
       </div> */}
       <Navbar />
       {children}
-      {/*  <GetInTouch />
-      <Footer /> */}
-      <div className='sticky bottom-0 z-50 md:hidden'>
+      <GetInTouch />
+      <Footer />
+      <div className='sticky bottom-0 z-50 shadow-xl md:hidden'>
         <NavbarMobile />
       </div>
     </div>

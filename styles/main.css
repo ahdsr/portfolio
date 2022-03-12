@@ -15,11 +15,9 @@
 /* Simple defaults */
 
 html {
-  background-color: #000000;
 }
 body {
-  background-color: #000000;
-  @apply font-sans antialiased text-black bg-black;
+  @apply font-sans antialiased text-black;
 }
 
 .player-wrapper {

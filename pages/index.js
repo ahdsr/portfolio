@@ -20,7 +20,7 @@ export default function Home() {
       <NextSeo title='Home' />
       <LazyMotion features={domAnimation}>
         <m.div initial='initial' animate='enter' exit='exit'>
-          <m.main variants={fade} className='bg-black'>
+          <m.main variants={fade} className='bg-white'>
             {/*  Hero */}
 
             <div className='pb-20 mx-auto md:pb-30 max-w-screen-2xl '>
@@ -72,8 +72,8 @@ export default function Home() {
             </div>
 
             {/*  Blue Section */}
-            <div className='bg-black'>
-              <div className='flex flex-row max-w-full pt-20 mx-auto text-white md:pt-20 bg-gradient-to-bl from-slate-800 via-slate-900 to-slate-900 rounded-tr-huge'>
+            <div className='bg-white'>
+              <div className='flex flex-row max-w-full pt-20 mx-auto text-white md:pt-20 line bg-customblue2 rounded-tr-huge'>
                 <div className='flex-none w-8 lg:w-12 '></div>
                 <div className='px-0 pt-10 mx-auto grow max-w-7xl sm:pt-20 sm:pb-24 sm:px-4 md:px-4 xl:px-0 '>
                   <div className='z-0 md:pb-24 rounded-tr-huge'>
@@ -138,9 +138,9 @@ export default function Home() {
             </Container>
 
             {/*  Bottom */}
-            <div className='flex flex-row max-w-full pt-24 mx-auto -mt-40 bg-gradient-to-bl bg-slate-900 rounded-tr-large'>
+            <div className='flex flex-row max-w-full pt-24 mx-auto -mt-40 bg-gradient-to-bl bg-slate-100 rounded-tr-large'>
               <div className='flex-none px-2'></div>
-              <div className='px-0 mx-auto mt-20 grow max-w-screen-2xl md:mt-0 sm:px-4 md:px-4 xl:px-12'>
+              <div className='px-0 mx-auto mt-20 grow max-w-7xl md:mt-0 sm:px-4 md:px-4 xl:px-12'>
                 <div className='px-2 pb-12 hero md:pt-44 md:pb-44 lg:pt-40 lg:pb-40 rounded-tr-huge'>
                   <div className='flex-none w-8 lg:w-12'></div>
                   <h1>A few other things</h1>

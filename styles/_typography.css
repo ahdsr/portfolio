@@ -62,7 +62,7 @@
 
 .usecases {
   & > p {
-    @apply text-base md:text-lg font-normal leading-relaxed mb-6  text-slate-500;
+    @apply md:text-lg  leading-relaxed mb-6   text-base font-light py-4 border-b border-b-slate-200 text-slate-800;
   }
   & > h2,
   & > .h2 {
@@ -132,15 +132,15 @@ h4,
 }
 
 .resume .date {
-  @apply text-xs font-medium text-slate-500;
+  @apply text-xs font-medium tracking-tight text-slate-800;
 }
 .resume .jobrole {
-  @apply text-lg font-medium tracking-tight mb-2 text-slate-600;
+  @apply text-lg font-bold tracking-tight mb-2 text-slate-900;
 }
 .resume .client {
-  @apply text-sm font-light text-yellow-200 opacity-80;
+  @apply text-sm font-bold text-yellow-600;
 }
 
 .resume li {
-  @apply text-base py-4 border-b border-b-slate-900;
+  @apply text-base font-light py-4 border-b border-b-slate-200 text-slate-800;
 }

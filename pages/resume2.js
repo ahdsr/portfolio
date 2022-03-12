@@ -34,7 +34,7 @@ export default function Resume() {
       <NextSeo title='Blog' />
       <LazyMotion features={domAnimation}>
         <m.div initial='initial' animate='enter' exit='exit'>
-          <m.main variants={fade} className='pb-10 bg-black '>
+          <m.main variants={fade} className='pb-10 bg-white '>
             {/*    BLOG POST #1 */}
             <div className='pb-10 resume'>
               <img src={profilePhoto} alt='' />
@@ -42,7 +42,7 @@ export default function Resume() {
                 <div className='mb-4 text-3xl font-bold tracking-tight text-customblue'>
                   Resume
                 </div>
-                <div className='mb-4 text-xl font-bold tracking-tight text-yellow-100 text-opacity-70'>
+                <div className='mb-4 text-xl font-bold tracking-tight text-yellow-500'>
                   Profile
                 </div>
               </div>
@@ -122,7 +122,7 @@ export default function Resume() {
                   </li>
                 </ul>
 
-                <div className='pt-12 mb-8 text-xl font-bold tracking-tight text-yellow-100 text-opacity-70'>
+                <div className='pt-12 mb-8 text-xl font-bold tracking-tight text-yellow-500 '>
                   Experience
                 </div>
                 <div className='pt-6'>

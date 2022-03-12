@@ -39,7 +39,7 @@ module.exports = {
           dark: '#ce8860',
         },
         customblue: '#000AFF',
-        customblue2: '#0042FD',
+        customblue2: '#47524A',
         customyellow: '#F2F2CF',
       },
 
@@ -48,5 +48,36 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-easing-gradients')({
+      variants: ['responsive'],
+      // required
+      gradients: {
+        ex1: ['#121213', '#212124'], // must be two colors
+        ex2: {
+          easing: 'cubic-bezier(0.48, 0.3, 0.64, 0.3)',
+          steps: 5,
+          color: ['#0009EA', '#000AFF'],
+        },
+        ex3: {
+          easing: 'cubic-bezier(0.48, 0.3, 0.64, 1)',
+          color: ['#000', '#03041A'],
+        },
+        ex4: { easing: 'steps(4, skip-none)', color: ['#121213', '#212124'] },
+      },
+      // defaults
+      alphaDecimals: 5,
+      colorMode: 'lrgb',
+      type: 'linear',
+      easing: 'ease', // default settings
+      colorStops: 15,
+      directions: {
+        t: 'to top',
+        tr: 'to top right',
+        r: 'to right',
+        b: 'to bottom',
+        l: 'to left',
+      },
+    }),
+  ],
 };

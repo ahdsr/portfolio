@@ -38,14 +38,14 @@ export default function Navbar() {
     position: 'fixed',
     height: '64px',
     width: '100%',
-    backgroundColor: 'black',
+    backgroundColor: 'white',
     transition: 'top  0.3s ease',
   };
 
   return (
     <Disclosure
       as='nav'
-      className='sticky top-0 z-50 bg-gray-900 border-b border-b-slate-800'
+      className='sticky top-0 z-50 bg-white border-b border-b-slate-200'
       style={{ ...navbarStyles, top: visible ? '0' : '-64px' }}
     >
       {({ open }) => (

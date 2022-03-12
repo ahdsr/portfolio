@@ -7,10 +7,10 @@ import FancyLink from './fancyLink';
 
 export default function NavbarMobile() {
   return (
-    <div className='sticky bottom-0 z-50 border-t md:hidden border-t-black'>
-      <nav className='flex h-24 pt-2 overflow-x-auto bg-black '>
+    <div className='sticky bottom-0 z-50 md:hidden '>
+      <nav className='flex h-24 pt-2 overflow-x-auto border-t bg-slate-50 border-t-slate-200 '>
         <div className='flex flex-col items-center flex-grow overflow-hidden text-sm whitespace-no-wrap transition-colors duration-100 ease-in-out justify-top text-slate-800 '>
-          <IoImageOutline className='w-10 h-10 p-2 mb-2 text-slate-700 ' />
+          <IoImageOutline className='w-10 h-10 p-2 mb-2 text-customblue text-opacity-80 ' />
 
           <FancyLink
             destination='/'
@@ -21,7 +21,7 @@ export default function NavbarMobile() {
         </div>
 
         <div className='flex flex-col items-center flex-grow overflow-hidden text-sm whitespace-no-wrap transition-colors duration-100 ease-in-out justify-top text-slate-800'>
-          <IoFlaskOutline className='w-10 h-10 p-2 mb-2 text-slate-700 ' />
+          <IoFlaskOutline className='w-10 h-10 p-2 mb-2 text-customblue text-opacity-80 ' />
           <FancyLink
             destination='/portfolio'
             a11yText='Portfolio'
@@ -31,7 +31,7 @@ export default function NavbarMobile() {
         </div>
 
         <div className='flex flex-col items-center flex-grow overflow-hidden text-sm whitespace-no-wrap transition-colors duration-100 ease-in-out justify-top text-slate-800'>
-          <IoPersonCircleOutline className='w-10 h-10 p-2 mb-2 text-slate-700 ' />
+          <IoPersonCircleOutline className='w-10 h-10 p-2 mb-2 text-customblue text-opacity-80 ' />
           <FancyLink
             destination='/resume2'
             a11yText='Resume'
@@ -41,7 +41,7 @@ export default function NavbarMobile() {
         </div>
 
         <div className='flex flex-col items-center flex-grow overflow-hidden text-sm whitespace-no-wrap transition-colors duration-100 ease-in-out justify-top text-slate-800'>
-          <IoPersonCircleOutline className='w-12 h-10 p-2 mb-2 text-slate-700 ' />
+          <IoPersonCircleOutline className='w-12 h-10 p-2 mb-2 text-customblue text-opacity-80 ' />
           <FancyLink
             destination='/resume2'
             a11yText='Resume'
@@ -51,7 +51,7 @@ export default function NavbarMobile() {
         </div>
 
         <div className='flex flex-col items-center flex-grow overflow-hidden text-sm whitespace-no-wrap transition-colors duration-100 ease-in-out justify-top text-slate-800'>
-          <IoChatboxOutline className='w-10 h-10 p-2 mb-2 text-slate-700 ' />
+          <IoChatboxOutline className='w-10 h-10 p-2 mb-2 text-customblue text-opacity-80 ' />
           <FancyLink
             destination='/blog2'
             a11yText='Blog'
