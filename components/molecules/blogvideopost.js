@@ -2,11 +2,13 @@ import ReactPlayer from 'react-player';
 export default function VideoPost({ id, title, date, url, p1, p2, p3, p4 }) {
   return (
     <div className='content mb-20'>
-      <h2>{title}</h2>
-      <span className='inline-block font-bold bg-black text-white text-left p-2 text-xs rounded-bl-2xl'>
+      <div className='content px-4'>
+        <h2>{title}</h2>
+      </div>
+      <span className='inline-block font-bold text-black px-4 pb-2'>
         {date}
       </span>
-      <span className='block bg-black  text-left pb-0 rounded-tl-full h-4'></span>
+
       <div className='player-wrapper'>
         <ReactPlayer
           url={url}
@@ -16,12 +18,11 @@ export default function VideoPost({ id, title, date, url, p1, p2, p3, p4 }) {
           controls={true}
         />
       </div>
-      <span className='block bg-yellow-400 text-left pb-0 h-2 mb-10'></span>
 
-      <p>{p1}</p>
-      <p>{p2}</p>
-      <p>{p3}</p>
-      <p>{p4}</p>
+      <p className='content px-4'>{p1}</p>
+      <p className='content px-4'>{p2}</p>
+      <p className='content px-4'>{p3}</p>
+      <p className='content px-4'>{p4}</p>
     </div>
   );
 }

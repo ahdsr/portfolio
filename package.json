@@ -45,6 +45,7 @@
     "react-medium-image-zoom": "^4.3.5",
     "react-player": "^2.9.0",
     "react-router-hash-link": "^2.4.3",
+    "react-share": "^4.4.0",
     "react-webcam": "^6.0.1"
   },
   "devDependencies": {
