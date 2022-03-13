@@ -7,6 +7,7 @@ import { NextSeo } from 'next-seo';
 
 import VideoPost from '@/components/molecules/videoblogpost';
 import ImagePost from '@/components/molecules/imagepost';
+import ListBox from '@/components/molecules/listbox';
 
 import image1 from '../assets/3drenders/city1.jpg';
 
@@ -18,22 +19,13 @@ export default function Blog() {
       <LazyMotion features={domAnimation}>
         <m.div initial='initial' animate='enter' exit='exit'>
           <m.main variants={fade} className='py-24 bg-white'>
-            <ImagePost
-              postTitle='Testing fancy image post, when user clicks on post image they can see a full screen version.'
-              imageSource={image1}
-              postUser='Lucas C'
-              postUserProfile='Admin'
-              postUserImage='https://nypost.com/wp-content/uploads/sites/2/2022/02/astronaut-305.jpg?quality=90&strip=all&w=744'
-              postCount='1'
-              p1="Since I started to develop, I'm discovering a lot of new and useful tools. One of them being Sizzy. This app lets you preview your project on a bunch of different devices all at the same time."
-              p2=''
-              p3=''
-            />
+            <div className='w-64 mx-auto'>
+              <ListBox />
+            </div>
             <VideoPost
-              postTitle='VIMEO react-player'
-              videoSource='https://vimeo.com/687667849'
-              playing={true}
-              looping={true}
+              postTitle='Youtube react-player'
+              videoSource='https://youtu.be/KQk-3mamczg'
+              date='3/11/2022'
               postUser='Lucas C'
               postUserProfile='Admin'
               postUserImage='https://nypost.com/wp-content/uploads/sites/2/2022/02/astronaut-305.jpg?quality=90&strip=all&w=744'
@@ -43,20 +35,23 @@ export default function Blog() {
               p3=''
             />
 
-            <VideoPost
-              postTitle='Youtube react-player'
-              videoSource='https://youtu.be/qAJ35W1aDHw'
+            <ImagePost
+              postTitle='Testing fancy image post, when user clicks on post image they can see a full screen version.'
+              imageSource={image1}
+              date='3/13/2022'
               postUser='Lucas C'
               postUserProfile='Admin'
               postUserImage='https://nypost.com/wp-content/uploads/sites/2/2022/02/astronaut-305.jpg?quality=90&strip=all&w=744'
-              postCount='222'
+              postCount='1'
               p1="Since I started to develop, I'm discovering a lot of new and useful tools. One of them being Sizzy. This app lets you preview your project on a bunch of different devices all at the same time."
               p2=''
               p3=''
             />
+
             <VideoPost
               postTitle="So I've been working on this tune..."
               videoSource='https://youtu.be/xqwukUxdssI'
+              date='3/8/2022'
               postUser='Lucas C'
               postUserProfile='Admin'
               postUserImage='https://nypost.com/wp-content/uploads/sites/2/2022/02/astronaut-305.jpg?quality=90&strip=all&w=744'
@@ -68,6 +63,7 @@ export default function Blog() {
             <VideoPost
               postTitle='Testing the site with Sizzy'
               videoSource='https://youtu.be/oCMQEDL_iBU'
+              date='3/4/2022'
               postUser='Lucas C'
               postUserProfile='Admin'
               postUserImage='https://nypost.com/wp-content/uploads/sites/2/2022/02/astronaut-305.jpg?quality=90&strip=all&w=744'
@@ -80,6 +76,7 @@ export default function Blog() {
               postTitle='Playing with the drone again, at a car meet in
               Brampton'
               videoSource='https://youtu.be/zm1nonknpV4'
+              date='3/4/2022'
               postUser='Lucas C'
               postUserProfile='Admin'
               postUserImage='https://nypost.com/wp-content/uploads/sites/2/2022/02/astronaut-305.jpg?quality=90&strip=all&w=744'
@@ -96,6 +93,7 @@ export default function Blog() {
               postTitle='Some more ariel footage for my brother in laws
               company Hodge Films'
               videoSource='https://youtu.be/NgwhTrjqdac'
+              date='3/1/2022'
               postUser='Lucas C'
               postUserProfile='Admin'
               postUserImage='https://nypost.com/wp-content/uploads/sites/2/2022/02/astronaut-305.jpg?quality=90&strip=all&w=744'

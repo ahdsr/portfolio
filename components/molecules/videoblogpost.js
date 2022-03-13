@@ -4,8 +4,12 @@ import SocialBar from './socialBar';
 export default function VideoPost({
   postTitle,
   videoSource,
+  date,
   looping,
   playing,
+  muted,
+  light,
+  controls,
   postUser,
   postUserProfile,
   postUserImage,
@@ -26,23 +30,25 @@ export default function VideoPost({
               alt=''
             />
           </div>
-          <div className='ml-4'>
+          <div className='ml-4 grow'>
             <div className='user'>{postUser}</div>
             <div className='userprofile'>{postUserProfile}</div>
-            <div className='text-sm font-light item text-slate-800 text-opacity-90'>
-              March 22, 2020
-            </div>
+          </div>
+          <div className='text-sm font-light text-right grow item text-slate-800 text-opacity-90'>
+            {date}
           </div>
         </div>
+
         <SocialBar postCount={postCount} />
         <div className='player-wrapper '>
           <ReactPlayer
             className='react-player'
             url={videoSource}
             loop={looping}
+            light={light}
             playing={playing}
-            playIcon={true}
-            controls={true}
+            muted={muted}
+            controls={controls}
             width='100%'
             height='100%'
           />

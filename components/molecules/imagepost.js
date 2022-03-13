@@ -4,6 +4,7 @@ import FancyImage from '@/components/fancyimage';
 export default function ImagePost({
   postTitle,
   imageSource,
+  date,
   postUser,
   postUserProfile,
   postUserImage,
@@ -24,12 +25,12 @@ export default function ImagePost({
               alt=''
             />
           </div>
-          <div className='ml-4'>
+          <div className='ml-4 grow'>
             <div className='user'>{postUser}</div>
             <div className='userprofile'>{postUserProfile}</div>
-            <div className='text-sm font-light item text-slate-800 text-opacity-90'>
-              March 22, 2020
-            </div>
+          </div>
+          <div className='text-sm font-light text-right grow item text-slate-800 text-opacity-90'>
+            {date}
           </div>
         </div>
         <SocialBar postCount={postCount} />

@@ -3,8 +3,8 @@ import { IoChatboxOutline } from 'react-icons/io5';
 
 export default function GetInTouch() {
   return (
-    <div className='pt-12 pb-12 mx-auto usecase max-w-screen-2xl xl:max-w-screen-xl'>
-      <h1 className='heading3'>
+    <div className='pt-12 mx-auto md:pb-6 usecase max-w-screen-2xl xl:max-w-screen-xl'>
+      <h1 className='heading3 '>
         New projects?{' '}
         <a
           href='mailto:lucas.czuchraj@gmail.com'

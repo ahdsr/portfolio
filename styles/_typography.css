@@ -45,7 +45,7 @@
 
 .usecases {
   & > p {
-    @apply md:text-lg  leading-relaxed mb-6   text-base font-light py-4 border-b border-b-slate-200 text-slate-800;
+    @apply md:text-lg  leading-relaxed mb-6   text-base font-light py-4  text-slate-800;
   }
   & > h2,
   & > .h2 {

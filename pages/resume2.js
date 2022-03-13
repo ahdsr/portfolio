@@ -8,6 +8,12 @@ import { NextSeo } from 'next-seo';
 //blog2 Images
 import Image from 'next/image';
 import avatarLivelabs from '../assets/global/avatar_livelabs.png';
+import avatarBMO from '../assets/global/avatar_bmo.png';
+import avatarCIBC from '../assets/global/avatar_cibc.png';
+import avatarOM from '../assets/global/avatar_om.png';
+import avatarTD from '../assets/global/avatar_td.png';
+import avatarRSA from '../assets/global/avatar_rsa.png';
+import avatarElement from '../assets/global/avatar_element.png';
 
 const PostImage1 =
   'https://images.unsplash.com/photo-1581822261290-991b38693d1b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80';
@@ -118,10 +124,10 @@ export default function Resume() {
                   <div className='pt-6'>
                     <div className='flex items-center mt-8 mb-6'>
                       <div className='flex-shrink-0 inline-block rounded-full'>
-                        <div className='block w-12 h-12 border-2 border-yellow-500 rounded-full'>
+                        <div className='block w-12 h-12 rounded-full'>
                           <Image
                             alt='Mountains'
-                            src={avatarLivelabs}
+                            src={avatarElement}
                             layout='responsive'
                             objectFit='cover'
                           />
@@ -156,10 +162,10 @@ export default function Resume() {
                   <div className='pt-6'>
                     <div className='flex items-center mt-8 mb-6'>
                       <div className='flex-shrink-0 inline-block rounded-full'>
-                        <div className='block w-12 h-12 border-2 border-yellow-500 rounded-full'>
+                        <div className='block w-12 h-12 rounded-full'>
                           <Image
                             alt='Mountains'
-                            src={avatarLivelabs}
+                            src={avatarTD}
                             layout='responsive'
                             objectFit='cover'
                           />
@@ -200,10 +206,10 @@ export default function Resume() {
                   <div className='pt-6'>
                     <div className='flex items-center mt-8 mb-6'>
                       <div className='flex-shrink-0 inline-block rounded-full'>
-                        <div className='block w-12 h-12 border-2 border-yellow-500 rounded-full'>
+                        <div className='block w-12 h-12 rounded-full'>
                           <Image
                             alt='Mountains'
-                            src={avatarLivelabs}
+                            src={avatarRSA}
                             layout='responsive'
                             objectFit='cover'
                           />
@@ -240,10 +246,10 @@ export default function Resume() {
                   <div className='pt-6'>
                     <div className='flex items-center mt-8 mb-6'>
                       <div className='flex-shrink-0 inline-block rounded-full'>
-                        <div className='block w-12 h-12 border-2 border-yellow-500 rounded-full'>
+                        <div className='block w-12 h-12 rounded-full'>
                           <Image
                             alt='Mountains'
-                            src={avatarLivelabs}
+                            src={avatarTD}
                             layout='responsive'
                             objectFit='cover'
                           />
@@ -267,10 +273,10 @@ export default function Resume() {
                   <div className='pt-6'>
                     <div className='flex items-center mt-8 mb-6'>
                       <div className='flex-shrink-0 inline-block rounded-full'>
-                        <div className='block w-12 h-12 border-2 border-yellow-500 rounded-full'>
+                        <div className='block w-12 h-12 rounded-full'>
                           <Image
                             alt='Mountains'
-                            src={avatarLivelabs}
+                            src={avatarCIBC}
                             layout='responsive'
                             objectFit='cover'
                           />
@@ -313,7 +319,7 @@ export default function Resume() {
                   <div className='pt-6'>
                     <div className='flex items-center mt-8 mb-6'>
                       <div className='flex-shrink-0 inline-block rounded-full'>
-                        <div className='block w-12 h-12 border-2 border-yellow-500 rounded-full'>
+                        <div className='block w-12 h-12 rounded-full'>
                           <Image
                             alt='Mountains'
                             src={avatarLivelabs}
@@ -365,10 +371,10 @@ export default function Resume() {
                   <div className='pt-6'>
                     <div className='flex items-center mt-8 mb-6'>
                       <div className='flex-shrink-0 inline-block rounded-full'>
-                        <div className='block w-12 h-12 border-2 border-yellow-500 rounded-full'>
+                        <div className='block w-12 h-12 rounded-full'>
                           <Image
                             alt='Mountains'
-                            src={avatarLivelabs}
+                            src={avatarOM}
                             layout='responsive'
                             objectFit='cover'
                           />

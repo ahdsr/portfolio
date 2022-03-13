@@ -23,7 +23,7 @@ export default function Home() {
           <m.main variants={fade} className='bg-white'>
             {/*  Hero */}
 
-            <div className='pt-20 mx-auto hero pb-60 md:pb-30 max-w-screen-2xl '>
+            <div className='pb-24 mx-auto lg:pt-20 hero md:pb-32 lg:pb-60 md:pb-30 max-w-screen-2xl '>
               <div className='flex flex-row mx-2 mt-32 max-w-7xl md:mt-36 lg:mt-40 sm:mx-auto md:mx-auto lg:mx-auto'>
                 <div className='flex-none mx-2'>
                   <div className='block w-3 h-8 mt-28'>
@@ -141,9 +141,9 @@ export default function Home() {
             <div className='flex flex-row max-w-full pt-24 mx-auto -mt-40 bg-gradient-to-bl bg-slate-100 rounded-tr-large'>
               <div className='flex-none px-2'></div>
               <div className='px-0 mx-auto mt-20 grow max-w-7xl md:mt-0 sm:px-4 md:px-4 xl:px-12'>
-                <div className='px-2 pb-12 hero md:pt-44 md:pb-44 lg:pt-40 lg:pb-40 rounded-tr-huge'>
+                <div className='px-2 pb-12 md:pt-44 md:pb-44 lg:pt-40 lg:pb-40 rounded-tr-huge'>
                   <div className='flex-none w-8 lg:w-12'></div>
-                  <h1>A few other things</h1>
+
                   <div className='mx-auto md:flex max-w-screen-2xl '>
                     <div className='h-auto hero md:item md:w-1/2 content md:pr-16'>
                       <h4>Experience</h4>
