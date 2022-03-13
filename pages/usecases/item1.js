@@ -10,13 +10,10 @@ import { NextSeo } from 'next-seo';
 
 // Import Images
 import Image from 'next/image';
-
-import Image1 from '../../assets/global/placeholder.png';
 import Placeholder from '../../assets/usecases/td.jpg';
 
 // Content
 
-const tag = 'Data Design';
 const name =
   'Integrating older location based functionality the new mobile dashboard';
 const description =
@@ -33,17 +30,17 @@ export default function Item1() {
         <m.div initial='initial' animate='enter' exit='exit'>
           <m.main variants={fade} className='pb-20'>
             <Container>
-              <div className='portfolio mx-auto max-w-7xl mt-40'>
+              <div className='mx-auto mt-40 portfolio max-w-7xl'>
                 <h1 className='text-center'>{name}</h1>
                 <h2>{description}</h2>
                 <div className='block w-24 h-24 mx-auto text-center bg-green-300'>
                   Logo
                 </div>
-                <div className='block w-auto mx-auto text-center mt-10 text-sm font-bold'>
+                <div className='block w-auto mx-auto mt-10 text-sm font-bold text-center'>
                   More projects from TD
                 </div>
-                <div className='flex justify-evenly mx-auto max-w-md text-center mt-2'>
-                  <div className='item w-36  '>
+                <div className='flex max-w-md mx-auto mt-2 text-center justify-evenly'>
+                  <div className='item w-36 '>
                     <FancyLink
                       destination='/usecases/item1'
                       a11yText='TD for Me'
@@ -60,7 +57,7 @@ export default function Item1() {
                       extraClasses='border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium'
                     />
                   </div>
-                  <div className='item w-36  '>
+                  <div className='item w-36 '>
                     {' '}
                     <FancyLink
                       destination='/usecases/item1'
@@ -89,7 +86,7 @@ export default function Item1() {
                 <h3 className='portfolio pt-28'>
                   Testing whimsical iframe embed
                 </h3>
-                <iframe
+                {/* <iframe
                   style={{
                     position: 'relative',
                     style: 'border:none',
@@ -97,10 +94,10 @@ export default function Item1() {
                     height: '600px',
                   }}
                   src='https://whimsical.com/embed/8BUJjyjAmuNhwz619e7doa@2Ux7TurymMe9824yCcDs'
-                ></iframe>
+                ></iframe> */}
 
-                <div className='content sm:flex mt-10 mb-20'>
-                  <p className='sm:item sm:w-1/2  sm:pr-8  mb-4'>
+                <div className='mt-10 mb-20 content sm:flex'>
+                  <p className='mb-4 sm:item sm:w-1/2 sm:pr-8'>
                     Due to the nature and planning of the project the ordering
                     platform was faced with a disjointed experience when it
                     comes to visualizing and working with large data sets. Not
@@ -110,7 +107,7 @@ export default function Item1() {
                     functional component of the ordering system.
                   </p>
 
-                  <p className='content sm:item sm:w-1/2  sm:pl-8 mb-4'>
+                  <p className='mb-4 content sm:item sm:w-1/2 sm:pl-8'>
                     The queue essentially is a list of all Elements customer
                     orders. The tables list everything from the vehicle that is
                     being ordered, right down to the driver and insurance
@@ -135,15 +132,15 @@ export default function Item1() {
                     objectFit='cover'
                   />
                 </div>
-                <span className='inline-block font-medium bg-yellow-400 text-black  float-right  p-3 text-sm rounded-bl-2xl'>
+                <span className='inline-block float-right p-3 text-sm font-medium text-black bg-yellow-400 rounded-bl-2xl'>
                   Image caption goes here, lets see what happens when it's
                   really long. Image caption goes here, lets see what happens
                   when it's really long.
                 </span>
 
                 <h3 className='portfolio pt-28'>The design problem</h3>
-                <div className='content sm:flex mt-10 mb-20'>
-                  <p className='sm:item sm:w-1/2  sm:pr-8  mb-4'>
+                <div className='mt-10 mb-20 content sm:flex'>
+                  <p className='mb-4 sm:item sm:w-1/2 sm:pr-8'>
                     Due to the nature and planning of the project the ordering
                     platform was faced with a disjointed experience when it
                     comes to visualizing and working with large data sets. Not
@@ -153,7 +150,7 @@ export default function Item1() {
                     functional component of the ordering system.
                   </p>
 
-                  <p className='content sm:item sm:w-1/2  sm:pl-8 mb-4'>
+                  <p className='mb-4 content sm:item sm:w-1/2 sm:pl-8'>
                     The queue essentially is a list of all Elements customer
                     orders. The tables list everything from the vehicle that is
                     being ordered, right down to the driver and insurance
@@ -179,7 +176,7 @@ export default function Item1() {
                   />
                 </div>
                 {/* Image */}
-                <div className='desktopimage mt-8'>
+                <div className='mt-8 desktopimage'>
                   <Image
                     alt='Mountains'
                     src={Placeholder}
@@ -187,7 +184,7 @@ export default function Item1() {
                     objectFit='cover'
                   />
                 </div>
-                <div className='mobileimage mt-8'>
+                <div className='mt-8 mobileimage'>
                   <Image
                     alt='Mountains'
                     src={Placeholder}
@@ -195,13 +192,13 @@ export default function Item1() {
                     objectFit='cover'
                   />
                 </div>
-                <span className='inline-block font-medium bg-slate-800 text-yellow-500  float-left  p-3 text-sm rounded-bl-2xl'>
+                <span className='inline-block float-left p-3 text-sm font-medium text-yellow-500 bg-slate-800 rounded-bl-2xl'>
                   Illustration showing...
                 </span>
 
                 <h3 className='mt-36'>Challenges and solutions</h3>
-                <div className='sm:flex mt-10 mb-20'>
-                  <div className='content sm:item sm:w-1/3  mb-4'>
+                <div className='mt-10 mb-20 sm:flex'>
+                  <div className='mb-4 content sm:item sm:w-1/3'>
                     <h4>Data is king</h4>
                     <p>
                       One off the key observations and loudest set of feedback
@@ -213,7 +210,7 @@ export default function Item1() {
                     </p>
                   </div>
 
-                  <div className='content sm:item sm:w-1/3  sm:pl-8 mb-4'>
+                  <div className='mb-4 content sm:item sm:w-1/3 sm:pl-8'>
                     <h4>Multiple function to perform on a single order</h4>
                     <p>
                       Each unique data table presented itself with a challange.
@@ -226,7 +223,7 @@ export default function Item1() {
                       scalable solution
                     </p>
                   </div>
-                  <div className='content sm:item sm:w-1/3  sm:pl-8 mb-4'>
+                  <div className='mb-4 content sm:item sm:w-1/3 sm:pl-8'>
                     <h4>Screen size and real estate issues</h4>
                     <p>
                       One off the key observations and loudest set of feedback

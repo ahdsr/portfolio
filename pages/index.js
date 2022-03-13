@@ -20,11 +20,11 @@ export default function Home() {
       <NextSeo title='Home' />
       <LazyMotion features={domAnimation}>
         <m.div initial='initial' animate='enter' exit='exit'>
-          <m.main variants={fade} className='bg-slate-50'>
+          <m.main variants={fade} className='bg-customgray'>
             {/*  Hero */}
 
             <div className='pb-24 mx-auto lg:pt-20 hero md:pb-32 lg:pb-60 md:pb-30 max-w-screen-2xl '>
-              <div className='flex flex-row px-8 mt-32 max-w-7xl md:mt-36 lg:mt-40 sm:mx-auto md:mx-auto lg:mx-auto lg:px-12'>
+              <div className='flex flex-row px-8 pt-32 max-w-7xl md:pt-36 lg:pt-40 sm:mx-auto md:mx-auto lg:mx-auto lg:px-12'>
                 <div className='pt-8 mx-auto grow max-w-7xl'>
                   <div className='mx-auto md:flex'>
                     <div className='px-0 hero item w-fit sm:px-0'>

@@ -41,6 +41,7 @@ module.exports = {
         customblue: '#203136',
         customblue2: '#203136',
         customyellow: '#F2F2CF',
+        customgray: '#F3F3F3',
       },
 
       boxShadow: {

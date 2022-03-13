@@ -31,386 +31,396 @@ export default function Resume() {
       <LazyMotion features={domAnimation}>
         <m.div initial='initial' animate='enter' exit='exit'>
           <m.main variants={fade} className='pb-10 bg-white '>
-            <div className='mx-auto max-w-screen-2xl xl:max-w-screen-xl'>
+            <div className='px-5 mx-auto mt-8 md:px-12 max-w-screen-2xl xl:max-w-screen-xl sm:pt-12'>
               <div className='pb-10 resume'>
                 {/*   <img src={profilePhoto} alt='' /> */}
                 <div className='px-5 pt-6 mx-auto mt-16 '>
                   <div className='mb-4 text-3xl font-bold tracking-tight text-customblue'>
                     Resume
                   </div>
-                  <div className='mb-4 text-xl font-bold tracking-tight text-yellow-500'>
-                    Profile
-                  </div>
                 </div>
 
-                <div className='px-5 mx-auto space-y-4 text-sm font-light leading-relaxed text-slate-300'>
-                  <ul className=''>
-                    <li>
-                      Bachelor of Design Honours (B.Des.) York University /
-                      Sheridan Institute
-                    </li>
-                    <li>
-                      Highly knowledgeable in all facets of design, including
-                      user experience, layout, typography, colour, user
-                      interfaces and information architecture
-                    </li>
-                    <li>
-                      Expert in{' '}
-                      <a
-                        href='https://www.sketch.com/'
-                        target='_blank'
-                        className='p-1 underline bg-yellow-200 bg-opacity-20 hover:bg-yellow-400'
-                      >
-                        Sketch
-                      </a>
-                      ,{' '}
-                      <a
-                        href='https://www.figma.com/'
-                        target='_blank'
-                        className='p-1 underline bg-yellow-200 bg-opacity-20 hover:bg-yellow-400'
-                      >
-                        Figma
-                      </a>
-                      ,{' '}
-                      <a
-                        href='https://www.invisionapp.com/studio/learn/welcome-to-invision-studio'
-                        target='_blank'
-                        className='p-1 underline bg-yellow-200 bg-opacity-20 hover:bg-yellow-400'
-                      >
-                        Invision Studio
-                      </a>{' '}
-                      <a
-                        href='https://www.adobe.com/ca/creativecloud.html'
-                        target='_blank'
-                        className='p-1 underline bg-yellow-200 bg-opacity-20 hover:bg-yellow-400'
-                      >
-                        Adobe Cloud
-                      </a>{' '}
-                      &{' '}
-                      <a
-                        href='https://www.protopie.io/'
-                        target='_blank'
-                        className='p-1 underline bg-yellow-200 bg-opacity-20 hover:bg-yellow-400'
-                      >
-                        Protopie
-                      </a>{' '}
-                      as well as other prototyping & design software
-                    </li>
-                    <li>
-                      Always strives to achieve simplicity for the end user,
-                      despite the complexity of the process or back-end systems
-                    </li>
-                    <li>
-                      Skilled in delivering adaptive responsive layouts and
-                      elevated in understanding the technology that drives them
-                    </li>
-                    <li>
-                      Adept at aligning business needs with creativity while
-                      respecting brand standards
-                    </li>
-                    <li>
-                      High aptitude for quality assurance and improvement with a
-                      keen eye for detail
-                    </li>
-                    <li>
-                      Excellent verbal & written communication, and strong
-                      people skills with clients and colleagues
-                    </li>
-                  </ul>
-
-                  <div className='pt-12 mb-8 text-xl font-bold tracking-tight text-yellow-500 '>
-                    Experience
-                  </div>
-                  <div className='pt-6'>
-                    <div className='flex items-center mt-8 mb-6'>
-                      <div className='flex-shrink-0 inline-block rounded-full'>
-                        <div className='block w-12 h-12 rounded-full'>
-                          <Image
-                            alt='Mountains'
-                            src={avatarElement}
-                            layout='responsive'
-                            objectFit='cover'
-                          />
-                        </div>
-                      </div>
-                      <div className='ml-6'>
-                        <div className='date'>Jan 2020 - Current</div>
-                        <div className='jobrole'>
-                          User Experience Consultant
-                        </div>
-
-                        <div className='client'>Element Fleet Management</div>
-                      </div>
+                <div className='px-5 mx-auto text-sm font-light leading-relaxed md:justify-center md:flex text-slate-300'>
+                  <div className='md:w-1/3 md:item'>
+                    <div className='text-xl font-bold tracking-tight text-yellow-500'>
+                      Profile
                     </div>
-                    <ul className='pl-2 pr-2 ml-16'>
+                    <ul className=''>
                       <li>
-                        Contributing and designing component library for new
-                        Ordering platform
+                        Bachelor of Design Honours (B.Des.) York University /
+                        Sheridan Institute
                       </li>
                       <li>
-                        Helping define future standards and direction of B2B
-                        Ordering platform
+                        Highly knowledgeable in all facets of design, including
+                        user experience, layout, typography, colour, user
+                        interfaces and information architecture
                       </li>
                       <li>
-                        Support developers using JIRA and Confluence to deliver
-                        ongoing projects as well as providing guidance and
-                        specifications throughout the project sprints
+                        Expert in{' '}
+                        <a
+                          href='https://www.sketch.com/'
+                          target='_blank'
+                          className='p-1 underline bg-yellow-200 bg-opacity-20 hover:bg-yellow-400'
+                        >
+                          Sketch
+                        </a>
+                        ,{' '}
+                        <a
+                          href='https://www.figma.com/'
+                          target='_blank'
+                          className='p-1 underline bg-yellow-200 bg-opacity-20 hover:bg-yellow-400'
+                        >
+                          Figma
+                        </a>
+                        ,{' '}
+                        <a
+                          href='https://www.invisionapp.com/studio/learn/welcome-to-invision-studio'
+                          target='_blank'
+                          className='p-1 underline bg-yellow-200 bg-opacity-20 hover:bg-yellow-400'
+                        >
+                          Invision Studio
+                        </a>{' '}
+                        <a
+                          href='https://www.adobe.com/ca/creativecloud.html'
+                          target='_blank'
+                          className='p-1 underline bg-yellow-200 bg-opacity-20 hover:bg-yellow-400'
+                        >
+                          Adobe Cloud
+                        </a>{' '}
+                        &{' '}
+                        <a
+                          href='https://www.protopie.io/'
+                          target='_blank'
+                          className='p-1 underline bg-yellow-200 bg-opacity-20 hover:bg-yellow-400'
+                        >
+                          Protopie
+                        </a>{' '}
+                        as well as other prototyping & design software
+                      </li>
+                      <li>
+                        Always strives to achieve simplicity for the end user,
+                        despite the complexity of the process or back-end
+                        systems
+                      </li>
+                      <li>
+                        Skilled in delivering adaptive responsive layouts and
+                        elevated in understanding the technology that drives
+                        them
+                      </li>
+                      <li>
+                        Adept at aligning business needs with creativity while
+                        respecting brand standards
+                      </li>
+                      <li>
+                        High aptitude for quality assurance and improvement with
+                        a keen eye for detail
+                      </li>
+                      <li>
+                        Excellent verbal & written communication, and strong
+                        people skills with clients and colleagues
                       </li>
                     </ul>
                   </div>
 
-                  <div className='pt-6'>
-                    <div className='flex items-center mt-8 mb-6'>
-                      <div className='flex-shrink-0 inline-block rounded-full'>
-                        <div className='block w-12 h-12 rounded-full'>
-                          <Image
-                            alt='Mountains'
-                            src={avatarTD}
-                            layout='responsive'
-                            objectFit='cover'
-                          />
+                  <div className='mt-12 md:mt-0 md:ml-12 md:w-2/3 md:item'>
+                    <div className='text-xl font-bold tracking-tight text-yellow-500 '>
+                      Experience
+                    </div>
+                    <div className='pt-6'>
+                      <div className='flex items-center mt-8 mb-6'>
+                        <div className='flex-shrink-0 inline-block rounded-full'>
+                          <div className='block w-12 h-12 rounded-full'>
+                            <Image
+                              alt='Mountains'
+                              src={avatarElement}
+                              layout='responsive'
+                              objectFit='cover'
+                            />
+                          </div>
+                        </div>
+                        <div className='ml-6'>
+                          <div className='date'>Jan 2020 - Current</div>
+                          <div className='jobrole'>
+                            User Experience Consultant
+                          </div>
+
+                          <div className='client'>Element Fleet Management</div>
                         </div>
                       </div>
-                      <div className='ml-6'>
-                        <div className='date'>Jan 2018 – Dec 2019</div>
-                        <div className='jobrole'>Senior UX/UI Designer</div>
-
-                        <div className='client'>TD Canada</div>
-                      </div>
+                      <ul className='pl-2 pr-2 ml-16'>
+                        <li>
+                          Contributing and designing component library for new
+                          Ordering platform
+                        </li>
+                        <li>
+                          Helping define future standards and direction of B2B
+                          Ordering platform
+                        </li>
+                        <li>
+                          Support developers using JIRA and Confluence to
+                          deliver ongoing projects as well as providing guidance
+                          and specifications throughout the project sprints
+                        </li>
+                      </ul>
                     </div>
 
-                    <ul className='pl-2 pr-2 ml-16'>
-                      <li>
-                        Designed and launched the TD Mobile App dashboard, a pre
-                        sign and post sign on experience
-                      </li>
-                      <li>
-                        Redesigning TD for Me experience from ground up using
-                        push and location service technology allowing customers
-                        to always be informed on what TD has to offer based on
-                        their location
-                      </li>
-                      <li>
-                        Wireframed, designed and prototyped a new TD EasyWeb
-                        redesign experience with internal stakeholders and an
-                        outside vendor
-                      </li>
-                      <li>
-                        Support developers using JIRA and Confluence to deliver
-                        ongoing projects as well as providing guidance and
-                        specifications throughout the project sprints
-                      </li>
-                    </ul>
-                  </div>
+                    <div className='pt-6'>
+                      <div className='flex items-center mt-8 mb-6'>
+                        <div className='flex-shrink-0 inline-block rounded-full'>
+                          <div className='block w-12 h-12 rounded-full'>
+                            <Image
+                              alt='Mountains'
+                              src={avatarTD}
+                              layout='responsive'
+                              objectFit='cover'
+                            />
+                          </div>
+                        </div>
+                        <div className='ml-6'>
+                          <div className='date'>Jan 2018 – Dec 2019</div>
+                          <div className='jobrole'>Senior UX/UI Designer</div>
 
-                  <div className='pt-6'>
-                    <div className='flex items-center mt-8 mb-6'>
-                      <div className='flex-shrink-0 inline-block rounded-full'>
-                        <div className='block w-12 h-12 rounded-full'>
-                          <Image
-                            alt='Mountains'
-                            src={avatarRSA}
-                            layout='responsive'
-                            objectFit='cover'
-                          />
+                          <div className='client'>TD Canada</div>
                         </div>
                       </div>
-                      <div className='ml-6'>
-                        <div className='date'>Aug 2017 – Jan 2018</div>
-                        <div className='jobrole'>Senior UX/UI Designer</div>
 
-                        <div className='client'>RSA Group</div>
-                      </div>
+                      <ul className='pl-2 pr-2 ml-16'>
+                        <li>
+                          Designed and launched the TD Mobile App dashboard, a
+                          pre sign and post sign on experience
+                        </li>
+                        <li>
+                          Redesigning TD for Me experience from ground up using
+                          push and location service technology allowing
+                          customers to always be informed on what TD has to
+                          offer based on their location
+                        </li>
+                        <li>
+                          Wireframed, designed and prototyped a new TD EasyWeb
+                          redesign experience with internal stakeholders and an
+                          outside vendor
+                        </li>
+                        <li>
+                          Support developers using JIRA and Confluence to
+                          deliver ongoing projects as well as providing guidance
+                          and specifications throughout the project sprints
+                        </li>
+                      </ul>
                     </div>
 
-                    <ul className='pl-2 pr-2 ml-16'>
-                      <li>
-                        Designed and facilitated implementation of a Broker B2B
-                        Portal
-                      </li>
-                      <li>
-                        Redesigned Johnson Insurance online quoting an
-                        application tool
-                      </li>
-                      <li>
-                        Worked on numerous marketing websites and initiatives
-                      </li>
-                      <li>
-                        Support developers using JIRA and Confluence to deliver
-                        ongoing projects as well as providing guidance and
-                        specifications throughout the project sprints
-                      </li>
-                    </ul>
-                  </div>
+                    <div className='pt-6'>
+                      <div className='flex items-center mt-8 mb-6'>
+                        <div className='flex-shrink-0 inline-block rounded-full'>
+                          <div className='block w-12 h-12 rounded-full'>
+                            <Image
+                              alt='Mountains'
+                              src={avatarRSA}
+                              layout='responsive'
+                              objectFit='cover'
+                            />
+                          </div>
+                        </div>
+                        <div className='ml-6'>
+                          <div className='date'>Aug 2017 – Jan 2018</div>
+                          <div className='jobrole'>Senior UX/UI Designer</div>
 
-                  <div className='pt-6'>
-                    <div className='flex items-center mt-8 mb-6'>
-                      <div className='flex-shrink-0 inline-block rounded-full'>
-                        <div className='block w-12 h-12 rounded-full'>
-                          <Image
-                            alt='Mountains'
-                            src={avatarTD}
-                            layout='responsive'
-                            objectFit='cover'
-                          />
+                          <div className='client'>RSA Group</div>
                         </div>
                       </div>
-                      <div className='ml-6'>
-                        <div className='date'>Aug 2016 – Feb 2017</div>
-                        <div className='jobrole'>Senior UX/UI Designer</div>
 
-                        <div className='client'>TD Canada</div>
-                      </div>
+                      <ul className='pl-2 pr-2 ml-16'>
+                        <li>
+                          Designed and facilitated implementation of a Broker
+                          B2B Portal
+                        </li>
+                        <li>
+                          Redesigned Johnson Insurance online quoting an
+                          application tool
+                        </li>
+                        <li>
+                          Worked on numerous marketing websites and initiatives
+                        </li>
+                        <li>
+                          Support developers using JIRA and Confluence to
+                          deliver ongoing projects as well as providing guidance
+                          and specifications throughout the project sprints
+                        </li>
+                      </ul>
                     </div>
 
-                    <ul className='pl-2 pr-2 ml-16'>
-                      <li>
-                        Redesigned the Bill Pay experience for US TD customers
-                      </li>
-                    </ul>
-                  </div>
+                    <div className='pt-6'>
+                      <div className='flex items-center mt-8 mb-6'>
+                        <div className='flex-shrink-0 inline-block rounded-full'>
+                          <div className='block w-12 h-12 rounded-full'>
+                            <Image
+                              alt='Mountains'
+                              src={avatarTD}
+                              layout='responsive'
+                              objectFit='cover'
+                            />
+                          </div>
+                        </div>
+                        <div className='ml-6'>
+                          <div className='date'>Aug 2016 – Feb 2017</div>
+                          <div className='jobrole'>Senior UX/UI Designer</div>
 
-                  <div className='pt-6'>
-                    <div className='flex items-center mt-8 mb-6'>
-                      <div className='flex-shrink-0 inline-block rounded-full'>
-                        <div className='block w-12 h-12 rounded-full'>
-                          <Image
-                            alt='Mountains'
-                            src={avatarCIBC}
-                            layout='responsive'
-                            objectFit='cover'
-                          />
+                          <div className='client'>TD Canada</div>
                         </div>
                       </div>
-                      <div className='ml-6'>
-                        <div className='date'>Aug 2016 – Feb 2017</div>
-                        <div className='jobrole'>Senior Manager UX</div>
-                        <div className='client'>CIBC Live Labs</div>
-                      </div>
+
+                      <ul className='pl-2 pr-2 ml-16'>
+                        <li>
+                          Redesigned the Bill Pay experience for US TD customers
+                        </li>
+                      </ul>
                     </div>
 
-                    <ul className='pl-2 pr-2 ml-16'>
-                      <li>
-                        Inspire and lead a team of talented UX/Visual designers
-                        in an environment that focuses on innovation
-                      </li>
-                      <li>
-                        Work directly with the Director of UX to plan and
-                        coordinate business tasks and deliverables for ongoing
-                        digital projects
-                      </li>
-                      <li>
-                        Work with business / marketing in the creation of a
-                        vision for user experience within the overall business
-                        strategy
-                      </li>
-                      <li>
-                        Engage with and contribute to a project team made up of
-                        Business, Development, Editorial and Analyst
-                        specialists, as well as third parties and stakeholders
-                      </li>
-                      <li>
-                        Participated in and lead design thinking and ideation
-                        workshops
-                      </li>
-                    </ul>
-                  </div>
-
-                  <div className='pt-6'>
-                    <div className='flex items-center mt-8 mb-6'>
-                      <div className='flex-shrink-0 inline-block rounded-full'>
-                        <div className='block w-12 h-12 rounded-full'>
-                          <Image
-                            alt='Mountains'
-                            src={avatarLivelabs}
-                            layout='responsive'
-                            objectFit='cover'
-                          />
+                    <div className='pt-6'>
+                      <div className='flex items-center mt-8 mb-6'>
+                        <div className='flex-shrink-0 inline-block rounded-full'>
+                          <div className='block w-12 h-12 rounded-full'>
+                            <Image
+                              alt='Mountains'
+                              src={avatarCIBC}
+                              layout='responsive'
+                              objectFit='cover'
+                            />
+                          </div>
+                        </div>
+                        <div className='ml-6'>
+                          <div className='date'>Aug 2016 – Feb 2017</div>
+                          <div className='jobrole'>Senior Manager UX</div>
+                          <div className='client'>CIBC Live Labs</div>
                         </div>
                       </div>
 
-                      <div className='ml-6'>
-                        <div className='date'>July 2015 – July 2016</div>
-                        <div className='jobrole'>
-                          {' '}
-                          Lead Creative / UX Designer
-                        </div>
-                        <div className='client'>
-                          {' '}
-                          Lead Creative / UX Designer
-                        </div>
-                      </div>
+                      <ul className='pl-2 pr-2 ml-16'>
+                        <li>
+                          Inspire and lead a team of talented UX/Visual
+                          designers in an environment that focuses on innovation
+                        </li>
+                        <li>
+                          Work directly with the Director of UX to plan and
+                          coordinate business tasks and deliverables for ongoing
+                          digital projects
+                        </li>
+                        <li>
+                          Work with business / marketing in the creation of a
+                          vision for user experience within the overall business
+                          strategy
+                        </li>
+                        <li>
+                          Engage with and contribute to a project team made up
+                          of Business, Development, Editorial and Analyst
+                          specialists, as well as third parties and stakeholders
+                        </li>
+                        <li>
+                          Participated in and lead design thinking and ideation
+                          workshops
+                        </li>
+                      </ul>
                     </div>
 
-                    <ul className='pl-2 pr-2 ml-16'>
-                      <li>
-                        Worked on the redesign of iOS/Android native app product
-                        application forms
-                      </li>
-                      <li>
-                        Designed and executed rapid prototypes to explore and
-                        promote upcoming CIBC native app releases
-                      </li>
-                      <li>
-                        Worked with Marketing/Strategy teams to create
-                        compelling and effective designs on many aggressive
-                        sales Multivariate Testing initiatives across CIBC.com
-                        properties
-                      </li>
-                      <li>
-                        Lead the visual design for a responsive design solution
-                        for two major sales initiatives that included
-                        application forms and mobile targeted offers.
-                      </li>
-                      <li>
-                        Created a new visual system for desktop targeted offers
-                      </li>
-                    </ul>
-                  </div>
+                    <div className='pt-6'>
+                      <div className='flex items-center mt-8 mb-6'>
+                        <div className='flex-shrink-0 inline-block rounded-full'>
+                          <div className='block w-12 h-12 rounded-full'>
+                            <Image
+                              alt='Mountains'
+                              src={avatarLivelabs}
+                              layout='responsive'
+                              objectFit='cover'
+                            />
+                          </div>
+                        </div>
 
-                  <div className='pt-6'>
-                    <div className='flex items-center mt-8 mb-6'>
-                      <div className='flex-shrink-0 inline-block rounded-full'>
-                        <div className='block w-12 h-12 rounded-full'>
-                          <Image
-                            alt='Mountains'
-                            src={avatarOM}
-                            layout='responsive'
-                            objectFit='cover'
-                          />
+                        <div className='ml-6'>
+                          <div className='date'>July 2015 – July 2016</div>
+                          <div className='jobrole'>
+                            {' '}
+                            Lead Creative / UX Designer
+                          </div>
+                          <div className='client'>
+                            {' '}
+                            Lead Creative / UX Designer
+                          </div>
                         </div>
                       </div>
-                      <div className='ml-6 '>
-                        <div className='date'>July 2011 - August 2012</div>
-                        <div className='jobrole'>
-                          Senior Interactive Designer
-                        </div>
-                        <div className='client'>Ogilvy & Mather</div>
-                      </div>
+
+                      <ul className='pl-2 pr-2 ml-16'>
+                        <li>
+                          Worked on the redesign of iOS/Android native app
+                          product application forms
+                        </li>
+                        <li>
+                          Designed and executed rapid prototypes to explore and
+                          promote upcoming CIBC native app releases
+                        </li>
+                        <li>
+                          Worked with Marketing/Strategy teams to create
+                          compelling and effective designs on many aggressive
+                          sales Multivariate Testing initiatives across CIBC.com
+                          properties
+                        </li>
+                        <li>
+                          Lead the visual design for a responsive design
+                          solution for two major sales initiatives that included
+                          application forms and mobile targeted offers.
+                        </li>
+                        <li>
+                          Created a new visual system for desktop targeted
+                          offers
+                        </li>
+                      </ul>
                     </div>
 
-                    <ul className='pl-2 pr-2 ml-16'>
-                      <li>
-                        Conception and development of interface design,
-                        animation, micro websites and online rich media
-                        campaigns
-                      </li>
-                      <li>
-                        Collaborated with marketing, strategists, content
-                        writers, and IA/IX team members, and developers
-                      </li>
-                      <li>
-                        Worked closely with Senior Art Directors to deliver rich
-                        media banners, including high-profile homepage takeover
-                        ads, Google DoubleClick environment and full video ads
-                      </li>
-                      <li>
-                        Proactively identified and solved potential issues
-                        within assigned projects including creative that may
-                        impact deliverables or the quality of the work
-                      </li>
-                      <li>Developed and maintained email marketing campaign</li>
-                    </ul>
+                    <div className='pt-6'>
+                      <div className='flex items-center mt-8 mb-6'>
+                        <div className='flex-shrink-0 inline-block rounded-full'>
+                          <div className='block w-12 h-12 rounded-full'>
+                            <Image
+                              alt='Mountains'
+                              src={avatarOM}
+                              layout='responsive'
+                              objectFit='cover'
+                            />
+                          </div>
+                        </div>
+                        <div className='ml-6 '>
+                          <div className='date'>July 2011 - August 2012</div>
+                          <div className='jobrole'>
+                            Senior Interactive Designer
+                          </div>
+                          <div className='client'>Ogilvy & Mather</div>
+                        </div>
+                      </div>
+
+                      <ul className='pl-2 pr-2 ml-16'>
+                        <li>
+                          Conception and development of interface design,
+                          animation, micro websites and online rich media
+                          campaigns
+                        </li>
+                        <li>
+                          Collaborated with marketing, strategists, content
+                          writers, and IA/IX team members, and developers
+                        </li>
+                        <li>
+                          Worked closely with Senior Art Directors to deliver
+                          rich media banners, including high-profile homepage
+                          takeover ads, Google DoubleClick environment and full
+                          video ads
+                        </li>
+                        <li>
+                          Proactively identified and solved potential issues
+                          within assigned projects including creative that may
+                          impact deliverables or the quality of the work
+                        </li>
+                        <li>
+                          Developed and maintained email marketing campaign
+                        </li>
+                      </ul>
+                    </div>
                   </div>
                 </div>
               </div>

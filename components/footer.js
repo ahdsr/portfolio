@@ -14,11 +14,7 @@ export default function Footer() {
         </div>
 
         <div className='block md:text-center md:flex-1 '>
-          <a
-            href='https://www.linkedin.com/in/lucasczuchraj/'
-            target='_blank'
-            extraClasses='underline hover:text-gray-500 focus:text-gray-500'
-          >
+          <a href='https://www.linkedin.com/in/lucasczuchraj/' target='_blank'>
             LinkedIn
           </a>
         </div>

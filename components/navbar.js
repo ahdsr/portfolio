@@ -1,12 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import FancyLink from '@/components/fancyLink';
 import { debounce } from '../helpers/helpers';
-import Image from 'next/image';
-import Image1 from '../assets/global/profile.png';
-/* This example requires Tailwind CSS v2.0+ */
 import { Fragment } from 'react';
 import { Disclosure, Menu, Transition } from '@headlessui/react';
 import { MenuIcon, XIcon } from '@heroicons/react/outline';
+import Image from 'next/image';
+import Image1 from '../assets/global/profile.png';
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ');
@@ -22,11 +21,11 @@ export default function Navbar() {
     setVisible(
       (prevScrollPos > currentScrollPos &&
         prevScrollPos - currentScrollPos > 100) ||
-        currentScrollPos < 10
+        currentScrollPos < 100
     );
 
     setPrevScrollPos(currentScrollPos);
-  }, 300);
+  }, 100);
 
   useEffect(() => {
     window.addEventListener('scroll', handleScroll);
