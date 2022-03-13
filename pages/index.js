@@ -23,10 +23,10 @@ export default function Home() {
           <m.main variants={fade} className='bg-white'>
             {/*  Hero */}
 
-            <div className='pb-20 mx-auto md:pb-30 max-w-screen-2xl '>
+            <div className='pt-20 mx-auto hero pb-60 md:pb-30 max-w-screen-2xl '>
               <div className='flex flex-row mx-2 mt-32 max-w-7xl md:mt-36 lg:mt-40 sm:mx-auto md:mx-auto lg:mx-auto'>
                 <div className='flex-none mx-2'>
-                  <div className='block w-3 h-12 mt-60'>
+                  <div className='block w-3 h-8 mt-28'>
                     <Image
                       alt='Mountains'
                       src={LeftLines}
@@ -38,13 +38,13 @@ export default function Home() {
                 <div className='pt-8 mx-auto grow max-w-7xl'>
                   <div className='mx-auto md:flex'>
                     <div className='mx-0 hero item w-fit sm:px-8 '>
-                      <h1>
+                      <h1 className='tagline'>
                         Hi, I’m Lucas a{' '}
                         <span className='text-yellow-500'>UX & UI</span>{' '}
                         designer based out of Toronto.
                       </h1>
-                      <h4>Things I enjoy:</h4>
-                      <ul>
+                      <p>Things I enjoy:</p>
+                      <ul className='points'>
                         <li>A tough design problem</li>
                         <li>Subtle animation & motion</li>
                         <li>Design driven by science and data</li>

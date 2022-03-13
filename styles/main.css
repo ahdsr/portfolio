@@ -1,6 +1,6 @@
 /* Webfonts */
 @import '_fonts.css';
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 /* Tailwind base/components */
 @import 'tailwindcss/base';
@@ -22,13 +22,15 @@ body {
 
 .player-wrapper {
   position: relative;
-  padding-top: 100%; /* 720 / 1280 = 0.5625 */
+  padding-top: 56.25%; /* 720 / 1280 = 0.5625 */
 }
 
 .react-player {
   position: absolute;
   top: 0;
   left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .my-masonry-grid {

@@ -33,26 +33,9 @@
   }
 }
 
-.hero {
-  & > p {
-    @apply text-base md:text-lg font-light leading-relaxed mb-6 text-slate-900;
-  }
-  & > h1,
-  & > .h1 {
-    @apply text-4xl md:text-4xl lg:text-5xl xl:text-6xl font-extrabold tracking-tight leading-10  text-slate-700;
-  }
-  & > h4,
-  & > .h4 {
-    @apply text-base md:text-2xl font-bold tracking-tight leading-tight pt-1 mb-6 text-slate-600;
-  }
-  & > ul > li {
-    @apply md:text-base font-light leading-relaxed py-1  text-slate-900;
-  }
-}
-
 .homepage {
   & > p {
-    @apply text-base font-light leading-relaxed mb-6 text-white;
+    @apply text-lg font-light leading-relaxed mb-6 text-white;
   }
   & > h1,
   & > .h1 {
@@ -89,7 +72,7 @@
 }
 
 .cta {
-  @apply inline-block w-auto px-4 py-3 my-4 text-white bg-customblue hover:shadow-lg hover:scale-90 transition ease-in-out rounded-lg;
+  @apply inline-block w-auto px-4 py-3 my-4 text-white bg-customblue2 hover:shadow-lg hover:scale-90 transition ease-in-out rounded-lg;
 }
 
 .desktopimage {
@@ -131,6 +114,14 @@ h4,
   }
 }
 
+.hero .tagline {
+  @apply text-2xl font-black tracking-tight md:pt-16 md:text-4xl lg:text-6xl xl:text-7xl md:font-extrabold text-customblue2;
+}
+
+.hero .points {
+  @apply text-lg font-light md:pt-16  text-customblue2;
+}
+
 .resume .date {
   @apply text-xs font-medium tracking-tight text-slate-800;
 }
@@ -140,7 +131,30 @@ h4,
 .resume .client {
   @apply text-sm font-bold text-yellow-600;
 }
-
 .resume li {
   @apply text-base font-light py-4 border-b border-b-slate-200 text-slate-800;
+}
+
+.blog .heading1 {
+  @apply mb-4 text-lg font-bold tracking-tight text-slate-900 leading-tight text-opacity-80;
+}
+.blog .user {
+  @apply text-sm font-medium text-slate-700;
+}
+.blog .userprofile {
+  @apply text-sm font-light text-slate-800 text-opacity-90;
+}
+.blog li {
+  @apply text-base font-light py-4 border-b border-b-slate-200 text-slate-800;
+}
+
+.usecase .heading1 {
+  @apply px-8 pt-4 text-2xl font-black tracking-tight text-center md:px-48 md:pt-16 md:text-4xl lg:text-6xl xl:text-7xl md:font-extrabold text-black;
+}
+
+.usecase .heading2 {
+  @apply mx-auto px-8 pt-4 mt-4 mb-20 md:text-xl font-normal leading-normal text-center md:pt-8 md:px-6 md:leading-8 text-slate-600 md:w-2/3;
+}
+.usecase .heading3 {
+  @apply px-8 pt-4 text-2xl font-bold tracking-tight text-center md:px-48 md:pt-16 md:text-3xl lg:text-4xl xl:text-5xl md:font-black text-slate-600;
 }

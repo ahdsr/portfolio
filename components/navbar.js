@@ -36,7 +36,7 @@ export default function Navbar() {
 
   const navbarStyles = {
     position: 'fixed',
-    height: '64px',
+    height: '80px',
     width: '100%',
     backgroundColor: 'white',
     transition: 'top  0.3s ease',
@@ -51,7 +51,7 @@ export default function Navbar() {
       {({ open }) => (
         <>
           <div className='px-2 mx-auto sm:px-6 lg:px-8'>
-            <div className='relative flex justify-between h-16'>
+            <div className='relative flex justify-between h-20'>
               <div className='absolute inset-y-0 left-0 flex items-center sm:hidden'>
                 {/* Mobile menu button */}
                 <Disclosure.Button className='inline-flex items-center justify-center p-2 text-gray-400 rounded-md hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500'>
@@ -76,25 +76,25 @@ export default function Navbar() {
                     destination='/'
                     a11yText='About'
                     label='About'
-                    extraClasses='border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-md font-medium'
+                    extraClasses='border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-regular'
                   />
                   <FancyLink
                     destination='/portfolio'
                     a11yText='Portfolio'
                     label='Portfolio'
-                    extraClasses='border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-md font-medium'
+                    extraClasses='border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-regular'
                   />
                   <FancyLink
                     destination='/resume2'
                     a11yText='Resume'
                     label='Resume'
-                    extraClasses='border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-md font-medium'
+                    extraClasses='border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-regular'
                   />
                   <FancyLink
                     destination='/blog2'
                     a11yText='Blog'
                     label='Blog'
-                    extraClasses='border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-md font-medium'
+                    extraClasses='border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-regular'
                   />
                 </div>
               </div>
@@ -185,28 +185,28 @@ export default function Navbar() {
               <Disclosure.Button
                 as='a'
                 href='#'
-                className='block py-2 pl-3 pr-4 text-base font-medium text-indigo-700 border-l-4 border-indigo-500 bg-indigo-50'
+                className='block py-2 pl-3 pr-4 text-base text-indigo-700 border-l-4 border-indigo-500 font-regular bg-indigo-50'
               >
                 Dashboard
               </Disclosure.Button>
               <Disclosure.Button
                 as='a'
                 href='#'
-                className='block py-2 pl-3 pr-4 text-base font-medium text-gray-500 border-l-4 border-transparent hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700'
+                className='block py-2 pl-3 pr-4 text-base text-gray-500 border-l-4 border-transparent font-regular hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700'
               >
                 Team
               </Disclosure.Button>
               <Disclosure.Button
                 as='a'
                 href='#'
-                className='block py-2 pl-3 pr-4 text-base font-medium text-gray-500 border-l-4 border-transparent hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700'
+                className='block py-2 pl-3 pr-4 text-base text-gray-500 border-l-4 border-transparent font-regular hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700'
               >
                 Projects
               </Disclosure.Button>
               <Disclosure.Button
                 as='a'
                 href='#'
-                className='block py-2 pl-3 pr-4 text-base font-medium text-gray-500 border-l-4 border-transparent hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700'
+                className='block py-2 pl-3 pr-4 text-base text-gray-500 border-l-4 border-transparent font-regular hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700'
               >
                 Calendar
               </Disclosure.Button>

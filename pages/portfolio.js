@@ -43,14 +43,10 @@ export default function About() {
         <m.div initial='initial' animate='enter' exit='exit'>
           <m.main variants={fade} className='pb-4'>
             <Container>
-              <div className='content pt-40 mx-auto px-4 max-w-7xl'>
+              <div className='px-4 pt-40 mx-auto content max-w-7xl'>
                 <h1>Portfolio</h1>
-                <p>
-                  This page will be dedicated to creative work outside of my
-                  client work
-                </p>
 
-                <div className='content mt-10'>
+                <div className='mt-10 content'>
                   <h3>3D Rendering</h3>
                   <Masonry
                     breakpointCols={breakpointColumnsObj}
@@ -137,7 +133,7 @@ export default function About() {
                     />
                   </Masonry>
                 </div>
-                <div className='content mt-10'>
+                <div className='mt-10 content'>
                   <h3>Mobile Apps</h3>
 
                   <Masonry
