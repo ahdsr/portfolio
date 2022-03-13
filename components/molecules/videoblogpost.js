@@ -4,6 +4,8 @@ import SocialBar from './socialBar';
 export default function VideoPost({
   postTitle,
   videoSource,
+  looping,
+  playing,
   postUser,
   postUserProfile,
   postUserImage,
@@ -37,7 +39,9 @@ export default function VideoPost({
           <ReactPlayer
             className='react-player'
             url={videoSource}
-            loop={true}
+            loop={looping}
+            playing={playing}
+            playIcon={true}
             controls={true}
             width='100%'
             height='100%'

@@ -30,7 +30,21 @@ export default function Blog() {
               p3=''
             />
             <VideoPost
-              postTitle='Electric Avenue Youtube animation test'
+              postTitle='VIMEO react-player'
+              videoSource='https://vimeo.com/687667849'
+              playing={true}
+              looping={true}
+              postUser='Lucas C'
+              postUserProfile='Admin'
+              postUserImage='https://nypost.com/wp-content/uploads/sites/2/2022/02/astronaut-305.jpg?quality=90&strip=all&w=744'
+              postCount='222'
+              p1="Since I started to develop, I'm discovering a lot of new and useful tools. One of them being Sizzy. This app lets you preview your project on a bunch of different devices all at the same time."
+              p2=''
+              p3=''
+            />
+
+            <VideoPost
+              postTitle='Youtube react-player'
               videoSource='https://youtu.be/qAJ35W1aDHw'
               postUser='Lucas C'
               postUserProfile='Admin'
