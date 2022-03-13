@@ -6,6 +6,9 @@ import { LazyMotion, domAnimation, m } from 'framer-motion';
 import { NextSeo } from 'next-seo';
 
 import VideoPost from '@/components/molecules/videoblogpost';
+import ImagePost from '@/components/molecules/imagepost';
+
+import image1 from '../assets/3drenders/city1.jpg';
 
 export default function Blog() {
   const containerRef = useRef(null);
@@ -15,6 +18,17 @@ export default function Blog() {
       <LazyMotion features={domAnimation}>
         <m.div initial='initial' animate='enter' exit='exit'>
           <m.main variants={fade} className='py-24 bg-white'>
+            <ImagePost
+              postTitle='Testing fancy image post, when user clicks on post image they can see a full screen version.'
+              imageSource={image1}
+              postUser='Lucas C'
+              postUserProfile='Admin'
+              postUserImage='https://nypost.com/wp-content/uploads/sites/2/2022/02/astronaut-305.jpg?quality=90&strip=all&w=744'
+              postCount='1'
+              p1="Since I started to develop, I'm discovering a lot of new and useful tools. One of them being Sizzy. This app lets you preview your project on a bunch of different devices all at the same time."
+              p2=''
+              p3=''
+            />
             <VideoPost
               postTitle='Electric Avenue Youtube animation test'
               videoSource='https://youtu.be/qAJ35W1aDHw'

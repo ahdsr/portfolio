@@ -18,7 +18,7 @@ export default function FancyImage({
     <LazyMotion features={domAnimation}>
       <m.div
         whileHover={{
-          scale: 0.95,
+          scale: 0.96,
           transition: { duration: 0.2 },
         }}
       >

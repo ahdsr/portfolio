@@ -1,9 +1,9 @@
-import ReactPlayer from 'react-player';
 import SocialBar from './socialBar';
+import FancyImage from '@/components/fancyimage';
 
-export default function VideoPost({
+export default function ImagePost({
   postTitle,
-  videoSource,
+  imageSource,
   postUser,
   postUserProfile,
   postUserImage,
@@ -13,8 +13,8 @@ export default function VideoPost({
   p3,
 }) {
   return (
-    <div className='mx-auto max-w-screen-2xl xl:max-w-screen-xl '>
-      <div className='px-5 mx-auto mt-8 md:px-12 blog '>
+    <div className='mx-auto blog max-w-screen-2xl xl:max-w-screen-xl '>
+      <div className='px-5 mx-auto mt-8 md:px-12 '>
         <div className='heading1'>{postTitle}</div>
         <div className='flex items-start'>
           <div className='inline-flex flex-shrink-0 rounded-full'>
@@ -33,16 +33,13 @@ export default function VideoPost({
           </div>
         </div>
         <SocialBar postCount={postCount} />
-        <div className='player-wrapper '>
-          <ReactPlayer
-            className='react-player'
-            url={videoSource}
-            loop={true}
-            controls={true}
-            width='100%'
-            height='100%'
-          />
-        </div>
+        <FancyImage
+          priority
+          src={imageSource}
+          transitionDuration={300}
+          zoomMargin={30}
+          overlayBgColorEnd={'rgba(255, 255,255, 0.95)'}
+        />
       </div>
 
       <div className='px-5 pt-12 mx-auto space-y-4 font-light leading-relaxed text-md text-slate-800 md:px-12'>
