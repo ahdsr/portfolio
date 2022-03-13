@@ -72,7 +72,7 @@
 }
 
 .cta {
-  @apply inline-block w-auto px-4 py-3 my-4 text-white bg-customblue2 hover:shadow-lg hover:scale-90 transition ease-in-out rounded-lg;
+  @apply inline-block w-auto px-4 py-3 my-4 text-white bg-yellow-600 hover:shadow-lg hover:scale-90 transition ease-in-out rounded-lg;
 }
 
 .desktopimage {
@@ -115,7 +115,7 @@ h4,
 }
 
 .hero .tagline {
-  @apply text-2xl font-black tracking-tight md:pt-16 md:text-4xl lg:text-6xl xl:text-7xl md:font-extrabold text-customblue2;
+  @apply text-4xl font-black tracking-tight md:pt-16 md:text-4xl lg:text-6xl xl:text-7xl md:font-extrabold text-customblue2;
 }
 
 .hero .points {

@@ -20,24 +20,14 @@ export default function Home() {
       <NextSeo title='Home' />
       <LazyMotion features={domAnimation}>
         <m.div initial='initial' animate='enter' exit='exit'>
-          <m.main variants={fade} className='bg-white'>
+          <m.main variants={fade} className='bg-slate-50'>
             {/*  Hero */}
 
             <div className='pb-24 mx-auto lg:pt-20 hero md:pb-32 lg:pb-60 md:pb-30 max-w-screen-2xl '>
-              <div className='flex flex-row mx-2 mt-32 max-w-7xl md:mt-36 lg:mt-40 sm:mx-auto md:mx-auto lg:mx-auto'>
-                <div className='flex-none mx-2'>
-                  <div className='block w-3 h-8 mt-28'>
-                    <Image
-                      alt='Mountains'
-                      src={LeftLines}
-                      layout='responsive'
-                      objectFit='cover'
-                    />
-                  </div>
-                </div>
+              <div className='flex flex-row px-8 mt-32 max-w-7xl md:mt-36 lg:mt-40 sm:mx-auto md:mx-auto lg:mx-auto lg:px-12'>
                 <div className='pt-8 mx-auto grow max-w-7xl'>
                   <div className='mx-auto md:flex'>
-                    <div className='mx-0 hero item w-fit sm:px-8 '>
+                    <div className='px-0 hero item w-fit sm:px-0'>
                       <h1 className='tagline'>
                         Hi, I’m Lucas a{' '}
                         <span className='text-yellow-500'>UX & UI</span>{' '}
@@ -53,19 +43,9 @@ export default function Home() {
                         <li>Selling a solution</li>
                       </ul>
                     </div>
-                    <div className='w-56 mx-auto mt-10 text-center item md:w-96 lg:mr-8'>
+                    <div className='w-64 mx-auto mt-10 text-center item md:w-96'>
                       <Image alt='Lucas' src={Me} layout='responsive' />
                     </div>
-                  </div>
-                </div>
-                <div className='flex-none mx-2'>
-                  <div className='block w-3 h-12 opacity-0 mt-60'>
-                    <Image
-                      alt='Mountains'
-                      src={LeftLines}
-                      layout='responsive'
-                      objectFit='cover'
-                    />
                   </div>
                 </div>
               </div>
@@ -73,16 +53,15 @@ export default function Home() {
 
             {/*  Blue Section */}
             <div className='bg-white'>
-              <div className='flex flex-row max-w-full pt-20 mx-auto text-white md:pt-20 line bg-customblue2 rounded-tr-huge'>
-                <div className='flex-none w-8 lg:w-12 '></div>
+              <div className='flex flex-row max-w-full px-8 pt-20 mx-auto text-white md:pt-20 line bg-customblue2 rounded-tr-huge lg:px-12'>
                 <div className='px-0 pt-10 mx-auto grow max-w-7xl sm:pt-20 sm:pb-24 sm:px-4 md:px-4 xl:px-0 '>
                   <div className='z-0 md:pb-24 rounded-tr-huge'>
                     <div className='mx-auto md:flex max-w-screen-2xl'>
-                      <div className='h-auto pl-0 homepage md:item md:w-1/2 content md:pr-16 lg:pl-4 '>
+                      <div className='h-auto pl-0 homepage md:item md:w-1/2 content md:pr-16 '>
                         <h1>
                           Research, design, prototype, test and evaluate ↻{' '}
                         </h1>
-                        <div className='pt-4 pb-12 md:pt-10 '>
+                        <div className='pt-4 pb-12 md:pt-10 opacity-30'>
                           <Image
                             alt='Mountains'
                             src={LogoGroup}
@@ -124,7 +103,6 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                <div className='flex-none w-8 flex-n lg:w-12'></div>
               </div>
             </div>
 
