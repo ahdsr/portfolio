@@ -9,9 +9,8 @@ import PortfolioList from '@/components/portfoliolist';
 
 //Imported Images
 import Image from 'next/image';
-import Me from '../assets/global/me.png';
-import LeftLines from '../assets/global/leftLines.png';
-import LogoGroup from '../assets/global/logogroup.png';
+import Me from '../assets/global/me.webp';
+import LogoGroup from '../assets/global/logogroup.webp';
 
 export default function Home() {
   const containerRef = useRef(null);

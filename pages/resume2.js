@@ -7,13 +7,12 @@ import { NextSeo } from 'next-seo';
 
 //blog2 Images
 import Image from 'next/image';
-import avatarLivelabs from '../assets/global/avatar_livelabs.png';
-import avatarBMO from '../assets/global/avatar_bmo.png';
-import avatarCIBC from '../assets/global/avatar_cibc.png';
-import avatarOM from '../assets/global/avatar_om.png';
-import avatarTD from '../assets/global/avatar_td.png';
-import avatarRSA from '../assets/global/avatar_rsa.png';
-import avatarElement from '../assets/global/avatar_element.png';
+import avatarLivelabs from '../assets/global/avatar_livelabs.webp';
+import avatarCIBC from '../assets/global/avatar_cibc.webp';
+import avatarOM from '../assets/global/avatar_om.webp';
+import avatarTD from '../assets/global/avatar_td.webp';
+import avatarRSA from '../assets/global/avatar_rsa.webp';
+import avatarElement from '../assets/global/avatar_element.webp';
 
 const PostImage1 =
   'https://images.unsplash.com/photo-1581822261290-991b38693d1b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80';

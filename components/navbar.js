@@ -5,7 +5,7 @@ import { Fragment } from 'react';
 import { Disclosure, Menu, Transition } from '@headlessui/react';
 import { MenuIcon, XIcon } from '@heroicons/react/outline';
 import Image from 'next/image';
-import Image1 from '../assets/global/profile.png';
+import Image1 from '../assets/global/profile.webp';
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ');

@@ -4,11 +4,11 @@ import ReactPlayer from 'react-player';
 
 // Import Images
 
-import image1 from '../assets/usecases/tddashboard_hero.png';
-import image2 from '../assets/usecases/cibcaccounts_hero.png';
-import image3 from '../assets/usecases/highpreistess_hero.png';
-import cibcnab from '../assets/usecases/cibcnab_hero.png';
-import beon from '../assets/usecases/beon_hero.png';
+import image1 from '../assets/usecases/tddashboard_hero.webp';
+import image2 from '../assets/usecases/cibcaccounts_hero.webp';
+import image3 from '../assets/usecases/highpreistess_hero.webp';
+import cibcnab from '../assets/usecases/cibcnab_hero.webp';
+import beon from '../assets/usecases/beon_hero.webp';
 
 const usecases = [
   {

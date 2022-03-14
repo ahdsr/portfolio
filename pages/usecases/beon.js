@@ -11,7 +11,7 @@ import Masonry from 'react-masonry-css';
 //Usecase Images
 import Image from 'next/image';
 
-import designupdate1 from './cibc_nab/watch.png';
+import designupdate1 from './cibc_nab/watch.webp';
 
 const name = 'BEON your best game. BEON your maxiumum performance.';
 const description =

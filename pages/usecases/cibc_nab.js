@@ -10,8 +10,8 @@ import Masonry from 'react-masonry-css';
 
 //Usecase Images
 import Image from 'next/image';
-import LiveLabsbLogo from '../../assets/global/avatar_livelabs.png';
-import designupdate1 from './cibc_nab/watch.png';
+import LiveLabsbLogo from '../../assets/global/avatar_livelabs.webp';
+import designupdate1 from './cibc_nab/watch.webp';
 
 const name = 'Solving the POS currency conversion...';
 const description =

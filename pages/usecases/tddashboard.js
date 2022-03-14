@@ -10,7 +10,7 @@ import Masonry from 'react-masonry-css';
 
 //Usecase Images
 import Image from 'next/image';
-import TDLogo from '../../assets/global/avatar_td.png';
+import TDLogo from '../../assets/global/avatar_td.webp';
 import Placeholder from '../../assets/usecases/td.jpg';
 import designupdate1 from './td_dashboard/menu_overflow.jpg';
 import designupdate2 from './td_dashboard/card_overflow_menu.jpg';
