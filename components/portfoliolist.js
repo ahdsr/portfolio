@@ -4,10 +4,12 @@ import ReactPlayer from 'react-player';
 
 // Import Images
 
-import image1 from '../assets/global/placeholder.png';
-import image2 from '../assets/usecases/tdforme_hero.png';
+import image1 from '../assets/usecases/tddashboard_hero.png';
+import image2 from '../assets/usecases/cibcaccounts_hero.png';
 import image3 from '../assets/usecases/highpreistess_hero.png';
 import cibcnab from '../assets/usecases/cibcnab_hero.png';
+import beon from '../assets/usecases/beon_hero.png';
+
 const usecases = [
   {
     id: 0,
@@ -47,6 +49,15 @@ const usecases = [
     image: cibcnab,
     color: 'bg-white',
   },
+  {
+    id: 4,
+
+    name: 'BEON Performance',
+    description: '***Solving the POS currency conversion',
+    link: '/usecases/beon',
+    image: beon,
+    color: 'bg-white',
+  },
 ];
 
 export default function PortfolioList() {
@@ -63,17 +74,17 @@ export default function PortfolioList() {
           key={usecases.id}
           className={
             usecases.id % 2 === 0
-              ? 'md:flex shadow-items mb-8 md:mb-12 rounded-b-large overflow-hidden '
-              : 'md:flex md:flex-row-reverse shadow-items mb-8 md:mb-12 rounded-b-large overflow-hidden '
+              ? 'md:flex shadow-items mb-8 md:mb-12  overflow-hidden '
+              : 'md:flex md:flex-row-reverse shadow-items mb-8 md:mb-12  overflow-hidden '
           }
         >
-          <div className='block overflow-hidden bg-white item md:w-1/2 rounded-t-large h-96 md:h-auto'>
+          <div className='block overflow-hidden bg-white item md:w-1/2 h-96 md:h-auto'>
             <Image alt='Mountains' src={usecases.image} layout='responsive' />
           </div>
 
           <div
             className={[
-              'item md:w-1/2 px-6 md:p-12 xl:p-20 rounded-b-large overflow-hidden',
+              'item md:w-1/2 px-6 md:p-12 xl:p-20  overflow-hidden',
               usecases.color,
             ].join(' ')}
           >

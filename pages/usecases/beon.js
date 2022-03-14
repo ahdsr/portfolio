@@ -10,10 +10,10 @@ import Masonry from 'react-masonry-css';
 
 //Usecase Images
 import Image from 'next/image';
-import LiveLabsbLogo from '../../assets/global/avatar_livelabs.png';
+
 import designupdate1 from './cibc_nab/watch.png';
 
-const name = 'Solving the POS currency conversion...';
+const name = 'BEON your best game. BEON your maxiumum performance.';
 const description =
   '***How do you improve user engagement and entice new users to hop onto your platform?';
 
@@ -34,17 +34,8 @@ export default function CICBnab() {
             <div className='pt-16 pb-10 mx-auto max-w-screen-2xl xl:max-w-screen-xl'>
               <div className='px-5 pt-6 mx-auto mt-4 md:px-10 lg:px-16 xl:px-24'>
                 <h1 className='heading1'>{name}</h1>
-                <div className='mx-auto text-center'>
-                  <Image
-                    alt='Mountains'
-                    src={LiveLabsbLogo}
-                    layout='intrinsic'
-                    objectFit='cover'
-                    width={64}
-                    height={64}
-                  />
-                </div>
                 <h2 className='heading2'>{description}</h2>
+
                 <div className='player-wrapper '>
                   <div
                     className=''
@@ -92,7 +83,7 @@ export default function CICBnab() {
                   </li>
                 </ul>
 
-                <h3 className='heading3'>CIBC & NAB Collab</h3>
+                <h3 className='heading3'>BEON all screens</h3>
                 <div className='py-12'>
                   <div className='relative p-8 mt-20 overflow-hidden border-8 border-white h-96 w-1/1 shadow-items'>
                     <Image

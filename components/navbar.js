@@ -75,25 +75,25 @@ export default function Navbar() {
                     destination='/'
                     a11yText='About'
                     label='About'
-                    extraClasses='border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-regular'
+                    extraClasses='border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-regular uppercase'
                   />
                   <FancyLink
                     destination='/portfolio2'
                     a11yText='Portfolio'
                     label='Portfolio'
-                    extraClasses='border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-regular'
+                    extraClasses='border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-regular uppercase'
                   />
                   <FancyLink
                     destination='/resume2'
                     a11yText='Resume'
                     label='Resume'
-                    extraClasses='border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-regular'
+                    extraClasses='border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-regular uppercase'
                   />
                   <FancyLink
                     destination='/blog2'
                     a11yText='Blog'
                     label='Blog'
-                    extraClasses='border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-regular'
+                    extraClasses='border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-regular uppercase'
                   />
                 </div>
               </div>
