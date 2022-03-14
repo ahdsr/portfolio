@@ -92,7 +92,7 @@ export default function Home() {
                           go into a detailed design process. You can also view
                           other work in the{' '}
                           <FancyLink
-                            destination='/portfolio'
+                            destination='/portfolio2'
                             a11yText='portfolio'
                             label='portfolio'
                             extraClasses=' underline bg-black bg-opacity-30 p-1 hover:bg-yellow-400'

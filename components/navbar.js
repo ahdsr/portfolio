@@ -44,7 +44,7 @@ export default function Navbar() {
   return (
     <Disclosure
       as='nav'
-      className='sticky top-0 z-50 bg-white border-b border-b-slate-200'
+      className='sticky top-0 z-50 bg-white border-b border-b-slate-200 '
       style={{ ...navbarStyles, top: visible ? '0' : '-64px' }}
     >
       {({ open }) => (
@@ -78,7 +78,7 @@ export default function Navbar() {
                     extraClasses='border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-regular'
                   />
                   <FancyLink
-                    destination='/portfolio'
+                    destination='/portfolio2'
                     a11yText='Portfolio'
                     label='Portfolio'
                     extraClasses='border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-regular'

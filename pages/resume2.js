@@ -30,17 +30,17 @@ export default function Resume() {
       <NextSeo title='Blog' />
       <LazyMotion features={domAnimation}>
         <m.div initial='initial' animate='enter' exit='exit'>
-          <m.main variants={fade} className='pb-10 bg-white '>
+          <m.main variants={fade} className='py-24 bg-white '>
             <div className='px-5 mx-auto mt-8 md:px-12 max-w-screen-2xl xl:max-w-screen-xl sm:pt-12'>
               <div className='pb-10 resume'>
                 {/*   <img src={profilePhoto} alt='' /> */}
-                <div className='px-5 pt-6 mx-auto mt-16 '>
+                <div className='mx-auto'>
                   <div className='mb-4 text-3xl font-bold tracking-tight text-customblue'>
                     Resume
                   </div>
                 </div>
 
-                <div className='px-5 mx-auto text-sm font-light leading-relaxed md:justify-center md:flex text-slate-300'>
+                <div className='mx-auto text-sm font-light leading-relaxed md:justify-center md:flex text-slate-300'>
                   <div className='md:w-1/3 md:item'>
                     <div className='text-xl font-bold tracking-tight text-yellow-500'>
                       Profile

@@ -213,13 +213,13 @@ export default function Item1() {
                   <div className='mb-4 content sm:item sm:w-1/3 sm:pl-8'>
                     <h4>Multiple function to perform on a single order</h4>
                     <p>
-                      Each unique data table presented itself with a challange.
+                      Each unique data table presented itself with a challenge.
                       Some functional features are common to all data tables,
                       some needed very custom solutions. A way to solve this was
                       to introduce overflow menus that can be customized based
                       on table and or based on orders within a single table. The
                       original design would expose the actions on the page which
-                      made them hard to maintain and wouldnt allow for a
+                      made them hard to maintain and wouldn't allow for a
                       scalable solution
                     </p>
                   </div>
