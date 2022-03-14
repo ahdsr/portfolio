@@ -12,7 +12,6 @@ import Masonry from 'react-masonry-css';
 import Image from 'next/image';
 import TDLogo from '../../assets/global/avatar_td.png';
 import Placeholder from '../../assets/usecases/td.jpg';
-
 import designupdate1 from './td_dashboard/menu_overflow.jpg';
 import designupdate2 from './td_dashboard/card_overflow_menu.jpg';
 import designupdate3 from './td_dashboard/card_setting.jpg';
@@ -170,7 +169,6 @@ export default function Resume() {
                     {/* array of JSX items */}
 
                     <FancyImage
-                      priority
                       src={icons1}
                       transitionDuration={300}
                       zoomMargin={40}
@@ -178,14 +176,12 @@ export default function Resume() {
                     />
 
                     <FancyImage
-                      priority
                       src={icons2}
                       transitionDuration={300}
                       zoomMargin={40}
                       overlayBgColorEnd={'rgba(255, 255,255, 0.95)'}
                     />
                     <FancyImage
-                      priority
                       src={icons3}
                       transitionDuration={300}
                       zoomMargin={40}
@@ -202,7 +198,6 @@ export default function Resume() {
                     {/* array of JSX items */}
 
                     <FancyImage
-                      priority
                       src={designupdate1}
                       transitionDuration={300}
                       zoomMargin={40}
@@ -210,7 +205,6 @@ export default function Resume() {
                     />
 
                     <FancyImage
-                      priority
                       src={designupdate2}
                       transitionDuration={300}
                       zoomMargin={40}

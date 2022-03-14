@@ -10,17 +10,17 @@ import Masonry from 'react-masonry-css';
 
 //Usecase Images
 import Image from 'next/image';
-import designupdate1 from './cibc_digital_butler/cibc_digital_butler_01.png';
-import designupdate2 from './cibc_digital_butler/cibc_digital_butler_02.png';
-import designupdate3 from './cibc_digital_butler/cibc_digital_butler_03.png';
-import designupdate4 from './cibc_digital_butler/cibc_digital_butler_04.png';
-import designupdate5 from './cibc_digital_butler/cibc_digital_butler_05.png';
-import designupdate6 from './cibc_digital_butler/cibc_digital_butler_06.png';
-import designupdate7 from './cibc_digital_butler/cibc_digital_butler_07.png';
-import designupdate8 from './cibc_digital_butler/cibc_digital_butler_08.png';
-import designupdate9 from './cibc_digital_butler/cibc_digital_butler_09.png';
-import designupdate10 from './cibc_digital_butler/cibc_digital_butler_10.png';
-import designupdate11 from './cibc_digital_butler/cibc_digital_butler_11.png';
+import designupdate1 from './cibc_digital_butler/cibc_digital_butler_01.webp';
+import designupdate2 from './cibc_digital_butler/cibc_digital_butler_02.webp';
+import designupdate3 from './cibc_digital_butler/cibc_digital_butler_03.webp';
+import designupdate4 from './cibc_digital_butler/cibc_digital_butler_04.webp';
+import designupdate5 from './cibc_digital_butler/cibc_digital_butler_05.webp';
+import designupdate6 from './cibc_digital_butler/cibc_digital_butler_06.webp';
+import designupdate7 from './cibc_digital_butler/cibc_digital_butler_07.webp';
+import designupdate8 from './cibc_digital_butler/cibc_digital_butler_08.webp';
+import designupdate9 from './cibc_digital_butler/cibc_digital_butler_09.webp';
+import designupdate10 from './cibc_digital_butler/cibc_digital_butler_10.webp';
+import designupdate11 from './cibc_digital_butler/cibc_digital_butler_11.webp';
 
 const name = 'Smarter banking, with a the help of AI';
 const description =
@@ -29,7 +29,7 @@ const description =
 export default function DigitalButler() {
   const containerRef = useRef(null);
   const breakpointColumnsObj = {
-    default: 5,
+    default: 7,
     1100: 4,
     700: 2,
     500: 2,
@@ -93,7 +93,7 @@ export default function DigitalButler() {
 
                 <h3 className='heading3'>CIBC Digital Butler</h3>
                 <div className='py-12'>
-                  <div className='relative p-8 mt-20 overflow-hidden border-8 border-white h-96 w-1/1 shadow-items'>
+                  <div className='relative p-8 mt-20 overflow-hidden border-8 border-white h-96 w-1/1'>
                     <Image
                       alt='Mountains'
                       src={designupdate4}
@@ -111,25 +111,26 @@ export default function DigitalButler() {
                     {/* array of JSX items */}
 
                     <FancyImage
-                      priority
                       src={designupdate1}
                       transitionDuration={300}
                       zoomMargin={40}
                       overlayBgColorEnd={'rgba(255, 255,255, 0.95)'}
+                      layout='intrinsic'
                     />
 
                     <FancyImage
-                      priority
                       src={designupdate2}
                       transitionDuration={300}
                       zoomMargin={40}
                       overlayBgColorEnd={'rgba(255, 255,255, 0.95)'}
+                      layout='intrinsic'
                     />
                     <FancyImage
                       src={designupdate3}
                       transitionDuration={300}
                       zoomMargin={40}
                       overlayBgColorEnd={'rgba(255, 255,255, 0.95)'}
+                      layout='intrinsic'
                     />
 
                     <FancyImage
@@ -137,48 +138,56 @@ export default function DigitalButler() {
                       transitionDuration={300}
                       zoomMargin={40}
                       overlayBgColorEnd={'rgba(255, 255,255, 0.95)'}
+                      layout='intrinsic'
                     />
                     <FancyImage
                       src={designupdate5}
                       transitionDuration={300}
                       zoomMargin={40}
                       overlayBgColorEnd={'rgba(255, 255,255, 0.95)'}
+                      layout='intrinsic'
                     />
                     <FancyImage
                       src={designupdate6}
                       transitionDuration={300}
                       zoomMargin={40}
                       overlayBgColorEnd={'rgba(255, 255,255, 0.95)'}
+                      layout='intrinsic'
                     />
                     <FancyImage
                       src={designupdate7}
                       transitionDuration={300}
                       zoomMargin={40}
                       overlayBgColorEnd={'rgba(255, 255,255, 0.95)'}
+                      layout='intrinsic'
                     />
                     <FancyImage
                       src={designupdate8}
                       transitionDuration={300}
                       zoomMargin={40}
                       overlayBgColorEnd={'rgba(255, 255,255, 0.95)'}
+                      layout='intrinsic'
                     />
                     <FancyImage
                       src={designupdate9}
                       transitionDuration={300}
                       zoomMargin={40}
                       overlayBgColorEnd={'rgba(255, 255,255, 0.95)'}
+                      layout='intrinsic'
                     />
                     <FancyImage
                       src={designupdate10}
                       transitionDuration={300}
                       zoomMargin={40}
                       overlayBgColorEnd={'rgba(255, 255,255, 0.95)'}
+                      layout='intrinsic'
                     />
                     <FancyImage
                       src={designupdate11}
                       transitionDuration={300}
                       zoomMargin={40}
                       overlayBgColorEnd={'rgba(255, 255,255, 0.95)'}
+                      layout='intrinsic'
                     />
                   </Masonry>
                 </div>

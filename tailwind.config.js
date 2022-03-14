@@ -43,10 +43,6 @@ module.exports = {
         customyellow: '#F2F2CF',
         customgray: '#F3F3F3',
       },
-
-      boxShadow: {
-        items: 'rgba(149, 157, 165, 0.2) 0px 8px 24px',
-      },
     },
   },
   plugins: [

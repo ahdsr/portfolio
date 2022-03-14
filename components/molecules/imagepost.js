@@ -35,7 +35,6 @@ export default function ImagePost({
         </div>
         <SocialBar postCount={postCount} />
         <FancyImage
-          priority
           src={imageSource}
           transitionDuration={300}
           zoomMargin={30}

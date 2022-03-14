@@ -47,25 +47,26 @@ export default function Resume() {
                   {/* array of JSX items */}
 
                   <FancyImage
-                    priority
                     src={image1}
                     transitionDuration={300}
                     zoomMargin={40}
                     overlayBgColorEnd={'rgba(255, 255,255, 0.95)'}
+                    layout='intrinsic'
                   />
 
                   <FancyImage
-                    priority
                     src={image2}
                     transitionDuration={300}
                     zoomMargin={40}
                     overlayBgColorEnd={'rgba(255, 255,255, 0.95)'}
+                    layout='intrinsic'
                   />
                   <FancyImage
                     src={image3}
                     transitionDuration={300}
                     zoomMargin={40}
                     overlayBgColorEnd={'rgba(255, 255,255, 0.95)'}
+                    layout='intrinsic'
                   />
 
                   <FancyImage
@@ -73,54 +74,63 @@ export default function Resume() {
                     transitionDuration={300}
                     zoomMargin={40}
                     overlayBgColorEnd={'rgba(255, 255,255, 0.95)'}
+                    layout='intrinsic'
                   />
                   <FancyImage
                     src={image5}
                     transitionDuration={300}
                     zoomMargin={40}
                     overlayBgColorEnd={'rgba(255, 255,255, 0.95)'}
+                    layout='intrinsic'
                   />
                   <FancyImage
                     src={image6}
                     transitionDuration={300}
                     zoomMargin={40}
                     overlayBgColorEnd={'rgba(255, 255,255, 0.95)'}
+                    layout='intrinsic'
                   />
                   <FancyImage
                     src={image7}
                     transitionDuration={300}
                     zoomMargin={40}
                     overlayBgColorEnd={'rgba(255, 255,255, 0.95)'}
+                    layout='intrinsic'
                   />
                   <FancyImage
                     src={image8}
                     transitionDuration={300}
                     zoomMargin={40}
                     overlayBgColorEnd={'rgba(255, 255,255, 0.95)'}
+                    layout='intrinsic'
                   />
                   <FancyImage
                     src={image9}
                     transitionDuration={300}
                     zoomMargin={40}
                     overlayBgColorEnd={'rgba(255, 255,255, 0.95)'}
+                    layout='intrinsic'
                   />
                   <FancyImage
                     src={image10}
                     transitionDuration={300}
                     zoomMargin={40}
                     overlayBgColorEnd={'rgba(255, 255,255, 0.95)'}
+                    layout='intrinsic'
                   />
                   <FancyImage
                     src={image11}
                     transitionDuration={300}
                     zoomMargin={40}
                     overlayBgColorEnd={'rgba(255, 255,255, 0.95)'}
+                    layout='intrinsic'
                   />
                   <FancyImage
                     src={image12}
                     transitionDuration={300}
                     zoomMargin={40}
                     overlayBgColorEnd={'rgba(255, 255,255, 0.95)'}
+                    layout='intrinsic'
                   />
                 </Masonry>
               </div>

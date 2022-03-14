@@ -85,7 +85,7 @@ export default function CICBnab() {
 
                 <h3 className='heading3'>BEON all screens</h3>
                 <div className='py-12'>
-                  <div className='relative p-8 mt-20 overflow-hidden border-8 border-white h-96 w-1/1 shadow-items'>
+                  <div className='relative p-8 mt-20 overflow-hidden border-8 border-white h-96 w-1/1'>
                     <Image
                       alt='Mountains'
                       src={designupdate1}
@@ -103,7 +103,6 @@ export default function CICBnab() {
                     {/* array of JSX items */}
 
                     <FancyImage
-                      priority
                       src={designupdate1}
                       transitionDuration={300}
                       zoomMargin={40}

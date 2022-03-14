@@ -10,25 +10,23 @@ import Masonry from 'react-masonry-css';
 
 //Usecase Images
 import Image from 'next/image';
-import Image1 from '../../assets/global/placeholder.png';
-import Placeholder from '../../assets/usecases/td.jpg';
 
-import designupdate1 from './cibc_accountopen/cibc_accounts_open_01.png';
-import designupdate2 from './cibc_accountopen/cibc_accounts_open_02.png';
-import designupdate3 from './cibc_accountopen/cibc_accounts_open_03.png';
-import designupdate4 from './cibc_accountopen/cibc_accounts_open_04.png';
-import designupdate5 from './cibc_accountopen/cibc_accounts_error_01.png';
-import designupdate6 from './cibc_accountopen/cibc_accounts_wait01.png';
-import designupdate7 from './cibc_accountopen/cibc_accounts_wait02.png';
-import designupdate8 from './cibc_accountopen/cibc_accounts_wait03.png';
-import designupdate9 from './cibc_accountopen/cibc_accounts_error_02.png';
-import designupdate10 from './cibc_accountopen/cibc_accounts_open_05.png';
-import designupdate11 from './cibc_accountopen/cibc_accounts_open_06.png';
-import designupdate12 from './cibc_accountopen/cibc_accounts_open_07.png';
-import designupdate13 from './cibc_accountopen/cibc_accounts_open_08.png';
-import designupdate14 from './cibc_accountopen/cibc_accounts_open_09.png';
-import designupdate15 from './cibc_accountopen/cibc_accounts_open_10.png';
-import designupdate16 from './cibc_accountopen/cibc_accounts_open_11.png';
+import designupdate1 from './cibc_accountopen/cibc_accounts_open_01.webp';
+import designupdate2 from './cibc_accountopen/cibc_accounts_open_02.webp';
+import designupdate3 from './cibc_accountopen/cibc_accounts_open_03.webp';
+import designupdate4 from './cibc_accountopen/cibc_accounts_open_04.webp';
+import designupdate5 from './cibc_accountopen/cibc_accounts_error_01.webp';
+import designupdate6 from './cibc_accountopen/cibc_accounts_wait01.webp';
+import designupdate7 from './cibc_accountopen/cibc_accounts_wait02.webp';
+import designupdate8 from './cibc_accountopen/cibc_accounts_wait03.webp';
+import designupdate9 from './cibc_accountopen/cibc_accounts_error_02.webp';
+import designupdate10 from './cibc_accountopen/cibc_accounts_open_05.webp';
+import designupdate11 from './cibc_accountopen/cibc_accounts_open_06.webp';
+import designupdate12 from './cibc_accountopen/cibc_accounts_open_07.webp';
+import designupdate13 from './cibc_accountopen/cibc_accounts_open_08.webp';
+import designupdate14 from './cibc_accountopen/cibc_accounts_open_09.webp';
+import designupdate15 from './cibc_accountopen/cibc_accounts_open_10.webp';
+import designupdate16 from './cibc_accountopen/cibc_accounts_open_11.webp';
 
 const name = 'Account applications forms, responsive frame into native app.';
 const description =
@@ -127,25 +125,26 @@ export default function Resume() {
                     {/* array of JSX items */}
 
                     <FancyImage
-                      priority
                       src={designupdate1}
                       transitionDuration={300}
                       zoomMargin={40}
                       overlayBgColorEnd={'rgba(255, 255,255, 0.95)'}
+                      layout='intrinsic'
                     />
 
                     <FancyImage
-                      priority
                       src={designupdate2}
                       transitionDuration={300}
                       zoomMargin={40}
                       overlayBgColorEnd={'rgba(255, 255,255, 0.95)'}
+                      layout='intrinsic'
                     />
                     <FancyImage
                       src={designupdate3}
                       transitionDuration={300}
                       zoomMargin={40}
                       overlayBgColorEnd={'rgba(255, 255,255, 0.95)'}
+                      layout='intrinsic'
                     />
 
                     <FancyImage
@@ -153,48 +152,56 @@ export default function Resume() {
                       transitionDuration={300}
                       zoomMargin={40}
                       overlayBgColorEnd={'rgba(255, 255,255, 0.95)'}
+                      layout='intrinsic'
                     />
                     <FancyImage
                       src={designupdate5}
                       transitionDuration={300}
                       zoomMargin={40}
                       overlayBgColorEnd={'rgba(255, 255,255, 0.95)'}
+                      layout='intrinsic'
                     />
                     <FancyImage
                       src={designupdate6}
                       transitionDuration={300}
                       zoomMargin={40}
                       overlayBgColorEnd={'rgba(255, 255,255, 0.95)'}
+                      layout='intrinsic'
                     />
                     <FancyImage
                       src={designupdate7}
                       transitionDuration={300}
                       zoomMargin={40}
                       overlayBgColorEnd={'rgba(255, 255,255, 0.95)'}
+                      layout='intrinsic'
                     />
                     <FancyImage
                       src={designupdate8}
                       transitionDuration={300}
                       zoomMargin={40}
                       overlayBgColorEnd={'rgba(255, 255,255, 0.95)'}
+                      layout='intrinsic'
                     />
                     <FancyImage
                       src={designupdate9}
                       transitionDuration={300}
                       zoomMargin={40}
                       overlayBgColorEnd={'rgba(255, 255,255, 0.95)'}
+                      layout='intrinsic'
                     />
                     <FancyImage
                       src={designupdate10}
                       transitionDuration={300}
                       zoomMargin={40}
                       overlayBgColorEnd={'rgba(255, 255,255, 0.95)'}
+                      layout='intrinsic'
                     />
                     <FancyImage
                       src={designupdate11}
                       transitionDuration={300}
                       zoomMargin={40}
                       overlayBgColorEnd={'rgba(255, 255,255, 0.95)'}
+                      layout='intrinsic'
                     />
                     <FancyImage
                       src={designupdate12}

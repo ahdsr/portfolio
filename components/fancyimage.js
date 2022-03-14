@@ -9,7 +9,6 @@ export default function FancyImage({
   src,
   layout,
   quality,
-  placeholder,
   overlayBgColorEnd,
   transitionDuration,
   zoomMargin,
@@ -33,8 +32,7 @@ export default function FancyImage({
               src={src}
               layout={layout}
               quality={100}
-              placeholder={placeholder}
-              loading='lazy'
+              placeholder='blur'
             />
           </div>
         </Zoom>

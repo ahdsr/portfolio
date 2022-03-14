@@ -50,7 +50,6 @@ export default function About() {
                     {/* array of JSX items */}
 
                     <FancyImage
-                      priority
                       src={image1}
                       transitionDuration={300}
                       zoomMargin={40}
@@ -58,7 +57,6 @@ export default function About() {
                     />
 
                     <FancyImage
-                      priority
                       src={image2}
                       transitionDuration={300}
                       zoomMargin={40}

@@ -73,14 +73,14 @@ export default function Navbar() {
                   {/* Current: "border-indigo-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" */}
                   <FancyLink
                     destination='/'
-                    a11yText='About'
-                    label='About'
+                    a11yText='Use Cases'
+                    label='Use Cases'
                     extraClasses='border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-regular uppercase'
                   />
                   <FancyLink
                     destination='/portfolio2'
-                    a11yText='Portfolio'
-                    label='Portfolio'
+                    a11yText='Other Work'
+                    label='Other Work'
                     extraClasses='border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-regular uppercase'
                   />
                   <FancyLink
@@ -131,7 +131,7 @@ export default function Navbar() {
                     leaveFrom='transform opacity-100 scale-100'
                     leaveTo='transform opacity-0 scale-95'
                   >
-                    <Menu.Items className='absolute right-0 w-48 py-1 mt-2 origin-top-right bg-white rounded-md shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none'>
+                    <Menu.Items className='absolute right-0 w-48 py-1 mt-2 origin-top-right bg-white rounded-md ring-1 ring-black ring-opacity-5 focus:outline-none'>
                       <Menu.Item>
                         {({ active }) => (
                           <a
