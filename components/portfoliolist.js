@@ -7,41 +7,55 @@ import ReactPlayer from 'react-player';
 import image1 from '../assets/global/placeholder.png';
 import image2 from '../assets/usecases/tdforme_hero.png';
 import image3 from '../assets/usecases/highpreistess_hero.png';
-
+import cibcnab from '../assets/usecases/cibcnab_hero.png';
 const usecases = [
   {
     id: 0,
 
-    name: 'TD for Me',
+    name: 'TD Dashboard',
     description:
-      'TD For Me is a series of responsive page framed into the main TD Mobile Banking App. ',
-    link: '/usecases/item1',
+      'TD Mobile Banking went through a complete overhaul to implement a dashboard like landing page.',
+    link: '/usecases/tddashboard',
     image: image1,
     color: 'bg-white',
   },
   {
     id: 1,
 
-    name: 'High Priestess Tarot',
+    name: 'CIBC Account Open',
     description:
-      'When an up and coming tarot card reader asks you to develop her web presence you jump on board. ',
-    link: '/usecases/item2',
+      '***When an up and coming tarot card reader asks you to develop her web presence you jump on board. ',
+    link: '/usecases/cibc_account_open',
     image: image2,
     color: 'bg-white',
   },
   {
     id: 2,
 
-    name: 'Ordering Data Tables at Element Fleet',
-    description:
-      'When it comes to understanding and processing data, a work horse of a flexible. ',
-    link: '/usecases/item1',
+    name: 'CIBC Digital Butler',
+    description: '***AI added to mobile banking. ',
+    link: '/usecases/cibc_digital_butler',
     image: image3,
+    color: 'bg-white',
+  },
+  {
+    id: 3,
+
+    name: 'CIBC & NAB Collab',
+    description: '***Solving the POS currency conversion',
+    link: '/usecases/cibc_nab',
+    image: cibcnab,
     color: 'bg-white',
   },
 ];
 
 export default function PortfolioList() {
+  const breakpointColumnsObj = {
+    default: 4,
+    1100: 3,
+    700: 2,
+    500: 1,
+  };
   return (
     <ul className='z-0 max-w-full px-8 mx-auto -mt-20 md:max-w-5xl lg:max-w-6xl xl:max-w-7xl '>
       {usecases.map((usecases) => (

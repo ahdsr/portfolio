@@ -5,29 +5,13 @@ import Layout from '@/components/layout';
 import { fade } from '@/helpers/transitions';
 import { LazyMotion, domAnimation, m } from 'framer-motion';
 import { NextSeo } from 'next-seo';
-import ReactPlayer from 'react-player';
 
-//Icons
-import { HiOutlineHeart } from 'react-icons/hi';
-import { HiShare } from 'react-icons/hi';
-import { HiInformationCircle } from 'react-icons/hi';
-import { HiChat } from 'react-icons/hi';
-
-//blog2 Images
+//Usecase Images
 import Image from 'next/image';
 import Image1 from '../../assets/global/placeholder.png';
 import Placeholder from '../../assets/usecases/td.jpg';
 
-const username = 'Lucas C';
-const profile = 'Admin';
-const profilePhoto =
-  'https://images.unsplash.com/photo-1581822261290-991b38693d1b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80';
-
-const name = 'Product & Native App design for TD ';
-const description =
-  'The queue essentially is a list of all Elements customer orders. The tables list everything from the vehicle that is being ordered, right down to the driver and insurance information. When a piece of work is done by one team, the order moves along until all teams have validated the data.';
-
-export default function Resume() {
+export default function TdDashboard() {
   const containerRef = useRef(null);
   return (
     <Layout>
