@@ -30,7 +30,7 @@ const name =
 const description =
   "Canadian, well - most banks don't have a huge difference in product offerings from one another. They deal with the tested and true saving/chequings, mortgages and investment accounts. So why would you join TD as a new customer? What's stopping you to jump ship to a competitor? Let's have a look below how I tackled these questions.";
 
-export default function Resume() {
+export default function TDDashboard() {
   const containerRef = useRef(null);
   const breakpointColumnsObj = {
     default: 3,
@@ -104,15 +104,15 @@ export default function Resume() {
                 </div>
 
                 <div className='md:grid md:grid-cols-3'>
-                  <p className='mr-6 callout'>
+                  <p className='md:mr-6 callout'>
                     “What do users feel comfortable with seeing in before
                     logging in?”
                   </p>
-                  <p className='mr-6 callout'>
+                  <p className='md:mr-6 callout'>
                     “Will users opt-in to see secure data without getting
                     prompted to sign in?”
                   </p>
-                  <p className='ml-6 callout'>
+                  <p className='md:ml-6 callout'>
                     “What can we do to ease their apprehensions?”
                   </p>
                 </div>

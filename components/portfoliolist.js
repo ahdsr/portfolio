@@ -17,7 +17,7 @@ const usecases = [
     name: 'TD Dashboard',
     description:
       'TD Mobile Banking went through a complete overhaul to implement a dashboard like landing page.',
-    link: '/usecases/tddashboard',
+    link: '/usecases/td_dashboard',
     image: image1,
     color: 'bg-white',
   },

@@ -7,6 +7,8 @@ import { NextSeo } from 'next-seo';
 
 import FancyImage from '@/components/fancyimage';
 import Masonry from 'react-masonry-css';
+import Gallery from '@/components/filter';
+import Tabs from '@/components/tabs';
 
 //blog2 Images
 import image1 from '../assets/3drenders/city1.jpg';
@@ -38,7 +40,8 @@ export default function Resume() {
           <m.main variants={fade} className='py-24 bg-white '>
             <div className='px-5 mx-auto mt-8 md:px-12 max-w-screen-2xl xl:max-w-screen-xl sm:pt-12'>
               <div className='pb-10 resume'>
-                <h3>3D Rendering</h3>
+                <h3>Other Work</h3>
+                <Tabs />
                 <Masonry
                   breakpointCols={breakpointColumnsObj}
                   className='my-masonry-grid'

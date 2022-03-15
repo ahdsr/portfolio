@@ -164,15 +164,15 @@ h4,
 }
 
 .usecase .callout {
-  @apply md:text-xl font-normal py-12 my-12 leading-normal md:leading-8  text-green-700 border-t border-t-slate-500 border-b border-b-slate-500;
+  @apply md:text-xl font-normal pt-12 md:pb-12 my-12 leading-normal md:leading-8  text-green-700 border-t border-t-slate-500 md:border-b md:border-b-slate-500;
 }
 
 .usecase .pleft {
-  @apply md:text-xl font-normal leading-normal md:leading-8 text-slate-600 pr-6;
+  @apply md:text-xl font-normal leading-normal md:leading-8 text-slate-600 md:pr-6;
 }
 
 .usecase .pright {
-  @apply md:text-xl font-normal leading-normal md:leading-8 text-slate-600 pl-6;
+  @apply md:text-xl font-normal leading-normal md:leading-8 text-slate-600 md:pl-6;
 }
 
 .usecase .smalltext {

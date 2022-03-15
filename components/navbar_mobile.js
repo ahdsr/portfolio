@@ -14,8 +14,8 @@ export default function NavbarMobile() {
             <IoImageOutline className='w-10 h-10 p-2 text-slate-300 text-opacity-80 ' />
             <FancyLink
               destination='/'
-              a11yText='About'
-              label='About'
+              a11yText='Use Cases'
+              label='Use Cases'
               extraClasses='tinytext text-slate-300 uppercase'
             />
           </div>
@@ -24,8 +24,8 @@ export default function NavbarMobile() {
             <IoFlaskOutline className='w-10 h-10 p-2 ml-2 text-slate-300 text-opacity-80' />
             <FancyLink
               destination='/portfolio2'
-              a11yText='Portfolio'
-              label='Portfolio'
+              a11yText='Other Work'
+              label='Other'
               extraClasses='tinytext text-slate-300 uppercase'
             />
           </div>
