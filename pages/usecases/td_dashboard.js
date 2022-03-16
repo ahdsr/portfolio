@@ -24,9 +24,10 @@ import evolution2 from './td_dashboard/dashboard_evolution2.png';
 import icons1 from './td_dashboard/dashboard_icons_01.png';
 import icons2 from './td_dashboard/dashboard_icons_02.png';
 import icons3 from './td_dashboard/dashboard_icons_03.png';
+import featureset from './td_dashboard/feature_set.png';
 
 const name =
-  'Surfacing the most common banking features to increase customer engagement.';
+  'A smart, targeted & helpful front door to increase customer engagement.';
 const description =
   "Canadian, well - most banks don't have a huge difference in product offerings from one another. They deal with the tested and true saving/chequings, mortgages and investment accounts. So why would you join TD as a new customer? What's stopping you to jump ship to a competitor? Let's have a look below how I tackled these questions.";
 
@@ -60,15 +61,17 @@ export default function TDDashboard() {
                   <p className='smalltext'>TD Dashboard</p>
                 </div>
                 <div
-                  className=''
                   style={{
+                    position: 'relative',
                     width: '100%',
                     height: '100%',
+                    overflow: 'hidden',
+                    marginTop: '80px',
                   }}
                 >
                   <Image
                     alt='Mountains'
-                    src={Placeholder}
+                    src={featureset}
                     layout='responsive'
                     objectFit='cover'
                   />

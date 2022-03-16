@@ -21,8 +21,8 @@ export default function Blog() {
           <m.main variants={fade} className='py-24 bg-white'>
             <div className='px-5 mx-auto mt-8 md:px-12 max-w-screen-2xl xl:max-w-screen-xl sm:pt-12'>
               <VideoPost
-                postTitle='Youtube react-player'
-                videoSource='https://youtu.be/KQk-3mamczg'
+                postTitle='BEON Youtube react=player test'
+                videoSource='https://youtu.be/VGf012AnWeQ'
                 date='3/11/2022'
                 postUser='Lucas C'
                 postUserProfile='Admin'
