@@ -2,11 +2,11 @@ import React from 'react';
 
 export default function Testimonial({ quote }) {
   return (
-    <div class='max-w-4xl p-4 text-gray-800 bg-white rounded-lg shadow'>
-      <div class='mb-2'>
-        <div class='h-3 text-3xl text-left text-gray-600'>“</div>
-        <p class='px-4 text-sm text-center text-gray-600'>{quote}</p>
-        <div class='h-3 text-3xl text-right text-gray-600'>”</div>
+    <div className='max-w-4xl p-4 text-gray-800 bg-white rounded-lg shadow m-8'>
+      <div className='mb-2'>
+        <div className='h-3 text-4xl text-left text-gray-300'>“</div>
+        <p className='px-12 font-normal text-center text-gray-600'>{quote}</p>
+        <div className='h-3 text-4xl text-right text-gray-300'>”</div>
       </div>
     </div>
   );

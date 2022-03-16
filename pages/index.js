@@ -51,7 +51,7 @@ export default function Home() {
             </div>
 
             {/*  Blue Section */}
-            <div className='bg-white'>
+            <div className=' bg-customgray'>
               <div className='flex flex-row max-w-full px-8 pt-20 mx-auto text-white md:pt-20 line bg-customblue2 rounded-tr-huge lg:px-12'>
                 <div className='px-0 pt-10 mx-auto grow max-w-7xl sm:pt-20 sm:pb-24 sm:px-4 md:px-4 xl:px-0 '>
                   <div className='z-0 md:pb-24 rounded-tr-huge'>

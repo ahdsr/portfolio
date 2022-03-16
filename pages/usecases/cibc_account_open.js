@@ -106,12 +106,12 @@ export default function Resume() {
                 </div>
 
                 <div className='pt-20 mx-auto mt-20 text-center'>
-                  <span className='text-2xl font-bold tracking-tight text-center text-green-700'>
-                    Research & Planning
-                  </span>
-                  <span className='block px-8 pt-4 text-2xl font-bold tracking-tight text-center md:px-48 md:pt-4 md:pb-12 md:text-3xl lg:text-4xl xl:text-5xl md:font-black text-slate-600'>
-                    User flow analysis
-                  </span>
+                  <div className='pb-12 mx-auto text-center'>
+                    <span className='heading3'>User flow deep dive</span>
+                    <span className='uppercase subheading'>
+                      Research and planning
+                    </span>
+                  </div>
                 </div>
 
                 <div className='flex flex-row mx-auto'>
@@ -152,15 +152,12 @@ export default function Resume() {
                     Customer pain points
                   </span>
                 </div>
-
-                <div className='md:grid md:grid-cols-3'>
-                  <div>
-                    <span className='callout'>
-                      <Testimonial
-                        quote="  I'm an existing customer, why do I have to fill out a
+                <div className='flex flex-row justify-start'>
+                  <div className='flex-1'>
+                    <Testimonial
+                      quote="I'm an existing customer, why do I have to fill out a
                       long application form."
-                      />
-                    </span>
+                    />
                     <FancyImage
                       src={designupdate4}
                       transitionDuration={300}
@@ -168,7 +165,6 @@ export default function Resume() {
                       overlayBgColorEnd={'rgba(255, 255,255, 0.95)'}
                       layout='intrinsic'
                     />
-
                     <p className='ml-8 mr-8 caption'>
                       Giving users the ability to sign-on at the beginning of
                       the application flow, allowed us to pull in all their
@@ -177,38 +173,26 @@ export default function Resume() {
                       also confirm the info on file was accurate and current.
                     </p>
                   </div>
-                  <div>
-                    <span className='callout'>
-                      <Testimonial
-                        quote="While I'm applying for one product, can I get others
-                        without any further hassle?"
-                      />
-                    </span>
+                  <div className='flex-1'>
+                    <Testimonial
+                      quote="I'm an existing customer, why do I have to fill out a
+                      long application form."
+                    />
                     <FancyImage
-                      src={designupdate10}
+                      src={designupdate16}
                       transitionDuration={300}
                       zoomMargin={40}
                       overlayBgColorEnd={'rgba(255, 255,255, 0.95)'}
                       layout='intrinsic'
                     />
-                    <p className='ml-8 mr-8 caption'>
-                      Giving users the ability to sign-on at the beginning of
-                      the application flow, allowed us to pull in all their
-                      personal information on file. The added bonus of
-                      addressing this issue served as a way for the client to
-                      also confirm the info on file was accurate and current.
-                    </p>
                   </div>
-                  <div>
-                    <span className='callout'>
-                      <Testimonial
-                        quote="I don't want to go into a branch, why can't I complete
-                        the entire process online?"
-                      />
-                    </span>
-
+                  <div className='flex-1'>
+                    <Testimonial
+                      quote="I'm an existing customer, why do I have to fill out a
+                      long application form."
+                    />
                     <FancyImage
-                      src={designupdate16}
+                      src={designupdate4}
                       transitionDuration={300}
                       zoomMargin={40}
                       overlayBgColorEnd={'rgba(255, 255,255, 0.95)'}
@@ -226,13 +210,12 @@ export default function Resume() {
               </div>
 
               <div className='px-5 pt-12 mx-auto space-y-4 font-light leading-relaxed text-md text-slate-800 md:px-10 lg:px-16 xl:px-24'>
-                <h3 className='heading3'>The solution</h3>
-                <p>
-                  User engagement and attracting new users to your financial
-                  institution is not a simple challenge. Canadian banks, and
-                  banks in general have very similar offerings at the end of the
-                  day - so what can we do to make TD stand out? How do we
-                </p>
+                <div className='pb-12 mx-auto text-center'>
+                  <span className='heading3'>End to end solution</span>
+                  <span className='uppercase subheading'>
+                    High resolution screens
+                  </span>
+                </div>
 
                 <div className='py-12'>
                   <Masonry
