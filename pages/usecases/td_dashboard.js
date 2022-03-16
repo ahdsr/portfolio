@@ -51,7 +51,7 @@ export default function TDDashboard() {
                 <h2 className='heading2'>{description}</h2>
                 <div className='pb-12 mx-auto text-center'>
                   <Image
-                    alt='Mountains'
+                    alt='TD round logo'
                     src={TDLogo}
                     layout='intrinsic'
                     objectFit='cover'

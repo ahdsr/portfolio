@@ -156,7 +156,7 @@ h4,
   @apply block px-8 pt-4 text-2xl font-bold tracking-tight text-center md:px-48 md:pt-16 md:text-3xl lg:text-4xl xl:text-5xl md:font-black text-slate-600;
 }
 .usecase .heading4 {
-  @apply text-2xl font-bold tracking-tight text-center   text-green-700;
+  @apply text-2xl font-bold tracking-tight text-center   text-slate-400;
 }
 
 .usecase .subheading {
@@ -164,7 +164,7 @@ h4,
 }
 
 .usecase .callout {
-  @apply md:text-xl font-normal pt-12 md:pb-12 my-12 leading-normal md:leading-8  text-green-700 border-t border-t-slate-500 md:border-b md:border-b-slate-500;
+  @apply md:text-xl font-semibold pt-12 md:pb-12 my-12 leading-normal md:leading-8  text-green-700 border-t border-t-slate-500 md:border-b md:border-b-slate-500;
 }
 
 .usecase .pleft {
@@ -177,4 +177,8 @@ h4,
 
 .usecase .smalltext {
   @apply text-xs;
+}
+
+.caption {
+  @apply text-sm font-normal text-black;
 }
