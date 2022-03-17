@@ -7,7 +7,6 @@ import { NextSeo } from 'next-seo';
 
 import VideoPost from '@/components/molecules/videoblogpost';
 import ImagePost from '@/components/molecules/imagepost';
-import ListBox from '@/components/molecules/listbox';
 
 import image1 from '../assets/3drenders/city1.jpg';
 

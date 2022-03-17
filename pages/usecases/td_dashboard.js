@@ -108,8 +108,8 @@ export default function TDDashboard() {
 
                 <div className='md:grid md:grid-cols-3'>
                   <p className='md:mr-6 callout'>
-                    “What do users feel comfortable with seeing in before
-                    logging in?”
+                    “What do users feel comfortable with seeing before logging
+                    in?”
                   </p>
                   <p className='md:mr-6 callout'>
                     “Will users opt-in to see secure data without getting

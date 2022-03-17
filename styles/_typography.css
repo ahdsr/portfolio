@@ -147,7 +147,7 @@ h4,
 }
 
 .usecase .heading1 {
-  @apply px-8 pt-4 text-3xl font-black tracking-tight md:tracking-tighter text-center md:px-20 md:pt-16 md:text-4xl lg:text-6xl xl:text-7xl md:font-extrabold text-black;
+  @apply px-8 text-3xl font-bold tracking-tight md:tracking-tighter text-center md:px-20 pt-20 md:pt-32 md:text-4xl lg:text-6xl xl:text-7xl md:font-bold text-black;
 }
 .usecase .heading2 {
   @apply mx-auto px-8 pt-4 mt-4 mb-20 md:text-xl font-normal leading-normal text-center md:pt-8 md:px-6 md:leading-8 text-slate-600 md:w-2/3;

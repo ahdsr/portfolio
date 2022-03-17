@@ -12,7 +12,7 @@ import Testimonial from '@/components/molecules/testimonial';
 //Usecase Images
 import Image from 'next/image';
 import Hero from './cibc_accountopen/cibc_accounts_open_hero.png';
-import CIBCLogo from '../../assets/global/avatar_cibc.webp';
+import Avatar from '../../assets/global/avatar_cibc.webp';
 import designupdate1 from './cibc_accountopen/cibc_accounts_open_01.webp';
 import designupdate2 from './cibc_accountopen/cibc_accounts_open_02.webp';
 import designupdate3 from './cibc_accountopen/cibc_accounts_open_03.webp';
@@ -31,11 +31,34 @@ import designupdate15 from './cibc_accountopen/cibc_accounts_open_10.webp';
 import designupdate16 from './cibc_accountopen/cibc_accounts_open_11.webp';
 import choosebank from './cibc_accountopen/choose_bank.png';
 import choosecredit from './cibc_accountopen/choose_credit.png';
+import Usecaseheader from '@/components/molecules/usecaseheader';
 
-const name =
+const projectname = 'CIBC Accounts Open';
+const title =
   'One source of responsive application forms accessed in web and native';
-const description =
+const subtitle =
   'During the life cycle of the CIBC Native Mobile Banking app, one of the gaps that presented itself was the ability to apply for product in the native environment. This project illustrates an intelligent way to save cost, and utilize designs that can be leveraged irregardless of your platform and technology base. ';
+const avatar = Avatar;
+const hero = Hero;
+const heroalt = 'CIBC Accounts Open';
+
+function WithoutImage() {
+  return <div>Hi</div>;
+}
+
+function WithImage() {
+  return (
+    <div>
+      <Usecaseheader
+        title={title}
+        subtitle={subtitle}
+        avatar={Avatar}
+        hero={hero}
+        heroalt={heroalt}
+      />
+    </div>
+  );
+}
 
 export default function Resume() {
   const containerRef = useRef(null);
@@ -52,37 +75,8 @@ export default function Resume() {
         <m.div initial='initial' animate='enter' exit='exit'>
           <m.main variants={fade} className='pb-10 bg-slate-50 usecase '>
             <div className='pt-16 pb-10 mx-auto max-w-screen-2xl xl:max-w-screen-xl'>
-              <div className='px-5 pt-6 mx-auto mt-4 md:px-10 lg:px-16 xl:px-24'>
-                <h1 className='heading1'>{name}</h1>
-                <h2 className='heading2'>{description}</h2>
-                <div className='pb-12 mx-auto text-center'>
-                  <Image
-                    alt='TD round logo'
-                    src={CIBCLogo}
-                    layout='intrinsic'
-                    objectFit='cover'
-                    width={64}
-                    height={64}
-                  />
-                  <p className='smalltext'>CIBC Accounts Open</p>
-                </div>
-                <div
-                  style={{
-                    position: 'relative',
-                    width: '100%',
-                    height: '100%',
-                    overflow: 'hidden',
-                    marginTop: '80px',
-                  }}
-                >
-                  <Image
-                    alt='Mountains'
-                    src={Hero}
-                    layout='responsive'
-                    objectFit='cover'
-                  />
-                </div>
-              </div>
+              <WithImage />
+              <WithoutImage />
               <div className='px-5 pt-12 mx-auto space-y-4 font-light leading-relaxed text-md text-slate-800 md:px-10 lg:px-16 xl:px-24'>
                 <div className='pb-12 mx-auto text-center'>
                   <span className='heading3'>One tech stack</span>
