@@ -146,8 +146,8 @@ export default function Resume() {
                     Customer pain points
                   </span>
                 </div>
-                <div className='flex flex-row justify-start'>
-                  <div className='flex-1'>
+                <div className='md:grid md:grid-cols-3'>
+                  <div className=''>
                     <Testimonial
                       quote="I'm an existing customer, why do I have to fill out a
                       long application form."
@@ -167,7 +167,7 @@ export default function Resume() {
                       also confirm the info on file was accurate and current.
                     </p>
                   </div>
-                  <div className='flex-1'>
+                  <div className=''>
                     <Testimonial
                       quote="I'm an existing customer, why do I have to fill out a
                       long application form."
@@ -180,7 +180,7 @@ export default function Resume() {
                       layout='intrinsic'
                     />
                   </div>
-                  <div className='flex-1'>
+                  <div className=''>
                     <Testimonial
                       quote="I'm an existing customer, why do I have to fill out a
                       long application form."
