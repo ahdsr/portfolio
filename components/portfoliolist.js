@@ -58,6 +58,15 @@ const usecases = [
     image: beon,
     color: 'bg-white',
   },
+  {
+    id: 5,
+
+    name: 'Ordering data tables',
+    description: '***Solving the POS currency conversion',
+    link: '/usecases/element_tables',
+    image: beon,
+    color: 'bg-white',
+  },
 ];
 
 export default function PortfolioList() {

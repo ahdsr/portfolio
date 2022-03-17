@@ -13,7 +13,7 @@ export default function Usecaseheader({
     <div className='px-5 pt-6 mx-auto mt-4 md:px-10 lg:px-16 xl:px-24'>
       <h1 className='heading1'>{title}</h1>
       <h2 className='heading2'>{subtitle}</h2>
-      <div className='pb-12 mx-auto text-center'>
+      <div className='pt-12 pb-12 mx-auto text-center'>
         <Image
           alt='TD round logo'
           src={avatar}

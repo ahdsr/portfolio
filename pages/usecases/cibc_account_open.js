@@ -78,7 +78,7 @@ export default function Resume() {
               <WithImage />
               <WithoutImage />
               <div className='px-5 pt-12 mx-auto space-y-4 font-light leading-relaxed text-md text-slate-800 md:px-10 lg:px-16 xl:px-24'>
-                <div className='pb-12 mx-auto text-center'>
+                <div className='pb-12 mx-auto'>
                   <span className='heading3'>One tech stack</span>
                   <span className='uppercase subheading'>
                     The Design Problem
@@ -99,8 +99,8 @@ export default function Resume() {
                   </p>
                 </div>
 
-                <div className='pt-20 mx-auto mt-20 text-center'>
-                  <div className='pb-12 mx-auto text-center'>
+                <div className='pt-20 mx-auto mt-20'>
+                  <div className='pb-12 mx-auto '>
                     <span className='heading3'>User flow deep dive</span>
                     <span className='uppercase subheading'>
                       Research and planning
@@ -141,8 +141,8 @@ export default function Resume() {
                   </p>
                 </div>
 
-                <div className='pt-20 mx-auto mt-20 text-center'>
-                  <span className='text-2xl font-bold tracking-tight text-center text-green-700'>
+                <div className='pt-20 mx-auto mt-20'>
+                  <span className='text-2xl font-bold tracking-tight text-green-700'>
                     Customer pain points
                   </span>
                 </div>
@@ -204,7 +204,7 @@ export default function Resume() {
               </div>
 
               <div className='px-5 pt-12 mx-auto space-y-4 font-light leading-relaxed text-md text-slate-800 md:px-10 lg:px-16 xl:px-24'>
-                <div className='pb-12 mx-auto text-center'>
+                <div className='pb-12 mx-auto '>
                   <span className='heading3'>End to end solution</span>
                   <span className='uppercase subheading'>
                     High resolution screens

@@ -48,18 +48,47 @@ export default function TDDashboard() {
             <div className='pt-16 pb-10 mx-auto max-w-screen-2xl xl:max-w-screen-xl'>
               <div className='px-5 pt-6 mx-auto mt-4 md:px-10 lg:px-16 xl:px-24'>
                 <h1 className='heading1'>{name}</h1>
+
+                <Image
+                  alt='TD round logo'
+                  src={TDLogo}
+                  layout='intrinsic'
+                  objectFit='cover'
+                  width={64}
+                  height={64}
+                />
                 <h2 className='heading2'>{description}</h2>
-                <div className='pb-12 mx-auto text-center'>
-                  <Image
-                    alt='TD round logo'
-                    src={TDLogo}
-                    layout='intrinsic'
-                    objectFit='cover'
-                    width={64}
-                    height={64}
-                  />
-                  <p className='smalltext'>TD Dashboard</p>
+                <div className='grid grid-cols-4 gap-12'>
+                  <div>
+                    <p className='pt-2 font-bold'>Project Type</p>
+                    <ul>
+                      <li>Native application design</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <p className='pt-2 font-bold'>My Role</p>
+                    <ul>
+                      <li>UI Design Lead</li>
+                      <li>UX Designer</li>
+                      <li>Prototyping</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <p className='pt-2 font-bold'>Duration</p>
+                    <ul>
+                      <li>1 year</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <p className='pt-2 font-bold'>Tools</p>
+                    <ul>
+                      <li>Sketch</li>
+                      <li>Protopie</li>
+                      <li>Invision Studio</li>
+                    </ul>
+                  </div>
                 </div>
+
                 <div
                   style={{
                     position: 'relative',
@@ -79,12 +108,11 @@ export default function TDDashboard() {
               </div>
 
               <div className='px-5 pt-12 mx-auto space-y-4 font-light leading-relaxed text-md text-slate-800 md:px-10 lg:px-16 xl:px-24'>
-                <div className='pb-12 mx-auto text-center'>
+                <div className='pb-12 mx-auto '>
                   <span className='heading3'>What is a Dashboard?</span>
-                  <span className='uppercase subheading'>
-                    The Design Problem
-                  </span>
+                  <span className='subheading'>The Design Problem</span>
                 </div>
+
                 <div className='md:grid md:grid-cols-2'>
                   <p className='pleft'>
                     Probably one of the most overused terms I've heard over the
@@ -119,13 +147,9 @@ export default function TDDashboard() {
                     “What can we do to ease their apprehensions?”
                   </p>
                 </div>
-                <div className='pt-20 mx-auto mt-20 text-center'>
-                  <span className='text-2xl font-bold tracking-tight text-center text-green-700'>
-                    Research & Planning
-                  </span>
-                  <span className='block px-8 pt-4 text-2xl font-bold tracking-tight text-center md:px-48 md:pt-4 md:pb-12 md:text-3xl lg:text-4xl xl:text-5xl md:font-black text-slate-600'>
-                    The evolution of banking
-                  </span>
+                <div className='pt-20 mx-auto mt-20'>
+                  <span className='heading3'>The evolution of banking</span>
+                  <span className='subheading'>Research & Planning</span>
                 </div>
                 <div
                   style={{

@@ -21,13 +21,13 @@ export default function Blog() {
             <div className='px-5 mx-auto mt-8 md:px-12 max-w-screen-2xl xl:max-w-screen-xl sm:pt-12'>
               <VideoPost
                 postTitle='BEON Youtube react=player test'
-                videoSource='https://youtu.be/VGf012AnWeQ'
+                videoSource='https://www.youtube.com/watch?v=tyS0S1DWB2Y'
                 date='3/11/2022'
                 postUser='Lucas C'
                 postUserProfile='Admin'
                 postUserImage='https://nypost.com/wp-content/uploads/sites/2/2022/02/astronaut-305.jpg?quality=90&strip=all&w=744'
                 postCount='222'
-                p1="Since I started to develop, I'm discovering a lot of new and useful tools. One of them being Sizzy. This app lets you preview your project on a bunch of different devices all at the same time."
+                p1='Brushing back up on some After Effects skills. Testing out the blog post with embedded video content from Youtube.'
                 p2=''
                 p3=''
               />
