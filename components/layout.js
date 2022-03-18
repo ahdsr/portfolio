@@ -10,9 +10,9 @@ export default function Layout({ children }) {
       {children}
       <GetInTouch />
       <Footer />
-      <div className='sticky bottom-0 z-50 md:hidden navshadow'>
+      {/* <div className='sticky bottom-0 z-50 md:hidden navshadow'>
         <NavbarMobile />
-      </div>
+      </div> */}
     </div>
   );
 }
