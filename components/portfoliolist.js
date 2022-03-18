@@ -39,7 +39,7 @@ const usecases = [
     link: '/usecases/cibc_digital_butler',
     image: image3,
     color: 'bg-white',
-  },
+  }, */
   {
     id: 3,
 
@@ -48,7 +48,7 @@ const usecases = [
     link: '/usecases/cibc_nab',
     image: cibcnab,
     color: 'bg-white',
-  },
+  } /*
   {
     id: 4,
 
@@ -57,7 +57,7 @@ const usecases = [
     link: '/usecases/beon',
     image: beon,
     color: 'bg-white',
-  }, */
+  }, */,
   {
     id: 5,
 
