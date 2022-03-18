@@ -8,20 +8,20 @@ import FancyLink from './fancyLink';
 export default function NavbarMobile() {
   return (
     <div className='sticky bottom-0 z-50 md:hidden '>
-      <nav className='h-20 border-t bg-customblue border-t-slate-900'>
-        <div className='flex items-center justify-between px-5'>
+      <nav className='h-20 pt-2 mx-auto bg-customblue '>
+        <div className='grid grid-cols-4'>
           <div className='mx-auto text-sm text-center text-slate-800'>
             <IoImageOutline className='w-10 h-10 p-2 text-slate-300 text-opacity-80 ' />
             <FancyLink
               destination='/'
               a11yText='Use Cases'
-              label='Use Cases'
-              extraClasses='tinytext text-slate-300 uppercase'
+              label='Cases'
+              extraClasses='tinytext text-slate-300 uppercase s'
             />
           </div>
 
           <div className='mx-auto text-sm text-center text-slate-800'>
-            <IoFlaskOutline className='w-10 h-10 p-2 ml-2 text-slate-300 text-opacity-80' />
+            <IoFlaskOutline className='w-10 h-10 p-2 text-blue-900 border rounded-full bg-cyan-400 border-slate-600 text-slate-300 text-opacity-80' />
             <FancyLink
               destination='/portfolio2'
               a11yText='Other Work'
@@ -31,7 +31,7 @@ export default function NavbarMobile() {
           </div>
 
           <div className='mx-auto text-sm text-center text-slate-800'>
-            <IoPersonCircleOutline className='w-12 h-10 p-2 text-slate-300 text-opacity-80 ' />
+            <IoPersonCircleOutline className='w-10 h-10 p-2 text-slate-300 text-opacity-80 ' />
             <FancyLink
               destination='/resume2'
               a11yText='Resume'

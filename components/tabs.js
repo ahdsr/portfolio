@@ -105,11 +105,11 @@ export default function Tabs() {
               key={category}
               className={({ selected }) =>
                 classNames(
-                  ' font-mono w-full text-xl py-2.5  leading-5 font-medium text-blue-700 mb-8',
+                  ' font-mono w-full md:text-xl py-2.5  leading-5 font-medium text-blue-700 mb-8',
 
                   selected
                     ? '  border-b border-blue-700'
-                    : 'transition-all text-blue-900 hover:bg-white/[0.12] hover:border-blue-700 hover:border '
+                    : 'transition-all text-blue-900 hover:bg-white/[0.12] hover:border-blue-700'
                 )
               }
             >

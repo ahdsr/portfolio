@@ -19,9 +19,10 @@ export default function VideoPost({
   p3,
 }) {
   return (
-    <div className='mx-auto max-w-screen-2xl xl:max-w-screen-xl '>
-      <div className='blog '>
+    <div className=''>
+      <div className='px-8 mx-auto md:px-16 lg:max-w-6xl xl:max-w-7xl '>
         <h2>{postTitle}</h2>
+        <SocialBar postCount={postCount} />
         <div className='flex items-start pb-4'>
           <div className='inline-flex flex-shrink-0 rounded-full'>
             <img
@@ -38,8 +39,8 @@ export default function VideoPost({
             {date}
           </div>
         </div>
-
-        <SocialBar postCount={postCount} />
+      </div>
+      <div>
         <div className='player-wrapper '>
           <ReactPlayer
             className='react-player'
@@ -55,12 +56,14 @@ export default function VideoPost({
         </div>
       </div>
 
-      <div className='pt-12 mx-auto space-y-4 font-light leading-relaxed text-md text-slate-800'>
-        <p>{p1}</p>
-        <p>{p2}</p>
-        <p>{p3}</p>
+      <div className='px-8 mx-auto md:px-16 lg:max-w-6xl xl:max-w-7xl'>
+        <div className='pt-12 mx-auto space-y-4 font-light leading-relaxed text-md text-slate-800'>
+          <p>{p1}</p>
+          <p>{p2}</p>
+          <p>{p3}</p>
+        </div>
+        <div className='pb-24 bg-white border-b-slate-500'></div>
       </div>
-      <div className='pb-24 bg-white border-b-slate-500'></div>
     </div>
   );
 }

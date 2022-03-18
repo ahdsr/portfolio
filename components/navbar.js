@@ -58,9 +58,12 @@ export default function Navbar() {
                 <Disclosure.Button className='inline-flex items-center justify-center p-4 text-black bg-yellow-400 hover:text-gray-500 hover:bg-gray-100'>
                   <span className='sr-only'>Open main menu</span>
                   {open ? (
-                    <XIcon className='w-6 h-6 ' aria-hidden='true' />
+                    <XIcon className='w-12 h-12 px-3 ' aria-hidden='true' />
                   ) : (
-                    <MenuIcon className='block w-6 h-6' aria-hidden='true' />
+                    <MenuIcon
+                      className='block w-12 h-12 px-3'
+                      aria-hidden='true'
+                    />
                   )}
                 </Disclosure.Button>
               </div>
@@ -195,7 +198,7 @@ export default function Navbar() {
           </div>
 
           <Disclosure.Panel className='sm:hidden'>
-            <div className='w-1/2 space-y-1 bg-yellow-400 '>
+            <div className='w-1/2 ml-4 space-y-1 bg-yellow-400 '>
               {/* Current: "bg-indigo-50 border-indigo-500 text-indigo-700", Default: "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700" */}
               <Disclosure.Button
                 as='a'

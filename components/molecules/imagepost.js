@@ -14,8 +14,8 @@ export default function ImagePost({
   p3,
 }) {
   return (
-    <div className='mx-auto blog max-w-screen-2xl xl:max-w-screen-xl '>
-      <div className='mx-auto mt-8'>
+    <div className=''>
+      <div className='px-8 mx-auto md:px-16 lg:max-w-6xl xl:max-w-7xl '>
         <h2>{postTitle}</h2>
         <div className='flex items-start'>
           <div className='inline-flex flex-shrink-0 rounded-full'>
@@ -33,21 +33,25 @@ export default function ImagePost({
             {date}
           </div>
         </div>
-        <SocialBar postCount={postCount} />
-        <FancyImage
-          src={imageSource}
-          transitionDuration={300}
-          zoomMargin={30}
-          overlayBgColorEnd={'rgba(255, 255,255, 0.95)'}
-        />
-      </div>
 
-      <div className='pt-12 mx-auto space-y-4 font-light leading-relaxed text-md text-slate-800'>
-        <p>{p1}</p>
-        <p>{p2}</p>
-        <p>{p3}</p>
+        <SocialBar postCount={postCount} />
       </div>
-      <div className='pb-24 bg-white border-b-slate-500'></div>
+      <FancyImage
+        src={imageSource}
+        transitionDuration={300}
+        zoomMargin={30}
+        overlayBgColorEnd={'rgba(255, 255,255, 0.95)'}
+      />
+
+      <div className='px-8 mx-auto md:px-16 lg:max-w-6xl xl:max-w-7xl '>
+        <div className='pt-12 mx-auto space-y-4 font-light leading-relaxed text-md text-slate-800'>
+          <p>{p1}</p>
+          <p>{p2}</p>
+          <p>{p3}</p>
+        </div>
+
+        <div className='pb-24 bg-white border-b-slate-500'></div>
+      </div>
     </div>
   );
 }

@@ -30,10 +30,10 @@ export default function Social() {
           <m.main variants={fade} className='mx-auto bg-slate-50 '>
             <div className=''>
               <section className=' bg-customblue'>
-                <div className='px-8 mx-auto py-52 md:px-16 lg:max-w-6xl xl:max-w-7xl'>
+                <div className='px-8 py-64 mx-auto md:px-16 lg:max-w-6xl xl:max-w-7xl'>
                   <h1>I've cut the umbilical cord.</h1>
                   <div className='summary'>
-                    Sorry.
+                    It was a big waste of time - sorry.
                     <div className='mx-auto text-center summary'></div>
                   </div>
                 </div>

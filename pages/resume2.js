@@ -33,14 +33,14 @@ export default function Resume() {
             <div className='pb-12'>
               <section className='bg-customblue'>
                 {/*   <img src={profilePhoto} alt='' /> */}
-                <div className='px-8 mx-auto py-28 md:py-52 md:px-16 lg:max-w-6xl xl:max-w-7xl'>
+                <div className='px-8 py-64 mx-auto md:py-52 md:px-16 lg:max-w-6xl xl:max-w-7xl'>
                   <div className='mx-auto'>
                     <h1>Resume</h1>
                   </div>
                 </div>
               </section>
 
-              <div className='flex px-8 mx-auto flex-rows md:px-16 lg:max-w-6xl xl:max-w-7xl'>
+              <div className='px-8 mx-auto md:flex flex-rows md:px-16 lg:max-w-6xl xl:max-w-7xl'>
                 <div className='md:w-1/3 md:item'>
                   <h2>Profile</h2>
 
@@ -118,7 +118,7 @@ export default function Resume() {
                     </li>
                   </ul>
                 </div>
-                <div className='mt-12 mb-4 font-sans font-light leading-relaxed md:mt-0 md:ml-12 md:w-2/3 md:item text-slate-800'>
+                <div className='mt-12 mb-4 font-sans font-light leading-relaxed item md:mt-0 md:ml-12 md:w-2/3 md:item text-slate-800'>
                   <div className=''>
                     <h2>Experience</h2>
                     <div className='pt-6'>
