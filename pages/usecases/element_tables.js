@@ -7,15 +7,16 @@ import { LazyMotion, domAnimation, m } from 'framer-motion';
 import { NextSeo } from 'next-seo';
 import FancyImage from '@/components/fancyimage';
 import Masonry from 'react-masonry-css';
+import Testimonial from '@/components/molecules/testimonial';
 
 //Usecase Images
 import Image from 'next/image';
 import ElementLogo from '../../assets/global/avatar_element.webp';
 import ElementTable from '../../pages/usecases/element_tables/pc.png';
 
-const name = 'Modernizing data tables for the backend user ordering system';
+const name = 'Modern data tables for processing vehicle orders';
 const description =
-  'The queue essentially is a list of all Elements customer orders. The tables list everything from the vehicle that is being ordered, right down to the driver and insurance information. When a piece of work is done by one team, the order moves along until all teams have validated the data.';
+  'The “queue” is essentially a list of all Element’s customer orders. The tables list everything from the vehicle that is being ordered, right down to the driver and insurance information. When a piece of work is done by one team, the order moves along until all teams have validated the data.';
 
 export default function TDDashboard() {
   const containerRef = useRef(null);
@@ -93,41 +94,63 @@ export default function TDDashboard() {
 
               <div className='px-5 pt-12 mx-auto space-y-4 font-light leading-relaxed text-md text-slate-800 md:px-10 lg:px-16 xl:px-24'>
                 <div className='pb-12 mx-auto '>
-                  <span className='subheading'>The Design Problem</span>
+                  <span className='subheading'>Interviewing the users</span>
                 </div>
 
                 <div className='md:grid md:grid-cols-2'>
                   <p className='pleft'>
-                    At the point when I joined the project, it was suffering
-                    from a disjointed user experience due to a large number of
-                    development teams involved. We started to notice that even
-                    some core site components were inconsistent. One of the
-                    major components was a data table.
+                    After conducting some brief interviews with the users, it
+                    was evident that their needs and understanding of what the
+                    queue is, was very different. Since the ordering team is
+                    broken down into a number of sub-teams, sometimes very
+                    granular and specific roles had very unique needs. One thing
+                    became clear, the functional inconsistencies between each
+                    queue was creating confusion on how users should interact
+                    with it, what functions it performed and how to ultimately
+                    use it in the most efficient way.
                   </p>
 
                   <p className='pright'>
-                    These data tables or queues were a major functional
-                    component of the ordering system. The queue displayed a list
-                    of all Element's client orders. The table lists everything
-                    from the vehicle that is being ordered, right down to the
-                    driver and insurance information. When a piece of work is
-                    done by one team, the order moves along until all teams have
-                    validated the data.
+                    <Testimonial
+                      quote='I want to see all of the data on one screen?
+                      '
+                    />
+                    <Testimonial
+                      quote="I don't want to have to click too many times to do what I need to get done.
+                      "
+                    />
                   </p>
                 </div>
 
-                <div className='md:grid md:grid-cols-3'>
-                  <p className='md:mr-6 callout'>
-                    “ I want to see all of data on one screen? ”
+                <div className='pt-12 pb-12 mx-auto '>
+                  <span className='subheading'>Research</span>
+                </div>
+
+                <div className='md:grid md:grid-cols-2'>
+                  <p className='pleft'>
+                    Once I had a better understanding of what the users needed,
+                    I researched out-of-the-box solutions that were already in
+                    the wild. At its core the queue is a data table no different
+                    from an Excel document (without all the complex features).
+                    In fact a lot of users would export data out of the site,
+                    and use Excel to further filter the results. In an ideal
+                    situation we can leverage and modify one of these existing
+                    frameworks but due to technical limitations this was not
+                    possible.
                   </p>
-                  <p className='md:mr-6 callout'>
-                    “I don't want to have to click to many times to do what I
-                    need to get done.”
-                  </p>
-                  <p className='md:ml-6 callout'>
-                    “What can we do to ease their apprehensions?”
+
+                  <p className='pright'>
+                    <span className='block mb-8 font-medium'>
+                      Some stand out examples were:
+                    </span>
+                    <ul>
+                      <li> https://www.ag-grid.com/</li>
+                      <li> http://swimlane.github.io/ngx-datatable/</li>
+                      <li> https://datatables.net/examples/index</li>
+                    </ul>
                   </p>
                 </div>
+
                 <div className='pt-20 mx-auto mt-20'>
                   <span className='subheading'>Research & Planning</span>
                 </div>
@@ -157,7 +180,7 @@ export default function TDDashboard() {
                   </p>
                 </div>
                 <div className='pt-20 mx-auto mt-20'>
-                  <span className='heading3'>Challenges and solutions</span>
+                  <span className='heading3'>Design challenges</span>
                 </div>
                 <div className='md:grid md:grid-cols-3'>
                   <p className='pleft'>
@@ -189,6 +212,34 @@ export default function TDDashboard() {
                     of filters that varied in number, by introducing a show/hide
                     feature we were able to maximize the screen for max
                     efficiency
+                  </p>
+                </div>
+
+                <div className='pt-20 mx-auto mt-20'>
+                  <span className='heading3'>Other issues</span>
+                </div>
+                <div className='md:grid md:grid-cols-2'>
+                  <p className='pleft'>
+                    Stakeholder availability was intermittent. Reviewing and
+                    presenting solutions for a design pattern that affected
+                    (everyone) using the Ordering system proved to be
+                    logistically very difficult.
+                    <span className='block p-4 mt-8 text-sm italic leading-relaxed bg-yellow-50'>
+                      Functional prototypes and detailed wires were sent out to
+                      circumvent the issue, and meetings when available were
+                      very focused for approvals and sign-offs.
+                    </span>
+                  </p>
+
+                  <p className='pright'>
+                    Big differences of opinion. Not all lines of business worked
+                    together, but all lines of business had to use the same
+                    application. This revealed that certain component-like
+                    solutions just weren’t going to work even though ultimately
+                    they would prove to be the most efficient.
+                    <span className='block p-4 mt-8 text-sm italic leading-relaxed bg-yellow-50'>
+                      Compromises were made where absolutely needed.
+                    </span>
                   </p>
                 </div>
               </div>

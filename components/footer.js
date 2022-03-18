@@ -3,10 +3,10 @@ import Container from './container';
 
 export default function Footer() {
   return (
-    <div className=' bg-customblue'>
-      <div className='items-center justify-between h-32 px-5 mx-auto text-white max-w-screen-2xl md:flex'>
-        <div className='pt-8'>
-          <div className='block text-sm md:text-center md:flex-1 '>
+    <div className='text-white bg-customblue'>
+      <div className='px-8 mx-auto md:max-w-3xl md:px-16 lg:max-w-6xl xl:max-w-7xl'>
+        <div className='pt-12 pb-12'>
+          <div className='block text-sm'>
             <FancyLink
               destination='/about'
               a11yText='Navigate to the about page'
@@ -14,7 +14,7 @@ export default function Footer() {
             />
           </div>
 
-          <div className='block text-sm md:text-center md:flex-1 '>
+          <div className='block text-sm'>
             <a
               href='https://www.linkedin.com/in/lucasczuchraj/'
               target='_blank'
@@ -23,8 +23,9 @@ export default function Footer() {
             </a>
           </div>
 
-          <div className='block text-sm md:text-center md:flex-1 '>
-            Lucas Czuchraj © 2022
+          <div className='block text-sm '>
+            {' '}
+            ©2022 Lucas Czuchraj. All rights reserved.
           </div>
         </div>
       </div>

@@ -29,106 +29,102 @@ export default function Resume() {
       <NextSeo title='Blog' />
       <LazyMotion features={domAnimation}>
         <m.div initial='initial' animate='enter' exit='exit'>
-          <m.main variants={fade} className='py-24 bg-white '>
-            <div className='px-5 mx-auto mt-8 md:px-12 max-w-screen-2xl xl:max-w-screen-xl sm:pt-12'>
-              <div className='pb-10 resume'>
+          <m.main variants={fade} className='bg-white '>
+            <div className='pb-12'>
+              <section className='bg-customblue'>
                 {/*   <img src={profilePhoto} alt='' /> */}
-                <div className='mx-auto'>
-                  <div className='mb-4 text-3xl font-bold tracking-tight text-customblue'>
-                    Resume
+                <div className='px-8 mx-auto py-28 md:py-52 md:px-16 lg:max-w-6xl xl:max-w-7xl'>
+                  <div className='mx-auto'>
+                    <h1>Resume</h1>
                   </div>
                 </div>
+              </section>
 
-                <div className='mx-auto text-sm font-light leading-relaxed md:justify-center md:flex text-slate-300'>
-                  <div className='md:w-1/3 md:item'>
-                    <div className='text-xl font-bold tracking-tight text-yellow-500'>
-                      Profile
-                    </div>
-                    <ul className=''>
-                      <li>
-                        Bachelor of Design Honours (B.Des.) York University /
-                        Sheridan Institute
-                      </li>
-                      <li>
-                        Highly knowledgeable in all facets of design, including
-                        user experience, layout, typography, colour, user
-                        interfaces and information architecture
-                      </li>
-                      <li>
-                        Expert in{' '}
-                        <a
-                          href='https://www.sketch.com/'
-                          target='_blank'
-                          className='p-1 underline bg-yellow-200 bg-opacity-20 hover:bg-yellow-400'
-                        >
-                          Sketch
-                        </a>
-                        ,{' '}
-                        <a
-                          href='https://www.figma.com/'
-                          target='_blank'
-                          className='p-1 underline bg-yellow-200 bg-opacity-20 hover:bg-yellow-400'
-                        >
-                          Figma
-                        </a>
-                        ,{' '}
-                        <a
-                          href='https://www.invisionapp.com/studio/learn/welcome-to-invision-studio'
-                          target='_blank'
-                          className='p-1 underline bg-yellow-200 bg-opacity-20 hover:bg-yellow-400'
-                        >
-                          Invision Studio
-                        </a>{' '}
-                        <a
-                          href='https://www.adobe.com/ca/creativecloud.html'
-                          target='_blank'
-                          className='p-1 underline bg-yellow-200 bg-opacity-20 hover:bg-yellow-400'
-                        >
-                          Adobe Cloud
-                        </a>{' '}
-                        &{' '}
-                        <a
-                          href='https://www.protopie.io/'
-                          target='_blank'
-                          className='p-1 underline bg-yellow-200 bg-opacity-20 hover:bg-yellow-400'
-                        >
-                          Protopie
-                        </a>{' '}
-                        as well as other prototyping & design software
-                      </li>
-                      <li>
-                        Always strives to achieve simplicity for the end user,
-                        despite the complexity of the process or back-end
-                        systems
-                      </li>
-                      <li>
-                        Skilled in delivering adaptive responsive layouts and
-                        elevated in understanding the technology that drives
-                        them
-                      </li>
-                      <li>
-                        Adept at aligning business needs with creativity while
-                        respecting brand standards
-                      </li>
-                      <li>
-                        High aptitude for quality assurance and improvement with
-                        a keen eye for detail
-                      </li>
-                      <li>
-                        Excellent verbal & written communication, and strong
-                        people skills with clients and colleagues
-                      </li>
-                    </ul>
-                  </div>
+              <div className='flex px-8 mx-auto flex-rows md:px-16 lg:max-w-6xl xl:max-w-7xl'>
+                <div className='md:w-1/3 md:item'>
+                  <h2>Profile</h2>
 
-                  <div className='mt-12 md:mt-0 md:ml-12 md:w-2/3 md:item'>
-                    <div className='text-xl font-bold tracking-tight text-yellow-500 '>
-                      Experience
-                    </div>
+                  <ul className='mb-4 font-sans font-light leading-relaxed text-slate-800'>
+                    <li>
+                      Bachelor of Design Honours (B.Des.) York University /
+                      Sheridan Institute
+                    </li>
+                    <li>
+                      Highly knowledgeable in all facets of design, including
+                      user experience, layout, typography, colour, user
+                      interfaces and information architecture
+                    </li>
+                    <li>
+                      Expert in{' '}
+                      <a
+                        href='https://www.sketch.com/'
+                        target='_blank'
+                        className='p-1 underline bg-yellow-200 bg-opacity-20 hover:bg-yellow-400'
+                      >
+                        Sketch
+                      </a>
+                      ,{' '}
+                      <a
+                        href='https://www.figma.com/'
+                        target='_blank'
+                        className='p-1 underline bg-yellow-200 bg-opacity-20 hover:bg-yellow-400'
+                      >
+                        Figma
+                      </a>
+                      ,{' '}
+                      <a
+                        href='https://www.invisionapp.com/studio/learn/welcome-to-invision-studio'
+                        target='_blank'
+                        className='p-1 underline bg-yellow-200 bg-opacity-20 hover:bg-yellow-400'
+                      >
+                        Invision Studio
+                      </a>{' '}
+                      <a
+                        href='https://www.adobe.com/ca/creativecloud.html'
+                        target='_blank'
+                        className='p-1 underline bg-yellow-200 bg-opacity-20 hover:bg-yellow-400'
+                      >
+                        Adobe Cloud
+                      </a>{' '}
+                      &{' '}
+                      <a
+                        href='https://www.protopie.io/'
+                        target='_blank'
+                        className='p-1 underline bg-yellow-200 bg-opacity-20 hover:bg-yellow-400'
+                      >
+                        Protopie
+                      </a>{' '}
+                      as well as other prototyping & design software
+                    </li>
+                    <li>
+                      Always strives to achieve simplicity for the end user,
+                      despite the complexity of the process or back-end systems
+                    </li>
+                    <li>
+                      Skilled in delivering adaptive responsive layouts and
+                      elevated in understanding the technology that drives them
+                    </li>
+                    <li>
+                      Adept at aligning business needs with creativity while
+                      respecting brand standards
+                    </li>
+                    <li>
+                      High aptitude for quality assurance and improvement with a
+                      keen eye for detail
+                    </li>
+                    <li>
+                      Excellent verbal & written communication, and strong
+                      people skills with clients and colleagues
+                    </li>
+                  </ul>
+                </div>
+                <div className='mt-12 mb-4 font-sans font-light leading-relaxed md:mt-0 md:ml-12 md:w-2/3 md:item text-slate-800'>
+                  <div className=''>
+                    <h2>Experience</h2>
                     <div className='pt-6'>
                       <div className='flex items-center mt-8 mb-6'>
                         <div className='flex-shrink-0 inline-block rounded-full'>
-                          <div className='block w-12 h-12 rounded-full'>
+                          <div className='block w-12 h-12 rounded-full '>
                             <Image
                               alt='Mountains'
                               src={avatarElement}
@@ -137,8 +133,10 @@ export default function Resume() {
                             />
                           </div>
                         </div>
-                        <div className='ml-6'>
-                          <div className='date'>Jan 2020 - Current</div>
+                        <div className='ml-6 '>
+                          <div className='font-bold date'>
+                            Jan 2020 - Current
+                          </div>
                           <div className='jobrole'>
                             User Experience Consultant
                           </div>
@@ -176,7 +174,9 @@ export default function Resume() {
                           </div>
                         </div>
                         <div className='ml-6'>
-                          <div className='date'>Jan 2018 – Dec 2019</div>
+                          <div className='font-bold date'>
+                            Jan 2018 – Dec 2019
+                          </div>
                           <div className='jobrole'>Senior UX/UI Designer</div>
 
                           <div className='client'>TD Canada</div>
@@ -220,7 +220,9 @@ export default function Resume() {
                           </div>
                         </div>
                         <div className='ml-6'>
-                          <div className='date'>Aug 2017 – Jan 2018</div>
+                          <div className='font-bold date'>
+                            Aug 2017 – Jan 2018
+                          </div>
                           <div className='jobrole'>Senior UX/UI Designer</div>
 
                           <div className='client'>RSA Group</div>
@@ -260,7 +262,9 @@ export default function Resume() {
                           </div>
                         </div>
                         <div className='ml-6'>
-                          <div className='date'>Aug 2016 – Feb 2017</div>
+                          <div className='font-bold date'>
+                            Aug 2016 – Feb 2017
+                          </div>
                           <div className='jobrole'>Senior UX/UI Designer</div>
 
                           <div className='client'>TD Canada</div>
@@ -287,7 +291,9 @@ export default function Resume() {
                           </div>
                         </div>
                         <div className='ml-6'>
-                          <div className='date'>Aug 2016 – Feb 2017</div>
+                          <div className='font-bold date'>
+                            Aug 2016 – Feb 2017
+                          </div>
                           <div className='jobrole'>Senior Manager UX</div>
                           <div className='client'>CIBC Live Labs</div>
                         </div>
@@ -334,7 +340,9 @@ export default function Resume() {
                         </div>
 
                         <div className='ml-6'>
-                          <div className='date'>July 2015 – July 2016</div>
+                          <div className='font-bold date'>
+                            July 2015 – July 2016
+                          </div>
                           <div className='jobrole'>
                             {' '}
                             Lead Creative / UX Designer
@@ -386,7 +394,9 @@ export default function Resume() {
                           </div>
                         </div>
                         <div className='ml-6 '>
-                          <div className='date'>July 2011 - August 2012</div>
+                          <div className='font-bold date'>
+                            July 2011 - August 2012
+                          </div>
                           <div className='jobrole'>
                             Senior Interactive Designer
                           </div>

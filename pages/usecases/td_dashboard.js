@@ -270,25 +270,6 @@ export default function TDDashboard() {
                     />
                   </Masonry>
                 </div>
-                <ul>
-                  <li>
-                    <a
-                      href='https://mobilesyrup.com/2020/12/10/td-launches-new-personalized-app-experience-powered-by-ai/'
-                      alt=''
-                    >
-                      TD launches new personalized app experience powered by AI
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href='  https://mobilesyrup.com/2021/12/08/td-low-balance-prediction-mobile-banking-app/'
-                      alt=''
-                    >
-                      TD brings low balance prediction and more to its mobile
-                      banking app
-                    </a>
-                  </li>
-                </ul>
               </div>
             </div>
           </m.main>

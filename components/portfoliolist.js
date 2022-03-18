@@ -17,11 +17,11 @@ const usecases = [
     name: 'TD Dashboard',
     description:
       'TD Mobile Banking went through a complete overhaul to implement a dashboard like landing page.',
-    link: '/usecases/td_dashboard',
+    link: '/usecases/td_dashboard2',
     image: image1,
     color: 'bg-white',
   },
-  {
+  /*  {
     id: 1,
 
     name: 'CIBC Account Open',
@@ -57,13 +57,13 @@ const usecases = [
     link: '/usecases/beon',
     image: beon,
     color: 'bg-white',
-  },
+  }, */
   {
     id: 5,
 
     name: 'Ordering data tables',
     description: '***Solving the POS currency conversion',
-    link: '/usecases/element_tables',
+    link: '/usecases/element_tables2',
     image: beon,
     color: 'bg-white',
   },
@@ -93,13 +93,13 @@ export default function PortfolioList() {
 
           <div
             className={[
-              'item md:w-1/2 px-6 md:p-12 xl:p-20  overflow-hidden',
+              'item md:w-1/2 px-6 md:px-12 xl:p-20  overflow-hidden',
               usecases.color,
             ].join(' ')}
           >
             <div className='usecases'>
-              <h2 className='pt-8 usecases'>{usecases.name}</h2>
-              <p className='text-sm text-white'>{usecases.description}</p>
+              <h2 className='usecases'>{usecases.name}</h2>
+              <p className=''>{usecases.description}</p>
 
               <FancyLink
                 destination={usecases.link}

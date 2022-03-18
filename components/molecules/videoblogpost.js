@@ -21,8 +21,8 @@ export default function VideoPost({
   return (
     <div className='mx-auto max-w-screen-2xl xl:max-w-screen-xl '>
       <div className='blog '>
-        <div className='heading1'>{postTitle}</div>
-        <div className='flex items-start'>
+        <h2>{postTitle}</h2>
+        <div className='flex items-start pb-4'>
           <div className='inline-flex flex-shrink-0 rounded-full'>
             <img
               className='w-12 h-12 rounded-full'
@@ -55,7 +55,7 @@ export default function VideoPost({
         </div>
       </div>
 
-      <div className='pt-12 mx-auto space-y-4 font-light leading-relaxed  text-md text-slate-800'>
+      <div className='pt-12 mx-auto space-y-4 font-light leading-relaxed text-md text-slate-800'>
         <p>{p1}</p>
         <p>{p2}</p>
         <p>{p3}</p>

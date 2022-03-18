@@ -23,7 +23,7 @@ function classNames(...classes) {
 
 export default function Tabs() {
   const breakpointColumnsObj = {
-    default: 4,
+    default: 3,
     1100: 3,
     700: 2,
     500: 1,
@@ -65,6 +65,14 @@ export default function Tabs() {
         id: 2,
         image: image2,
       },
+      {
+        id: 3,
+        image: image7,
+      },
+      {
+        id: 4,
+        image: image8,
+      },
     ],
     Photo: [
       {
@@ -97,11 +105,11 @@ export default function Tabs() {
               key={category}
               className={({ selected }) =>
                 classNames(
-                  'w-full py-2.5 text-sm leading-5 font-medium text-blue-700',
+                  ' font-mono w-full text-xl py-2.5  leading-5 font-medium text-blue-700 mb-8',
 
                   selected
                     ? '  border-b border-blue-700'
-                    : 'text-blue-900 hover:bg-white/[0.12] hover:border-blue-700 hover:border-b '
+                    : 'transition-all text-blue-900 hover:bg-white/[0.12] hover:border-blue-700 hover:border '
                 )
               }
             >

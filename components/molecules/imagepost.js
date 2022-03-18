@@ -16,7 +16,7 @@ export default function ImagePost({
   return (
     <div className='mx-auto blog max-w-screen-2xl xl:max-w-screen-xl '>
       <div className='mx-auto mt-8'>
-        <div className='heading1'>{postTitle}</div>
+        <h2>{postTitle}</h2>
         <div className='flex items-start'>
           <div className='inline-flex flex-shrink-0 rounded-full'>
             <img

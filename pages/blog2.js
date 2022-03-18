@@ -18,9 +18,9 @@ export default function Blog() {
       <LazyMotion features={domAnimation}>
         <m.div initial='initial' animate='enter' exit='exit'>
           <m.main variants={fade} className='py-24 bg-white'>
-            <div className='px-5 mx-auto mt-8 md:px-12 max-w-screen-2xl xl:max-w-screen-xl sm:pt-12'>
+            <div className='px-8 mx-auto md:px-16 lg:max-w-6xl xl:max-w-7xl'>
               <VideoPost
-                postTitle='BEON Youtube react=player test'
+                postTitle='BEON Youtube react-player test'
                 videoSource='https://www.youtube.com/watch?v=tyS0S1DWB2Y'
                 date='3/11/2022'
                 postUser='Lucas C'

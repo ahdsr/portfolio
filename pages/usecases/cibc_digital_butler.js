@@ -71,26 +71,6 @@ export default function DigitalButler() {
                   day - so what can we do to make TD stand out? How do we
                 </p>
 
-                <ul>
-                  <li>
-                    <a
-                      href='https://mobilesyrup.com/2020/12/10/td-launches-new-personalized-app-experience-powered-by-ai/'
-                      alt=''
-                    >
-                      TD launches new personalized app experience powered by AI
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href='  https://mobilesyrup.com/2021/12/08/td-low-balance-prediction-mobile-banking-app/'
-                      alt=''
-                    >
-                      TD brings low balance prediction and more to its mobile
-                      banking app
-                    </a>
-                  </li>
-                </ul>
-
                 <h3 className='heading3'>CIBC Digital Butler</h3>
                 <div className='py-12'>
                   <div className='relative p-8 mt-20 overflow-hidden border-8 border-white h-96 w-1/1'>

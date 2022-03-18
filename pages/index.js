@@ -27,13 +27,15 @@ export default function Home() {
                 <div className='pt-8 mx-auto grow max-w-7xl'>
                   <div className='mx-auto md:flex'>
                     <div className='px-0 hero item w-fit sm:px-0'>
-                      <h1 className='tagline'>
+                      <h1 className='tagline text-customblue'>
                         Hi, I’m Lucas a{' '}
-                        <span className='text-yellow-500'>UX & UI</span>{' '}
-                        designer based out of Toronto.
+                        <span className='text-black'>UX & UI</span> designer
+                        based out of Toronto.
                       </h1>
-                      <p>Things I enjoy:</p>
-                      <ul className='points'>
+                      <p className='font-serif text-2xl font-bold'>
+                        Things I enjoy:
+                      </p>
+                      <ul className='font-sans font-light points'>
                         <li>A tough design problem</li>
                         <li>Subtle animation & motion</li>
                         <li>Design driven by science and data</li>
@@ -52,7 +54,7 @@ export default function Home() {
 
             {/*  Blue Section */}
             <div className=' bg-customgray'>
-              <div className='flex flex-row max-w-full px-8 pt-20 mx-auto text-white md:pt-20 line bg-customblue2 rounded-tr-huge lg:px-12'>
+              <div className='flex flex-row max-w-full px-8 pt-20 mx-auto text-white bg-customblue md:pt-20 line rounded-tr-huge lg:px-12'>
                 <div className='px-0 pt-10 mx-auto grow max-w-7xl sm:pt-20 sm:pb-24 sm:px-4 md:px-4 xl:px-0 '>
                   <div className='z-0 md:pb-24 rounded-tr-huge'>
                     <div className='mx-auto md:flex max-w-screen-2xl'>
@@ -60,7 +62,7 @@ export default function Home() {
                         <h1>
                           Research, design, prototype, test and evaluate ↻{' '}
                         </h1>
-                        <div className='pt-4 pb-12 md:pt-10 opacity-30'>
+                        <div className='pt-4 pb-12 md:pt-10'>
                           <Image
                             alt='Mountains'
                             src={LogoGroup}
@@ -70,30 +72,30 @@ export default function Home() {
                         </div>
                       </div>
                       <div className='h-auto pb-32 pr-0 homepage md:item md:w-1/2 content lg:pr-4 md:pb-4 lg:pb-8'>
-                        <p>
+                        <p className='text-white'>
                           As a designer, I've been lucky enough to be exposed to
                           a vast number of employers, teams and projects. Each
                           of them have given me a rewarding learning experience.
                         </p>
-                        <p>
+                        <p className='text-white'>
                           I approach all my projects, regardless of the project
                           size with a a discovery session to understand my
                           client’s needs, the business objectives and what the
                           user research is indicating.
                         </p>
-                        <p>
+                        <p className='text-white'>
                           I help my clients improve their usability experience
                           and provide them with a product we can be mutually
                           proud of.
                         </p>
-                        <p>
+                        <p className='text-white'>
                           Below you'll find a few selected use case studies that
                           go into a detailed design process. You can also view
-                          other work in the{' '}
+                          more stuff in the{' '}
                           <FancyLink
                             destination='/portfolio2'
-                            a11yText='portfolio'
-                            label='portfolio'
+                            a11yText='other work'
+                            label='other work'
                             extraClasses=' underline bg-black bg-opacity-30 p-1 hover:bg-yellow-400'
                           />{' '}
                           section.

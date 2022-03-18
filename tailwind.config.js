@@ -6,9 +6,11 @@ module.exports = {
 
   theme: {
     fontFamily: {
-      sans: ['Raleway', 'sans-serif'],
-      mono: ['Lucida Console', 'Courier', 'monospace'],
+      serif: ['Zilla Slab', 'serif'],
+      sans: ['Inter', 'sans-serif'],
+      mono: ['Roboto Mono', 'monospace'],
     },
+
     borderRadius: {
       none: '0',
       sm: '0.125rem',
@@ -38,14 +40,18 @@ module.exports = {
           DEFAULT: '#d18d67',
           dark: '#ce8860',
         },
-        customblue: '#203136',
+        customblue: '#000AFF',
         customblue2: '#203136',
         customyellow: '#F2F2CF',
         customgray: '#F3F3F3',
       },
+      backgroundImage: {
+        'hero-pattern': "url('/assets/global/placeholder.webp')",
+      },
     },
   },
   plugins: [
+    require('@tailwindcss/typography'),
     require('tailwind-easing-gradients')({
       variants: ['responsive'],
       // required
