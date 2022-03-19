@@ -23,6 +23,8 @@ import liveideate4 from './cibc_nab/liveideate4.png';
 import liveideate5 from './cibc_nab/liveideate5.png';
 import liveideate6 from './cibc_nab/liveideate6.png';
 
+import test from '../../assets/3drenders/pixel6.png';
+
 export default function TDDashboard() {
   const containerRef = useRef(null);
   const breakpointColumnsObj = {
@@ -159,7 +161,7 @@ export default function TDDashboard() {
               </div>
 
               <section className='px-8 mx-auto mb-32 md:px-16 lg:max-w-6xl xl:max-w-7xl'>
-                <p className='mb-16 text-3xl font-light leading-loose text-green-700 callout'>
+                <p className='mb-16 text-3xl font-light leading-loose text-green-700 callout fullbleed'>
                   <span className=''>As a client</span> paying a bill in foreign
                   currency (physical store or website), I want to{' '}
                   <span>
@@ -172,17 +174,17 @@ export default function TDDashboard() {
                 <div className='mx-auto fullbleed'>
                   <div className='gap-8 mx-auto md:grid md:grid-cols-3 md:max-w-7xl '>
                     <p className='p-8 bg-blue-200 border-2 border-gray-400 border-dashed'>
-                      Given I am at a point of sale terminal in a foreign
-                      country or an eCommerce website that is not domiciled in
-                      my home currency.
+                      <span>Given that</span> I am at a point of sale terminal
+                      in a foreign country or an eCommerce website that is not
+                      domiciled in my home currency.
                     </p>
                     <p className='p-8 bg-blue-200 border-2 border-gray-400 border-dashed'>
-                      When I am about to make a payment.
+                      <span>When</span> I am about to make a payment.
                     </p>
                     <p className='p-8 bg-blue-200 border-2 border-gray-400 border-dashed'>
-                      Then give me an opportunity to compare the option of
-                      paying in foreign currency or a pre-converted amount in my
-                      home currency.
+                      <span>Then</span> give me an opportunity to compare the
+                      option of paying in foreign currency or a pre-converted
+                      amount in my home currency.
                     </p>
                   </div>
                 </div>
@@ -235,7 +237,12 @@ export default function TDDashboard() {
                 A sample of what the users were saying during the interview
                 process
               </div>
-
+              <Image
+                alt='Mountains'
+                src={test}
+                layout='responsive'
+                objectFit='cover'
+              />
               <section className='px-8 mx-auto md:px-16 lg:max-w-6xl xl:max-w-7xl'>
                 <h2>Planning</h2>
                 <h3>Learning about the queues</h3>
