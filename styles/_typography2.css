@@ -9,7 +9,7 @@ h2,
 }
 h3,
 .h3 {
-  @apply mb-4 pt-6 font-mono tracking-tight font-bold text-slate-800;
+  @apply mb-4 pt-2 md:mb-4 md:pt-6 font-sans font-medium md:text-lg leading-relaxed text-slate-800;
 }
 h4,
 .h4 {
@@ -48,11 +48,11 @@ p {
 }
 
 .external_links a {
-  @apply inline-block bg-yellow-100 hover:bg-yellow-200 hover:text-black;
+  @apply inline-block bg-yellow-200 hover:bg-yellow-200 hover:text-black;
 }
 
 .inverse {
-  @apply bg-black bg-opacity-90 md:pt-12 md:pb-32 pt-20 pb-32;
+  @apply bg-black  md:pt-12 md:pb-32 pt-20 pb-32;
 }
 
 .inverse p,
@@ -74,7 +74,7 @@ p {
 
 li,
 .li {
-  @apply block my-2;
+  @apply block md:my-2 font-sans font-light md:text-lg leading-relaxed;
 }
 
 .cta {

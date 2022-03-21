@@ -6,6 +6,7 @@ import Layout from '@/components/layout';
 import ReactPlayer from 'react-player';
 import Testimonial from '@/components/molecules/testimonial';
 import Brief from '@/components/molecules/brief';
+import ReactFlow, { MiniMap, Controls } from 'react-flow-renderer';
 
 import { useRef } from 'react';
 import { fade } from '@/helpers/transitions';
@@ -91,7 +92,13 @@ function WithImage() {
   );
 }
 
-export default function CICBnab() {
+export default function Beon(
+  nodes,
+  edges,
+  onNodesChange,
+  onEdgesChange,
+  onConnect
+) {
   const containerRef = useRef(null);
   const breakpointColumnsObj = {
     default: 1,
