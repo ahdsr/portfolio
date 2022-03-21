@@ -50,7 +50,7 @@ export default function Navbar() {
     >
       {({ open }) => (
         <>
-          <div className='mx-auto '>
+          <div className='mx-auto'>
             <div className='relative flex justify-between h-20'>
               <div className='absolute inset-y-0 left-0 flex items-center sm:hidden'>
                 {/* Mobile menu button */}
@@ -68,15 +68,17 @@ export default function Navbar() {
                 </Disclosure.Button>
               </div>
               <div className='flex items-center justify-center flex-1 sm:items-stretch sm:justify-start'>
-                <div className='flex items-center invisible sm:visible grow '>
+                <div className='flex items-center invisible sm:visible grow'>
                   <div className='p-6 mt-2 text-lg font-bold tracking-tight transition-all bg-yellow-400 hover:bg-yellow-500'>
-                    <Image
-                      alt='Mountains'
-                      src={Logo}
-                      layout='fixed'
-                      height={32}
-                      width={40}
-                    />
+                    <a href='/' className=''>
+                      <Image
+                        alt='Mountains'
+                        src={Logo}
+                        layout='fixed'
+                        height={32}
+                        width={40}
+                      />
+                    </a>
                   </div>
                 </div>
                 {/* Desktop Links */}
@@ -95,12 +97,7 @@ export default function Navbar() {
                     label='Other Work'
                     extraClasses='transition-all border-transparent text-white bg-customblue hover:border-yellow-500 hover:text-slate-200 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-regular uppercase'
                   />
-                  <FancyLink
-                    destination='/resume2'
-                    a11yText='Resume'
-                    label='Resume'
-                    extraClasses='transition-all border-transparent text-white bg-customblue hover:border-yellow-500 hover:text-slate-200 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-regular uppercase'
-                  />
+
                   <FancyLink
                     destination='/blog2'
                     a11yText='Blog'
@@ -110,7 +107,7 @@ export default function Navbar() {
                 </div>
               </div>
               {/* Profile dropdown class hidden */}
-              <div className='absolute inset-y-0 right-0 flex items-center pl-3 pr-4 bg-white sm:static sm:inset-auto '>
+              <div className='absolute inset-y-0 right-0 flex items-center pl-3 pr-4 bg-white sm:static sm:inset-auto'>
                 {/* Profile dropdown */}
                 <Menu as='div' className='relative ml-3'>
                   <div>
@@ -139,6 +136,19 @@ export default function Navbar() {
                       <Menu.Item>
                         {({ active }) => (
                           <a
+                            href='/resume2'
+                            className={classNames(
+                              active ? 'bg-gray-100' : '',
+                              'block px-4 py-2 text-sm text-gray-700'
+                            )}
+                          >
+                            Resume
+                          </a>
+                        )}
+                      </Menu.Item>
+                      <Menu.Item>
+                        {({ active }) => (
+                          <a
                             href='mailto:lucas.czuchraj@gmail.com'
                             className={classNames(
                               active ? 'bg-gray-100' : '',
@@ -153,6 +163,7 @@ export default function Navbar() {
                         {({ active }) => (
                           <a
                             href='https://www.linkedin.com/in/lucasczuchraj/'
+                            target='_blank'
                             className={classNames(
                               active ? 'bg-gray-100' : '',
                               'block px-4 py-2 text-sm text-gray-700'
@@ -198,7 +209,7 @@ export default function Navbar() {
           </div>
 
           <Disclosure.Panel className='sm:hidden'>
-            <div className='w-1/2 ml-4 space-y-1 bg-yellow-400 '>
+            <div className='w-1/2 ml-4 space-y-1 bg-yellow-400'>
               {/* Current: "bg-indigo-50 border-indigo-500 text-indigo-700", Default: "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700" */}
               <Disclosure.Button
                 as='a'

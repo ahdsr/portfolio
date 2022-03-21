@@ -33,7 +33,7 @@ export default function TDDashboard() {
       <NextSeo title='Blog' />
       <LazyMotion features={domAnimation}>
         <m.div initial='initial' animate='enter' exit='exit'>
-          <m.main variants={fade} className='mx-auto bg-slate-50 '>
+          <m.main variants={fade} className='pb-12 mx-auto bg-slate-50'>
             <div className=''>
               <section className=' bg-customblue'>
                 <div className='px-8 mx-auto py-52 md:px-16 lg:max-w-6xl xl:max-w-7xl'>
@@ -93,8 +93,8 @@ export default function TDDashboard() {
               <section className='px-8 mx-auto mb-32 md:px-16 lg:max-w-6xl xl:max-w-7xl'>
                 <h2>Questions we had to ask ourselves</h2>
                 <div className='mx-auto fullbleed'>
-                  <div className='gap-8 mx-auto md:grid md:grid-cols-3 md:max-w-7xl '>
-                    <p className='p-8 border border-b-gray-400'>
+                  <div className='gap-8 mx-auto md:grid md:grid-cols-3 md:max-w-7xl'>
+                    <p className='p-8 text-base border border-b-gray-400'>
                       “What do users feel comfortable with seeing before signing
                       into a secure environment?”
                     </p>
@@ -111,8 +111,8 @@ export default function TDDashboard() {
 
               <section className='inverse'>
                 <div className='px-8 mx-auto my-8 md:max-w-3xl md:px-16 lg:max-w-6xl xl:max-w-7xl'>
-                  <div className='md:grid md:grid-cols-2'>
-                    <div className='mr-16 bg-hero-pattern'>
+                  <div className='lg:grid lg:grid-cols-2'>
+                    <div className='mr-16'>
                       <h2>Planning</h2>
                       <h3>Learning about the queues</h3>
                       <p>
@@ -141,7 +141,7 @@ export default function TDDashboard() {
                         of mind maps.
                       </p>
                     </div>
-                    <div className='md:w-auto md:relative'>
+                    <div className='md:w-auto md:relative md:my-12'>
                       <Image
                         alt='Mountains'
                         src={Brainstorming}
@@ -152,7 +152,7 @@ export default function TDDashboard() {
                   </div>
                 </div>
               </section>
-              <div className='mx-auto -mt-16 md:-mt-12 caption md:max-w-6xl '>
+              <div className='mx-auto -mt-16 md:-mt-12 md:px-16 caption md:max-w-6xl'>
                 A sample of what the users were saying during the interview
                 process
               </div>
@@ -223,7 +223,7 @@ export default function TDDashboard() {
               <section className='px-8 mx-auto md:px-16 lg:max-w-6xl xl:max-w-7xl'>
                 <h2>Other hurdles</h2>
                 <div className='shadow-md shadow-slate-200 md:grid md:grid-cols-2'>
-                  <div className='w-auto p-8 bg-slate-200 '>
+                  <div className='w-auto p-8 bg-slate-200'>
                     <p>
                       Stakeholder availability was intermittent. Reviewing and
                       presenting solutions for a design pattern that affected
@@ -231,7 +231,7 @@ export default function TDDashboard() {
                       logistically very difficult.
                     </p>
                   </div>
-                  <div className='w-auto p-8 bg-white '>
+                  <div className='w-auto p-8 bg-white'>
                     <p>
                       Functional prototypes and detailed wires were sent out to
                       circumvent the issue, and meetings when available were
@@ -240,8 +240,8 @@ export default function TDDashboard() {
                   </div>
                 </div>
 
-                <div className='mt-8 shadow-md md:grid md:grid-cols-2 shadow-slate-200 '>
-                  <div className='w-auto p-8 bg-slate-200 '>
+                <div className='mt-8 shadow-md md:grid md:grid-cols-2 shadow-slate-200'>
+                  <div className='w-auto p-8 bg-slate-200'>
                     <p>
                       Big differences of opinion. Not all lines of business
                       worked together, but all lines of business had to use the
@@ -251,7 +251,7 @@ export default function TDDashboard() {
                       efficient.
                     </p>
                   </div>
-                  <div className='w-auto p-8 bg-white '>
+                  <div className='w-auto p-8 bg-white'>
                     <p>Compromises were made where absolutely needed.</p>
                   </div>
                 </div>
@@ -264,6 +264,7 @@ export default function TDDashboard() {
                     <a
                       href='https://mobilesyrup.com/2020/12/10/td-launches-new-personalized-app-experience-powered-by-ai/'
                       alt=''
+                      target='_blank'
                     >
                       TD launches new personalized app experience powered by AI
                     </a>
@@ -272,6 +273,7 @@ export default function TDDashboard() {
                     <a
                       href='  https://mobilesyrup.com/2021/12/08/td-low-balance-prediction-mobile-banking-app/'
                       alt=''
+                      target='_blank'
                     >
                       TD brings low balance prediction and more to its mobile
                       banking app

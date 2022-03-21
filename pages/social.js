@@ -27,7 +27,7 @@ export default function Social() {
       <NextSeo title='Blog' />
       <LazyMotion features={domAnimation}>
         <m.div initial='initial' animate='enter' exit='exit'>
-          <m.main variants={fade} className='mx-auto bg-slate-50 '>
+          <m.main variants={fade} className='mx-auto bg-slate-50'>
             <div className=''>
               <section className=' bg-customblue'>
                 <div className='px-8 py-64 mx-auto md:px-16 lg:max-w-6xl xl:max-w-7xl'>

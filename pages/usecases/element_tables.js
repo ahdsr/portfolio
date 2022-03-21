@@ -31,7 +31,7 @@ export default function TDDashboard() {
       <NextSeo title='Blog' />
       <LazyMotion features={domAnimation}>
         <m.div initial='initial' animate='enter' exit='exit'>
-          <m.main variants={fade} className='pb-10 bg-slate-50 usecase '>
+          <m.main variants={fade} className='pb-10 bg-slate-50 usecase'>
             <div className='pt-16 pb-10 mx-auto max-w-screen-2xl xl:max-w-screen-xl'>
               <div className='px-5 pt-6 mx-auto mt-4 md:px-10 lg:px-16 xl:px-24'>
                 <h1 className='heading1'>{name}</h1>
@@ -47,28 +47,28 @@ export default function TDDashboard() {
 
                 <div className='grid grid-cols-4 gap-6 text-base text-slate-700'>
                   <div>
-                    <p className='font-bold '>Project Type</p>
-                    <ul className='pt-2 '>
+                    <p className='font-bold'>Project Type</p>
+                    <ul className='pt-2'>
                       <li>Web design</li>
                     </ul>
                   </div>
                   <div>
-                    <p className='font-bold '>My Role</p>
-                    <ul className='pt-2 '>
+                    <p className='font-bold'>My Role</p>
+                    <ul className='pt-2'>
                       <li>UI Design Consultant</li>
                       <li>UX Designer</li>
                       <li>Prototyping</li>
                     </ul>
                   </div>
                   <div>
-                    <p className='font-bold '>Duration</p>
-                    <ul className='pt-2 '>
+                    <p className='font-bold'>Duration</p>
+                    <ul className='pt-2'>
                       <li>4 months</li>
                     </ul>
                   </div>
                   <div>
-                    <p className='font-bold '>Tools</p>
-                    <ul className='pt-2 '>
+                    <p className='font-bold'>Tools</p>
+                    <ul className='pt-2'>
                       <li>Figma</li>
                     </ul>
                   </div>
@@ -93,7 +93,7 @@ export default function TDDashboard() {
               </div>
 
               <div className='px-5 pt-12 mx-auto space-y-4 font-light leading-relaxed text-md text-slate-800 md:px-10 lg:px-16 xl:px-24'>
-                <div className='pb-12 mx-auto '>
+                <div className='pb-12 mx-auto'>
                   <span className='subheading'>Interviewing the users</span>
                 </div>
 
@@ -122,7 +122,7 @@ export default function TDDashboard() {
                   </p>
                 </div>
 
-                <div className='pt-12 pb-12 mx-auto '>
+                <div className='pt-12 pb-12 mx-auto'>
                   <span className='subheading'>Research</span>
                 </div>
 

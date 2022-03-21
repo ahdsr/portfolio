@@ -19,10 +19,10 @@ export default function Home() {
       <NextSeo title='Home' />
       <LazyMotion features={domAnimation}>
         <m.div initial='initial' animate='enter' exit='exit'>
-          <m.main variants={fade} className='bg-customgray'>
+          <m.main variants={fade} className='bg-white'>
             {/*  Hero */}
 
-            <div className='pb-24 mx-auto lg:pt-20 hero md:pb-32 lg:pb-60 md:pb-30 max-w-screen-2xl '>
+            <div className='pb-24 mx-auto lg:pt-20 hero md:pb-32 lg:pb-60 md:pb-30 max-w-screen-2xl'>
               <div className='flex flex-row px-8 pt-32 max-w-7xl md:pt-36 lg:pt-40 sm:mx-auto md:mx-auto lg:mx-auto lg:px-12'>
                 <div className='pt-8 mx-auto grow max-w-7xl'>
                   <div className='mx-auto md:flex'>
@@ -55,10 +55,10 @@ export default function Home() {
             {/*  Blue Section */}
             <div className=' bg-customgray'>
               <div className='flex flex-row max-w-full px-8 pt-20 mx-auto text-white bg-customblue md:pt-20 line rounded-tr-huge lg:px-12'>
-                <div className='px-0 pt-10 mx-auto grow max-w-7xl sm:pt-20 sm:pb-24 sm:px-4 md:px-4 xl:px-0 '>
+                <div className='px-0 pt-10 mx-auto grow max-w-7xl sm:pt-20 sm:pb-24 sm:px-4 md:px-4 xl:px-0'>
                   <div className='z-0 md:pb-24 rounded-tr-huge'>
                     <div className='mx-auto md:flex max-w-screen-2xl'>
-                      <div className='h-auto pl-0 homepage md:item md:w-1/2 content md:pr-16 '>
+                      <div className='h-auto pl-0 homepage md:item md:w-1/2 content md:pr-16'>
                         <h1>
                           Research, design, prototype, test and evaluate ↻{' '}
                         </h1>
@@ -123,7 +123,7 @@ export default function Home() {
                 <div className='px-2 pb-12 md:pt-44 md:pb-44 lg:pt-40 lg:pb-40 rounded-tr-huge'>
                   <div className='flex-none w-8 lg:w-12'></div>
 
-                  <div className='mx-auto md:flex max-w-screen-2xl '>
+                  <div className='mx-auto md:flex max-w-screen-2xl'>
                     <div className='h-auto hero md:item md:w-1/2 content md:pr-16'>
                       <h4>Experience</h4>
                       <p>

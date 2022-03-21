@@ -5,6 +5,7 @@ import Usecaseheader from '@/components/molecules/usecaseheader';
 import Layout from '@/components/layout';
 import ReactPlayer from 'react-player';
 import Testimonial from '@/components/molecules/testimonial';
+import Brief from '@/components/molecules/brief';
 
 import { useRef } from 'react';
 import { fade } from '@/helpers/transitions';
@@ -103,12 +104,12 @@ export default function CICBnab() {
       <NextSeo title='Blog' />
       <LazyMotion features={domAnimation}>
         <m.div initial='initial' animate='enter' exit='exit'>
-          <m.main variants={fade} className='pb-10 bg-slate-50 usecase '>
+          <m.main variants={fade} className='pb-10 bg-slate-50 usecase'>
             <div className='pt-16 pb-10 mx-auto max-w-screen-2xl xl:max-w-screen-xl'>
               <div className='px-5 pt-12 mx-auto space-y-4 font-light leading-relaxed text-md text-slate-800 md:px-10 lg:px-16 xl:px-24'>
                 <WithoutImage />
 
-                <div className='pb-12 mx-auto '>
+                <div className='pb-12 mx-auto'>
                   <span className='heading3'>Ideation</span>
                   <span className='subheading'>The Design Problem</span>
                 </div>

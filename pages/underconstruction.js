@@ -16,7 +16,7 @@ export default function Resume() {
       <NextSeo title='Resume' />
       <LazyMotion features={domAnimation}>
         <m.div initial='initial' animate='enter' exit='exit'>
-          <m.main variants={fade} className='pb-4 '>
+          <m.main variants={fade} className='pb-4'>
             <Container>
               <div className='content pt-40 px-4'>
                 <div className='mx-auto max-w-7xl'>

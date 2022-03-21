@@ -73,7 +73,7 @@ export default function Resume() {
       <NextSeo title='Blog' />
       <LazyMotion features={domAnimation}>
         <m.div initial='initial' animate='enter' exit='exit'>
-          <m.main variants={fade} className='pb-10 bg-slate-50 usecase '>
+          <m.main variants={fade} className='pb-10 bg-slate-50 usecase'>
             <div className='pt-16 pb-10 mx-auto max-w-screen-2xl xl:max-w-screen-xl'>
               <WithImage />
               <WithoutImage />
@@ -100,7 +100,7 @@ export default function Resume() {
                 </div>
 
                 <div className='pt-20 mx-auto mt-20'>
-                  <div className='pb-12 mx-auto '>
+                  <div className='pb-12 mx-auto'>
                     <span className='heading3'>User flow deep dive</span>
                     <span className='uppercase subheading'>
                       Research and planning
@@ -204,7 +204,7 @@ export default function Resume() {
               </div>
 
               <div className='px-5 pt-12 mx-auto space-y-4 font-light leading-relaxed text-md text-slate-800 md:px-10 lg:px-16 xl:px-24'>
-                <div className='pb-12 mx-auto '>
+                <div className='pb-12 mx-auto'>
                   <span className='heading3'>End to end solution</span>
                   <span className='uppercase subheading'>
                     High resolution screens

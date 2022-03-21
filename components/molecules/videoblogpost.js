@@ -20,7 +20,7 @@ export default function VideoPost({
 }) {
   return (
     <div className=''>
-      <div className='px-8 mx-auto md:px-16 lg:max-w-6xl xl:max-w-7xl '>
+      <div className='px-8 mx-auto md:px-16 lg:max-w-6xl xl:max-w-7xl'>
         <h2>{postTitle}</h2>
         <SocialBar postCount={postCount} />
         <div className='flex items-start pb-4'>
@@ -41,7 +41,7 @@ export default function VideoPost({
         </div>
       </div>
       <div>
-        <div className='player-wrapper '>
+        <div className='player-wrapper'>
           <ReactPlayer
             className='react-player'
             url={videoSource}

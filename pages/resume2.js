@@ -29,7 +29,7 @@ export default function Resume() {
       <NextSeo title='Blog' />
       <LazyMotion features={domAnimation}>
         <m.div initial='initial' animate='enter' exit='exit'>
-          <m.main variants={fade} className='bg-white '>
+          <m.main variants={fade} className='bg-white'>
             <div className='pb-12'>
               <section className='bg-customblue'>
                 {/*   <img src={profilePhoto} alt='' /> */}
@@ -124,7 +124,7 @@ export default function Resume() {
                     <div className='pt-6'>
                       <div className='flex items-center mt-8 mb-6'>
                         <div className='flex-shrink-0 inline-block rounded-full'>
-                          <div className='block w-12 h-12 rounded-full '>
+                          <div className='block w-12 h-12 rounded-full'>
                             <Image
                               alt='Mountains'
                               src={avatarElement}
@@ -133,7 +133,7 @@ export default function Resume() {
                             />
                           </div>
                         </div>
-                        <div className='ml-6 '>
+                        <div className='ml-6'>
                           <div className='font-bold date'>
                             Jan 2020 - Current
                           </div>
@@ -393,7 +393,7 @@ export default function Resume() {
                             />
                           </div>
                         </div>
-                        <div className='ml-6 '>
+                        <div className='ml-6'>
                           <div className='font-bold date'>
                             July 2011 - August 2012
                           </div>

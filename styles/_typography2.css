@@ -5,7 +5,7 @@ h1,
 }
 h2,
 .h2 {
-  @apply mt-20 mb-8 font-serif text-3xl font-semibold tracking-tight md:text-5xl text-slate-800;
+  @apply mt-20 mb-8 font-serif text-3xl font-semibold tracking-tight md:text-4xl text-slate-800;
 }
 h3,
 .h3 {
@@ -16,7 +16,7 @@ h4,
 }
 
 p {
-  @apply mb-4 font-sans font-light leading-relaxed text-slate-800;
+  @apply mb-4 font-sans font-light md:text-lg leading-relaxed text-slate-800;
 }
 
 .summary {
@@ -32,11 +32,11 @@ p {
 }
 
 .fullbleed p {
-  @apply font-light md:text-lg font-mono text-black shadow-slate-200 shadow-xl;
+  @apply font-light md:text-base font-mono text-black shadow-slate-200 shadow-xl;
 }
 
 .caption {
-  @apply block bg-black bg-opacity-50 px-8 pt-4 pb-4 font-mono text-yellow-400 text-xs;
+  @apply block bg-black bg-opacity-50 px-8 pt-4 pb-4 font-mono  text-yellow-400 text-xs;
 }
 
 .fullbleed li {
@@ -57,15 +57,15 @@ p {
 
 .inverse p,
 .p {
-  @apply text-white;
+  @apply text-slate-300;
 }
 .inverse h1,
 .h1 {
-  @apply text-white;
+  @apply text-slate-300;
 }
 .inverse h2,
 .h2 {
-  @apply text-white;
+  @apply text-slate-300;
 }
 .inverse h3,
 .h3 {

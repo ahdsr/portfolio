@@ -31,7 +31,7 @@ export default function TDDashboard() {
       <NextSeo title='Blog' />
       <LazyMotion features={domAnimation}>
         <m.div initial='initial' animate='enter' exit='exit'>
-          <m.main variants={fade} className='mx-auto bg-slate-50 '>
+          <m.main variants={fade} className='mx-auto bg-slate-50'>
             <div className='pb-12'>
               <section className=' bg-customblue'>
                 <div className='px-8 mx-auto py-52 md:px-16 lg:max-w-6xl xl:max-w-7xl'>
@@ -66,7 +66,7 @@ export default function TDDashboard() {
               <section className='px-8 mx-auto mb-32 md:px-16 lg:max-w-6xl xl:max-w-7xl'>
                 <h2>What the users told us</h2>
                 <div className='mx-auto fullbleed'>
-                  <div className='gap-8 mx-auto md:grid md:grid-cols-3 md:max-w-7xl '>
+                  <div className='gap-8 mx-auto md:grid md:grid-cols-3 md:max-w-7xl'>
                     <p className='p-8 border border-b-gray-400'>
                       "I want to see all of the data on one screen?"
                     </p>
@@ -171,7 +171,7 @@ export default function TDDashboard() {
                 </div>
               </section>
 
-              <div className='mx-auto -mt-16 md:-mt-12 caption md:max-w-6xl '>
+              <div className='mx-auto -mt-16 md:-mt-12 md:px-16 caption md:max-w-6xl'>
                 A sample of what the users were saying during the interview
                 process
               </div>

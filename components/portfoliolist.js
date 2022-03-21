@@ -77,7 +77,7 @@ export default function PortfolioList() {
     500: 1,
   };
   return (
-    <ul className='z-0 max-w-full px-8 mx-auto -mt-20 md:max-w-5xl lg:max-w-6xl xl:max-w-7xl '>
+    <ul className='z-0 max-w-full px-8 mx-auto -mt-20 md:max-w-5xl lg:max-w-6xl xl:max-w-7xl'>
       {usecases.map((usecases) => (
         <li
           key={usecases.id}
@@ -87,13 +87,13 @@ export default function PortfolioList() {
               : 'md:flex md:flex-row-reverse  mb-8 md:mb-12  overflow-hidden '
           }
         >
-          <div className='block overflow-hidden bg-white item md:w-1/2 h-96 md:h-auto'>
+          <div className='block overflow-hidden bg-white item md:w-1/3 h-96 md:h-auto'>
             <Image alt='Mountains' src={usecases.image} layout='responsive' />
           </div>
 
           <div
             className={[
-              'item md:w-1/2 px-6 md:px-12 xl:p-20  overflow-hidden',
+              'item md:w-2/3 px-6 md:px-12 xl:p-20  overflow-hidden',
               usecases.color,
             ].join(' ')}
           >
