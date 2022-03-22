@@ -115,7 +115,7 @@ export default function Home() {
 
             {/*  Usecases */}
             <Container>
-              <div className='relative z-40 content' id='hash'>
+              <div className='relative z-40 content ' id='hash'>
                 <div>
                   <PortfolioList />
                 </div>
