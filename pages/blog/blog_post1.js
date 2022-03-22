@@ -74,7 +74,7 @@ export default function Resume() {
                 <div className='player-wrapper'>
                   <ReactPlayer
                     className='react-player'
-                    url=' https://lucasczuchraj.com.s218761.gridserver.com/Videos/AnimationTest.mp4'
+                    url='https://lucasczuchraj.com.s218761.gridserver.com/Videos/AnimationTest.mp4'
                     loop={true}
                     controls={true}
                     width='100%'

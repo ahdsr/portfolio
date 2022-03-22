@@ -48,7 +48,7 @@ export default function TDDashboard() {
         <m.div initial='initial' animate='enter' exit='exit'>
           <m.main variants={fade} className='pb-12 mx-auto bg-slate-50'>
             <div className=''>
-              <section className=' bg-customblue'>
+              <section className='bg-customblue'>
                 <div className='px-8 mx-auto py-52 md:px-16 lg:max-w-6xl xl:max-w-7xl'>
                   <h1>
                     CIBC, NAB and VISA collaborate in a ideation workshop in San
@@ -63,7 +63,7 @@ export default function TDDashboard() {
                 {/* <Image alt='Mountains' src={Evolution} layout='responsive' /> */}
               </section>
 
-              <section className='px-8 mx-auto md:px-16 lg:max-w-6xl xl:max-w-7xl'>
+              <section className='px-8 pb-12 mx-auto md:px-16 lg:max-w-6xl xl:max-w-7xl'>
                 <div className='absolute -mt-28'>
                   <Image
                     alt='TD round logo'

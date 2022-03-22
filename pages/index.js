@@ -6,11 +6,14 @@ import { LazyMotion, domAnimation, m } from 'framer-motion';
 import { NextSeo } from 'next-seo';
 import FancyLink from '@/components/fancyLink';
 import PortfolioList from '@/components/portfoliolist';
+import Link from 'next/link';
 
 //Imported Images
 import Image from 'next/image';
 import Me from '../assets/global/me.webp';
 import LogoGroup from '../assets/global/logogroup.webp';
+
+function scrollTo() {}
 
 export default function Home() {
   const containerRef = useRef(null);
@@ -42,6 +45,9 @@ export default function Home() {
                         <li>Complex design systems</li>
                         <li>Transparent, constructive feedback</li>
                         <li>Selling a solution</li>
+                        <Link href='/'>
+                          <a onClick={() => console.log('clicked')}>About</a>
+                        </Link>
                       </ul>
                     </div>
                     <div className='w-64 mx-auto mt-10 text-center item md:w-96'>
@@ -109,7 +115,7 @@ export default function Home() {
 
             {/*  Usecases */}
             <Container>
-              <div className='relative z-40 content'>
+              <div className='relative z-40 content' id='hash'>
                 <div>
                   <PortfolioList />
                 </div>

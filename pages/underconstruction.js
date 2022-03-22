@@ -20,7 +20,7 @@ export default function Resume() {
             <Container>
               <div className='content pt-40 px-4'>
                 <div className='mx-auto max-w-7xl'>
-                  <div className=' uppercase text-5xl font-black tracking-tight block mx-auto text-center'>
+                  <div className='uppercase text-5xl font-black tracking-tight block mx-auto text-center'>
                     404
                   </div>
                   <div className='text-xl font-medium tracking-tight block mx-auto text-center'>

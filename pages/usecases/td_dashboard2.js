@@ -35,7 +35,7 @@ export default function TDDashboard() {
         <m.div initial='initial' animate='enter' exit='exit'>
           <m.main variants={fade} className='pb-12 mx-auto bg-slate-50'>
             <div className=''>
-              <section className=' bg-customblue'>
+              <section className='bg-customblue'>
                 <div className='px-8 mx-auto py-52 md:px-16 lg:max-w-6xl xl:max-w-7xl'>
                   <h1>
                     A smart, targeted & helpful front door to increase customer
@@ -261,6 +261,11 @@ export default function TDDashboard() {
                 <h2>Reference Links</h2>
                 <ul className='external_links'>
                   <li>
+                    <a href='/usecases/td_insights' alt=''>
+                      TD Insights
+                    </a>
+                  </li>
+                  <li>
                     <a
                       href='https://mobilesyrup.com/2020/12/10/td-launches-new-personalized-app-experience-powered-by-ai/'
                       alt=''
@@ -271,7 +276,7 @@ export default function TDDashboard() {
                   </li>
                   <li>
                     <a
-                      href='  https://mobilesyrup.com/2021/12/08/td-low-balance-prediction-mobile-banking-app/'
+                      href=' https://mobilesyrup.com/2021/12/08/td-low-balance-prediction-mobile-banking-app/'
                       alt=''
                       target='_blank'
                     >

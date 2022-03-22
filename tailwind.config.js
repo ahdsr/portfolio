@@ -44,6 +44,8 @@ module.exports = {
         customblue2: '#203136',
         customyellow: '#F2F2CF',
         customgray: '#F3F3F3',
+        rsa: '#23023D',
+        cibc: '#4D0008',
       },
       backgroundImage: {
         'hero-pattern': "url('/assets/global/placeholder.webp')",

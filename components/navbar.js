@@ -8,6 +8,8 @@ import Image from 'next/image';
 import Image1 from '../assets/global/profile.webp';
 import Logo from '../assets/global/logo.png';
 
+import { HashLink } from 'react-router-hash-link';
+
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ');
 }

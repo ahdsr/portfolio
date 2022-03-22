@@ -33,7 +33,7 @@ export default function TDDashboard() {
         <m.div initial='initial' animate='enter' exit='exit'>
           <m.main variants={fade} className='mx-auto bg-slate-50'>
             <div className='pb-12'>
-              <section className=' bg-customblue'>
+              <section className='bg-customblue'>
                 <div className='px-8 mx-auto py-52 md:px-16 lg:max-w-6xl xl:max-w-7xl'>
                   <h1>Modern data tables for processing vehicle orders</h1>
 

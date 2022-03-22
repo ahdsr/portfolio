@@ -48,16 +48,16 @@ const usecases = [
     link: '/usecases/cibc_nab',
     image: cibcnab,
     color: 'bg-white',
-  } /*
+  },
   {
     id: 4,
 
     name: 'BEON Performance',
     description: '***Solving the POS currency conversion',
-    link: '/usecases/beon',
+    link: '/usecases/beon2',
     image: beon,
     color: 'bg-white',
-  }, */,
+  },
   {
     id: 5,
 

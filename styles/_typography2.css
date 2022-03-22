@@ -1,11 +1,11 @@
 /* Heading Defaults */
 h1,
 .h1 {
-  @apply mb-8 font-serif text-4xl md:text-5xl md:mb-12 font-medium tracking-tight text-white;
+  @apply py-8 font-serif text-4xl md:text-5xl md:py-12 font-medium tracking-tight text-white;
 }
 h2,
 .h2 {
-  @apply mt-20 mb-8 font-serif text-3xl font-semibold tracking-tight md:text-4xl text-slate-800;
+  @apply pt-16 pb-4 md:pt-24 md:pb-4 font-serif text-3xl font-semibold tracking-tight md:text-4xl text-slate-800;
 }
 h3,
 .h3 {
@@ -16,7 +16,7 @@ h4,
 }
 
 p {
-  @apply mb-4 font-sans font-light md:text-lg leading-relaxed text-slate-800;
+  @apply my-4 font-sans font-light md:text-lg leading-relaxed text-slate-800;
 }
 
 .summary {
