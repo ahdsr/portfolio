@@ -77,7 +77,7 @@ export default function PortfolioList() {
     500: 1,
   };
   return (
-    <ul className='z-0 max-w-full px-8 mx-auto -mt-20 md:max-w-5xl lg:max-w-6xl xl:max-w-7xl'>
+    <ul className='z-0 max-w-full px-8 mx-auto -mt-20 md:max-w-4xl lg:max-w-6xl xl:max-w-7xl homepage'>
       {usecases.map((usecases) => (
         <li
           key={usecases.id}
