@@ -19,7 +19,7 @@ const usecases = [
       'TD Mobile Banking went through a complete overhaul to implement a dashboard like landing page.',
     link: '/usecases/td_dashboard2',
     image: image1,
-    color: 'bg-white',
+    color: 'bg-slate-200',
   },
   /*  {
     id: 1,
@@ -47,7 +47,7 @@ const usecases = [
     description: '***Solving the POS currency conversion',
     link: '/usecases/cibc_nab',
     image: cibcnab,
-    color: 'bg-white',
+    color: 'bg-slate-200',
   },
   {
     id: 4,
@@ -56,7 +56,7 @@ const usecases = [
     description: '***Solving the POS currency conversion',
     link: '/usecases/beon2',
     image: beon,
-    color: 'bg-white',
+    color: 'bg-slate-200',
   },
   {
     id: 5,
@@ -65,7 +65,7 @@ const usecases = [
     description: '***Solving the POS currency conversion',
     link: '/usecases/element_tables2',
     image: beon,
-    color: 'bg-white',
+    color: 'bg-slate-200',
   },
 ];
 
@@ -87,13 +87,13 @@ export default function PortfolioList() {
               : 'md:flex md:flex-row-reverse  mb-8 md:mb-12  overflow-hidden '
           }
         >
-          <div className='block overflow-hidden bg-white item md:w-1/3 h-96 md:h-auto'>
+          <div className='block overflow-hidden bg-white item md:w-1/2 h-96 md:h-auto'>
             <Image alt='Mountains' src={usecases.image} layout='responsive' />
           </div>
 
           <div
             className={[
-              'item md:w-2/3 px-6 md:px-12 xl:p-20  overflow-hidden',
+              'item md:w-1/2 px-6 md:px-12 xl:p-20 overflow-hidden',
               usecases.color,
             ].join(' ')}
           >

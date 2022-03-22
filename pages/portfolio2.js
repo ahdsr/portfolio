@@ -76,27 +76,6 @@ export default function Resume() {
                       />
                     </div>
                   </Link>
-
-                  <Link href='/usecases/rsa_quotes'>
-                    <div className='cursor-pointer'>
-                      <Image
-                        alt='Mountains'
-                        src={RSAQuote}
-                        layout='intrinsic'
-                        objectFit='cover cursor-pointer'
-                      />
-                    </div>
-                  </Link>
-                  <Link href='/usecases/rsa_quotes'>
-                    <div className='cursor-pointer'>
-                      <Image
-                        alt='Mountains'
-                        src={RSAQuote}
-                        layout='intrinsic'
-                        objectFit='cover cursor-pointer'
-                      />
-                    </div>
-                  </Link>
                 </Masonry>
                 <h2>Other</h2>
                 <Tabs />
