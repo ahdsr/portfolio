@@ -45,7 +45,7 @@ export default function Home() {
                       </ul>
                     </div>
                     <div className='w-64 mx-auto mt-10 text-center item md:w-96'>
-                      <Image alt='Lucas' src={Me} layout='responsive' />
+                      {/* <Image alt='Lucas' src={Me} layout='responsive' /> */}
                     </div>
                   </div>
                 </div>
