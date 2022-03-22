@@ -45,10 +45,10 @@ export default function TDDashboard() {
                     design template that would give the Content Editors and
                     Designers a quick and painless way to turn around very
                     frequent marketing campaigns that were driven by Google Ad
-                    words. This full edge to age design was created with that in
-                    mind – it offered a wide range of components that once build
-                    were easily swapped and rearrange to make new beautiful
-                    micro sites.
+                    words. This full edge to edge design was created with that
+                    in mind – it offered a wide range of components that once
+                    build were easily swapped and rearrange to make new
+                    beautiful micro sites.
                   </div>
                 </div>
               </section>

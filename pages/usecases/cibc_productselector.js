@@ -53,19 +53,11 @@ export default function TDDashboard() {
                   <h1>CIBC Product Selector</h1>
 
                   <div className='summary'>
-                    The product selector project kicked off when the business
-                    realized that they needed a better product offering section
-                    within the CIBC Mobile Banking App. At best the app would
-                    kick out users onto the mobile responsive website, but the
-                    experience was disjointed and at times very frustrating to
-                    customers. The product selector starts as a native
-                    experience but due to budget constraint it end up being a
-                    framed in responsive webpage that looked and mimicked the
-                    app functionality. Knowing the users were logged in it made
-                    product recommendations more tailed to each user and the
-                    application process carried forward their profile
-                    information making apply for CIBC products a much simpler
-                    task.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Amet tellus cras adipiscing enim eu turpis egestas.
+                    Tincidunt praesent semper feugiat nibh sed pulvinar proin
+                    gravida. task.
                   </div>
                 </div>
               </section>

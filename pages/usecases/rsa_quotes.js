@@ -34,17 +34,11 @@ export default function TDDashboard() {
                   <h1>RSA Online Quote Application</h1>
 
                   <div className='summary'>
-                    The RSA Web Broker portal was a 4 month initiative. RSA
-                    hired an external vendor that specialize in these types of
-                    portal out of the United States – their product offered some
-                    flexibility in the user flows, navigation and design. Even
-                    though the limitation at times were challenging to get
-                    around, the team was satisfied with the way the project
-                    turned out. The legacy Broker quoting system was phased out
-                    and the new system proved to be very efficient and in turn
-                    saved a lot of time from when customer or brokerage houses
-                    would call in, to getting a final quote are report the the
-                    end use. task.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Amet tellus cras adipiscing enim eu turpis egestas.
+                    Tincidunt praesent semper feugiat nibh sed pulvinar proin
+                    gravida.
                   </div>
                 </div>
               </section>

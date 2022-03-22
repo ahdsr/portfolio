@@ -114,31 +114,41 @@ export default function TDDashboard() {
                   <div className='lg:grid lg:grid-cols-2'>
                     <div className='mr-16'>
                       <h2>Planning</h2>
-                      <h3>Learning about the queues</h3>
+                      <h3>Lorem ipsum dolor sit amet</h3>
                       <p>
-                        Understanding the feature set and how to improve it was
-                        done by sitting down with the main users as well as
-                        their leads and managers to understand how each data
-                        table is used not only by team members specializing in a
-                        specific area of the business, but also with all users
-                        that have access to the ordering system. We also had the
-                        advantage to review how they use the legacy systems and
-                        what actions they perform between the two frameworks.
-                        This gave us a great base for comparison to make sure
-                        nothing was missed.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Amet tellus cras adipiscing enim eu turpis
+                        egestas. Tincidunt praesent semper feugiat nibh sed
+                        pulvinar proin gravida. Ut diam quam nulla porttitor.
+                        Vel facilisis volutpat est velit egestas dui id. Lorem
+                        ipsum dolor sit amet consectetur adipiscing elit duis.
+                        Elit pellentesque habitant morbi tristique senectus.
+                        Nisi quis eleifend quam adipiscing vitae proin sagittis
+                        nisl. Arcu risus quis varius quam quisque id diam. Et
+                        netus et malesuada fames ac turpis. Nisl rhoncus mattis
+                        rhoncus urna neque viverra justo nec ultrices. Erat
+                        velit scelerisque in dictum non. Integer malesuada nunc
+                        vel risus commodo.
                       </p>
-                      <h3>Learning about the queues</h3>
+                      <h3>ltricies mi quis hendrerit dolor</h3>
                       <p>
-                        Keeping track and laying out all the features based on
-                        which were working, and which needed fixing was also an
-                        important part of the preparation. The example below is
-                        a method I used to take notes, and keep track of
-                        requirements aside from the officially captured
-                        requirements in Confluence and JIRA. Whimsical, aside
-                        from being a great planning tool, is also a great note
-                        capturing tool especially during quick fire meeting with
-                        business. Most of the notes were gathered in the forms
-                        of mind maps.
+                        Ultricies mi quis hendrerit dolor. Condimentum id
+                        venenatis a condimentum vitae sapien. Est velit egestas
+                        dui id ornare arcu odio. Vestibulum lorem sed risus
+                        ultricies tristique. Ac felis donec et odio pellentesque
+                        diam volutpat commodo. Tortor pretium viverra
+                        suspendisse potenti nullam. Neque sodales ut etiam sit
+                        amet nisl purus in mollis. In nisl nisi scelerisque eu
+                        ultrices vitae auctor eu. In tellus integer feugiat
+                        scelerisque varius morbi enim nunc. Aliquam purus sit
+                        amet luctus venenatis lectus. Nibh sed pulvinar proin
+                        gravida hendrerit lectus a. Diam volutpat commodo sed
+                        egestas egestas. Sed turpis tincidunt id aliquet risus.
+                        Sapien et ligula ullamcorper malesuada proin libero nunc
+                        consequat. Ornare suspendisse sed nisi lacus. Pharetra
+                        magna ac placerat vestibulum lectus mauris ultrices eros
+                        in.
                       </p>
                     </div>
                     <div className='md:w-auto md:relative md:my-12'>
@@ -161,62 +171,44 @@ export default function TDDashboard() {
                 <h2>Planning</h2>
                 <h3>Learning about the queues</h3>
                 <p>
-                  Understanding the feature set and how to improve it was done
-                  by sitting down with the main users as well as their leads and
-                  managers to understand how each data table is used not only by
-                  team members specializing in a specific area of the business,
-                  but also with all users that have access to the ordering
-                  system. We also had the advantage to review how they use the
-                  legacy systems and what actions they perform between the two
-                  frameworks. This gave us a great base for comparison to make
-                  sure nothing was missed.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Amet tellus cras adipiscing enim eu turpis egestas. Tincidunt
+                  praesent semper feugiat nibh sed pulvinar proin gravida.
                 </p>
                 <h3>Learning about the queues</h3>
                 <p>
-                  Keeping track and laying out all the features based on which
-                  were working, and which needed fixing was also an important
-                  part of the preparation. The example below is a method I used
-                  to take notes, and keep track of requirements aside from the
-                  officially captured requirements in Confluence and JIRA.
-                  Whimsical, aside from being a great planning tool, is also a
-                  great note capturing tool especially during quick fire meeting
-                  with business. Most of the notes were gathered in the forms of
-                  mind maps.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Amet tellus cras adipiscing enim eu turpis egestas. Tincidunt
+                  praesent semper feugiat nibh sed pulvinar proin gravida.
                 </p>
               </section>
               <section className='px-8 mx-auto md:px-16 lg:max-w-6xl xl:max-w-7xl'>
                 <h2>Takeaways</h2>
                 <p>
-                  One off the key observations and loudest set of feedback from
-                  our users was that they wanted to maximize their ability to
-                  view more data. This created an interesting design challenge -
-                  how do you tightly pack a lot of data onto the screen and
-                  still maintain a good level of legibility.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Amet tellus cras adipiscing enim eu turpis egestas. Tincidunt
+                  praesent semper feugiat nibh sed pulvinar proin gravida.
                 </p>
                 <p>
-                  One off the key observations and loudest set of feedback from
-                  our users was that they wanted to maximize their ability to
-                  view more data. This created an interesting design challenge -
-                  how do you tightly pack a lot of data onto the screen and
-                  still maintain a good level of legibility.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Amet tellus cras adipiscing enim eu turpis egestas. Tincidunt
+                  praesent semper feugiat nibh sed pulvinar proin gravida.
                 </p>
                 <p>
-                  Each unique data table presented itself with a challenge. Some
-                  functional features are common to all data tables, some needed
-                  very custom solutions. A way to solve this was to introduce
-                  overflow menus that can be customized based on table and or
-                  based on orders within a single table. The original design
-                  would expose the actions on the page which made them hard to
-                  maintain and wouldn't allow for a scalable solution
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Amet tellus cras adipiscing enim eu turpis egestas. Tincidunt
+                  praesent semper feugiat nibh sed pulvinar proin gravida.
                 </p>
                 <p>
-                  One off the key observations and loudest set of feedback from
-                  our users was that they wanted to maximize their ability to
-                  view more data. The design introduced mechanism for users to
-                  hide certain sections away from view. An example of that was
-                  filters. Each queue had a specific set of filters that varied
-                  in number, by introducing a show/hide feature we were able to
-                  maximize the screen for max efficiency
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Amet tellus cras adipiscing enim eu turpis egestas. Tincidunt
+                  praesent semper feugiat nibh sed pulvinar proin gravida.
                 </p>
               </section>
 
@@ -225,17 +217,20 @@ export default function TDDashboard() {
                 <div className='shadow-md shadow-slate-200 md:grid md:grid-cols-2'>
                   <div className='w-auto p-8 bg-slate-200'>
                     <p>
-                      Stakeholder availability was intermittent. Reviewing and
-                      presenting solutions for a design pattern that affected
-                      (everyone) using the Ordering system proved to be
-                      logistically very difficult.
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Amet tellus cras adipiscing enim eu turpis
+                      egestas. Tincidunt praesent semper feugiat nibh sed
+                      pulvinar proin gravida.
                     </p>
                   </div>
                   <div className='w-auto p-8 bg-white'>
                     <p>
-                      Functional prototypes and detailed wires were sent out to
-                      circumvent the issue, and meetings when available were
-                      very focused for approvals and sign-offs.
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Amet tellus cras adipiscing enim eu turpis
+                      egestas. Tincidunt praesent semper feugiat nibh sed
+                      pulvinar proin gravida.
                     </p>
                   </div>
                 </div>
@@ -243,12 +238,11 @@ export default function TDDashboard() {
                 <div className='mt-8 shadow-md md:grid md:grid-cols-2 shadow-slate-200'>
                   <div className='w-auto p-8 bg-slate-200'>
                     <p>
-                      Big differences of opinion. Not all lines of business
-                      worked together, but all lines of business had to use the
-                      same application. This revealed that certain
-                      component-like solutions just weren’t going to work even
-                      though ultimately they would prove to be the most
-                      efficient.
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Amet tellus cras adipiscing enim eu turpis
+                      egestas. Tincidunt praesent semper feugiat nibh sed
+                      pulvinar proin gravida.
                     </p>
                   </div>
                   <div className='w-auto p-8 bg-white'>

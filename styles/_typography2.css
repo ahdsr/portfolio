@@ -88,5 +88,10 @@ li,
 
 .homepage h2,
 .h2 {
-  @apply pt-8 pb-8 sm:pt-16 md:pt-16  font-serif text-2xl font-semibold tracking-tight md:text-3xl text-slate-800;
+  @apply pt-16 pb-4 sm:pt-16 md:pt-16 font-serif text-3xl font-bold tracking-tight md:text-3xl text-slate-800;
+}
+
+.usecase p,
+.p {
+  @apply my-4 text-base font-sans font-light leading-relaxed text-slate-800;
 }

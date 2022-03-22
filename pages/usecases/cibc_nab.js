@@ -55,7 +55,11 @@ export default function TDDashboard() {
                     Francisco
                   </h1>
                   <div className='summary'>
-                    Let's dive into a project that ...
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Amet tellus cras adipiscing enim eu turpis egestas.
+                    Tincidunt praesent semper feugiat nibh sed pulvinar proin
+                    gravida.
                   </div>
                 </div>
               </section>

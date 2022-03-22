@@ -47,6 +47,9 @@ module.exports = {
         rsa: '#23023D',
         cibc: '#4D0008',
       },
+      boxShadow: {
+        custom: '0px 20px 20px -20px rgba(0,0,0,0.2)',
+      },
       backgroundImage: {
         'hero-pattern': "url('/assets/global/placeholder.webp')",
       },
