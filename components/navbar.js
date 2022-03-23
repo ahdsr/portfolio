@@ -8,8 +8,6 @@ import Image from 'next/image';
 import Image1 from '../assets/global/profile.webp';
 import Logo from '../assets/global/logo.png';
 
-import { HashLink } from 'react-router-hash-link';
-
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ');
 }
@@ -23,8 +21,8 @@ export default function Navbar() {
 
     setVisible(
       (prevScrollPos > currentScrollPos &&
-        prevScrollPos - currentScrollPos > 100) ||
-        currentScrollPos < 100
+        prevScrollPos - currentScrollPos > 80) ||
+        currentScrollPos < 80
     );
 
     setPrevScrollPos(currentScrollPos);
@@ -41,7 +39,7 @@ export default function Navbar() {
     height: '80px',
     width: '100%',
     /*     backgroundColor: 'yellow', */
-    transition: 'top  0.3s ease',
+    transition: 'top  0.6s ease',
   };
 
   return (
