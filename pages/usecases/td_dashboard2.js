@@ -33,7 +33,7 @@ export default function TDDashboard() {
       <NextSeo title='Blog' />
       <LazyMotion features={domAnimation}>
         <m.div initial='initial' animate='enter' exit='exit'>
-          <m.main variants={fade} className='pb-12 mx-auto bg-slate-50'>
+          <m.main variants={fade} className='mx-auto bg-slate-50'>
             <div className=''>
               <section className='bg-customblue'>
                 <div className='px-8 mx-auto py-52 md:px-16 lg:max-w-6xl xl:max-w-7xl'>
@@ -90,7 +90,7 @@ export default function TDDashboard() {
                 />
               </section>
 
-              <section className='px-8 mx-auto mb-32 md:px-16 lg:max-w-6xl xl:max-w-7xl'>
+              <section className='px-8 py-24 mx-auto md:px-16 lg:max-w-6xl xl:max-w-7xl'>
                 <h2>Questions we had to ask ourselves</h2>
                 <div className='mx-auto fullbleed'>
                   <div className='gap-8 mx-auto md:grid md:grid-cols-3 md:max-w-7xl'>
@@ -110,7 +110,7 @@ export default function TDDashboard() {
               </section>
 
               <section className='inverse'>
-                <div className='px-8 mx-auto my-8 md:max-w-3xl md:px-16 lg:max-w-6xl xl:max-w-7xl'>
+                <div className='px-8 py-24 mx-auto md:px-16 lg:max-w-6xl xl:max-w-7xl'>
                   <div className='lg:grid lg:grid-cols-2'>
                     <div className='mr-16'>
                       <h2>Planning</h2>
@@ -167,7 +167,7 @@ export default function TDDashboard() {
                 process
               </div>
 
-              <section className='px-8 mx-auto md:px-16 lg:max-w-6xl xl:max-w-7xl'>
+              <section className='px-8 py-24 mx-auto md:px-16 lg:max-w-6xl xl:max-w-7xl'>
                 <h2>Planning</h2>
                 <h3>Learning about the queues</h3>
                 <p>
@@ -184,7 +184,7 @@ export default function TDDashboard() {
                   praesent semper feugiat nibh sed pulvinar proin gravida.
                 </p>
               </section>
-              <section className='px-8 mx-auto md:px-16 lg:max-w-6xl xl:max-w-7xl'>
+              <section className='px-8 py-24 mx-auto md:px-16 lg:max-w-6xl xl:max-w-7xl'>
                 <h2>Takeaways</h2>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -212,7 +212,7 @@ export default function TDDashboard() {
                 </p>
               </section>
 
-              <section className='px-8 mx-auto md:px-16 lg:max-w-6xl xl:max-w-7xl'>
+              <section className='px-8 py-24 mx-auto md:px-16 lg:max-w-6xl xl:max-w-7xl'>
                 <h2>Other hurdles</h2>
                 <div className='shadow-md shadow-slate-200 md:grid md:grid-cols-2'>
                   <div className='w-auto p-8 bg-slate-200'>
@@ -251,7 +251,7 @@ export default function TDDashboard() {
                 </div>
               </section>
 
-              <section className='px-8 mx-auto md:px-16 lg:max-w-6xl xl:max-w-7xl'>
+              <section className='px-8 py-24 mx-auto md:px-16 lg:max-w-6xl xl:max-w-7xl'>
                 <h2>Reference Links</h2>
                 <ul className='external_links'>
                   <li>

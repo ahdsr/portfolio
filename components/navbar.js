@@ -91,20 +91,20 @@ export default function Navbar() {
                     destination='/'
                     a11yText='Use Cases'
                     label='Use Cases'
-                    extraClasses='transition-all border-transparent text-white bg-customblue hover:border-yellow-500 hover:text-slate-200 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-regular uppercase'
+                    extraClasses='transition-all font-mono border-transparent text-white bg-customblue hover:border-yellow-500 hover:text-slate-200 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-regular uppercase'
                   />
                   <FancyLink
                     destination='/portfolio2'
                     a11yText='Other Work'
                     label='Other Work'
-                    extraClasses='transition-all border-transparent text-white bg-customblue hover:border-yellow-500 hover:text-slate-200 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-regular uppercase'
+                    extraClasses='transition-all font-mono border-transparent text-white bg-customblue hover:border-yellow-500 hover:text-slate-200 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-regular uppercase'
                   />
 
                   <FancyLink
                     destination='/blog2'
                     a11yText='Blog'
                     label='Blog'
-                    extraClasses='transition-all border-transparent text-white bg-customblue hover:border-yellow-500 hover:text-slate-200 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-regular uppercase'
+                    extraClasses='transition-all font-mono border-transparent text-white bg-customblue hover:border-yellow-500 hover:text-slate-200 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-regular uppercase'
                   />
                 </div>
               </div>
@@ -141,7 +141,7 @@ export default function Navbar() {
                             href='/resume2'
                             className={classNames(
                               active ? 'bg-gray-100' : '',
-                              'block px-4 py-2 text-sm text-gray-700'
+                              'block px-4 py-2 text-sm text-gray-700 font-mono'
                             )}
                           >
                             Resume
@@ -154,7 +154,7 @@ export default function Navbar() {
                             href='mailto:lucas.czuchraj@gmail.com'
                             className={classNames(
                               active ? 'bg-gray-100' : '',
-                              'block px-4 py-2 text-sm text-gray-700'
+                              'block px-4 py-2 text-sm text-gray-700 font-mono'
                             )}
                           >
                             Email
@@ -168,7 +168,7 @@ export default function Navbar() {
                             target='_blank'
                             className={classNames(
                               active ? 'bg-gray-100' : '',
-                              'block px-4 py-2 text-sm text-gray-700'
+                              'block px-4 py-2 text-sm text-gray-700 font-mono'
                             )}
                           >
                             Linked In
@@ -181,7 +181,7 @@ export default function Navbar() {
                             destination='/social'
                             a11yText='Social Media'
                             label='Social Media'
-                            extraClasses='block px-4 py-2 text-sm text-gray-700'
+                            extraClasses='block px-4 py-2 text-sm text-gray-700 font-mono'
                             className={classNames(
                               active ? 'bg-gray-100' : '',
                               'block px-4 py-2 text-sm text-gray-700'
@@ -196,7 +196,7 @@ export default function Navbar() {
                             href='/about'
                             className={classNames(
                               active ? 'bg-gray-100' : '',
-                              'block px-4 py-2 text-sm text-gray-700'
+                              'block px-4 py-2 text-sm text-gray-700 font-mono'
                             )}
                           >
                             About this site
@@ -211,33 +211,27 @@ export default function Navbar() {
           </div>
 
           <Disclosure.Panel className='sm:hidden'>
-            <div className='w-1/2 ml-4 space-y-1 bg-yellow-400'>
+            <div className='w-1/2 py-1 ml-4 space-y-1 bg-yellow-400'>
               {/* Current: "bg-indigo-50 border-indigo-500 text-indigo-700", Default: "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700" */}
               <Disclosure.Button
                 as='a'
                 href='/'
-                className='block py-4 pl-3 pr-4 text-sm text-customblue font-regular bg-indigo-50'
+                className='block py-2 pl-3 pr-4 font-mono text-sm text-customblue font-regular bg-indigo-50'
               >
                 Use Cases
               </Disclosure.Button>
               <Disclosure.Button
                 as='a'
                 href='/portfolio2'
-                className='block py-4 pl-3 pr-4 text-sm text-customblue font-regular hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700'
+                className='block py-2 pl-3 pr-4 font-mono text-sm text-customblue font-regular hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700'
               >
                 Other Work
               </Disclosure.Button>
-              <Disclosure.Button
-                as='a'
-                href='/resume2'
-                className='block py-4 pl-3 pr-4 text-sm text-customblue font-regular hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700'
-              >
-                Resume
-              </Disclosure.Button>
+
               <Disclosure.Button
                 as='a'
                 href='/blog2'
-                className='block py-4 pl-3 pr-4 text-sm text-customblue font-regular hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700'
+                className='block py-2 pl-3 pr-4 font-mono text-sm text-customblue font-regular hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700'
               >
                 Blog
               </Disclosure.Button>

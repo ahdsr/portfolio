@@ -7,7 +7,7 @@
 @import 'tailwindcss/components';
 
 /* Custom Style Imports */
-/*@import '_typography.css';*/
+
 @import '_typography2.css';
 
 /* Tailwind Utilities */
@@ -42,7 +42,6 @@ body {
 }
 .my-masonry-grid_column {
   padding-left: 10px; /* gutter size */
-
   background-clip: padding-box;
 }
 

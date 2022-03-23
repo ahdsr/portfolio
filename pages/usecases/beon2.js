@@ -28,12 +28,12 @@ export default function TDDashboard() {
       <NextSeo title='Blog' />
       <LazyMotion features={domAnimation}>
         <m.div initial='initial' animate='enter' exit='exit'>
-          <m.main variants={fade} className='pb-12 mx-auto bg-slate-50'>
+          <m.main variants={fade} className='mx-auto bg-slate-50'>
             <div className=''>
               <section className='bg-customblue'>
                 <div className='px-8 mx-auto py-52 md:px-16 lg:max-w-6xl xl:max-w-7xl'>
                   <h1>
-                    Be on point, Beon your A Game, Be on when it matters most.
+                    Be on point, Be on your a game, Be on when it matters most.
                   </h1>
                   <div className='summary'>
                     Creating a digital foundation for BEON to maximize a
@@ -131,7 +131,9 @@ export default function TDDashboard() {
                   width='100%'
                   height='100%'
                   controls={true}
-                  muted={true}
+                  muted={false}
+                  light={true}
+                  playing={true}
                 />
               </div>
             </div>

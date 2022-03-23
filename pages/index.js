@@ -25,29 +25,29 @@ export default function Home() {
           <m.main variants={fade} className='bg-white'>
             {/*  Hero */}
 
-            <div className='pb-24 mx-auto lg:pt-20 hero md:pb-32 lg:pb-60 md:pb-30 max-w-screen-2xl'>
+            <div className='mx-auto hero max-w-screen-2xl'>
               <div className='flex flex-row px-8 pt-32 max-w-7xl md:pt-36 lg:pt-40 sm:mx-auto md:mx-auto lg:mx-auto lg:px-12'>
                 <div className='pt-8 mx-auto grow max-w-7xl'>
                   <div className='mx-auto md:flex'>
-                    <div className='px-0 hero item w-fit sm:px-0'>
-                      <h1 className='tagline text-customblue'>
+                    <div className='hero item w-fit'>
+                      <h1 className='tagline text-customblue lg:pr-36'>
                         Hi, I’m Lucas a{' '}
                         <span className='text-black'>UX & UI</span> designer
-                        based out of Toronto.
+                        based out of{' '}
+                        <span className='line-through '>Mars,</span>{' '}
+                        <span className='line-through '>planet earth...</span>{' '}
+                        Toronto.
                       </h1>
-                      <p className='font-serif text-2xl font-bold'>
+                      <p className='pt-12 font-serif text-2xl font-bold md:pt-28'>
                         Things I enjoy:
                       </p>
-                      <ul className='font-sans font-light points'>
+                      <ul className='pb-8 font-sans font-light points md:pb-64'>
                         <li>A tough design problem</li>
                         <li>Subtle animation & motion</li>
                         <li>Design driven by science and data</li>
                         <li>Complex design systems</li>
                         <li>Transparent, constructive feedback</li>
                         <li>Selling a solution</li>
-                        <Link href='/'>
-                          <a onClick={() => console.log('clicked')}>About</a>
-                        </Link>
                       </ul>
                     </div>
                     <div className='w-64 mx-auto mt-10 text-center item md:w-96'>
@@ -59,55 +59,50 @@ export default function Home() {
             </div>
 
             {/*  Blue Section */}
-            <div className=' bg-customgray'>
-              <div className='flex flex-row max-w-full px-8 pt-20 mx-auto text-white bg-customblue md:pt-20 line rounded-tr-huge lg:px-12'>
-                <div className='px-0 pt-10 mx-auto grow max-w-7xl sm:pt-20 sm:pb-24 sm:px-4 md:px-4 xl:px-0'>
-                  <div className='z-0 md:pb-24 rounded-tr-huge'>
-                    <div className='mx-auto md:flex max-w-screen-2xl'>
-                      <div className='h-auto pl-0 homepage md:item md:w-1/2 content md:pr-16'>
-                        <h1>
-                          Research, design, prototype, test and evaluate ↻{' '}
-                        </h1>
-                        <div className='pt-4 pb-12 md:pt-10'>
-                          <Image
-                            alt='Mountains'
-                            src={LogoGroup}
-                            layout='responsive'
-                            objectFit='cover'
-                          />
-                        </div>
-                      </div>
-                      <div className='h-auto pb-32 pr-0 homepage md:item md:w-1/2 content lg:pr-4 md:pb-4 lg:pb-8'>
-                        <p className='text-white'>
-                          As a designer, I've been lucky enough to be exposed to
-                          a vast number of employers, teams and projects. Each
-                          of them have given me a rewarding learning experience.
-                        </p>
-                        <p className='text-white'>
-                          I approach all my projects, regardless of the project
-                          size with a a discovery session to understand my
-                          client’s needs, the business objectives and what the
-                          user research is indicating.
-                        </p>
-                        <p className='text-white'>
-                          I help my clients improve their usability experience
-                          and provide them with a product we can be mutually
-                          proud of.
-                        </p>
-                        <p className='text-white'>
-                          Below you'll find a few selected use case studies that
-                          go into a detailed design process. You can also view
-                          more stuff in the{' '}
-                          <FancyLink
-                            destination='/portfolio2'
-                            a11yText='other work'
-                            label='other work'
-                            extraClasses=' underline bg-black bg-opacity-30 p-1 hover:bg-yellow-400'
-                          />{' '}
-                          section.
-                        </p>
-                      </div>
+            <div className='bg-white homepage'>
+              <div className=' bg-customblue rounded-tr-huge homepage'>
+                <div className='self-start max-w-full px-8 pt-32 pb-48 mx-auto -mt-20 text-white md:flex md:flex-row homepage bg-customblue rounded-tr-huge md:max-w-4xl lg:max-w-6xl xl:max-w-7xl'>
+                  <div className='max-w-5xl md:pr-12 md:item md:w-1/2 homepage'>
+                    <h1 className=''>
+                      Research, design, prototype, test and evaluate ↻{' '}
+                    </h1>
+                    <p className='text-white'>
+                      As a designer, I've been lucky enough to be exposed to a
+                      vast number of employers, teams and projects. Each of them
+                      have given me a rewarding learning experience.
+                    </p>
+                    <div className='pt-4 pb-12 md:pt-10'>
+                      <Image
+                        alt='Mountains'
+                        src={LogoGroup}
+                        layout='responsive'
+                        objectFit='cover'
+                      />
                     </div>
+                  </div>
+                  <div className='max-w-5xl md:pl-12 md:item md:w-1/2'>
+                    <p className='text-white'>
+                      I approach all my projects, regardless of the project size
+                      with a a discovery session to understand my client’s
+                      needs, the business objectives and what the user research
+                      is indicating.
+                    </p>
+                    <p className='text-white'>
+                      I help my clients improve their usability experience and
+                      provide them with a product we can be mutually proud of.
+                    </p>
+                    <p className='text-white'>
+                      Below you'll find a few selected use case studies that go
+                      into a detailed design process. You can also view more
+                      stuff in the{' '}
+                      <FancyLink
+                        destination='/portfolio2'
+                        a11yText='other work'
+                        label='other work'
+                        extraClasses=' underline bg-black bg-opacity-30 p-1 hover:bg-yellow-400'
+                      />{' '}
+                      section.
+                    </p>
                   </div>
                 </div>
               </div>

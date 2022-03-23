@@ -54,12 +54,15 @@ export default function TDDashboard() {
   };
 
   return (
-    <Protect sha512='81B95AD4092508DA10C7A699581A75EC9FA6754850F648FBF20D1A40F26D6F905143DC0BCED4F8DAE955CC36EDCE5404B7DF3B2546E631C81836C21B267DA349'>
+    <Protect
+      sha512='534E5CCC6A9FCCAB2728E6A3DB388C6221A094C87EB87E2D1BFF2302A0360529304FD271211D4E4F9D7DC210FD7B4866DE4781D0580C8DA3E78CDA28B0A72691'
+      blur='true'
+    >
       <Layout>
         <NextSeo title='Blog' />
         <LazyMotion features={domAnimation}>
           <m.div initial='initial' animate='enter' exit='exit'>
-            <m.main variants={fade} className='pb-12 mx-auto bg-slate-50'>
+            <m.main variants={fade} className='mx-auto bg-slate-50'>
               <div className=''>
                 <section className='bg-customblue'>
                   <div className='px-8 mx-auto py-52 md:px-16 lg:max-w-6xl xl:max-w-7xl'>
@@ -78,7 +81,7 @@ export default function TDDashboard() {
                   {/* <Image alt='Mountains' src={Evolution} layout='responsive' /> */}
                 </section>
 
-                <section className='px-8 pb-12 mx-auto md:px-16 lg:max-w-6xl xl:max-w-7xl'>
+                <section className='px-8 py-24 mx-auto md:px-16 lg:max-w-6xl xl:max-w-7xl'>
                   <div className='absolute -mt-28'>
                     <Image
                       alt='TD round logo'
@@ -118,8 +121,8 @@ export default function TDDashboard() {
                   toolsb3=''
                 />
 
-                <section className='pb-24 bg-white '>
-                  <div className='px-8 mx-auto md:px-16 lg:max-w-6xl xl:max-w-7xl'>
+                <section className='bg-white '>
+                  <div className='px-8 py-24 mx-auto md:px-16 lg:max-w-6xl xl:max-w-7xl'>
                     <h2>Low fidelity wires and user testing</h2>
                     <p>
                       Based on the response we got from our session, I designed
@@ -140,8 +143,8 @@ export default function TDDashboard() {
                   </div>
                 </section>
 
-                <section className='pb-24 inverse'>
-                  <div className='px-8 mx-auto md:px-16 lg:max-w-6xl xl:max-w-7xl'>
+                <section className='inverse'>
+                  <div className='px-8 py-24 mx-auto md:px-16 lg:max-w-6xl xl:max-w-7xl'>
                     <h2>Types of cards</h2>
                     <p>
                       In the initial stages of ideation we asked users what sort
@@ -344,7 +347,7 @@ export default function TDDashboard() {
                       />
                     </Masonry>
                     <h3>In our discovery session we learned that:</h3>
-                    <ul className='gap-8 font-light md:grid md:grid-cols-3 text-slate-300'>
+                    <ul className='gap-8 font-light md:grid md:grid-cols-3 text-slate-300 content'>
                       <li>
                         They expressed a need for budgeting their trip - "It's
                         very easy to loose track of my money while abroad."
@@ -363,17 +366,21 @@ export default function TDDashboard() {
                   </div>
                 </section>
 
-                <section className='px-8 pb-24 mx-auto md:px-16 lg:max-w-6xl xl:max-w-7xl'>
+                <section className='px-8 py-24 mx-auto md:px-16 lg:max-w-6xl xl:max-w-7xl'>
                   <h2>Reference Links</h2>
                   <div>
-                    <a
-                      href='https://stories.td.com/ca/en/news/2021-12-08-td-empowers-customers-with-new-intuitive-mobile-app-experien'
-                      className='external_links'
-                      target='_blank'
-                    >
-                      TD empowers customers with new intuitive mobile app
-                      experiences
-                    </a>
+                    <ul className='external_links'>
+                      <li>
+                        <a
+                          href='https://stories.td.com/ca/en/news/2021-12-08-td-empowers-customers-with-new-intuitive-mobile-app-experien'
+                          className='external_links'
+                          target='_blank'
+                        >
+                          TD empowers customers with new intuitive mobile app
+                          experiences
+                        </a>
+                      </li>
+                    </ul>
                   </div>
                 </section>
               </div>

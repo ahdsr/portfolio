@@ -46,7 +46,7 @@ export default function TDDashboard() {
       <NextSeo title='Blog' />
       <LazyMotion features={domAnimation}>
         <m.div initial='initial' animate='enter' exit='exit'>
-          <m.main variants={fade} className='pb-12 mx-auto bg-slate-50'>
+          <m.main variants={fade} className='mx-auto bg-slate-50'>
             <div className=''>
               <section className='bg-customblue'>
                 <div className='px-8 mx-auto py-52 md:px-16 lg:max-w-6xl xl:max-w-7xl'>
@@ -67,7 +67,7 @@ export default function TDDashboard() {
                 {/* <Image alt='Mountains' src={Evolution} layout='responsive' /> */}
               </section>
 
-              <section className='px-8 pb-12 mx-auto md:px-16 lg:max-w-6xl xl:max-w-7xl'>
+              <section className='px-8 py-24 pb-12 mx-auto md:px-16 lg:max-w-6xl xl:max-w-7xl'>
                 <div className='absolute -mt-28'>
                   <Image
                     alt='TD round logo'
@@ -101,8 +101,8 @@ export default function TDDashboard() {
                 toolsb3=''
               />
 
-              <section className=''>
-                <div className='px-8 py-4 mx-auto my-8 md:py-24 md:px-16 lg:max-w-6xl xl:max-w-7xl '>
+              <section className='py-24'>
+                <div className='px-8 py-4 mx-auto my-8 md:px-16 lg:max-w-6xl xl:max-w-7xl '>
                   <h2>Illustrating the use case </h2>
                   <p className='py-4'>
                     The customer is at a restaurant, and it comes time to settle
@@ -197,7 +197,7 @@ export default function TDDashboard() {
                 </div>
               </section>
 
-              <section className=' inverse'>
+              <section className='py-24 inverse'>
                 <div className='px-8 mx-auto md:px-16 lg:max-w-6xl xl:max-w-7xl'>
                   <h2>Ideation</h2>
                   <p>
@@ -262,7 +262,7 @@ export default function TDDashboard() {
                     />
                   </Masonry>
                   <h3>In our discovery session we learned that:</h3>
-                  <ul className='gap-8 py-12 font-light md:grid md:grid-cols-3 text-slate-300'>
+                  <ul className='gap-8 py-12 font-light md:grid md:grid-cols-3 text-slate-300 content'>
                     <li>
                       Clients were keen and interested in what to do and see
                       while at their destination
@@ -316,7 +316,7 @@ export default function TDDashboard() {
                 </div>
               </section>
 
-              <section className=''>
+              <section className='py-24'>
                 <div className='px-8 mx-auto my-8 md:px-16 lg:max-w-6xl xl:max-w-7xl'>
                   <div className=''>
                     <h2>Redefining the problem statement</h2>
@@ -375,23 +375,28 @@ export default function TDDashboard() {
                 objectFit='cover'
               />
 
-              <section className='px-8 mx-auto md:px-16 lg:max-w-6xl xl:max-w-7xl'>
+              <section className='px-8 pt-24 mx-auto md:px-16 lg:max-w-6xl xl:max-w-7xl'>
                 <h2>Reference Links</h2>
-                <div>
-                  <a
-                    href='https://usa.visa.com/partner-with-us/developer.html'
-                    className='external_links'
-                  >
-                    Welcome to Visa Developer
-                  </a>
-                  <a
-                    href='https://www.itbusiness.ca/news/live-labs-illustrates-cibcs-commitment-to-digital-transformation/90212'
-                    className='external_links'
-                  >
-                    Live Labs illustrates CIBC’s commitment to digital
-                    transformation
-                  </a>
-                </div>
+                <ul className='external_links'>
+                  <li>
+                    <a
+                      href='https://usa.visa.com/partner-with-us/developer.html'
+                      className='external_links'
+                    >
+                      Welcome to Visa Developer
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href='https://www.itbusiness.ca/news/live-labs-illustrates-cibcs-commitment-to-digital-transformation/90212'
+                      className='external_links'
+                    >
+                      Live Labs illustrates CIBC’s commitment to digital
+                      transformation
+                    </a>
+                  </li>
+                </ul>
+
                 <div className='mb-12 player-wrapper'>
                   <ReactPlayer
                     className='react-player'

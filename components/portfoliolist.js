@@ -98,7 +98,7 @@ export default function PortfolioList() {
 
           <div
             className={[
-              'item md:w-1/2 px-6  sm:px-8 md:px-8 xl:p-20 overflow-hidden',
+              'item md:w-1/2 px-6 py-12 md:py-12 lg:py-24 sm:px-8 md:px-8 xl:p-20 overflow-hidden',
               usecases.color,
             ].join(' ')}
           >

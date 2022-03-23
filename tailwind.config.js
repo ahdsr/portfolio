@@ -56,7 +56,6 @@ module.exports = {
     },
   },
   plugins: [
-    require('@tailwindcss/typography'),
     require('tailwind-easing-gradients')({
       variants: ['responsive'],
       // required
