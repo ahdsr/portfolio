@@ -11,7 +11,7 @@ export default function GetInTouch() {
       <a
         href='mailto:lucas.czuchraj@gmail.com'
         target='_blank'
-        className='block font-mono text-3xl font-black tracking-tighter md:text-5xl text-customblue hover:underline'
+        className='block font-mono text-2xl font-black tracking-tighter md:text-3xl text-customblue hover:underline'
       >
         Let's get in touch
       </a>

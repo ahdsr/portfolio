@@ -6,7 +6,7 @@ module.exports = {
 
   theme: {
     fontFamily: {
-      serif: ['Zilla Slab', 'serif'],
+      serif: ['Bitter', 'sans-serif'],
       sans: ['Inter', 'sans-serif'],
       mono: ['Roboto Mono', 'monospace'],
     },

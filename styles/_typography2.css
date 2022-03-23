@@ -1,11 +1,11 @@
 /* Heading Defaults */
 h1,
 .h1 {
-  @apply font-serif text-4xl md:text-5xl font-medium tracking-tight text-white;
+  @apply font-serif text-4xl md:text-5xl font-medium tracking-normal text-white;
 }
 h2,
 .h2 {
-  @apply mb-12 font-serif text-3xl font-semibold tracking-tight md:text-4xl text-slate-800;
+  @apply mb-12 font-serif text-3xl font-medium tracking-tight md:text-4xl text-slate-800;
 }
 h3,
 .h3 {
@@ -92,12 +92,16 @@ li,
 }
 
 .homepage h1 {
-  @apply mb-8 font-serif text-4xl md:text-5xl font-medium tracking-tight text-white;
+  @apply mb-8 font-serif text-4xl md:text-5xl font-semibold tracking-tight text-customblue;
 }
 
 .homepage h2,
 .h2 {
   @apply mb-8 font-serif text-3xl font-bold tracking-tight md:text-3xl text-slate-800;
+}
+
+.homepage p {
+  @apply mb-4 font-sans font-light md:text-lg leading-relaxed text-slate-800;
 }
 
 .usecase p,

@@ -1,16 +1,15 @@
 import { useRef } from 'react';
-import Layout from '@/components/layout';
-import Container from '@/components/container';
 import { fade } from '@/helpers/transitions';
 import { LazyMotion, domAnimation, m } from 'framer-motion';
 import { NextSeo } from 'next-seo';
+import Layout from '@/components/layout';
+import Container from '@/components/container';
 import FancyLink from '@/components/fancyLink';
 import PortfolioList from '@/components/portfoliolist';
-import Link from 'next/link';
 
 //Imported Images
 import Image from 'next/image';
-import Me from '../assets/global/me.webp';
+import Me from '../assets/global/me.png';
 import LogoGroup from '../assets/global/logogroup.webp';
 
 function scrollTo() {}
@@ -31,17 +30,21 @@ export default function Home() {
                   <div className='mx-auto md:flex'>
                     <div className='hero item w-fit'>
                       <h1 className='tagline text-customblue lg:pr-36'>
-                        Hi, I’m Lucas a{' '}
+                        Yo, I’m Lucas a{' '}
                         <span className='text-black'>UX & UI</span> designer
                         based out of{' '}
-                        <span className='line-through '>Mars,</span>{' '}
-                        <span className='line-through '>planet earth...</span>{' '}
+                        <span className='line-through text-slate-300 '>
+                          Mars,
+                        </span>{' '}
+                        <span className='line-through text-slate-300'>
+                          planet earth...
+                        </span>{' '}
                         Toronto.
                       </h1>
-                      <p className='pt-12 font-serif text-2xl font-bold md:pt-28'>
+                      <p className='pt-12 font-serif text-2xl font-semibold md:pt-28'>
                         Things I enjoy:
                       </p>
-                      <ul className='pb-8 font-sans font-light points md:pb-64'>
+                      <ul className='pb-8 font-sans font-light md:pb-64'>
                         <li>A tough design problem</li>
                         <li>Subtle animation & motion</li>
                         <li>Design driven by science and data</li>
@@ -50,7 +53,7 @@ export default function Home() {
                         <li>Selling a solution</li>
                       </ul>
                     </div>
-                    <div className='w-64 mx-auto mt-10 text-center item md:w-96'>
+                    <div className='w-64 mx-auto mt-10 -mr-8 text-center lg:-mr-12 item md:w-96'>
                       <Image alt='Lucas' src={Me} layout='responsive' />
                     </div>
                   </div>
@@ -60,10 +63,10 @@ export default function Home() {
 
             {/*  Blue Section */}
             <div className='bg-white homepage'>
-              <div className=' bg-customblue rounded-tr-huge homepage'>
-                <div className='self-start max-w-full px-8 pt-32 pb-48 mx-auto -mt-20 text-white md:flex md:flex-row homepage bg-customblue rounded-tr-huge md:max-w-4xl lg:max-w-6xl xl:max-w-7xl'>
+              <div className='bg-gray-100 rounded-tr-huge homepage'>
+                <div className='self-start max-w-full px-8 pt-32 pb-48 mx-auto -mt-20 text-white bg-gray-100 md:flex md:flex-row homepage rounded-tr-huge md:max-w-4xl lg:max-w-6xl xl:max-w-7xl'>
                   <div className='max-w-5xl md:pr-12 md:item md:w-1/2 homepage'>
-                    <h1 className=''>
+                    <h1 className='text-customblue'>
                       Research, design, prototype, test and evaluate ↻{' '}
                     </h1>
                     <p className='text-white'>
