@@ -8,6 +8,8 @@ import { NextSeo } from 'next-seo';
 import FancyImage from '@/components/fancyimage';
 import Masonry from 'react-masonry-css';
 import Testimonial from '@/components/molecules/testimonial';
+import GetInTouch from '@/components/getintouch';
+import Footer from '@/components/footer';
 
 //Usecase Images
 import Image from 'next/image';
@@ -199,6 +201,8 @@ export default function TDDashboard() {
           </m.main>
         </m.div>
       </LazyMotion>
+      <GetInTouch />
+      <Footer />
     </Layout>
   );
 }

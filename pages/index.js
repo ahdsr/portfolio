@@ -28,15 +28,15 @@ export default function Home() {
                   <div className='pt-8 mx-auto grow max-w-7xl'>
                     <div className='mx-auto md:flex'>
                       <div
-                        className='hero item w-fit'
+                        className='hero item w-fit homepage'
                         data-scroll
                         data-scroll-speed='2'
                         data-scroll-direction='vertical'
                       >
                         <h1 className='mt-16 tagline text-customblue lg:pr-36'>
                           Hey, I’m Lucas a{' '}
-                          <span className='text-black'>UX & UI</span> designer
-                          based out of Toronto.
+                          <span className='text-gray-500'>UX & UI</span>{' '}
+                          designer based out of Toronto.
                         </h1>
                         <p
                           className='pt-12 font-serif text-2xl font-semibold md:pt-28'
@@ -74,8 +74,8 @@ export default function Home() {
               </div>
 
               {/*  Blue Section */}
-              <div className='bg-black homepage'>
-                <div className='bg-black rounded-tr-huge homepage'>
+              <div className='bg-gray-800 homepage'>
+                <div className='bg-gray-800 rounded-tr-huge homepage'>
                   <div
                     className='self-start max-w-full px-8 pt-32 pb-48 mx-auto -mt-20 text-white black md:flex md:flex-row homepage rounded-tr-huge md:max-w-4xl lg:max-w-6xl xl:max-w-7xl'
                     data-scroll

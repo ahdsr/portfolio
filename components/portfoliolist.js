@@ -83,7 +83,7 @@ export default function PortfolioList() {
           key={usecases.id}
           className={
             usecases.id % 2 === 0
-              ? 'md:flex  mb-8 md:mb-12  overflow-hidden shadow-custom'
+              ? 'md:flex  overflow-hidden shadow-custom '
               : 'md:flex md:flex-row-reverse  mb-8 md:mb-12  overflow-hidden shadow-custom'
           }
         >

@@ -2,7 +2,6 @@ import React from 'react';
 
 import Protect from 'react-app-protect';
 import 'react-app-protect/dist/index.css';
-
 import { useRef } from 'react';
 import Layout from '@/components/layout';
 import Link from 'next/link';
@@ -13,7 +12,6 @@ import FancyImage from '@/components/fancyimage';
 import Masonry from 'react-masonry-css';
 import GetInTouch from '@/components/getintouch';
 import Footer from '@/components/footer';
-
 import Brief from '@/components/molecules/brief';
 
 //Usecase Images

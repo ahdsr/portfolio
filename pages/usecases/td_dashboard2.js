@@ -1,17 +1,16 @@
 import React from 'react';
 import { useRef } from 'react';
 import Layout from '@/components/layout';
-
 import { fade } from '@/helpers/transitions';
 import { LazyMotion, domAnimation, m } from 'framer-motion';
 import { NextSeo } from 'next-seo';
 import FancyImage from '@/components/fancyimage';
-import Masonry from 'react-masonry-css';
-import Testimonial from '@/components/molecules/testimonial';
+
+import GetInTouch from '@/components/getintouch';
+import Footer from '@/components/footer';
 
 //Usecase Images
 import Image from 'next/image';
-import Evolution from './td_dashboard/dashboard_evolution.png';
 import FeatureSet from './td_dashboard/feature_set.png';
 import Brainstorming from './td_dashboard/brainstorming.png';
 import TDLogo from '../../assets/global/avatar_td.webp';
@@ -284,6 +283,8 @@ export default function TDDashboard() {
           </m.main>
         </m.div>
       </LazyMotion>
+      <GetInTouch />
+      <Footer />
     </Layout>
   );
 }
