@@ -1,5 +1,5 @@
 import React from 'react';
-
+import PropTypes from 'prop-types';
 import Protect from 'react-app-protect';
 import 'react-app-protect/dist/index.css';
 import { useRef } from 'react';
@@ -46,7 +46,7 @@ export default function TDDashboard() {
     'https://images.unsplash.com/photo-1416453072034-c8dbfa2856b5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1479&q=80';
   const containerRef = useRef(null);
   const breakpointColumnsObj = {
-    default: 5,
+    default: 8,
     1100: 3,
     700: 2,
     500: 2,
@@ -55,7 +55,18 @@ export default function TDDashboard() {
   return (
     <Protect
       sha512='534E5CCC6A9FCCAB2728E6A3DB388C6221A094C87EB87E2D1BFF2302A0360529304FD271211D4E4F9D7DC210FD7B4866DE4781D0580C8DA3E78CDA28B0A72691'
-      blur='true'
+      blur={true}
+      boxTitle='Whats the password?'
+      styles={{
+        input: { color: 'blue' },
+        header: { fontSize: '16px' },
+        button: {
+          fontSize: '12px',
+          backgroundColor: 'blue',
+          color: 'white',
+          padding: '10px',
+        },
+      }}
     >
       <Layout>
         <NextSeo title='Blog' />
@@ -392,3 +403,26 @@ export default function TDDashboard() {
     </Protect>
   );
 }
+
+Protect.defaultProps = {
+  blur: false,
+  boxTitle: 'This page is password protected.',
+  inputPlaceholder: 'Password',
+  buttonLabel: 'Submit',
+  styles: {
+    input: {},
+    button: {},
+    header: {},
+    wrapper: {},
+  },
+};
+
+Protect.propTypes = {
+  sha512: PropTypes.string.isRequired,
+  blur: PropTypes.bool,
+  title: PropTypes.string,
+  inputPlaceholder: PropTypes.string,
+  buttonLabel: PropTypes.string,
+  styles: PropTypes.object,
+  children: PropTypes.element.isRequired,
+};

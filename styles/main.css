@@ -170,17 +170,15 @@ html[data-direction='down'] #yournavbar {
   align-items: stretch;
   align-content: center;
   background-color: white;
-  color: black;
+  color: yellow;
 }
 
 .box > div {
-  padding: 10px;
+  @apply p-4;
 }
 
 .boxTitle {
-  background-color: black;
-  color: white;
-  font-size: x-large;
+  @apply text-sm;
 }
 
 .boxButton {
