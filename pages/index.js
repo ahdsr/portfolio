@@ -23,35 +23,20 @@ export default function Home() {
             <m.main variants={fade} className='bg-white'>
               {/*  Hero */}
 
-              <div className='mx-auto hero max-w-screen-2xl'>
+              <div className='pb-24 mx-auto hero max-w-screen-2xl'>
                 <div className='flex flex-row px-8 pt-32 max-w-7xl md:pt-36 lg:pt-40 sm:mx-auto md:mx-auto lg:mx-auto lg:px-12'>
                   <div className='pt-8 mx-auto grow max-w-7xl'>
                     <div className='mx-auto md:flex'>
-                      <div
-                        className='hero item w-fit homepage'
-                        data-scroll
-                        data-scroll-speed='2'
-                        data-scroll-direction='vertical'
-                      >
+                      <div className='hero item w-fit homepage'>
                         <h1 className='mt-16 tagline text-customblue lg:pr-36'>
                           Hey, I’m Lucas a{' '}
                           <span className='text-gray-500'>UX & UI</span>{' '}
                           designer based out of Toronto.
                         </h1>
-                        <p
-                          className='pt-12 font-serif text-2xl font-semibold md:pt-28'
-                          data-scroll
-                          data-scroll-speed='3'
-                          data-scroll-direction='vertical'
-                        >
+                        <p className='pt-12 font-serif text-2xl font-semibold md:pt-28'>
                           Things I enjoy:
                         </p>
-                        <ul
-                          className='pb-8 font-sans font-light md:pb-64'
-                          data-scroll
-                          data-scroll-speed='1'
-                          data-scroll-direction='vertical'
-                        >
+                        <ul className='pb-8 font-sans font-light md:pb-64'>
                           <li>A tough design problem</li>
                           <li>Subtle animation & motion</li>
                           <li>Design driven by science and data</li>
@@ -60,12 +45,7 @@ export default function Home() {
                           <li>Selling a solution</li>
                         </ul>
                       </div>
-                      <div
-                        className='w-64 mx-auto mt-10 -mr-8 text-center lg:-mr-16 item md:w-96'
-                        data-scroll
-                        data-scroll-speed='-2'
-                        data-scroll-direction='horizontal'
-                      >
+                      <div className='w-64 mx-auto mt-10 -mr-8 text-center lg:-mr-16 item md:w-96'>
                         {/*            <Image alt='Lucas' src={Me} layout='responsive' /> */}
                       </div>
                     </div>
@@ -76,12 +56,7 @@ export default function Home() {
               {/*  Blue Section */}
               <div className='bg-gray-800 homepage'>
                 <div className='bg-gray-800 rounded-tr-huge homepage'>
-                  <div
-                    className='self-start max-w-full px-8 pt-32 pb-48 mx-auto -mt-20 text-white black md:flex md:flex-row homepage rounded-tr-huge md:max-w-4xl lg:max-w-6xl xl:max-w-7xl'
-                    data-scroll
-                    data-scroll-speed='1'
-                    data-scroll-direction='vertical'
-                  >
+                  <div className='self-start max-w-full px-8 pt-32 pb-48 mx-auto -mt-20 text-white black md:flex md:flex-row homepage rounded-tr-huge md:max-w-4xl lg:max-w-6xl xl:max-w-7xl'>
                     <div className='max-w-5xl md:pr-12 md:item md:w-1/2 homepage '>
                       <h2 className='text-customblue '>
                         Research, design, prototype, test and evaluate{' '}
