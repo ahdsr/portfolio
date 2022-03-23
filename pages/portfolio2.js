@@ -5,6 +5,8 @@ import { LazyMotion, domAnimation, m } from 'framer-motion';
 import { NextSeo } from 'next-seo';
 import Masonry from 'react-masonry-css';
 import Link from 'next/link';
+import Footer from '@/components/footer';
+import GetInTouch from '@/components/getintouch';
 
 import Tabs from '@/components/tabs';
 import Image from 'next/image';
@@ -84,6 +86,8 @@ export default function Resume() {
           </m.main>
         </m.div>
       </LazyMotion>
+      <GetInTouch />
+      <Footer />
     </Layout>
   );
 }

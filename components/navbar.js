@@ -45,7 +45,7 @@ export default function Navbar() {
   return (
     <Disclosure
       as='nav'
-      className='sticky top-0 z-50 '
+      className='sticky top-0 z-50 yournavbar '
       style={{ ...navbarStyles, top: visible ? '0' : '-80px' }}
     >
       {({ open }) => (
@@ -69,7 +69,7 @@ export default function Navbar() {
               </div>
               <div className='flex items-center justify-center flex-1 sm:items-stretch sm:justify-start'>
                 <div className='flex items-center invisible sm:visible grow'>
-                  <div className='p-6 mt-2 text-lg font-bold tracking-tight transition-all bg-yellow-400 hover:bg-yellow-500'>
+                  <div className='p-6 mt-2 text-lg font-bold tracking-tight transition-all bg-white hover:bg-yellow-500 shadow-custom'>
                     <a href='/' className='shadow-custom'>
                       <Image
                         alt='Mountains'
@@ -107,13 +107,13 @@ export default function Navbar() {
                 </div>
               </div>
               {/* Profile dropdown class hidden */}
-              <div className='absolute inset-y-0 right-0 flex items-center pl-3 pr-4 bg-white sm:static sm:inset-auto'>
+              <div className='absolute inset-y-0 right-0 flex items-center pl-3 pr-4 bg-white sm:static sm:inset-auto shadow-custom'>
                 {/* Profile dropdown */}
-                <Menu as='div' className='relative ml-3'>
+                <Menu as='div' className='relative ml-3 '>
                   <div>
-                    <Menu.Button className='flex text-sm bg-white rounded-full'>
+                    <Menu.Button className='flex text-sm bg-white rounded-full '>
                       <span className='sr-only'>Open user menu</span>
-                      <div className='w-12 h-12 rounded-full md:h-12 md:w-12'>
+                      <div className='w-12 h-12 rounded-full md:h-12 md:w-12 '>
                         <Image
                           alt='Mountains'
                           src={Image1}

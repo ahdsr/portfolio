@@ -40,7 +40,7 @@ export default function VideoPost({
           </div>
         </div>
       </div>
-      <div>
+      <div className='px-8 mx-auto md:px-16 lg:max-w-6xl xl:max-w-7xl'>
         <div className='player-wrapper'>
           <ReactPlayer
             className='react-player'

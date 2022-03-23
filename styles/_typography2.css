@@ -101,7 +101,7 @@ li,
 }
 
 .homepage p {
-  @apply mb-4 font-sans font-light md:text-lg leading-relaxed text-slate-800;
+  @apply mb-4 font-sans font-light md:text-lg leading-relaxed text-slate-300;
 }
 
 .usecase p,

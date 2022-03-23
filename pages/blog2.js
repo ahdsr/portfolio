@@ -4,6 +4,8 @@ import { useRef } from 'react';
 import { fade } from '@/helpers/transitions';
 import { LazyMotion, domAnimation, m } from 'framer-motion';
 import { NextSeo } from 'next-seo';
+import Footer from '@/components/footer';
+import GetInTouch from '@/components/getintouch';
 
 import VideoPost from '@/components/molecules/videoblogpost';
 import ImagePost from '@/components/molecules/imagepost';
@@ -114,6 +116,8 @@ export default function Blog() {
           </m.main>
         </m.div>
       </LazyMotion>
+      <GetInTouch />
+      <Footer />
     </Layout>
   );
 }
