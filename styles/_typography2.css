@@ -1,7 +1,7 @@
 /* Heading Defaults */
 h1,
 .h1 {
-  @apply font-serif text-4xl md:text-5xl font-medium tracking-normal text-white;
+  @apply font-serif text-4xl md:text-5xl font-semibold tracking-normal text-white;
 }
 h2,
 .h2 {

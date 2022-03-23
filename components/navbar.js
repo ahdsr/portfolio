@@ -58,7 +58,7 @@ export default function Navbar() {
                 <Disclosure.Button className='inline-flex items-center justify-center p-4 text-black bg-yellow-400 hover:text-gray-500 hover:bg-gray-100'>
                   <span className='sr-only'>Open main menu</span>
                   {open ? (
-                    <XIcon className='w-12 h-12 px-3 ' aria-hidden='true' />
+                    <XIcon className='w-12 h-12 px-3' aria-hidden='true' />
                   ) : (
                     <MenuIcon
                       className='block w-12 h-12 px-3'
@@ -70,7 +70,7 @@ export default function Navbar() {
               <div className='flex items-center justify-center flex-1 sm:items-stretch sm:justify-start'>
                 <div className='flex items-center invisible sm:visible grow'>
                   <div className='p-6 mt-2 text-lg font-bold tracking-tight transition-all bg-yellow-400 hover:bg-yellow-500'>
-                    <a href='/' className=''>
+                    <a href='/' className='shadow-custom'>
                       <Image
                         alt='Mountains'
                         src={Logo}
@@ -82,7 +82,7 @@ export default function Navbar() {
                   </div>
                 </div>
                 {/* Desktop Links */}
-                <div className='hidden px-8 sm:flex sm:space-x-8 bg-customblue'>
+                <div className='hidden px-8 sm:flex sm:space-x-2 lg:space-x-14 bg-customblue shadow-custom'>
                   {/* Current: "border-indigo-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" */}
 
                   <FancyLink

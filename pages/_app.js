@@ -11,7 +11,6 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       <DefaultSeo {...SEO} />
-
       <AnimatePresence exitBeforeEnter>
         <Component {...pageProps} key={router.asPath} />
       </AnimatePresence>

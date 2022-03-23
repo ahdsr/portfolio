@@ -15,16 +15,29 @@ import LogoGroup from '../assets/global/logogroup.webp';
 
 export default function Home() {
   const containerRef = useRef(null);
+
   return (
     <Layout>
-      <NextSeo title='Home' />
       <LocomotiveScrollProvider
-        options={{ smooth: true, lerp: 0.05, smoothMobile: true }}
+        options={{
+          smooth: true,
+          lerp: 0.08,
+          touchMultiplier: 2,
+          mobile: {
+            breakpoint: 0,
+            smooth: true,
+          },
+          tablet: {
+            breakpoint: 0,
+            smooth: true,
+          },
+        }}
         containerRef={containerRef}
         watch={[]}
       >
         <div data-scroll-container ref={containerRef} id='scroll-container'>
           <div data-scroll-section>
+            <NextSeo title='Home' />
             <LazyMotion features={domAnimation}>
               <m.div initial='initial' animate='enter' exit='exit'>
                 <m.main variants={fade} className='bg-white'>
@@ -38,24 +51,17 @@ export default function Home() {
                             <h1
                               className='mt-16 tagline text-customblue lg:pr-36'
                               data-scroll
-                              data-scroll-speed='3'
+                              data-scroll-speed='2'
                               data-scroll-direction='vertical'
                             >
                               Yo, I’m Lucas a{' '}
                               <span className='text-black'>UX & UI</span>{' '}
-                              designer based out of{' '}
-                              <span className='line-through text-slate-300 '>
-                                Mars,
-                              </span>{' '}
-                              <span className='line-through text-slate-300'>
-                                planet earth...
-                              </span>{' '}
-                              Toronto.
+                              designer based out of Toronto.
                             </h1>
                             <p
                               className='pt-12 font-serif text-2xl font-semibold md:pt-28'
                               data-scroll
-                              data-scroll-speed='1.5'
+                              data-scroll-speed='3'
                               data-scroll-direction='vertical'
                             >
                               Things I enjoy:
@@ -63,7 +69,7 @@ export default function Home() {
                             <ul
                               className='pb-8 font-sans font-light md:pb-64'
                               data-scroll
-                              data-scroll-speed='1.8'
+                              data-scroll-speed='1'
                               data-scroll-direction='vertical'
                             >
                               <li>A tough design problem</li>
@@ -77,10 +83,16 @@ export default function Home() {
                           <div
                             className='w-64 mx-auto mt-10 -mr-8 text-center lg:-mr-16 item md:w-96'
                             data-scroll
-                            data-scroll-speed='-1'
+                            data-scroll-speed='-2'
                             data-scroll-direction='horizontal'
                           >
-                            <Image alt='Lucas' src={Me} layout='responsive' />
+                            <Image
+                              alt='Lucas'
+                              src={Me}
+                              layout='fixed'
+                              width={700}
+                              height={950}
+                            />
                           </div>
                         </div>
                       </div>
@@ -90,10 +102,18 @@ export default function Home() {
                   {/*  Blue Section */}
                   <div className='bg-white homepage'>
                     <div className='bg-gray-100 rounded-tr-huge homepage'>
-                      <div className='self-start max-w-full px-8 pt-32 pb-48 mx-auto -mt-20 text-white bg-gray-100 md:flex md:flex-row homepage rounded-tr-huge md:max-w-4xl lg:max-w-6xl xl:max-w-7xl'>
+                      <div
+                        className='self-start max-w-full px-8 pt-32 pb-48 mx-auto -mt-20 text-white bg-gray-100 md:flex md:flex-row homepage rounded-tr-huge md:max-w-4xl lg:max-w-6xl xl:max-w-7xl'
+                        data-scroll
+                        data-scroll-speed='1'
+                        data-scroll-direction='vertical'
+                      >
                         <div className='max-w-5xl md:pr-12 md:item md:w-1/2 homepage '>
-                          <h1 className='text-customblue'>
-                            Research, design, prototype, test and evaluate ↻{' '}
+                          <h1 className='text-customblue '>
+                            Research, design, prototype, test and evaluate{' '}
+                            <div className='inline-block w-10 h-10 animate-pulse'>
+                              ↻
+                            </div>{' '}
                           </h1>
                           <p className='text-white'>
                             As a designer, I've been lucky enough to be exposed
@@ -111,7 +131,7 @@ export default function Home() {
                           </div>
                         </div>
                         <div className='max-w-5xl md:pl-12 md:item md:w-1/2'>
-                          <p className='text-white' initPosition={'x:0'}>
+                          <p className='text-white'>
                             I approach all my projects, regardless of the
                             project size with a a discovery session to
                             understand my client’s needs, the business
@@ -141,7 +161,7 @@ export default function Home() {
 
                   {/*  Usecases */}
                   <Container>
-                    <div className='relative z-40 content ' id='hash'>
+                    <div className='relative z-40 content '>
                       <div>
                         <PortfolioList />
                       </div>
@@ -178,9 +198,7 @@ export default function Home() {
                           </div>
                         </div>
                       </div>
-                      <div className='flex-none w-8 lg:w-12'></div>
                     </div>
-                    <div className='flex-none px-2'></div>
                   </div>
                 </m.main>
               </m.div>
