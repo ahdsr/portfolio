@@ -1,5 +1,4 @@
 import React from 'react';
-import { Component } from 'react';
 
 import Protect from 'react-app-protect';
 import 'react-app-protect/dist/index.css';
@@ -12,6 +11,8 @@ import { LazyMotion, domAnimation, m } from 'framer-motion';
 import { NextSeo } from 'next-seo';
 import FancyImage from '@/components/fancyimage';
 import Masonry from 'react-masonry-css';
+import GetInTouch from '@/components/getintouch';
+import Footer from '@/components/footer';
 
 import Brief from '@/components/molecules/brief';
 
@@ -388,6 +389,8 @@ export default function TDDashboard() {
           </m.div>
         </LazyMotion>
       </Layout>
+      <GetInTouch />
+      <Footer />
     </Protect>
   );
 }

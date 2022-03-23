@@ -19,7 +19,7 @@ export default function VideoPost({
   p3,
 }) {
   return (
-    <div className=''>
+    <div className='blog'>
       <div className='px-8 mx-auto md:px-16 lg:max-w-6xl xl:max-w-7xl'>
         <h2>{postTitle}</h2>
         <SocialBar postCount={postCount} />

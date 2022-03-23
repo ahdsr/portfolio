@@ -4,6 +4,8 @@ import Layout from '@/components/layout';
 import { fade } from '@/helpers/transitions';
 import { LazyMotion, domAnimation, m } from 'framer-motion';
 import { NextSeo } from 'next-seo';
+import GetInTouch from '@/components/getintouch';
+import Footer from '@/components/footer';
 
 //blog2 Images
 import Image from 'next/image';
@@ -429,6 +431,8 @@ export default function Resume() {
           </m.main>
         </m.div>
       </LazyMotion>
+      <GetInTouch />
+      <Footer />
     </Layout>
   );
 }

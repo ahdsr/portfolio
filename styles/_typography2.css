@@ -100,6 +100,11 @@ li,
   @apply mb-8 font-serif text-3xl font-bold tracking-tight md:text-3xl text-slate-800;
 }
 
+.blog h2,
+.h2 {
+  @apply mb-8 font-serif text-3xl font-bold tracking-tight md:text-3xl text-slate-800;
+}
+
 .homepage p {
   @apply mb-4 font-sans font-light md:text-lg leading-relaxed text-slate-300;
 }

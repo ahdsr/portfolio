@@ -1,24 +1,17 @@
 import React from 'react';
 import { useRef } from 'react';
-import { useState } from 'react';
 import Layout from '@/components/layout';
-
 import { fade } from '@/helpers/transitions';
 import { LazyMotion, domAnimation, m } from 'framer-motion';
 import { NextSeo } from 'next-seo';
 import FancyImage from '@/components/fancyimage';
 import Masonry from 'react-masonry-css';
-import Testimonial from '@/components/molecules/testimonial';
-import Brief from '@/components/molecules/brief';
-import ReactPlayer from 'react-player';
 
-import ReactFlow, { MiniMap, Controls } from 'react-flow-renderer';
+import Brief from '@/components/molecules/brief';
+import GetInTouch from '@/components/getintouch';
+import Footer from '@/components/footer';
 
 //Usecase Images
-import Image from 'next/image';
-
-import Brainstorming from './td_dashboard/brainstorming.png';
-import LiveLabs from '../../assets/global/avatar_livelabs.webp';
 
 import liveideate1 from './cibc_nab/liveideate1.png';
 import liveideate2 from './cibc_nab/liveideate2.png';
@@ -26,10 +19,6 @@ import liveideate3 from './cibc_nab/liveideate3.png';
 import liveideate4 from './cibc_nab/liveideate4.png';
 import liveideate5 from './cibc_nab/liveideate5.png';
 import liveideate6 from './cibc_nab/liveideate6.png';
-import POS from './cibc_nab/pos.png';
-import lowfidelitywires from './cibc_nab/low_fidelity_wires.png';
-import initialflow from './cibc_nab/initial_flow.png';
-import test from '../../assets/3drenders/pixel6.png';
 
 export default function TDDashboard() {
   const restaurant =
@@ -132,6 +121,8 @@ export default function TDDashboard() {
           </m.main>
         </m.div>
       </LazyMotion>
+      <GetInTouch />
+      <Footer />
     </Layout>
   );
 }

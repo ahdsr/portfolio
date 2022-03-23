@@ -7,6 +7,8 @@ import Layout from '@/components/layout';
 import FancyImage from '@/components/fancyimage';
 import Masonry from 'react-masonry-css';
 import Brief from '@/components/molecules/brief';
+import GetInTouch from '@/components/getintouch';
+import Footer from '@/components/footer';
 
 import RSA_Marketing1 from '../../assets/usecases/RSA_Marketing1.png';
 import RSA_Marketing2 from '../../assets/usecases/RSA_Marketing2.png';
@@ -137,6 +139,8 @@ export default function TDDashboard() {
           </m.main>
         </m.div>
       </LazyMotion>
+      <GetInTouch />
+      <Footer />
     </Layout>
   );
 }

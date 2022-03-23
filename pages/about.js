@@ -4,6 +4,8 @@ import Container from '@/components/container';
 import { fade } from '@/helpers/transitions';
 import { LazyMotion, domAnimation, m } from 'framer-motion';
 import { NextSeo } from 'next-seo';
+import GetInTouch from '@/components/getintouch';
+import Footer from '@/components/footer';
 
 const PostImage1 =
   'https://images.unsplash.com/photo-1581822261290-991b38693d1b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80';
@@ -71,6 +73,8 @@ export default function Resume() {
           </m.main>
         </m.div>
       </LazyMotion>
+      <GetInTouch />
+      <Footer />
     </Layout>
   );
 }
