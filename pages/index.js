@@ -83,12 +83,12 @@ export default function Home() {
                     data-scroll-direction='vertical'
                   >
                     <div className='max-w-5xl md:pr-12 md:item md:w-1/2 homepage '>
-                      <h1 className='text-customblue '>
+                      <h2 className='text-customblue '>
                         Research, design, prototype, test and evaluate{' '}
                         <div className='inline-block w-10 h-10 animate-pulse'>
                           ↻
                         </div>{' '}
-                      </h1>
+                      </h2>
                       <p className='text-white'>
                         As a designer, I've been lucky enough to be exposed to a
                         vast number of employers, teams and projects. Each of
