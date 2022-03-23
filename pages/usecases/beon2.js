@@ -6,6 +6,8 @@ import { LazyMotion, domAnimation, m } from 'framer-motion';
 import { NextSeo } from 'next-seo';
 import Brief from '@/components/molecules/brief';
 import ReactPlayer from 'react-player';
+import GetInTouch from '@/components/getintouch';
+import Footer from '@/components/footer';
 
 //Usecase Images
 import Image from 'next/image';
@@ -140,6 +142,8 @@ export default function TDDashboard() {
           </m.main>
         </m.div>
       </LazyMotion>
+      <GetInTouch />
+      <Footer />
     </Layout>
   );
 }

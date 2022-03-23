@@ -8,6 +8,8 @@ import FancyImage from '@/components/fancyimage';
 import Masonry from 'react-masonry-css';
 import Brief from '@/components/molecules/brief';
 import ReactPlayer from 'react-player';
+import GetInTouch from '@/components/getintouch';
+import Footer from '@/components/footer';
 
 import ReactFlow, { MiniMap, Controls } from 'react-flow-renderer';
 
@@ -45,13 +47,27 @@ export default function TDDashboard() {
         <m.div initial='initial' animate='enter' exit='exit'>
           <m.main variants={fade} className='mx-auto bg-slate-50'>
             <div className=''>
-              <section className='bg-customblue'>
+              <section
+                className='bg-customblue'
+                data-scroll
+                data-scroll-speed='1'
+                data-scroll-direction='vertical'
+              >
                 <div className='px-8 mx-auto py-52 md:px-16 lg:max-w-6xl xl:max-w-7xl'>
-                  <h1>
+                  <h1
+                    data-scroll
+                    data-scroll-speed='1.5'
+                    data-scroll-direction='vertical'
+                  >
                     CIBC, NAB and VISA collaborate in a ideation workshop in San
                     Francisco
                   </h1>
-                  <div className='summary'>
+                  <div
+                    className='summary'
+                    data-scroll
+                    data-scroll-speed='2'
+                    data-scroll-direction='vertical'
+                  >
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Amet tellus cras adipiscing enim eu turpis egestas.
@@ -63,7 +79,12 @@ export default function TDDashboard() {
               <section className='mx-auto my-20 xl:px-6 xl:max-w-7xl'>
                 {/* <Image alt='Mountains' src={Evolution} layout='responsive' /> */}
               </section>
-              <div className='px-8 py-24 pb-12 mx-auto -mt-56 md:px-16 lg:max-w-6xl xl:max-w-7xl'>
+              <div
+                className='px-8 py-24 pb-12 mx-auto -mt-56 md:px-16 lg:max-w-6xl xl:max-w-7xl'
+                data-scroll
+                data-scroll-speed='1'
+                data-scroll-direction='vertical'
+              >
                 <Image
                   alt='TD round logo'
                   src={LiveLabs}
@@ -208,6 +229,9 @@ export default function TDDashboard() {
                     breakpointCols={breakpointColumnsObj}
                     className='py-12 my-masonry-grid'
                     columnClassName='my-masonry-grid_column '
+                    data-scroll
+                    data-scroll-speed='1'
+                    data-scroll-direction='vertical'
                   >
                     {/* array of JSX items */}
 
@@ -422,6 +446,8 @@ export default function TDDashboard() {
           </m.main>
         </m.div>
       </LazyMotion>
+      <GetInTouch />
+      <Footer />
     </Layout>
   );
 }
