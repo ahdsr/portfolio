@@ -6,10 +6,8 @@ import { LazyMotion, domAnimation, m } from 'framer-motion';
 import { NextSeo } from 'next-seo';
 import Footer from '@/components/footer';
 import GetInTouch from '@/components/getintouch';
-
 import VideoPost from '@/components/molecules/videoblogpost';
 import ImagePost from '@/components/molecules/imagepost';
-
 import image1 from '../assets/3drenders/city1.jpg';
 
 export default function Blog() {
@@ -22,8 +20,8 @@ export default function Blog() {
           <m.main variants={fade} className='bg-white '>
             <section className='mb-12 bg-customblue'>
               {/*   <img src={profilePhoto} alt='' /> */}
-              <div className='px-8 mx-auto py-52 md:py-52 md:px-16 lg:max-w-6xl xl:max-w-7xl'>
-                <div className='mx-auto'>
+              <div className='px-8 pt-12 mx-auto py-52 md:py-52 md:px-16 lg:max-w-6xl xl:max-w-7xl shadow-custom'>
+                <div className='mx-auto '>
                   <h1>Blog</h1>
                 </div>
               </div>
