@@ -32,11 +32,13 @@ export default function Resume() {
             <div className='px-5 mx-auto mt-8 md:px-12 max-w-screen-2xl xl:max-w-screen-xl sm:pt-12'>
               <div className='pb-10 resume '>
                 <h2>Client Work</h2>
-                <p>A collection of other work</p>
+                <p className='text-2xl font-light leading-relaxed text-gray-600'>
+                  A collection of other work client work.
+                </p>
                 <Masonry
                   breakpointCols={breakpointColumnsObj2}
-                  className='my-masonry-grid'
-                  columnClassName='my-masonry-grid_column'
+                  className='mt-24 my-masonry-grid'
+                  columnClassName='my-masonry-grid_column '
                 >
                   <Link href='/usecases/cibc_productselector'>
                     <div className='overflow-hidden cursor-pointer'>
@@ -79,7 +81,20 @@ export default function Resume() {
                     </div>
                   </Link>
                 </Masonry>
-                <h2>Other</h2>
+                <div className='mt-24'>
+                  <h2>Other</h2>
+                  <p className='text-2xl font-light leading-relaxed text-gray-600'>
+                    Anything and everything design, that's not client work. The
+                    pieces below are personal interest driven. Some photography,
+                    3D rendering, video/animation and personal projects to keep
+                    the mind sharp and to switch up the regular routine. You can
+                    also find others in the{' '}
+                    <Link href='/blog2' className='p-2 bg-yellow-400'>
+                      blog
+                    </Link>
+                    .
+                  </p>
+                </div>
                 <Tabs />
               </div>
             </div>

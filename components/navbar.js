@@ -45,7 +45,7 @@ export default function Navbar() {
   return (
     <Disclosure
       as='nav'
-      className='sticky top-0 z-50 yournavbar '
+      className='sticky top-0 z-50'
       style={{ ...navbarStyles, top: visible ? '0' : '-80px' }}
     >
       {({ open }) => (
@@ -55,7 +55,7 @@ export default function Navbar() {
               <div className='absolute inset-y-0 left-0 flex items-center sm:hidden'>
                 {/* Mobile menu button */}
 
-                <Disclosure.Button className='inline-flex items-center justify-center p-4 text-black bg-yellow-400 hover:text-gray-500 hover:bg-gray-100'>
+                <Disclosure.Button className='inline-flex items-center justify-center p-4 text-black bg-yellow-600 hover:text-gray-500 hover:bg-gray-100'>
                   <span className='sr-only'>Open main menu</span>
                   {open ? (
                     <XIcon className='w-12 h-12 px-3' aria-hidden='true' />
@@ -67,9 +67,15 @@ export default function Navbar() {
                   )}
                 </Disclosure.Button>
               </div>
-              <div className='flex items-center justify-center flex-1 sm:items-stretch sm:justify-start'>
+              <div
+                className='flex items-center justify-center flex-1 sm:items-stretch sm:justify-start'
+                data-scroll
+                data-scroll-speed='10'
+                data-scroll-direction='vertical'
+                data-scroll-offset='100,200'
+              >
                 <div className='flex items-center invisible sm:visible grow'>
-                  <div className='p-6 mt-2 text-lg font-bold tracking-tight transition-all bg-white hover:bg-yellow-500 shadow-custom'>
+                  <div className='p-6 mt-2 text-lg font-bold tracking-tight transition-all bg-white hover:bg-yellow-600 shadow-custom'>
                     <a href='/' className='shadow-custom'>
                       <Image
                         alt='Mountains'
@@ -89,20 +95,20 @@ export default function Navbar() {
                     destination='/'
                     a11yText='Use Cases'
                     label='Use Cases'
-                    extraClasses='transition-all font-mono border-transparent text-white bg-customblue hover:border-yellow-500 hover:text-slate-200 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-regular uppercase'
+                    extraClasses='transition-all font-mono border-transparent text-white bg-customblue hover:border-yellow-600 hover:text-slate-200 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-regular uppercase'
                   />
                   <FancyLink
                     destination='/portfolio2'
                     a11yText='Other Work'
                     label='Other Work'
-                    extraClasses='transition-all font-mono border-transparent text-white bg-customblue hover:border-yellow-500 hover:text-slate-200 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-regular uppercase'
+                    extraClasses='transition-all font-mono border-transparent text-white bg-customblue hover:border-yellow-600 hover:text-slate-200 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-regular uppercase'
                   />
 
                   <FancyLink
                     destination='/blog2'
                     a11yText='Blog'
                     label='Blog'
-                    extraClasses='transition-all font-mono border-transparent text-white bg-customblue hover:border-yellow-500 hover:text-slate-200 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-regular uppercase'
+                    extraClasses='transition-all font-mono border-transparent text-white bg-customblue hover:border-yellow-600 hover:text-slate-200 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-regular uppercase'
                   />
                 </div>
               </div>
@@ -132,7 +138,7 @@ export default function Navbar() {
                     leaveFrom='transform opacity-100 scale-100'
                     leaveTo='transform opacity-0 scale-95'
                   >
-                    <Menu.Items className='absolute right-0 w-48 py-1 mt-2 transition-all ease-in-out origin-top-right bg-yellow-400 duration-250 ring-1 ring-black ring-opacity-5'>
+                    <Menu.Items className='absolute right-0 w-48 py-1 mt-2 transition-all ease-in-out origin-top-right bg-yellow-600 duration-250 ring-1 ring-black ring-opacity-5'>
                       <Menu.Item>
                         {({ active }) => (
                           <a
@@ -209,7 +215,7 @@ export default function Navbar() {
           </div>
 
           <Disclosure.Panel className='sm:hidden'>
-            <div className='w-1/2 py-1 ml-4 space-y-1 bg-yellow-400'>
+            <div className='w-1/2 py-1 ml-4 space-y-1 bg-yellow-600'>
               {/* Current: "bg-indigo-50 border-indigo-500 text-indigo-700", Default: "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700" */}
               <Disclosure.Button
                 as='a'

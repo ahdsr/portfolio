@@ -3,6 +3,7 @@ export const fade = {
   enter: {
     opacity: 1,
     y: 0,
+    x: 0,
 
     transition: {
       duration: 0.3,
@@ -12,7 +13,8 @@ export const fade = {
   },
   exit: {
     opacity: 0,
-    y: 20,
+    y: -30,
+    x: 0,
     transition: {
       duration: 0.3,
       easeInOutCirc: [0.785, 0.135, 0.15, 0.86],

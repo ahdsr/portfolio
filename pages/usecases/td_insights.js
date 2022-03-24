@@ -397,9 +397,9 @@ export default function TDDashboard() {
             </m.main>
           </m.div>
         </LazyMotion>
+        <GetInTouch />
+        <Footer />
       </Layout>
-      <GetInTouch />
-      <Footer />
     </Protect>
   );
 }

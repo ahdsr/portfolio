@@ -42,7 +42,7 @@ module.exports = {
         },
         customblue: '#FA292A',
         customblue2: '#b89f5d',
-        customyellow: '#e3e3e3',
+        customyellow: '#a162073',
         customgray: '#F3F3F3',
         rsa: '#23023D',
         cibc: '#4D0008',
@@ -51,7 +51,8 @@ module.exports = {
         custom: '0px 20px 20px -20px rgba(0,0,0,0.2)',
       },
       backgroundImage: {
-        'hero-pattern': "url('/assets/global/placeholder.webp')",
+        'hero-pattern': "url('../assets/global/bg.png')",
+        'hero-pattern2': "url('../assets/global/placeholder.png')",
       },
     },
   },

@@ -101,43 +101,36 @@ export default function TDDashboard() {
                     managing teams, mentoring events and providing feedback to
                     the user. (not included in this case study).
                   </p>
-
-                  {/*   <FancyImage
-                  src={FeatureSet}
-                  transitionDuration={300}
-                  zoomMargin={80}
-                  overlayBgColorEnd={'rgba(0, 0,0, 0.95)'}
-                  layout='intrinsic'
-                /> */}
                 </div>
               </section>
+              <section className='px-8 mx-auto md:px-16 lg:max-w-6xl xl:max-w-7xl'>
+                <div className='grid grid-cols-2'>
+                  <Image
+                    alt='Beon App feature mind map'
+                    src={Featuremindmap}
+                    layout='responsive'
+                  />
 
-              <Image
-                alt='Beon App feature mind map'
-                src={Featuremindmap}
-                layout='responsive'
-                objectFit='cover'
-              />
-
-              <Image
-                alt='Mountains'
-                src={test}
-                layout='responsive'
-                objectFit='cover'
-              />
-
-              <div className='player-wrapper'>
-                <ReactPlayer
-                  className='react-player'
-                  url='https://www.youtube.com/watch?v=tyS0S1DWB2Y'
-                  width='100%'
-                  height='100%'
-                  controls={true}
-                  muted={false}
-                  light={true}
-                  playing={true}
-                />
-              </div>
+                  <Image
+                    alt='Mountains'
+                    src={test}
+                    layout='responsive'
+                    objectFit='cover'
+                  />
+                </div>
+                <div className='player-wrapper'>
+                  <ReactPlayer
+                    className='react-player'
+                    url='https://www.youtube.com/watch?v=tyS0S1DWB2Y'
+                    width='100%'
+                    height='100%'
+                    controls={true}
+                    muted={false}
+                    light={true}
+                    playing={true}
+                  />
+                </div>
+              </section>
             </div>
           </m.main>
         </m.div>

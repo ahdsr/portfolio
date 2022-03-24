@@ -102,7 +102,7 @@ export default function Tabs() {
   });
 
   return (
-    <div className='w-full'>
+    <div className='w-full mt-24'>
       <Tab.Group>
         <Tab.List className='flex mb-4 rounded-xl'>
           {Object.keys(categories).map((category) => (
