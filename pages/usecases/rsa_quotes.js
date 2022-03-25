@@ -28,7 +28,7 @@ export default function TDDashboard() {
     <Layout>
       <NextSeo title='Blog' />
       <LazyMotion features={domAnimation}>
-        <m.div initial='initial' animate='enter' exit='exit'>
+        <m.div initial='initial' animate='enter'>
           <m.main variants={fade} className='mx-auto bg-slate-50'>
             <div className=''>
               <section className='bg-rsa'>
@@ -36,11 +36,7 @@ export default function TDDashboard() {
                   <h1>RSA Online Quote Application</h1>
 
                   <div className='summary'>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Amet tellus cras adipiscing enim eu turpis egestas.
-                    Tincidunt praesent semper feugiat nibh sed pulvinar proin
-                    gravida.
+                    Full responsive RSA / Johnson customer quote site.
                   </div>
                 </div>
               </section>
@@ -56,7 +52,31 @@ export default function TDDashboard() {
                 toolsb3=''
               />
 
-              <section className='px-8 mx-auto py-52 md:px-16 lg:max-w-6xl xl:max-w-7xl'>
+              <section className='px-8 mx-auto md:px-16 lg:max-w-6xl xl:max-w-7xl'>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Quisque eget fermentum nisl. Nam suscipit elit quis neque
+                  cursus, id malesuada tortor dignissim. Nullam tempus id lacus
+                  vitae auctor. Nunc ligula est, dapibus vel justo at, dapibus
+                  congue nulla. Curabitur fermentum urna eu ipsum luctus mattis.
+                  Quisque aliquam fermentum sapien vitae hendrerit. Vivamus
+                  dictum ex rhoncus, tincidunt ipsum sed, pretium augue. Cras at
+                  pretium tellus, in sollicitudin massa.{' '}
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Quisque eget fermentum nisl. Nam suscipit elit quis neque
+                  cursus, id malesuada tortor dignissim. Nullam tempus id lacus
+                  vitae auctor. Nunc ligula est, dapibus vel justo at, dapibus
+                  congue nulla. Curabitur fermentum urna eu ipsum luctus mattis.
+                  Quisque aliquam fermentum sapien vitae hendrerit. Vivamus
+                  dictum ex rhoncus, tincidunt ipsum sed, pretium augue. Cras at
+                  pretium tellus, in sollicitudin massa.{' '}
+                </p>
+              </section>
+              <section className='px-8 mx-auto md:px-16 lg:max-w-6xl xl:max-w-7xl'></section>
+
+              <section className='px-8 mx-auto md:px-16 lg:max-w-6xl xl:max-w-7xl'>
                 <Masonry
                   breakpointCols={breakpointColumnsObj}
                   className='py-12 my-masonry-grid'

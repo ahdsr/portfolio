@@ -26,7 +26,7 @@ export default function TDDashboard() {
     <Layout>
       <NextSeo title='Blog' />
       <LazyMotion features={domAnimation}>
-        <m.div initial='initial' animate='enter' exit='exit'>
+        <m.div initial='initial' animate='enter'>
           <m.main variants={fade} className='mx-auto bg-slate-50'>
             <div className=''>
               <section className='bg-rsa'>

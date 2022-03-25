@@ -14,78 +14,9 @@
 @import 'tailwindcss/utilities';
 
 /* Simple defaults */
-
-html.has-scroll-smooth {
-  @apply overflow-hidden;
-  position: fixed;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  background: #000;
-}
-
-.has-scroll-smooth body {
-  @apply overflow-hidden;
-  background: #000;
-}
-
-html.has-scroll-dragging {
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-
-html[data-direction='down'] #yournavbar {
-  transform: translate3d(0, -100%, 0);
-}
-
-.has-scroll-smooth [data-scroll-container] {
-  @apply min-h-screen;
-}
-
-[data-scroll-direction='horizontal'] [data-scroll-container] {
-  @apply h-screen inline-block whitespace-nowrap;
-}
-
-[data-scroll-direction='horizontal'] [data-scroll-section] {
-  @apply inline-block align-top whitespace-nowrap h-full;
-}
-
-.c-scrollbar {
-  position: absolute;
-  right: 0;
-  top: 0;
-  width: 12px;
-  height: 100vh;
-  transform-origin: center right;
-  transition: transform 0.3s, opacity 0.3s;
-  opacity: 0.1;
-}
-.c-scrollbar:hover {
-  transform: scaleX(1.45);
-}
-.c-scrollbar:hover,
-.has-scroll-dragging .c-scrollbar,
-.has-scroll-scrolling .c-scrollbar {
-  opacity: 1;
-}
-.c-scrollbar_thumb {
-  position: absolute;
-  top: 0;
-  right: 0;
-  background-color: #fa292a;
-
-  width: 12px;
-
-  margin: 2px;
-  cursor: -webkit-grab;
-  cursor: grab;
-}
-.has-scroll-dragging .c-scrollbar_thumb {
-  cursor: -webkit-grabbing;
-  cursor: grabbing;
+body {
+  @apply font-sans antialiased text-black bg-white;
+  scroll-behavior: smooth;
 }
 
 .player-wrapper {
