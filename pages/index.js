@@ -18,7 +18,7 @@ export default function Home() {
     <Layout>
       <NextSeo title='Home' />
       <LazyMotion features={domAnimation}>
-        <m.div initial='initial' animate='enter'>
+        <m.div initial='initial' animate='enter' exit='exit'>
           <m.main variants={fade} className='bg-black'>
             <div className='pb-24 mx-auto hero max-w-screen-2xl'>
               <div className='flex flex-row px-8 pt-32 max-w-7xl md:pt-36 lg:pt-40 sm:mx-auto md:mx-auto lg:mx-auto lg:px-12'>

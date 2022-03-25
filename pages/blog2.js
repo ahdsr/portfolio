@@ -16,8 +16,8 @@ export default function Blog() {
     <Layout>
       <NextSeo title='Blog' />
       <LazyMotion features={domAnimation}>
-        <m.div initial='initial' animate='enter'>
-          <m.main variants={fade} className='bg-white '>
+        <m.div initial='initial' animate='enter' exit='exit'>
+          <m.main variants={fade} className='bg-white'>
             <section className='mb-12 bg-customblue'>
               {/*   <img src={profilePhoto} alt='' /> */}
               <div className='px-8 pt-12 mx-auto py-52 md:py-52 md:px-16 lg:max-w-6xl xl:max-w-7xl shadow-custom'>

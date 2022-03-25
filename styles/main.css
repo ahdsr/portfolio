@@ -16,7 +16,6 @@
 /* Simple defaults */
 body {
   @apply font-sans antialiased text-black bg-white;
-  scroll-behavior: smooth;
 }
 
 .player-wrapper {

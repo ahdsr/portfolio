@@ -30,7 +30,8 @@ export default function Resume() {
     <Layout>
       <NextSeo title='Blog' />
       <LazyMotion features={domAnimation}>
-        <m.div initial='initial' animate='enter'>
+        <m.div initial='initial' animate='enter' exit='exit'>
+          >
           <m.main variants={fade} className='bg-white'>
             <section className='bg-customblue'>
               {/*   <img src={profilePhoto} alt='' /> */}

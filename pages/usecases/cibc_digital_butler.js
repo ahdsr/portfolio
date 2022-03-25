@@ -38,7 +38,7 @@ export default function DigitalButler() {
     <Layout>
       <NextSeo title='Blog' />
       <LazyMotion features={domAnimation}>
-        <m.div initial='initial' animate='enter'>
+        <m.div initial='initial' animate='enter' exit='exit'>
           <m.main variants={fade} className='pb-10 bg-slate-50 usecase'>
             <div className='pt-16 pb-10 mx-auto max-w-screen-2xl xl:max-w-screen-xl'>
               <div className='px-5 pt-6 mx-auto mt-4 md:px-10 lg:px-16 xl:px-24'>
