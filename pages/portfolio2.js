@@ -27,7 +27,12 @@ export default function Resume() {
     <Layout>
       <NextSeo title='Blog' />
       <LazyMotion features={domAnimation}>
-        <m.div initial='initial' animate='enter' exit='exit'>
+        <m.div
+          initial='hidden'
+          animate='enter'
+          exit='exit'
+          transition={{ type: 'linear' }}
+        >
           <m.main variants={fade} className='py-24 bg-white'>
             <div className='px-5 mx-auto mt-8 md:px-12 max-w-screen-2xl xl:max-w-screen-xl sm:pt-12'>
               <div className='pb-10 resume '>
@@ -40,7 +45,7 @@ export default function Resume() {
                   className='mt-24 my-masonry-grid'
                   columnClassName='my-masonry-grid_column '
                 >
-                  <Link href='/usecases/cibc_productselector'>
+                  <Link href='/usecases/cibc_productselector' scroll={false}>
                     <div className='overflow-hidden cursor-pointer'>
                       <Image
                         alt='Mountains'
@@ -50,7 +55,7 @@ export default function Resume() {
                       />
                     </div>
                   </Link>
-                  <Link href='/usecases/rsa_johnsonmarketing'>
+                  <Link href='/usecases/rsa_johnsonmarketing' scroll={false}>
                     <div className='cursor-pointer'>
                       <Image
                         alt='Mountains'
@@ -60,7 +65,7 @@ export default function Resume() {
                       />
                     </div>
                   </Link>
-                  <Link href='/usecases/rsa_webbrokerportal'>
+                  <Link href='/usecases/rsa_webbrokerportal' scroll={false}>
                     <div className='cursor-pointer'>
                       <Image
                         alt='Mountains'
@@ -70,7 +75,7 @@ export default function Resume() {
                       />
                     </div>
                   </Link>
-                  <Link href='/usecases/rsa_quotes'>
+                  <Link href='/usecases/rsa_quotes' scroll={false}>
                     <div className='cursor-pointer'>
                       <Image
                         alt='Mountains'

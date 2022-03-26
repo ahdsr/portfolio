@@ -32,7 +32,12 @@ export default function TDDashboard() {
     <Layout>
       <NextSeo title='Blog' />
       <LazyMotion features={domAnimation}>
-        <m.div initial='initial' animate='enter' exit='exit'>
+        <m.div
+          initial='hidden'
+          animate='enter'
+          exit='exit'
+          transition={{ type: 'linear' }}
+        >
           <m.main variants={fade} className='mx-auto bg-slate-50'>
             <section className='bg-customblue'>
               <div className='px-8 mx-auto py-52 md:px-16 lg:max-w-6xl xl:max-w-7xl'>

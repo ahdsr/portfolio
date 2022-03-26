@@ -18,8 +18,13 @@ export default function Home() {
     <Layout>
       <NextSeo title='Home' />
       <LazyMotion features={domAnimation}>
-        <m.div initial='initial' animate='enter' exit='exit'>
-          <m.main variants={fade} className='bg-black'>
+        <m.div
+          initial='hidden'
+          animate='enter'
+          exit='exit'
+          transition={{ type: 'linear' }}
+        >
+          <m.main variants={fade} className='bg-slate-50'>
             <div className='pb-24 mx-auto hero max-w-screen-2xl'>
               <div className='flex flex-row px-8 pt-32 max-w-7xl md:pt-36 lg:pt-40 sm:mx-auto md:mx-auto lg:mx-auto lg:px-12'>
                 <div className='pt-8 mx-auto grow max-w-7xl'>

@@ -72,7 +72,12 @@ export default function Resume() {
     <Layout>
       <NextSeo title='Blog' />
       <LazyMotion features={domAnimation}>
-        <m.div initial='initial' animate='enter' exit='exit'>
+        <m.div
+          initial='hidden'
+          animate='enter'
+          exit='exit'
+          transition={{ type: 'linear' }}
+        >
           <m.main variants={fade} className='pb-10 bg-slate-50 usecase'>
             <div className='pt-16 pb-10 mx-auto max-w-screen-2xl xl:max-w-screen-xl'>
               <WithImage />

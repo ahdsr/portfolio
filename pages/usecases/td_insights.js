@@ -71,7 +71,12 @@ export default function TDDashboard() {
       <Layout>
         <NextSeo title='Blog' />
         <LazyMotion features={domAnimation}>
-          <m.div initial='initial' animate='enter' exit='exit'>
+          <m.div
+            initial='hidden'
+            animate='enter'
+            exit='exit'
+            transition={{ type: 'linear' }}
+          >
             <m.main variants={fade} className='mx-auto bg-slate-50'>
               <div className=''>
                 <section className='bg-customblue'>
@@ -104,10 +109,11 @@ export default function TDDashboard() {
                   </div>
                   <h2>Overview</h2>
                   <p>
-                    Leveraging the new{' '}
+                    Leveraging the new
                     <Link
                       href='/usecases/td_dashboard2'
                       className='p-2 bg-yellow-100'
+                      scroll={false}
                     >
                       dashboard
                     </Link>{' '}
