@@ -4,10 +4,10 @@ import { useRef } from 'react';
 import { fade } from '@/helpers/transitions';
 import { LazyMotion, domAnimation, m } from 'framer-motion';
 import { NextSeo } from 'next-seo';
-
+import Footer from '@/components/footer';
+import GetInTouch from '@/components/getintouch';
 import VideoPost from '@/components/molecules/videoblogpost';
 import ImagePost from '@/components/molecules/imagepost';
-
 import image1 from '../assets/3drenders/city1.jpg';
 
 export default function Blog() {
@@ -16,8 +16,21 @@ export default function Blog() {
     <Layout>
       <NextSeo title='Blog' />
       <LazyMotion features={domAnimation}>
-        <m.div initial='initial' animate='enter' exit='exit'>
-          <m.main variants={fade} className='py-24 bg-white'>
+        <m.div
+          initial='hidden'
+          animate='enter'
+          exit='exit'
+          transition={{ type: 'linear' }}
+        >
+          <m.main variants={fade} className='bg-white'>
+            <section className='mb-12 bg-customblue'>
+              {/*   <img src={profilePhoto} alt='' /> */}
+              <div className='px-8 pt-12 mx-auto py-52 md:py-52 md:px-16 lg:max-w-6xl xl:max-w-7xl shadow-custom'>
+                <div className='mx-auto '>
+                  <h1>Blog</h1>
+                </div>
+              </div>
+            </section>
             <VideoPost
               postTitle='BEON Youtube react-player test'
               videoSource='https://www.youtube.com/watch?v=tyS0S1DWB2Y'
@@ -114,6 +127,8 @@ export default function Blog() {
           </m.main>
         </m.div>
       </LazyMotion>
+      <GetInTouch />
+      <Footer />
     </Layout>
   );
 }

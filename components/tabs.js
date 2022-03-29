@@ -24,7 +24,7 @@ function classNames(...classes) {
 
 export default function Tabs() {
   const breakpointColumnsObj = {
-    default: 3,
+    default: 5,
     1100: 3,
     700: 2,
     500: 1,
@@ -102,7 +102,7 @@ export default function Tabs() {
   });
 
   return (
-    <div className='w-full'>
+    <div className='w-full mt-24'>
       <Tab.Group>
         <Tab.List className='flex mb-4 rounded-xl'>
           {Object.keys(categories).map((category) => (
@@ -110,10 +110,10 @@ export default function Tabs() {
               key={category}
               className={({ selected }) =>
                 classNames(
-                  ' font-mono w-full md:text-xl py-2.5  leading-5 font-medium text-blue-700 mb-8',
+                  ' font-sans w-full py-2.5 leading-5 font-medium text-blue-700 mb-8',
 
                   selected
-                    ? '  border-b border-blue-700'
+                    ? 'border-b border-blue-700'
                     : 'transition-all text-blue-900 hover:bg-white/[0.12] hover:border-blue-700'
                 )
               }

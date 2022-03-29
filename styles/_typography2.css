@@ -20,7 +20,7 @@ p {
 }
 
 .summary {
-  @apply mb-4 text-xl font-sans font-light leading-relaxed text-slate-50;
+  @apply my-12 text-xl font-sans font-light leading-relaxed text-slate-50;
 }
 
 .fullbleed span,
@@ -32,11 +32,11 @@ p {
 }
 
 .fullbleed p {
-  @apply font-light md:text-lg font-mono text-black shadow-slate-200 shadow-xl;
+  @apply font-light md:text-base font-mono text-black shadow-slate-200 shadow-xl;
 }
 
 .caption {
-  @apply block bg-black bg-opacity-50 px-8 pt-4 pb-4 font-mono text-yellow-400 text-xs;
+  @apply block bg-black bg-opacity-50 px-8 pt-4 pb-4 font-mono  text-yellow-400 text-xs;
 }
 
 .fullbleed li {
@@ -48,24 +48,24 @@ p {
 }
 
 .external_links a {
-  @apply inline-block bg-yellow-100 hover:bg-yellow-200 hover:text-black;
+  @apply inline-block bg-yellow-200 hover:bg-yellow-200 hover:text-black;
 }
 
 .inverse {
-  @apply bg-black bg-opacity-90 md:pt-12 md:pb-32 pt-20 pb-32;
+  @apply bg-black  md:pt-12 md:pb-32 pt-20 pb-32;
 }
 
 .inverse p,
 .p {
-  @apply text-white;
+  @apply text-slate-300;
 }
 .inverse h1,
 .h1 {
-  @apply text-white;
+  @apply text-slate-300;
 }
 .inverse h2,
 .h2 {
-  @apply text-white;
+  @apply text-slate-300;
 }
 .inverse h3,
 .h3 {
@@ -74,14 +74,47 @@ p {
 
 li,
 .li {
-  @apply block my-2;
+  @apply block md:my-2 font-sans font-light md:text-lg leading-relaxed;
+}
+
+li,
+.li {
+  @apply block md:my-2 font-sans font-light md:text-lg leading-relaxed;
 }
 
 .cta {
-  @apply inline-block w-auto px-4 py-3 my-4 font-mono text-white bg-black hover:text-yellow-400 hover:scale-90 transition ease-in-out;
+  @apply inline-block w-auto px-4 py-3 my-4 font-mono text-sm font-bold text-white bg-black hover:text-yellow-400 hover:scale-90 transition ease-in-out;
 }
 
 .tinytext {
   font-size: 10px;
   font-weight: 600;
+}
+
+.homepage h1 {
+  @apply mb-8 font-serif text-4xl md:text-7xl font-bold tracking-tighter text-customblue;
+}
+
+.homepage h2,
+.h2 {
+  @apply mb-6 font-serif text-2xl md:text-3xl font-semibold tracking-tighter text-slate-400;
+}
+
+.homepage .ul,
+.li {
+  @apply mb-6 font-sans text-2xl md:text-xl  text-slate-300;
+}
+
+.blog h2,
+.h2 {
+  @apply mb-8 font-serif text-4xl font-bold tracking-tight md:text-3xl text-slate-800;
+}
+
+.homepage p {
+  @apply mb-4 font-sans text-lg font-light md:text-lg leading-loose text-slate-300;
+}
+
+.usecase p,
+.p {
+  @apply my-4 text-xl font-sans font-light leading-relaxed text-slate-800;
 }

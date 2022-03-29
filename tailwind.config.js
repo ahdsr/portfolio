@@ -7,7 +7,6 @@ module.exports = {
   theme: {
     fontFamily: {
       serif: ['Montserrat', 'sans-serif'],
-
       sans: ['K2D', 'sans-serif'],
       mono: ['Space Mono', 'monospace'],
     },
@@ -41,16 +40,20 @@ module.exports = {
           DEFAULT: '#d18d67',
           dark: '#ce8860',
         },
-        customblue: '#000AFF',
-        customblue2: '#203136',
-        customyellow: '#F2F2CF',
+        customblue: '#FA292A',
+        customblue2: '#b89f5d',
+        customyellow: '#a162073',
         customgray: '#F3F3F3',
+        rsa: '#23023D',
+        cibc: '#4D0008',
+      },
+      boxShadow: {
+        custom: '0px 20px 20px -20px rgba(0,0,0,0.2)',
       },
       backgroundImage: {},
     },
   },
   plugins: [
-    require('@tailwindcss/typography'),
     require('tailwind-easing-gradients')({
       variants: ['responsive'],
       // required

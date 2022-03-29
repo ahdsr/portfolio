@@ -7,7 +7,7 @@ export default function FancyLink({
   extraClasses,
 }) {
   return (
-    <Link href={destination}>
+    <Link href={destination} scroll={false}>
       <a
         aria-label={a11yText}
         className={` hover:text-gray-500 focus:text-gray-500  ${extraClasses}`}

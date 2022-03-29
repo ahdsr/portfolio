@@ -7,8 +7,8 @@ import FancyLink from './fancyLink';
 
 export default function NavbarMobile() {
   return (
-    <div className='sticky bottom-0 z-50 md:hidden '>
-      <nav className='h-20 pt-2 mx-auto bg-customblue '>
+    <div className='sticky bottom-0 z-50 md:hidden'>
+      <nav className='h-20 pt-2 mx-auto bg-customblue'>
         <div className='grid grid-cols-4'>
           <div className='mx-auto text-sm text-center text-slate-800'>
             <IoImageOutline className='w-10 h-10 p-2 text-slate-300 text-opacity-80 ' />

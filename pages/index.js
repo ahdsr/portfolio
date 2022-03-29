@@ -3,6 +3,8 @@ import Layout from '@/components/layout';
 import { fade } from '@/helpers/transitions';
 import { LazyMotion, domAnimation, m } from 'framer-motion';
 import { NextSeo } from 'next-seo';
+import Layout from '@/components/layout';
+import Container from '@/components/container';
 import FancyLink from '@/components/fancyLink';
 
 import { LocomotiveScrollProvider } from 'react-locomotive-scroll';
@@ -17,7 +19,7 @@ import ImageAnim from '@/components/molecules/imageAnim';
 
 //Imported Images
 import Image from 'next/image';
-import Me from '../assets/global/me.webp';
+import Me from '../assets/global/me.png';
 import LogoGroup from '../assets/global/logogroup.webp';
 import SectionItem from '@/components/molecules/sectionItem';
 import Logo1 from '../assets/global/logo_bmo.webp';

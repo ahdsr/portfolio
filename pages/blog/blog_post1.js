@@ -29,12 +29,17 @@ export default function Resume() {
     <Layout>
       <NextSeo title='Blog' />
       <LazyMotion features={domAnimation}>
-        <m.div initial='initial' animate='enter' exit='exit'>
-          <m.main variants={fade} className='pb-10 bg-slate-50 '>
+        <m.div
+          initial='hidden'
+          animate='enter'
+          exit='exit'
+          transition={{ type: 'linear' }}
+        >
+          <m.main variants={fade} className='pb-10 bg-slate-50'>
             {/*    BLOG POST #1 */}
             <div className='mx-auto max-w-screen-2xl xl:max-w-screen-xl'>
               <div className='pb-10'>
-                <div className='px-5 pt-6 mx-auto mt-16 '>
+                <div className='px-5 pt-6 mx-auto mt-16'>
                   <div className='mb-4 text-lg font-bold tracking-tight text-slate-900 text-opacity-80'>
                     Electric Avenue, bottom drawer
                   </div>
@@ -74,7 +79,7 @@ export default function Resume() {
                 <div className='player-wrapper'>
                   <ReactPlayer
                     className='react-player'
-                    url=' https://lucasczuchraj.com.s218761.gridserver.com/Videos/AnimationTest.mp4'
+                    url='https://lucasczuchraj.com.s218761.gridserver.com/Videos/AnimationTest.mp4'
                     loop={true}
                     controls={true}
                     width='100%'
