@@ -16,6 +16,7 @@ import image9 from '../assets/3drenders/scene2.jpg';
 import image10 from '../assets/3drenders/tech1.jpg';
 import image11 from '../assets/3drenders/tech2.jpg';
 import image12 from '../assets/3drenders/tech3.jpg';
+import image13 from '../assets/3drenders/djmnight_02.png';
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ');
@@ -54,6 +55,10 @@ export default function Tabs() {
       {
         id: 6,
         image: image12,
+      },
+      {
+        id: 7,
+        image: image13,
       },
     ],
     Scene: [

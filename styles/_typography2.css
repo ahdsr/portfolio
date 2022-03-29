@@ -1,29 +1,29 @@
 /* Heading Defaults */
 h1,
 .h1 {
-  @apply mb-8 font-serif text-4xl md:text-5xl md:mb-12 font-medium tracking-tight text-white;
+  @apply mb-8 font-serif text-3xl md:text-4xl md:mb-12 font-medium tracking-tight text-white;
 }
 h2,
 .h2 {
-  @apply mt-20 mb-8 font-serif text-3xl font-semibold tracking-tight md:text-5xl text-slate-800;
+  @apply mt-20 mb-8 font-serif text-3xl font-semibold tracking-tight md:text-2xl text-slate-500;
 }
 h3,
 .h3 {
-  @apply mb-4 pt-6 font-mono tracking-tight font-bold text-slate-800;
+  @apply mb-4 pt-6 text-4xl tracking-tight font-thin text-white;
 }
 h4,
 .h4 {
 }
 
 p {
-  @apply mb-4 font-sans font-light leading-relaxed text-slate-800;
+  @apply mb-4 font-sans font-thin leading-relaxed text-slate-400;
 }
 
 .summary {
   @apply mb-4 text-xl font-sans font-light leading-relaxed text-slate-50;
 }
 
-span,
+.fullbleed span,
 .span {
   @apply bg-black bg-opacity-10 py-2;
 }

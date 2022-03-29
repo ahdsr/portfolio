@@ -6,9 +6,10 @@ module.exports = {
 
   theme: {
     fontFamily: {
-      serif: ['Zilla Slab', 'serif'],
-      sans: ['Inter', 'sans-serif'],
-      mono: ['Roboto Mono', 'monospace'],
+      serif: ['Montserrat', 'sans-serif'],
+
+      sans: ['K2D', 'sans-serif'],
+      mono: ['Space Mono', 'monospace'],
     },
 
     borderRadius: {
@@ -45,9 +46,7 @@ module.exports = {
         customyellow: '#F2F2CF',
         customgray: '#F3F3F3',
       },
-      backgroundImage: {
-        'hero-pattern': "url('/assets/global/placeholder.webp')",
-      },
+      backgroundImage: {},
     },
   },
   plugins: [
