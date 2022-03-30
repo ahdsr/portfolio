@@ -10,9 +10,9 @@ export const fade = {
   },
   exit: {
     opacity: 0,
-    x: -20,
+    y: -40,
     transition: {
-      duration: 0.4,
+      duration: 0.7,
       easeInOutCirc: [0.785, 0.135, 0.15, 0.86],
     },
   },
