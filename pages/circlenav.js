@@ -45,7 +45,7 @@ function CircleNav() {
                     <div className='relative h-screen mx-auto md:px-20 lg:px-24 xl:px-36'>
                       <m.div animate={{ x: 0, y: 50 }}>
                         <FancyLink
-                          destination='/figma'
+                          destination='/'
                           a11yText='X'
                           label='X'
                           extraClasses='transition-all border-transparent text-white bg-customblue hover:border-yellow-500 hover:text-slate-200 inline-flex items-center px-3 py-2 border-t-2 text-sm font-regular uppercase'

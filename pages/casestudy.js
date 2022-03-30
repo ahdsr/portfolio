@@ -54,7 +54,7 @@ function figma() {
                   <div className=''>
                     <div>
                       <FancyLink
-                        destination='/figma'
+                        destination='/'
                         a11yText='Back'
                         label='B'
                         extraClasses='transition-all text-white bg-gradient-to-br from-yellow-500  to-yellow-400 hover:text-slate-200 inline-flex items-center w-16 h-16 self-center m-12 hover:scale-120 hover:border-4  rounded-full  text-sm font-regular uppercase'
@@ -245,7 +245,7 @@ function figma() {
                       </div>
                     </div>
                     <FancyLink
-                      destination='/figma'
+                      destination='/'
                       a11yText='Back'
                       label='Back'
                       extraClasses='transition-all border-transparent text-white bg-customblue hover:border-yellow-500 hover:text-slate-200 hover:rounded-full inline-flex items-center p-12 border-b-2 text-sm font-regular uppercase'
