@@ -18,27 +18,6 @@ import Brief from '@/components/molecules/brief';
 import Image from 'next/image';
 import TDLogo from '../../assets/global/avatar_td.webp';
 
-import tdinsights1 from '../../pages/usecases/td_insights/td_insights_01.webp';
-import tdinsights2 from '../../pages/usecases/td_insights/td_insights_02.webp';
-import tdinsights3 from '../../pages/usecases/td_insights/td_insights_03.webp';
-import tdinsights4 from '../../pages/usecases/td_insights/td_insights_04.webp';
-import tdinsights5 from '../../pages/usecases/td_insights/td_insights_05.webp';
-import tdinsights6 from '../../pages/usecases/td_insights/td_insights_06.webp';
-import tdinsights7 from '../../pages/usecases/td_insights/td_insights_07.webp';
-import tdinsights8 from '../../pages/usecases/td_insights/td_insights_08.webp';
-import tdinsights9 from '../../pages/usecases/td_insights/td_insights_09.webp';
-import tdinsights10 from '../../pages/usecases/td_insights/td_insights_10.webp';
-import tdinsights11 from '../../pages/usecases/td_insights/td_insights_11.webp';
-import tdinsights12 from '../../pages/usecases/td_insights/td_insights_12.webp';
-import tdinsights13 from '../../pages/usecases/td_insights/td_insights_13.webp';
-import tdinsights14 from '../../pages/usecases/td_insights/td_insights_14.webp';
-import tdinsights15 from '../../pages/usecases/td_insights/td_insights_15.webp';
-import tdinsights16 from '../../pages/usecases/td_insights/td_insights_16.webp';
-import tdinsights17 from '../../pages/usecases/td_insights/td_insights_17.webp';
-import tdinsights18 from '../../pages/usecases/td_insights/td_insights_18.webp';
-import tdinsights19 from '../../pages/usecases/td_insights/td_insights_19.webp';
-import tdinsights20 from '../../pages/usecases/td_insights/td_insights_20.webp';
-
 export default function TDDashboard() {
   if (typeof window === 'undefined') return '';
 

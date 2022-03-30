@@ -10,10 +10,6 @@ import Brief from '@/components/molecules/brief';
 import GetInTouch from '@/components/getintouch';
 import Footer from '@/components/footer';
 
-import RSA_Portal1 from '../../assets/usecases/RSA_Portal1.png';
-import RSA_Portal2 from '../../assets/usecases/RSA_Portal2.png';
-import RSA_Portal3 from '../../assets/usecases/RSA_Portal3.png';
-
 export default function TDDashboard() {
   const containerRef = useRef(null);
   const breakpointColumnsObj = {
