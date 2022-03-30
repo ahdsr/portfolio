@@ -12,7 +12,6 @@ import Footer from '@/components/footer';
 //Usecase Images
 import Image from 'next/image';
 import BEON from '../../assets/global/avatar_beon.png';
-import test from '../../assets/3drenders/pixel6.png';
 import Featuremindmap from '../../pages/usecases/beon/beon_feature_mindmap.png';
 
 export default function TDDashboard() {

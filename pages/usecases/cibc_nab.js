@@ -28,7 +28,6 @@ import liveideate6 from './cibc_nab/liveideate6.png';
 import POS from './cibc_nab/pos.png';
 import lowfidelitywires from './cibc_nab/low_fidelity_wires.png';
 import initialflow from './cibc_nab/initial_flow.png';
-import test from '../../assets/3drenders/pixel6.png';
 
 export default function TDDashboard() {
   const ref = useRef(null);
@@ -311,35 +310,35 @@ export default function TDDashboard() {
 
             {/*          <ReactFlow nodes={nodes} edges={edges} fitView /> */}
 
-              <section className='px-8 mx-auto mb-32 md:px-16 lg:max-w-6xl xl:max-w-7xl'>
-                <p className='mb-16 text-3xl font-light leading-loose text-green-700 callout fullbleed'>
-                  <span className=''>As a client</span> paying a bill in foreign
-                  currency (physical store or website), I want to{' '}
-                  <span>
-                    determine whether I should pay in the foreign currency or a
-                    pre-converted amount in my home currency,
-                  </span>{' '}
-                  so that I can{' '}
-                  <span>save money or minimize transaction costs.</span>
-                </p>
-                <div className='mx-auto fullbleed'>
-                  <div className='gap-8 mx-auto md:grid md:grid-cols-3 md:max-w-7xl '>
-                    <p className='p-8 bg-blue-200 border-2 border-gray-400 border-dashed'>
-                      <span>Given that</span> I am at a point of sale terminal
-                      in a foreign country or an eCommerce website that is not
-                      domiciled in my home currency.
-                    </p>
-                    <p className='p-8 bg-blue-200 border-2 border-gray-400 border-dashed'>
-                      <span>When</span> I am about to make a payment.
-                    </p>
-                    <p className='p-8 bg-blue-200 border-2 border-gray-400 border-dashed'>
-                      <span>Then</span> give me an opportunity to compare the
-                      option of paying in foreign currency or a pre-converted
-                      amount in my home currency.
-                    </p>
-                  </div>
+            <section className='px-8 mx-auto mb-32 md:px-16 lg:max-w-6xl xl:max-w-7xl'>
+              <p className='mb-16 text-3xl font-light leading-loose text-green-700 callout fullbleed'>
+                <span className=''>As a client</span> paying a bill in foreign
+                currency (physical store or website), I want to{' '}
+                <span>
+                  determine whether I should pay in the foreign currency or a
+                  pre-converted amount in my home currency,
+                </span>{' '}
+                so that I can{' '}
+                <span>save money or minimize transaction costs.</span>
+              </p>
+              <div className='mx-auto fullbleed'>
+                <div className='gap-8 mx-auto md:grid md:grid-cols-3 md:max-w-7xl '>
+                  <p className='p-8 bg-blue-200 border-2 border-gray-400 border-dashed'>
+                    <span>Given that</span> I am at a point of sale terminal in
+                    a foreign country or an eCommerce website that is not
+                    domiciled in my home currency.
+                  </p>
+                  <p className='p-8 bg-blue-200 border-2 border-gray-400 border-dashed'>
+                    <span>When</span> I am about to make a payment.
+                  </p>
+                  <p className='p-8 bg-blue-200 border-2 border-gray-400 border-dashed'>
+                    <span>Then</span> give me an opportunity to compare the
+                    option of paying in foreign currency or a pre-converted
+                    amount in my home currency.
+                  </p>
                 </div>
-              </section>
+              </div>
+            </section>
 
             <div className='py-12'>
               <Image

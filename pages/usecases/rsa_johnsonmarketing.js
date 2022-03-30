@@ -10,9 +10,6 @@ import Brief from '@/components/molecules/brief';
 import GetInTouch from '@/components/getintouch';
 import Footer from '@/components/footer';
 
-import RSA_Marketing1 from '../../assets/usecases/RSA_Marketing1.png';
-import RSA_Marketing2 from '../../assets/usecases/RSA_Marketing2.png';
-import RSA_Marketing3 from '../../assets/usecases/RSA_Marketing3.png';
 import RSA_Marketing4 from '../../assets/usecases/RSA_Marketing4.png';
 import RSA_Marketing5 from '../../assets/usecases/RSA_Marketing5.png';
 import RSA_Marketing6 from '../../assets/usecases/RSA_Marketing6.png';
