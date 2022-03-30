@@ -18,7 +18,7 @@
 
 /* Simple defaults */
 body {
-  @apply font-sans antialiased text-black bg-white;
+  @apply font-sans antialiased bg-neutral-900;
 }
 
 .player-wrapper {

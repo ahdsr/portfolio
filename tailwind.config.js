@@ -40,7 +40,7 @@ module.exports = {
           DEFAULT: '#d18d67',
           dark: '#ce8860',
         },
-        customblue: '#FA292A',
+        customblue: '#000AFF',
         customblue2: '#b89f5d',
         customyellow: '#a162073',
         customgray: '#F3F3F3',

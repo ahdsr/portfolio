@@ -1,5 +1,6 @@
 html.has-scroll-smooth {
-  @apply overflow-hidden bg-stone-900;
+  @apply overflow-hidden;
+  background-image: url('../assets/global/vec.png');
 }
 
 .has-scroll-smooth body {

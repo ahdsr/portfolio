@@ -3,7 +3,7 @@ import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { useEffect } from 'react';
 import Image from 'next/image';
-import Logo1 from '../../assets/global/bg.png';
+import Logo1 from '../../assets/global/me.png';
 
 function ImageAnim(props) {
   const controls = useAnimation();
@@ -29,7 +29,7 @@ function ImageAnim(props) {
       x: 0,
       y: 0,
       opacity: 1,
-      scale: 0.84,
+      scale: 0.96,
       transition: {
         duration: 1,
       },
@@ -43,7 +43,7 @@ function ImageAnim(props) {
       animate={controls}
       variants={boxVariants}
     >
-      <div className='h-screen'>
+      <div className='h-screen mx-auto text-center'>
         <Image alt='Mountains' src={Logo1} layout='intrinsic' />
       </div>
     </motion.div>

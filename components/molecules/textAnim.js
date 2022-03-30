@@ -14,7 +14,7 @@ function TextAnim(props) {
   }, [controls, inView]);
 
   const boxVariants = {
-    hidden: { x: 10, y: 0, opacity: 0 },
+    hidden: { x: 0, y: '99%', opacity: 0 },
     visible: {
       x: 0,
       y: 0,
@@ -22,22 +22,22 @@ function TextAnim(props) {
 
       transition: {
         duration: 1,
-        delay: 0.4,
+        delay: 0.1,
       },
     },
   };
   return (
-    <motion.div
-      ref={ref}
-      className=''
-      initial='hidden'
-      animate={controls}
-      variants={boxVariants}
-    >
-      <div className='mt-4 mb-6'>
-        <p>{props.text}</p>
-      </div>
-    </motion.div>
+    <div className='mt-4 mb-6 overflow-hidden text-white'>
+      <motion.div
+        ref={ref}
+        className=''
+        initial='hidden'
+        animate={controls}
+        variants={boxVariants}
+      >
+        <p className='text-white'>{props.text}</p>
+      </motion.div>
+    </div>
   );
 }
 

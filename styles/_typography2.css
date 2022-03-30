@@ -9,14 +9,14 @@ h2,
 }
 h3,
 .h3 {
-  @apply mb-4 pt-6 text-4xl tracking-tight font-thin text-white;
+  @apply mb-4 pt-6 text-2xl  uppercase font-light text-slate-200;
 }
 h4,
 .h4 {
 }
 
 p {
-  @apply mb-4 font-sans font-thin leading-relaxed text-slate-400;
+  @apply mb-4 font-sans font-thin leading-relaxed text-slate-600;
 }
 
 .summary {
@@ -83,7 +83,7 @@ li,
 }
 
 .cta {
-  @apply inline-block w-auto px-4 py-3 my-4 font-mono text-sm font-bold text-white bg-black hover:text-yellow-400 hover:scale-90 transition ease-in-out;
+  @apply inline-block w-auto px-4 py-3 my-4 font-mono text-sm font-bold text-white border border-white hover:text-yellow-400 hover:scale-90 transition ease-in-out hover:bg-black;
 }
 
 .tinytext {
@@ -116,5 +116,5 @@ li,
 
 .usecase p,
 .p {
-  @apply my-4 text-xl font-sans font-light leading-relaxed text-slate-800;
+  @apply my-4 text-xl font-sans font-light leading-relaxed text-slate-700;
 }

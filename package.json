@@ -32,10 +32,6 @@
     "blobity": "^0.1.7",
     "framer-motion": "^4.1.17",
     "gsap": "^3.9.1",
-<<<<<<< HEAD
-=======
-    "locomotive-scroll": "^4.1.4",
->>>>>>> 87a11c0ac388d164d82b04bdaeb9982dcbee320c
     "next": "^12.0.8",
     "next-seo": "^4.29.0",
     "postcss-import": "^14.0.2",
@@ -46,10 +42,6 @@
     "react": "^17.0.2",
     "react-app-protect": "^1.0.8",
     "react-dom": "^17.0.2",
-<<<<<<< HEAD
-=======
-    "react-flow-renderer": "^10.0.3",
->>>>>>> 87a11c0ac388d164d82b04bdaeb9982dcbee320c
     "react-gsap": "^3.2.1",
     "react-icons": "^4.3.1",
     "react-intersection-observer": "^8.33.1",

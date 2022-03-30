@@ -25,10 +25,11 @@ function figma() {
   const hero = {
     visible: {
       x: 0,
-      y: [-500, 0, 0],
+      y: -100,
+      opacity: 1,
       transition: {
-        duration: 1,
-        delay: 0.5,
+        duration: 1.4,
+        delay: 0.1,
       },
     },
     hidden: { opacity: 0 },
@@ -50,91 +51,98 @@ function figma() {
             <LazyMotion features={domAnimation}>
               <m.div initial='initial' animate='enter' exit='exit'>
                 <m.main variants={fade} className=''>
-                  <div className='bg-indigo-900 bg-opacity-50 '>
+                  <div className=''>
                     <div>
                       <FancyLink
                         destination='/figma'
                         a11yText='Back'
-                        label='Back'
-                        extraClasses='transition-all border-transparent text-white bg-customblue hover:border-yellow-500 hover:text-slate-200 inline-flex items-center p-12 border-b-2 text-sm font-regular uppercase'
+                        label='B'
+                        extraClasses='transition-all text-white bg-gradient-to-br from-yellow-500  to-yellow-400 hover:text-slate-200 inline-flex items-center w-16 h-16 self-center m-12 hover:scale-120 hover:border-4  rounded-full  text-sm font-regular uppercase'
                       />
                     </div>
-                    <div className='relative mx-auto px-36 pb-36'>
-                      <Divider />
 
-                      <m.div animate='visible' variants={hero}>
-                        <div className='mt-36  text-[112px] max-w-7xl leading-[1] bg-clip-text bg-gradient-to-br from-[#0528F2] to-[#0742F2] text-transparent tracking-tighter mb-24'>
-                          BEON PERFORMANCE
+                    <div className='flex flex-row'>
+                      <div className='relative pb-12 mx-auto px-36'>
+                        <m.div animate='visible' variants={hero}>
+                          <div className='mt-36 font-light  text-[112px] max-w-4xl leading-[1] bg-clip-text bg-gradient-to-br from-[#0528F2] to-[#0742F2] text-transparent tracking-tighter mb-24'>
+                            BEON PERFORMANCE
+                          </div>
+                        </m.div>
+                        <m.div
+                          animate={{ x: 0, y: -100 }}
+                          transition={{ delay: 0.2, duration: 0.7 }}
+                        >
+                          <div className='text-3xl font-light leading-loose text-white w-72 b '>
+                            Case Study
+                          </div>{' '}
+                        </m.div>
+                        <m.div
+                          animate={{ x: 0, y: -100 }}
+                          transition={{ delay: 0.7 }}
+                        >
+                          <div className='max-w-3xl mb-12 text-2xl font-thin text-white'>
+                            {' '}
+                            <TextAnim text='Creating a digital foundation for BEON to maximize a Mentor’s ability to efficiently monitor their clients’ progress while introducing the ACT Model including understanding its methodology, development and ongoing management to their clients. Creating a digital foundation for BEON to maximize a Mentor’s ability to efficiently monitor their clients’ progress while introducing the ACT Model including understanding its methodology, development and ongoing management to their clients.' />
+                          </div>
+                        </m.div>
+                        <div className='mx-auto mt-2 text-sm font-thin leading-loose text-left text-yellow-100'>
+                          Mobile App
                         </div>
-                      </m.div>
-                      <m.div
-                        animate={{ x: 0, y: -100 }}
-                        transition={{ delay: 1 }}
-                      >
-                        <div className='text-5xl leading-loose text-white w-72'>
-                          Case Study
-                        </div>{' '}
-                      </m.div>
-
-                      <div className='max-w-3xl mb-12 text-2xl font-thin text-white'>
-                        {' '}
-                        <TextAnim text='Creating a digital foundation for BEON to maximize a Mentor’s ability to efficiently monitor their clients’ progress while introducing the ACT Model including understanding its methodology, development and ongoing management to their clients. Creating a digital foundation for BEON to maximize a Mentor’s ability to efficiently monitor their clients’ progress while introducing the ACT Model including understanding its methodology, development and ongoing management to their clients.' />
+                        <div className='mx-auto mt-2 text-sm font-thin leading-loose text-left text-yellow-100'>
+                          Client: Beon Performance
+                        </div>
                       </div>
 
-                      <div className='mx-auto mt-2 text-sm font-thin leading-loose text-left text-yellow-100'>
-                        Mobile App
-                      </div>
-                      <div className='mx-auto mt-2 text-sm font-thin leading-loose text-left text-yellow-100'>
-                        Client: Beon Performance
+                      <div className='shrink grid grid-cols-4 gap-4 max-w-6xl font-thin tracking-tighter bg-clip-text bg-gradient-to-br from-[#BF8656] to-[#E49A61] text-transparent px-36 leading-2 text-xl'>
+                        <div>
+                          <h3>Project</h3>
+                          <div className='text-base font-bold tracking-normal'>
+                            <TextAnim text='Mobile Native' />
+                          </div>
+                        </div>
+                        <div>
+                          <h3>Role</h3>
+                          <div className='text-base font-bold tracking-normal'>
+                            <TextAnim text='UX Manager' />
+                            <TextAnim text='UX Senior Lead' />
+                          </div>
+                        </div>
+                        <div>
+                          <h3>Duration</h3>
+                          <div className='text-base font-bold tracking-normal'>
+                            <TextAnim text='UX Manager' />
+                            <TextAnim text='5 Day Ideation Workshop' />
+                          </div>
+                        </div>
+                        <div>
+                          <h3>Tools</h3>
+
+                          <div className='text-base font-bold tracking-normal'>
+                            <TextAnim text='Sketch' />
+                            <TextAnim text='Invision Studio' />
+                          </div>
+                        </div>
                       </div>
                     </div>
 
-                    <div className='grid grid-cols-4 gap-4 max-w-6xl font-thin tracking-tighter bg-clip-text bg-gradient-to-br from-[#BF8656] to-[#E49A61] text-transparent px-36 leading-2 text-xl'>
-                      <div>
-                        <h3>Project</h3>
-                        <p>
-                          <TextAnim text='Mobile Native' />
-                        </p>
-                      </div>
-                      <div>
-                        <h3>Role</h3>
-
-                        <TextAnim text='UX Manager' />
-                        <TextAnim text='UX Senior Lead' />
-                      </div>
-                      <div>
-                        <h3>Duration</h3>
-                        <TextAnim text='UX Manager' />
-                        <TextAnim text='5 Day Ideation Workshop' />
-                      </div>
-                      <div>
-                        <h3>Tools</h3>
-                        <TextAnim text='UX Manager' />
-                        <TextAnim text='Sketch' />
-                        <TextAnim text='Invision Studio' />
-                      </div>
-                    </div>
-
-                    <div className='flex flex-row mx-auto px-36'>
+                    {/*     <div className='flex flex-row mx-auto'>
                       <div
                         data-scroll
                         data-scroll-speed='1'
                         data-scroll-delay='0.5'
-                        className='pr-4'
                       >
                         {' '}
                         <ImageAnim />
                       </div>
                       <div
                         data-scroll
-                        data-scroll-speed='2'
+                        data-scroll-speed='3'
                         data-scroll-delay='0.5'
-                        className='pl-4'
                       >
                         {' '}
                         <ImageAnim />
                       </div>
-                    </div>
+                    </div> */}
 
                     <div className='mx-auto px-36'>
                       <DividerAnim />
@@ -183,8 +191,8 @@ function figma() {
                         />
                       </div>
                     </div>
-
-                    <ImageAnim />
+                    {/* 
+                    <ImageAnim /> */}
 
                     <div className='grid h-screen grid-cols-2 gap-4'>
                       <div className='max-w-6xl font-thin tracking-tighter text-red-400 px-36 leading-2 text-8xl'>
@@ -230,21 +238,21 @@ function figma() {
                       </div>
                     </div>
 
-                    <div className='py-24'>
+                    <div className='mt-12'>
                       <div className='max-w-6xl text-4xl font-thin text-yellow-400 px-36 leading-2'>
-                        <BsFillArrowDownRightCircleFill className='w-12 h-12 m-4 text-right text-slate-800' />
                         The end, go back.
+                        <BsFillArrowDownRightCircleFill className='w-12 h-12 -ml-2 text-right rotate-90 text-slate-800' />
                       </div>
                     </div>
+                    <FancyLink
+                      destination='/figma'
+                      a11yText='Back'
+                      label='Back'
+                      extraClasses='transition-all border-transparent text-white bg-customblue hover:border-yellow-500 hover:text-slate-200 hover:rounded-full inline-flex items-center p-12 border-b-2 text-sm font-regular uppercase'
+                    >
+                      {' '}
+                    </FancyLink>
                   </div>
-                  <FancyLink
-                    destination='/figma'
-                    a11yText='Back'
-                    label='Back'
-                    extraClasses='transition-all border-transparent text-white bg-customblue hover:border-yellow-500 hover:text-slate-200 inline-flex items-center p-12 border-b-2 text-sm font-regular uppercase'
-                  >
-                    {' '}
-                  </FancyLink>
                 </m.main>
               </m.div>
             </LazyMotion>
