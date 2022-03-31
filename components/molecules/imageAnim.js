@@ -3,9 +3,10 @@ import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { useEffect } from 'react';
 import Image from 'next/image';
-import Logo1 from '../../assets/global/me.png';
 
-function ImageAnim(props) {
+function ImageAnim({ imageSource }) {
+  let newImage = imageSource;
+
   const controls = useAnimation();
   const { ref, inView } = useInView({ rootMargin: '-100px', threshold: 0 });
 
@@ -29,12 +30,18 @@ function ImageAnim(props) {
       x: 0,
       y: 0,
       opacity: 1,
-      scale: 0.96,
+      scale: 0.84,
       transition: {
-        duration: 1,
+        delayChildren: 0.5,
       },
     },
   };
+
+  const item = {
+    hidden: { opacity: 0 },
+    show: { opacity: 1 },
+  };
+
   return (
     <motion.div
       ref={ref}
@@ -43,9 +50,9 @@ function ImageAnim(props) {
       animate={controls}
       variants={boxVariants}
     >
-      <div className='h-screen mx-auto text-center'>
-        <Image alt='Mountains' src={Logo1} layout='intrinsic' />
-      </div>
+      <li className='h-screen mx-auto text-center' variants={item}>
+        <Image alt='Mountains' src={newImage} layout='intrinsic' />
+      </li>
     </motion.div>
   );
 }

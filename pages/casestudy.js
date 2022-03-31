@@ -17,6 +17,7 @@ import ReactPlayer from 'react-player';
 import Image from 'next/image';
 import Placeholder from '../assets/global/bg.png';
 import Placeholder2 from '../assets/global/bg2.png';
+import newImage from '../assets/3drenders/city1.webp';
 
 function figma() {
   const containerRef = useRef(null);
@@ -64,62 +65,44 @@ function figma() {
                     <div className='flex flex-row'>
                       <div className='relative pb-12 mx-auto px-36'>
                         <m.div animate='visible' variants={hero}>
-                          <div className='mt-36 font-light  text-[112px] max-w-4xl leading-[1] bg-clip-text bg-gradient-to-br from-[#0528F2] to-[#0742F2] text-transparent tracking-tighter mb-24'>
+                          <div className='mt-36 font-light text-[112px] max-w-4xl leading-[1] text-white  tracking-tighter mb-24'>
                             BEON PERFORMANCE
                           </div>
                         </m.div>
-                        <m.div
-                          animate={{ x: 0, y: -100 }}
-                          transition={{ delay: 0.2, duration: 0.7 }}
-                        >
-                          <div className='text-3xl font-light leading-loose text-white w-72 b '>
-                            Case Study
-                          </div>
-                        </m.div>
+
                         <m.div
                           animate={{ x: 0, y: -100 }}
                           transition={{ delay: 0.7 }}
                         >
-                          <div className='max-w-3xl mb-12 text-2xl font-thin text-white'>
+                          <div className='max-w-3xl mb-12 text-xl font-thin text-white'>
                             <TextAnim text='Creating a digital foundation for BEON to maximize a Mentor’s ability to efficiently monitor their clients’ progress while introducing the ACT Model including understanding its methodology, development and ongoing management to their clients. Creating a digital foundation for BEON to maximize a Mentor’s ability to efficiently monitor their clients’ progress while introducing the ACT Model including understanding its methodology, development and ongoing management to their clients.' />
                           </div>
                         </m.div>
-                        <div className='mx-auto mt-2 text-sm font-thin leading-loose text-left text-yellow-100'>
-                          Mobile App
-                        </div>
-                        <div className='mx-auto mt-2 text-sm font-thin leading-loose text-left text-yellow-100'>
-                          Client: Beon Performance
-                        </div>
                       </div>
 
-                      <div className='shrink grid grid-cols-4 gap-4 max-w-6xl font-thin tracking-tighter bg-clip-text bg-gradient-to-br from-[#BF8656] to-[#E49A61] text-transparent px-36 leading-2 text-xl'>
+                      <div className='grid grid-cols-4 gap-4 text-xl font-thin shrink px-36 leading-2'>
                         <div>
                           <h3>Project</h3>
-                          <div className='text-base font-bold tracking-normal'>
-                            <TextAnim text='Mobile Native' />
-                          </div>
+
+                          <TextAnim text='Mobile Native' />
                         </div>
                         <div>
                           <h3>Role</h3>
-                          <div className='text-base font-bold tracking-normal'>
-                            <TextAnim text='UX Manager' />
-                            <TextAnim text='UX Senior Lead' />
-                          </div>
+
+                          <TextAnim text='UX Manager' />
+                          <TextAnim text='UX Senior Lead' />
                         </div>
                         <div>
                           <h3>Duration</h3>
-                          <div className='text-base font-bold tracking-normal'>
-                            <TextAnim text='UX Manager' />
-                            <TextAnim text='5 Day Ideation Workshop' />
-                          </div>
+
+                          <TextAnim text='UX Manager' />
+                          <TextAnim text='5 Day Ideation Workshop' />
                         </div>
                         <div>
                           <h3>Tools</h3>
 
-                          <div className='text-base font-bold tracking-normal'>
-                            <TextAnim text='Sketch' />
-                            <TextAnim text='Invision Studio' />
-                          </div>
+                          <TextAnim text='Sketch' />
+                          <TextAnim text='Invision Studio' />
                         </div>
                       </div>
                     </div>
@@ -145,27 +128,8 @@ function figma() {
 
                     <div className='mx-auto px-36'>
                       <DividerAnim />
-                      <div className='w-64 mt-12 text-5xl leading-10 text-white'>
-                        C1. <br />
+                      <div className='w-64 mt-12 mb-12 text-5xl leading-10 text-white'>
                         OVERVIEW
-                        <FancyLink
-                          destination='/'
-                          a11yText='Overview'
-                          label='Overview'
-                          extraClasses='transition-all border-transparent text-white bg-customblue hover:border-yellow-500 hover:text-slate-200 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-regular uppercase'
-                        />
-                        <FancyLink
-                          destination='/'
-                          a11yText='Illustrating the use case'
-                          label='Illustrating the use case'
-                          extraClasses='transition-all border-transparent text-white bg-customblue hover:border-yellow-500 hover:text-slate-200 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-regular uppercase'
-                        />
-                        <FancyLink
-                          destination='/'
-                          a11yText='Ideation'
-                          label='Ideation'
-                          extraClasses='transition-all border-transparent text-white bg-customblue hover:border-yellow-500 hover:text-slate-200 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-regular uppercase'
-                        />
                       </div>
                     </div>
 
@@ -190,39 +154,12 @@ function figma() {
                         />
                       </div>
                     </div>
-                    {/* 
-                    <ImageAnim /> */}
+                    <ul className='grid grid-cols-2 gap-2 mx-auto px-36'>
+                      <ImageAnim imageSource={newImage} />
 
-                    <div className='grid h-screen grid-cols-2 gap-4'>
-                      <div className='max-w-6xl font-thin tracking-tighter text-red-400 px-36 leading-2 text-8xl'>
-                        SHANE WATSON
-                      </div>
+                      <ImageAnim imageSource={newImage} />
+                    </ul>
 
-                      <div className='mx-auto text-xl font-thin leading-9 text-white px-36 '>
-                        <h3>
-                          One of the best all-rounders, Shane Watson’s
-                          cricketing legacy is an illustrious one.
-                        </h3>
-                        <TextAnim
-                          text='Group session to explore what impacts performance, how
-                          to deal with anxiety, getting to your individual and
-                          collective A Game and performance mindset.'
-                        />
-
-                        <h3>Visualize</h3>
-                        <TextAnim
-                          text='Group session to explore what impacts performance, how
-                          to deal with anxiety, getting to your individual and
-                          collective A Game and performance mindset.'
-                        />
-                        <h3>Refine</h3>
-                        <TextAnim
-                          text='Group session to explore what impacts performance, how
-                          to deal with anxiety, getting to your individual and
-                          collective A Game and performance mindset.'
-                        />
-                      </div>
-                    </div>
                     <div className='mx-auto text-xl font-thin leading-9 text-white px-36'>
                       <div className='player-wrapper'>
                         <ReactPlayer

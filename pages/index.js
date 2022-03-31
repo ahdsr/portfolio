@@ -11,6 +11,7 @@ import DividerAnim from '@/components/molecules/DividerAnim';
 import TextAnim from '@/components/molecules/textAnim';
 import ImageAnim from '@/components/molecules/imageAnim';
 import RandomImage from '@/components/molecules/randomImage';
+import AnimTest from './animationTest1';
 
 //Imported Images
 import Image from 'next/image';
@@ -41,12 +42,20 @@ function figma() {
           <div data-scroll-section>
             <LazyMotion features={domAnimation}>
               <m.div initial='initial' animate='enter' exit='exit'>
-                <m.main variants={fade} className=''>
+                <m.main variants={fade} className='' id='scroll-direction'>
+                  <div
+                    className='z-50 '
+                    data-scroll
+                    data-scroll-sticky
+                    data-scroll-target='#scroll-direction'
+                  >
+                    <AnimTest />
+                  </div>
                   <div className='bg-black '>
                     <div className='relative h-screen mx-auto md:px-20 lg:px-24 xl:px-36'>
                       <m.div animate={{ x: 0, y: 50 }}>
                         <div className='text-3xl leading-loose text-right text-stone-600'>
-                          V.01 - Lucas C
+                          V.01 - Lucas C{' '}
                         </div>
                         <div className='mx-auto text-2xl leading-loose text-right text-white '>
                           Mar 30 2022
@@ -66,6 +75,7 @@ function figma() {
                         <div className='mx-auto mt-2 text-sm font-thin leading-loose text-right text-yellow-100'></div>
                       </m.div>
                     </div>
+
                     <div className='mx-auto px-36'>
                       <div className='text-5xl leading-10 text-slate-300 w-96'>
                         A1. <br />
