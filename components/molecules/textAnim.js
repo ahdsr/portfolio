@@ -35,7 +35,9 @@ function TextAnim(props) {
         animate={controls}
         variants={boxVariants}
       >
-        <div className='text-xl font-thin text-white'>{props.text}</div>
+        <div className='text-base font-thin text-white md:text-xl'>
+          {props.text}
+        </div>
       </motion.div>
     </div>
   );

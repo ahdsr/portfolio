@@ -13,9 +13,12 @@ import ImageAnim from '@/components/molecules/imageAnim';
 import RandomImage from '@/components/molecules/randomImage';
 import AnimTest from './animationTest1';
 
+//Clean Imports
+import LocoPageHeading from '@/components/molecules/LocoPageHeading';
+import LocoCaseStudyHero from '@/components/molecules/LocoCaseStudyHero';
+
 //Imported Images
 import Image from 'next/image';
-import Placeholder from '../assets/usecases/beon_hero.webp';
 
 function figma() {
   const containerRef = useRef(null);
@@ -34,6 +37,22 @@ function figma() {
           smooth: true,
           lerp: 0.05,
           multiplier: 1,
+          getDirection: true,
+          mobile: {
+            smooth: true,
+            breakpoint: 0,
+            multiplier: 2,
+            getDirection: true,
+            resetNativeScroll: true,
+          },
+          tablet: {
+            smooth: true,
+            breakpoint: 0,
+            multiplier: 2,
+            getDirection: true,
+
+            resetNativeScroll: true,
+          },
         }}
         containerRef={containerRef}
         watch={[]}
@@ -43,131 +62,89 @@ function figma() {
             <LazyMotion features={domAnimation}>
               <m.div initial='initial' animate='enter' exit='exit'>
                 <m.main variants={fade} className='' id='scroll-direction'>
-                  <div
-                    className='z-50 '
-                    data-scroll
-                    data-scroll-sticky
-                    data-scroll-target='#scroll-direction'
-                  >
-                    <AnimTest />
-                  </div>
-                  <div className='bg-black '>
-                    <div className='relative h-screen mx-auto md:px-20 lg:px-24 xl:px-36'>
+                  <div className='px-8 mx-auto bg-black md:px-16 lg:px-36 '>
+                    <div
+                      className='z-50 '
+                      data-scroll
+                      data-scroll-sticky
+                      data-scroll-target='#scroll-direction'
+                    >
+                      <AnimTest />
+                    </div>
+                    <div className='h-screen mx-auto'>
                       <m.div animate={{ x: 0, y: 50 }}>
-                        <div className='text-3xl leading-loose text-right text-stone-600'>
+                        <div className='leading-loose text-right lg:text-3xl text-stone-600'>
                           V.01 - Lucas C{' '}
                         </div>
-                        <div className='mx-auto text-2xl leading-loose text-right text-white '>
+                        <div className='mx-auto leading-loose text-right text-white lg:text-2xl '>
                           Mar 30 2022
                         </div>
                       </m.div>
-
-                      <div className='mt-36 md:text-[160px] lg:text-[180px]  leading-[1] bg-clip-text bg-gradient-to-br from-[#FFD600] to-[#e0bb00] text-transparent tracking-tighter '>
-                        /* INSERT CREATIVE TAGLINE HERE */
-                        <br />
-                      </div>
-
+                      <m.div
+                        animate={{ x: 0, y: -80 }}
+                        transition={{ delay: 0.4, duration: 0.6 }}
+                      >
+                        <div className='mt-36 md:text-[140px] lg:text-[220px] uppercase  leading-[1] bg-clip-text bg-gradient-to-br from-[#FFD600] to-[#fff] text-transparent tracking-tighter '>
+                          Hello, I'm Lucas a UX/UI Designer
+                          <br />
+                        </div>
+                      </m.div>
                       <m.div
                         animate={{ x: 0, y: 50 }}
-                        transition={{ delay: 0.1, duration: 0.7 }}
+                        transition={{ delay: 0.2, duration: 0.7 }}
                       >
-                        <BsFillArrowDownRightCircleFill className='w-12 h-12 m-4 mx-auto text-right text-opacity-50 rotate-45 text-slate-50' />
+                        <BsFillArrowDownRightCircleFill className='w-12 h-12 m-4 mx-auto text-right text-opacity-50 rotate-45 text-customblue' />
                         <div className='mx-auto mt-2 text-sm font-thin leading-loose text-right text-yellow-100'></div>
                       </m.div>
                     </div>
-
-                    <div className='mx-auto px-36'>
-                      <div className='text-5xl leading-10 text-slate-300 w-96'>
-                        A1. <br />
-                        Quick Facts
-                        <FancyLink
-                          destination='/casestudy'
-                          a11yText='Beon Performance'
-                          label='Beon Performance'
-                          extraClasses='transition-all border-transparent text-white bg-customblue hover:border-yellow-500 hover:text-slate-200 inline-flex items-center px-3 py-2 border-t-2 text-sm font-regular uppercase'
-                        />
-                      </div>
+                    <div className='pb-24 mx-auto overflow-hidden'>
+                      <DividerAnim />
                     </div>
+                    <LocoPageHeading
+                      number={'01'}
+                      heading={'Things I enjoy'}
+                      destination={'/casestudy'}
+                      a11yText={'Cast Study'}
+                      label={'Case Study'}
+                      extraClasses={'cta inline-block'}
+                    />
 
-                    <div className='h-screen mx-auto lg:w-1/2 px-36'>
-                      <div className='top-0 right-0 text-xl font-thin leading-10 text-white uppercase '>
-                        <BsFillArrowDownRightCircleFill className='m-4 text-right w-96 h-96 text-slate-800 text-opacity-10' />
+                    <div className='my-48'>
+                      <div className='top-0 right-0 w-1/2 text-xl font-thin leading-10 text-white uppercase '>
                         <ul>
-                          <li
-                            data-scroll
-                            data-scroll-speed='1'
-                            data-scroll-delay='0.1'
-                          >
-                            01. A tough design problem
-                          </li>
-                          <li
-                            data-scroll
-                            data-scroll-speed='1'
-                            data-scroll-delay='0.2'
-                          >
-                            02. Subtle animation & motion
-                          </li>
-                          <li
-                            data-scroll
-                            data-scroll-speed='1'
-                            data-scroll-delay='0.3'
-                          >
-                            03. Design driven by science and data
-                          </li>
-                          <li
-                            data-scroll
-                            data-scroll-speed='1'
-                            data-scroll-delay='0.4'
-                          >
-                            04. Transparent, constructive feedback
-                          </li>
-                          <li
-                            data-scroll
-                            data-scroll-speed='1'
-                            data-scroll-delay='0.5'
-                          >
-                            05. Selling a solution
-                          </li>
-                          <li
-                            data-scroll
-                            data-scroll-speed='1'
-                            data-scroll-delay='0.6'
-                          >
-                            06. A tough design problem
-                          </li>
+                          <li>01. A tough design problem</li>
+                          <li>02. Subtle animation & motion</li>
+                          <li>03. Design driven by science and data</li>
+                          <li>04. Transparent, constructive feedback</li>
+                          <li>05. Selling a solution</li>
+                          <li>06. A tough design problem</li>
                         </ul>
                       </div>
                     </div>
-                    <div
-                      className='mx-auto mb-24 px-36'
-                      data-scroll
-                      data-scroll-speed='1'
-                    >
-                      <div className='text-5xl leading-10 text-white w-96'>
-                        B1. <br />
-                        ABOUT ME
-                        <FancyLink
-                          destination='/casestudy'
-                          a11yText='Beon Performance'
-                          label='Beon Performance'
-                          extraClasses='transition-all border-transparent text-white bg-customblue hover:border-yellow-500 hover:text-slate-200 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-regular uppercase'
-                        />
-                      </div>
+                    <div className='pb-24 mx-auto overflow-hidden'>
+                      <DividerAnim />
                     </div>
-                    <div className='flex flex-row '>
-                      <div className='h-screen max-w-6xl font-thin text-[#FFD600] px-36 leading-2 text-8xl'>
+                    <LocoPageHeading
+                      number={'02'}
+                      heading={'About Me'}
+                      destination={'/casestudy'}
+                      a11yText={'Cast Study'}
+                      label={'About Me'}
+                      extraClasses={'cta inline-block'}
+                    />
+
+                    <div className='my-48 lg:grid lg:grid-cols-3'>
+                      <div className='font-thin text-[#FFD600] leading-2 text-6xl lg:text-8xl mr-16 md:mb-12'>
                         Research, design, prototype, test and evaluate ↻
                       </div>
                       <div
-                        className='mx-auto text-xl font-thin leading-9 text-white px-36 '
+                        className='mx-auto text-xl font-thin leading-9 text-white '
                         data-scroll
-                        data-scroll-speed='3'
+                        data-scroll-speed='1'
+                        data-scroll-delay='0.6'
                       >
                         <TextAnim
                           text=" As a designer, I've been lucky enough to be exposed to a
-                        vast number of employers, teams and projects. Each of
-                        them have given me a rewarding learning experience.' />
-                        As a designer, I've been lucky enough to be exposed to a
                         vast number of employers, teams and projects. Each of
                         them have given me a rewarding learning experience."
                         />
@@ -189,104 +166,28 @@ function figma() {
                         />
                       </div>
                     </div>
-                    <div
-                      className='mx-auto mb-24 px-36'
-                      data-scroll
-                      data-scroll-speed='1'
-                    >
-                      <div className='text-5xl leading-10 text-white w-96'>
-                        C1. <br />
-                        CASE STUDIES
-                        <FancyLink
-                          destination='/casestudy'
-                          a11yText='Beon Performance'
-                          label='Beon Performance'
-                          extraClasses='transition-all border-transparent text-white bg-customblue hover:border-yellow-500 hover:text-slate-200 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-regular uppercase'
-                        />
-                      </div>
+                    <div className='pb-24 mx-auto overflow-hidden'>
+                      <DividerAnim />
                     </div>
+                    <LocoPageHeading
+                      number={'03'}
+                      heading={'Case Studies'}
+                      destination={'/casestudy'}
+                      a11yText={'Case Studies'}
+                      label={'Case Studies'}
+                      extraClasses={'cta inline-block'}
+                    />
 
-                    <div className='mx-8 mb-24 duration-700 ease-in-out md:grid md:grid-cols-2 md:p-12 xl:p-24 md:mx-12 lg:mx-20 xl:mx-36 bg-[#0A0A0A] hover:shadow-custom hover:scale-95 hover:bg-opacity-20'>
-                      <div className='pr-48 mt-24 text-6xl font-thin text-yellow-500 leading-2'>
-                        BEON PERFORMANCE
-                        <TextAnim
-                          text="As a designer, I've been lucky enough to be exposed to
-                            a vast number of employers, teams and projects. Each
-                            of them have given me a rewarding learning experience."
-                        />
-                        <FancyLink
-                          destination='/casestudy'
-                          a11yText='Check it'
-                          label='Check it'
-                          extraClasses='cta'
-                        />
-                      </div>
-                      <div className='overflow-hidden transition-all duration-700 ease-in-out rounded-lg hover:scale-110 shrink opacity-60 hover:opacity-90'>
-                        <Image
-                          alt='Mountains'
-                          src={Placeholder}
-                          layout='intrinsic'
-                        />
-                      </div>
-                    </div>
+                    <LocoCaseStudyHero />
+                    <LocoCaseStudyHero />
+                    <LocoCaseStudyHero />
 
-                    <div className='mx-8 mb-24 duration-700 ease-in-out bg-[#0A0A0A] md:grid md:grid-cols-2 md:p-12 xl:p-24 md:mx-12 lg:mx-20 xl:mx-36 hover:shadow-custom hover:scale-95 rounded-large hover:bg-opacity-20'>
-                      <div className='pr-48 mt-24 text-6xl font-thin text-yellow-500 leading-2'>
-                        BEON PERFORMANCE
-                        <TextAnim
-                          text="As a designer, I've been lucky enough to be exposed to
-                            a vast number of employers, teams and projects. Each
-                            of them have given me a rewarding learning experience."
-                        />
-                        <FancyLink
-                          destination='/casestudy'
-                          a11yText='Check it'
-                          label='Check it'
-                          extraClasses='cta'
-                        />
-                      </div>
-                      <div className='overflow-hidden transition-all duration-700 ease-in-out rounded-lg shrink opacity-60 hover:opacity-90 hover:scale-110 '>
-                        <Image
-                          alt='Mountains'
-                          src={Placeholder}
-                          layout='intrinsic'
-                        />
-                      </div>
-                    </div>
-
-                    <div className='mx-8 mb-24 duration-700 ease-in-out md:grid md:grid-cols-2 md:p-12 xl:p-24 md:mx-12 lg:mx-20 xl:mx-36 bg-[#0A0A0A] hover:shadow-custom hover:scale-95 hover:bg-opacity-20'>
-                      <div className='pr-8 mt-24 text-6xl font-light text-yellow-500 leading-2'>
-                        VISA, CIBC & NAB
-                        <div className='pt-8 pr-8 text-xl font-bold text-white shrink-1'>
-                          <TextAnim
-                            text="As a designer, I've been lucky enough to be exposed to
-                            a vast number of employers, teams and projects. Each
-                            of them have given me a rewarding learning experience."
-                          />
-                        </div>
-                        <FancyLink
-                          destination='/casestudy'
-                          a11yText='Check it'
-                          label='Check it'
-                          extraClasses='cta'
-                        />
-                      </div>
-                      <div className='overflow-hidden transition-all duration-700 ease-in-out rounded-lg shrink opacity-60 hover:opacity-90 hover:scale-110 '>
-                        <Image
-                          alt='Mountains'
-                          src={Placeholder}
-                          layout='intrinsic'
-                          objectFit='cover'
-                        />
-                      </div>
-                    </div>
-
-                    <div className='flex flex-row mb-24 '>
-                      <div className='max-w-6xl font-thin text-[#FFD600] px-36 leading-2 text-8xl'>
+                    <div className='mb-24 md:flex md:flex-row'>
+                      <div className='font-thin text-[#FFD600] leading-2 text-4xl'>
                         Before you go...
                       </div>
 
-                      <div className='mx-auto text-xl font-thin leading-9 text-white px-36 '>
+                      <div className='mx-auto text-xl font-thin leading-9 text-white '>
                         <h3>Experience</h3>
                         <p>
                           I’ve got over 12 years of experience working in web
@@ -302,7 +203,7 @@ function figma() {
                       </div>
                     </div>
 
-                    <div className='pb-24 mx- auto px-36 '>
+                    <div className='pb-24 mx-auto overflow-hidden'>
                       <DividerAnim />
                     </div>
                   </div>

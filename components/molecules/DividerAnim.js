@@ -29,12 +29,12 @@ function DividerAnim() {
   return (
     <motion.div
       ref={ref}
-      className=''
+      className='overflow-hidden '
       initial='hidden'
       animate={controls}
       variants={boxVariants}
     >
-      <div className='px-24 border-b border-b-slate-800 '></div>
+      <div className='overflow-hidden border-b border-b-slate-800'></div>
     </motion.div>
   );
 }

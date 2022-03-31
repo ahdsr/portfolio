@@ -10,7 +10,7 @@ function Divider() {
       }}
       transition={{ ease: 'easeInOut', duration: 1 }}
     >
-      <div className='px-24 border-b border-b-slate-800 '></div>
+      <div className='overflow-hidden border-b border-b-slate-800'></div>
     </motion.div>
   );
 }
