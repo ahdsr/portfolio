@@ -61,7 +61,7 @@ export default function Resume() {
                     information architecture
                   </li>
                   <li>
-                    Expert in{' '}
+                    Expert in
                     <a
                       href='https://www.sketch.com/'
                       target='_blank'
@@ -69,7 +69,7 @@ export default function Resume() {
                     >
                       Sketch
                     </a>
-                    ,{' '}
+                    ,
                     <a
                       href='https://www.figma.com/'
                       target='_blank'
@@ -77,29 +77,29 @@ export default function Resume() {
                     >
                       Figma
                     </a>
-                    ,{' '}
+                    ,
                     <a
                       href='https://www.invisionapp.com/studio/learn/welcome-to-invision-studio'
                       target='_blank'
                       className='p-1 underline bg-yellow-200 bg-opacity-20 hover:bg-yellow-400'
                     >
                       Invision Studio
-                    </a>{' '}
+                    </a>
                     <a
                       href='https://www.adobe.com/ca/creativecloud.html'
                       target='_blank'
                       className='p-1 underline bg-yellow-200 bg-opacity-20 hover:bg-yellow-400'
                     >
                       Adobe Cloud
-                    </a>{' '}
-                    &{' '}
+                    </a>
+                    &
                     <a
                       href='https://www.protopie.io/'
                       target='_blank'
                       className='p-1 underline bg-yellow-200 bg-opacity-20 hover:bg-yellow-400'
                     >
                       Protopie
-                    </a>{' '}
+                    </a>
                     as well as other prototyping & design software
                   </li>
                   <li>
@@ -348,11 +348,9 @@ export default function Resume() {
                           July 2015 – July 2016
                         </div>
                         <div className='jobrole'>
-                          {' '}
                           Lead Creative / UX Designer
                         </div>
                         <div className='client'>
-                          {' '}
                           Lead Creative / UX Designer
                         </div>
                       </div>

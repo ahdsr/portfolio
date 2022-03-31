@@ -62,8 +62,7 @@ export default function Home() {
                       transition={{ ease: 'easeInOut', duration: 1 }}
                     >
                       <div className='px-24 mx-auto text-4xl font-light tracking-tight text-yellow-500 uppercase'>
-                        {' '}
-                        Hey, I’m Lucas a{' '}
+                        Hey, I’m Lucas a
                       </div>
                     </m.div>
                     <m.div
@@ -89,8 +88,7 @@ export default function Home() {
                         data-scroll
                         data-scroll-speed='1'
                       >
-                        {' '}
-                        based out of Toronto.{' '}
+                        based out of Toronto.
                       </div>
                     </m.div>
                   </div>

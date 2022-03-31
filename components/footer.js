@@ -40,7 +40,6 @@ export default function Footer() {
           </div>
 
           <div className='flex items-center h-6 font-mono text-xs'>
-            {' '}
             ©2022 Lucas Czuchraj. All rights reserved.
           </div>
         </div>

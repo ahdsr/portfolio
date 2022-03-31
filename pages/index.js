@@ -10,6 +10,7 @@ import Divider from '@/components/molecules/Divider';
 import DividerAnim from '@/components/molecules/DividerAnim';
 import TextAnim from '@/components/molecules/textAnim';
 import ImageAnim from '@/components/molecules/imageAnim';
+import RandomImage from '@/components/molecules/randomImage';
 
 //Imported Images
 import Image from 'next/image';
@@ -44,32 +45,26 @@ function figma() {
                   <div className='bg-black '>
                     <div className='relative h-screen mx-auto md:px-20 lg:px-24 xl:px-36'>
                       <m.div animate={{ x: 0, y: 50 }}>
-                        <div className='text-3xl leading-loose text-white w-72'>
-                          LUCAS C
-                        </div>{' '}
-                        <div className='text-sm leading-loose text-white w-72'>
-                          Butter V_.01
-                        </div>{' '}
+                        <div className='text-3xl leading-loose text-right text-stone-600'>
+                          V.01 - Lucas C
+                        </div>
+                        <div className='mx-auto text-2xl leading-loose text-right text-white '>
+                          Mar 2022
+                        </div>
                       </m.div>
 
-                      <div className='mt-36 md:text-[160px] lg:text-[224px] max-w-6xl leading-[1] bg-clip-text bg-gradient-to-br from-yellow-500 to-slate-600 text-transparent tracking-tighter '>
-                        UX & UI DESIGN <br />
+                      <div className='mt-36 md:text-[160px] lg:text-[180px]  leading-[1] bg-clip-text bg-gradient-to-br from-[#FFD600] to-[#e0bb00] text-transparent tracking-tighter '>
+                        /* INSERT CREATIVE TAGLINE HERE */
+                        <br />
                       </div>
-                      <DividerAnim />
 
                       <m.div
                         animate={{ x: 0, y: 50 }}
                         transition={{ delay: 0.1, duration: 0.7 }}
                       >
-                        <div className='mx-auto mt-2 text-sm font-thin leading-loose text-right text-yellow-100'>
-                          Based in Toronto, CAN{' '}
-                        </div>
-                        <DividerAnim />
-                        <div className='mx-auto mt-2 text-sm font-thin leading-loose text-right text-yellow-100'>
-                          43.717163112943155, -79.49685365328081
-                        </div>
+                        <BsFillArrowDownRightCircleFill className='w-12 h-12 m-4 mx-auto text-right text-opacity-50 rotate-45 text-slate-50' />
+                        <div className='mx-auto mt-2 text-sm font-thin leading-loose text-right text-yellow-100'></div>
                       </m.div>
-                      <DividerAnim />
                     </div>
                     <div className='mx-auto px-36'>
                       <div className='text-5xl leading-10 text-slate-300 w-96'>
@@ -93,7 +88,7 @@ function figma() {
                             data-scroll-speed='1'
                             data-scroll-delay='0.1'
                           >
-                            01. A tough design problem{' '}
+                            01. A tough design problem
                           </li>
                           <li
                             data-scroll
@@ -150,7 +145,7 @@ function figma() {
                       </div>
                     </div>
                     <div className='flex flex-row '>
-                      <div className='h-screen max-w-6xl font-thin text-red-400 px-36 leading-2 text-8xl'>
+                      <div className='h-screen max-w-6xl font-thin text-[#FFD600] px-36 leading-2 text-8xl'>
                         Research, design, prototype, test and evaluate ↻
                       </div>
                       <div
@@ -202,15 +197,13 @@ function figma() {
                     </div>
 
                     <div className='mx-8 mb-24 duration-700 ease-in-out md:grid md:grid-cols-2 md:p-12 xl:p-24 md:mx-12 lg:mx-20 xl:mx-36 bg-[#0A0A0A] hover:shadow-custom hover:scale-95 hover:bg-opacity-20'>
-                      <div className='pr-48 text-6xl font-thin text-yellow-500 leading-2'>
+                      <div className='pr-48 mt-24 text-6xl font-thin text-yellow-500 leading-2'>
                         BEON PERFORMANCE
-                        <p className='pt-24 text-2xl'>
-                          <TextAnim
-                            text="As a designer, I've been lucky enough to be exposed to
+                        <TextAnim
+                          text="As a designer, I've been lucky enough to be exposed to
                             a vast number of employers, teams and projects. Each
                             of them have given me a rewarding learning experience."
-                          />
-                        </p>
+                        />
                         <FancyLink
                           destination='/casestudy'
                           a11yText='Check it'
@@ -224,18 +217,17 @@ function figma() {
                           src={Placeholder}
                           layout='intrinsic'
                         />
-                      </div>{' '}
+                      </div>
                     </div>
 
                     <div className='mx-8 mb-24 duration-700 ease-in-out bg-[#0A0A0A] md:grid md:grid-cols-2 md:p-12 xl:p-24 md:mx-12 lg:mx-20 xl:mx-36 hover:shadow-custom hover:scale-95 rounded-large hover:bg-opacity-20'>
-                      <div className='pr-48 text-6xl font-thin text-yellow-500 leading-2'>
+                      <div className='pr-48 mt-24 text-6xl font-thin text-yellow-500 leading-2'>
                         BEON PERFORMANCE
-                        <p className='pt-24 text-2xl'>
-                          {' '}
-                          As a designer, I've been lucky enough to be exposed to
-                          a vast number of employers, teams and projects. Each
-                          of them have given me a rewarding learning experience.
-                        </p>
+                        <TextAnim
+                          text="As a designer, I've been lucky enough to be exposed to
+                            a vast number of employers, teams and projects. Each
+                            of them have given me a rewarding learning experience."
+                        />
                         <FancyLink
                           destination='/casestudy'
                           a11yText='Check it'
@@ -249,13 +241,13 @@ function figma() {
                           src={Placeholder}
                           layout='intrinsic'
                         />
-                      </div>{' '}
+                      </div>
                     </div>
 
                     <div className='mx-8 mb-24 duration-700 ease-in-out md:grid md:grid-cols-2 md:p-12 xl:p-24 md:mx-12 lg:mx-20 xl:mx-36 bg-[#0A0A0A] hover:shadow-custom hover:scale-95 hover:bg-opacity-20'>
-                      <div className='pr-8 text-6xl font-light text-yellow-500 leading-2'>
-                        BLUE
-                        <div className='pt-12 pr-8 text-2xl font-bold text-white shrink-1'>
+                      <div className='pr-8 mt-24 text-6xl font-light text-yellow-500 leading-2'>
+                        VISA, CIBC & NAB
+                        <div className='pt-8 pr-8 text-xl font-bold text-white shrink-1'>
                           <TextAnim
                             text="As a designer, I've been lucky enough to be exposed to
                             a vast number of employers, teams and projects. Each
@@ -280,7 +272,7 @@ function figma() {
                     </div>
 
                     <div className='flex flex-row mb-24 '>
-                      <div className='max-w-6xl font-thin text-red-400 px-36 leading-2 text-8xl'>
+                      <div className='max-w-6xl font-thin text-[#FFD600] px-36 leading-2 text-8xl'>
                         Before you go...
                       </div>
 

@@ -74,14 +74,13 @@ function figma() {
                         >
                           <div className='text-3xl font-light leading-loose text-white w-72 b '>
                             Case Study
-                          </div>{' '}
+                          </div>
                         </m.div>
                         <m.div
                           animate={{ x: 0, y: -100 }}
                           transition={{ delay: 0.7 }}
                         >
                           <div className='max-w-3xl mb-12 text-2xl font-thin text-white'>
-                            {' '}
                             <TextAnim text='Creating a digital foundation for BEON to maximize a Mentor’s ability to efficiently monitor their clients’ progress while introducing the ACT Model including understanding its methodology, development and ongoing management to their clients. Creating a digital foundation for BEON to maximize a Mentor’s ability to efficiently monitor their clients’ progress while introducing the ACT Model including understanding its methodology, development and ongoing management to their clients.' />
                           </div>
                         </m.div>
@@ -131,7 +130,7 @@ function figma() {
                         data-scroll-speed='1'
                         data-scroll-delay='0.5'
                       >
-                        {' '}
+                        
                         <ImageAnim />
                       </div>
                       <div
@@ -139,7 +138,7 @@ function figma() {
                         data-scroll-speed='3'
                         data-scroll-delay='0.5'
                       >
-                        {' '}
+                        
                         <ImageAnim />
                       </div>
                     </div> */}
@@ -201,7 +200,6 @@ function figma() {
 
                       <div className='mx-auto text-xl font-thin leading-9 text-white px-36 '>
                         <h3>
-                          {' '}
                           One of the best all-rounders, Shane Watson’s
                           cricketing legacy is an illustrious one.
                         </h3>
@@ -249,9 +247,7 @@ function figma() {
                       a11yText='Back'
                       label='Back'
                       extraClasses='transition-all border-transparent text-white bg-customblue hover:border-yellow-500 hover:text-slate-200 hover:rounded-full inline-flex items-center p-12 border-b-2 text-sm font-regular uppercase'
-                    >
-                      {' '}
-                    </FancyLink>
+                    ></FancyLink>
                   </div>
                 </m.main>
               </m.div>
