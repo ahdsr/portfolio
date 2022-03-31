@@ -49,7 +49,7 @@ function figma() {
                           V.01 - Lucas C
                         </div>
                         <div className='mx-auto text-2xl leading-loose text-right text-white '>
-                          Mar 2022
+                          Mar 30 2022
                         </div>
                       </m.div>
 
