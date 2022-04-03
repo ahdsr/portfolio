@@ -11,11 +11,11 @@ function LocoPageHeading({
 }) {
   return (
     <>
-      <div className='inline-block p-3 m-2 mx-auto text-base font-semibold tracking-tight text-black uppercase rounded-full bg-customblue bg-opacity-70 md:text-sm'>
+      <div className='inline-block p-3 m-2 mx-auto text-2xl font-semibold tracking-tight text-yellow-500 uppercase rounded-full bg-[#FF3A3A] bg-opacity-70  w-24 h-24 shadow-custom z-0'>
         {number}
       </div>
       <div
-        className='mx-auto mb-12 font-thin tracking-tight uppercase md:text-3xl lg:text-5xl text-stone-100'
+        className='z-10 pr-24 mx-auto mb-12 font-bold tracking-tight uppercase md:text-3xl lg:text-5xl text-stone-100'
         data-scroll
         data-scroll-speed='1'
       >

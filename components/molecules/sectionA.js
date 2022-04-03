@@ -2,7 +2,7 @@ import React from 'react';
 import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { useEffect } from 'react';
-import TextAnim from './textAnim';
+import TextAnim from './LocoTextAnim';
 
 function SectionA() {
   const controls = useAnimation({});

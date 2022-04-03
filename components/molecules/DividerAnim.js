@@ -34,7 +34,7 @@ function DividerAnim() {
       animate={controls}
       variants={boxVariants}
     >
-      <div className='overflow-hidden border-b border-b-slate-800'></div>
+      <div className='overflow-hidden border-b border-b-white border-opacity-5'></div>
     </motion.div>
   );
 }

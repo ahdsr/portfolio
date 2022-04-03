@@ -16,7 +16,7 @@ h4,
 }
 
 p {
-  @apply mb-4 font-sans font-thin leading-relaxed text-slate-600;
+  @apply mb-4 font-thin text-slate-600;
 }
 
 .summary {
@@ -74,12 +74,12 @@ p {
 
 li,
 .li {
-  @apply block md:my-2 font-sans font-light md:text-lg leading-relaxed;
+  @apply block md:my-4 font-sans font-thin md:text-lg leading-relaxed;
 }
 
 li,
 .li {
-  @apply block md:my-2 font-sans font-light md:text-lg leading-relaxed;
+  @apply block md:my-4 font-sans font-thin md:text-lg leading-relaxed;
 }
 
 .cta {

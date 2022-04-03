@@ -8,7 +8,7 @@ import Layout from '@/components/layout';
 import FancyLink from '@/components/fancyLink';
 import Divider from '@/components/molecules/Divider';
 import DividerAnim from '@/components/molecules/DividerAnim';
-import TextAnim from '@/components/molecules/textAnim';
+import TextAnim from '@/components/molecules/LocoTextAnim';
 import ImageAnim from '@/components/molecules/imageAnim';
 import ReactPlayer from 'react-player';
 

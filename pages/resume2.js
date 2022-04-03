@@ -39,10 +39,8 @@ export default function Resume() {
           <m.main variants={fade} className='bg-white'>
             <section className='bg-customblue'>
               {/*   <img src={profilePhoto} alt='' /> */}
-              <div className='px-8 mx-auto py-52 md:py-52 md:px-16 lg:max-w-6xl xl:max-w-7xl'>
-                <div className='mx-auto'>
-                  <h1>Resume</h1>
-                </div>
+              <div className='font-bold mt-36 md:text-[140px] lg:text-[240px] uppercase  leading-[1] bg-clip-text bg-gradient-to-br from-[#1B3389] to-[#0B121D] text-transparent tracking-tighter '>
+                Resume
               </div>
             </section>
 

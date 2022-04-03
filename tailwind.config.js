@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     fontFamily: {
       serif: ['Montserrat', 'sans-serif'],
-      sans: ['K2D', 'sans-serif'],
+      sans: ['Raleway', 'sans-serif'],
       mono: ['Space Mono', 'monospace'],
     },
 

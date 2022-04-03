@@ -3,7 +3,7 @@ import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { useEffect } from 'react';
 
-function TextAnim(props) {
+function LocoTextAnim(props) {
   const controls = useAnimation({});
   const { ref, inView } = useInView({ rootMargin: '200px', threshold: 0 });
 
@@ -27,7 +27,7 @@ function TextAnim(props) {
     },
   };
   return (
-    <div className='mt-4 mb-6 overflow-hidden text-white'>
+    <div className='mt-8 mb-8 overflow-hidden text-white'>
       <motion.div
         ref={ref}
         className=''
@@ -35,12 +35,10 @@ function TextAnim(props) {
         animate={controls}
         variants={boxVariants}
       >
-        <div className='text-base font-thin text-white md:text-xl'>
-          {props.text}
-        </div>
+        <div className=''>{props.text}</div>
       </motion.div>
     </div>
   );
 }
 
-export default TextAnim;
+export default LocoTextAnim;
